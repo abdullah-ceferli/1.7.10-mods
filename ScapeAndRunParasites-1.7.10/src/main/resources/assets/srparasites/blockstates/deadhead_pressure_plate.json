@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=false": { "model": "srparasites:deadhead_pressure_plate_up" },
-    "powered=true": { "model": "srparasites:deadhead_pressure_plate_down" }
-  }
-}

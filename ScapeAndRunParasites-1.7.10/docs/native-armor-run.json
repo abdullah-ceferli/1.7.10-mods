@@ -1,9 +1,0 @@
-{
-  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\armor-tests\\20261115-184744\\run",
-  "logs": [
-    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\armor-tests\\20261115-184744\\initial.log",
-    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\armor-tests\\20261115-184744\\restart.log"
-  ],
-  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\armor-tests\\20261115-184744\\run\\mods\\srp-armor-checks.jar",
-  "installed": false
-}

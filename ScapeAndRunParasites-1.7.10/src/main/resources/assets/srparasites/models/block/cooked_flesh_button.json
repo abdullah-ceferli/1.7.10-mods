@@ -1,6 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "texture": "srparasites:blocks/cooked_flesh_planks"
-  }
-}

@@ -1,6 +1,0 @@
-PASS: Native custom-mob spawn, equipment and watched-attribute packets deliver base armor and one equipment contribution to a distinct client entity
-PASS: The real owning client player has both registered native attribute names
-PASS: Runtime armor/toughness changes, equipment removal and reduced server damage synchronize through actual native packets
-PASS: Leaving native tracking range removes the armor fixture from the client world
-PASS: Tracking re-entry reconstructs a fresh client entity with current armor, toughness and health
-Failed: 0

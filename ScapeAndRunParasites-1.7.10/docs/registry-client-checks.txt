@@ -1,3 +1,0 @@
-PASS: Actual native client/server registry handshake preserves names, custom ItemBlock classes, explicit namespaces and inventory metadata
-PASS: A real client right-click packet places the custom metadata ItemBlock on the server and synchronizes the result
-Failed: 0

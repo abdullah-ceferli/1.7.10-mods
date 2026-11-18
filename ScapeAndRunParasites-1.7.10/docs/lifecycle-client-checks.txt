@@ -1,4 +1,0 @@
-PASS: Real tracked client mobs skip server goal initialization while the integrated server schedules both selectors
-PASS: Client-world gating agrees with the retained original 1.12 constructor instruction slice
-PASS: Tracking re-entry builds a fresh client entity without duplicating the server's registered goals
-Failed: 0

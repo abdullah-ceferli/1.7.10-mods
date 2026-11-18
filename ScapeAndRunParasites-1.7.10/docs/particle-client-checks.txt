@@ -1,9 +1,0 @@
-PASS: All 26 vanilla particle types referenced by SRP create actual native or ported EntityFX objects
-PASS: Every saved particle name resolves to its real factory: all 48 registered original effects, with item-take intentionally unregistered as in 1.12
-PASS: Modern range, minimal settings and force flags work while ordinary native factory filters remain unchanged
-PASS: The toxic-cloud always-visible overload preserves original minimal-settings RNG and its separate range rule
-PASS: All ten ported effects, including the elder-guardian model, use exact source textures, render nonblank pixels and restore GL state
-PASS: New particle animation, no-collision movement and finite lifetimes run in a real native client world
-PASS: Actual server packets create one directed particle for count zero and three batch particles on the client thread
-PASS: Real long-distance server delivery bypasses client minimal/range suppression while ordinary out-of-range delivery is excluded
-Failed: 0

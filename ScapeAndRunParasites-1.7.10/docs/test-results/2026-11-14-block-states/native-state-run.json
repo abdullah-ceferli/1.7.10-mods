@@ -1,9 +1,0 @@
-{
-  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\block-tests\\20261114-200811\\run",
-  "logs": [
-    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\block-tests\\20261114-200811\\initial.log",
-    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\block-tests\\20261114-200811\\restart.log"
-  ],
-  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\block-tests\\20261114-200811\\run\\mods\\srp-state-checks.jar",
-  "installed": false
-}

@@ -1,6 +1,0 @@
-PASS: exact original 1.12 metadata wire bytes for all five used serializers across 200 signed/random edge cases
-PASS: original empty/register/dirty/clean semantics and original mutable-position value-copy behavior
-PASS: inherited tracked-data key allocation and the original 254-ID ceiling in a namespace separate from legacy DataWatcher
-Assertions: 810
-Passed groups: 3
-Failed: 0

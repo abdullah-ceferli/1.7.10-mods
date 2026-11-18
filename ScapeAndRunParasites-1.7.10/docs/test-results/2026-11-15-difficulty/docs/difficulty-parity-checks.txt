@@ -1,2 +1,0 @@
-PASS: Original 1.12 local difficulty matches bit-for-bit across 23200 boundary/random cases, clamped values and strict threshold comparisons
-Failed: 0

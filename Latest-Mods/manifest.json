@@ -2,7 +2,7 @@
   "created": "2026-11-18T14:18:37.641129+04:00",
   "minecraft": "1.7.10",
   "forge": "10.13.4.1614",
-  "selection": "Highest existing production version from each project; excludes source, dev and test harness JARs. No mod was rebuilt.",
+  "selection": "Public mod builds and dependencies; local-only projects are excluded.",
   "mods": [
     {
       "project": "Croptopia-1.7.10",
@@ -17,20 +17,6 @@
       "embeddedMods": [],
       "alternative": false,
       "path": "mods/croptopia-1.7.10-4.0.1-backport.1.jar"
-    },
-    {
-      "project": "CulturalDelights-1.7.10",
-      "name": "Cultural Delights",
-      "modid": "culturaldelights",
-      "version": "0.16.7-backport.1",
-      "source": "CulturalDelights-1.7.10/build/libs/culturaldelights-1.7.10-0.16.7-backport.1.jar",
-      "filename": "culturaldelights-1.7.10-0.16.7-backport.1.jar",
-      "bytes": 301376,
-      "sha256": "2d4428d5b5399fe0c8ecc6b5e9ff3717479d220d40fc43292ece6f8ea15f32cf",
-      "status": "initial test build",
-      "embeddedMods": [],
-      "alternative": false,
-      "path": "mods/culturaldelights-1.7.10-0.16.7-backport.1.jar"
     },
     {
       "project": "DisplayDelight-1.7.10",
@@ -194,10 +180,5 @@
       "category": "companion tool; not a Minecraft mod"
     }
   ],
-  "unavailable": [
-    {
-      "project": "ScapeAndRunParasites-1.7.10",
-      "reason": "The port is unfinished and has no complete playable production JAR."
-    }
-  ]
+  "unavailable": []
 }

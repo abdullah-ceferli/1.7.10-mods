@@ -1,6 +1,0 @@
-PASS: original boolean/integer properties, parsing, invalid ranges, allowed ordering and equality
-PASS: original enum/direction properties, horizontal predicates, subsets, serialized names and parsing
-PASS: original 32-state Cartesian graph, sorted keys, every value transition, cycle order, canonical identity and immutability
-Assertions: 1637
-Passed groups: 3
-Failed: 0

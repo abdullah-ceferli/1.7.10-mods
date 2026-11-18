@@ -1,2 +1,0 @@
-PASS: Occupied configured potion ID is rejected before table expansion or SRP construction
-Failed: 0

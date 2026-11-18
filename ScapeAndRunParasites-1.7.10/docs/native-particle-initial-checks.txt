@@ -1,6 +1,0 @@
-PASS: Dedicated Forge initializes the particle channel without linking client renderer classes
-PASS: Real Netty buffers round-trip all original particle IDs, float packet values and required arguments
-PASS: Particle packet decoding rejects unknown IDs and trailing data instead of desynchronizing the stream
-PASS: Native block metadata and item damage are encoded in the correct legacy particle names
-PASS: Recipient selection preserves original inclusive 32/512-block boundaries and signed entity positions
-Failed: 0

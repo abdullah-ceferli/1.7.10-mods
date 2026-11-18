@@ -1,5 +1,0 @@
-PASS: Actual native spawn/tracker packets deliver filtered color while both gameplay effects exist on a distinct client entity
-PASS: A plain native weaker application resets visibility and synchronizes the real mixed color
-PASS: A hidden reapplication synchronizes the filtered color again without removing either effect
-FAIL: stage 5 :: java.lang.AssertionError: Visibility client timed out at stage 5
-Failed: 1

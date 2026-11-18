@@ -1,2 +1,0 @@
-PASS: official input hashes, 4501 unchanged assets, all 1094 source units and no concealed 1.12 mod-class dependency.
-STATUS: compilation fails; no playable 1.7.10 JAR has been produced or installed.

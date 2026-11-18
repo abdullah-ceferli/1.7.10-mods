@@ -1,5 +1,0 @@
-PASS: original normalized constructors, immutable grow/shrink/offset, directional bounds, centers, union and intersection across 1500 boxes
-PASS: original ray-intersection coordinates/faces and strict containment across 1500 segments
-Assertions: 85098
-Passed groups: 2
-Failed: 0

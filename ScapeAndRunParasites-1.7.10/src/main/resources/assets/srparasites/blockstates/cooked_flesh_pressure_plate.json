@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=false": { "model": "srparasites:cooked_flesh_pressure_plate_up" },
-    "powered=true": { "model": "srparasites:cooked_flesh_pressure_plate_down" }
-  }
-}

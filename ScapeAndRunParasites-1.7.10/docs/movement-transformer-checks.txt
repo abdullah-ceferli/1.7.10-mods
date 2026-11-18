@@ -1,2 +1,0 @@
-PASS: All eight native target classes transform once, are idempotent and reject partial pre-existing hooks
-Failed: 0

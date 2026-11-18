@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=false": { "model": "srparasites:brusewood_pressure_plate_up" },
-    "powered=true": { "model": "srparasites:brusewood_pressure_plate_down" }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side": "culturaldelights:block/eggplant_crate_side",
-    "bottom": "culturaldelights:block/crate_bottom",
-    "top": "culturaldelights:block/eggplant_crate_top"
-  }
-}

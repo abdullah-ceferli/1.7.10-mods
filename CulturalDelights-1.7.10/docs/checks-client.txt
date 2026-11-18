@@ -1,6 +1,0 @@
-PASS: Native texture stitch provides icons for 446 Croptopia item identities
-PASS: 387 block texture sprites have unique atlas regions rather than the missing-texture fallback
-PASS: Native NEI resolves all 318 available original crafting outputs from both ports
-PASS: Original crop, fruit, crate and serving-model families render together in a native integrated world without OpenGL errors
-PASS: Native title screen renders after leaving the garden with no OpenGL error
-Failed: 0

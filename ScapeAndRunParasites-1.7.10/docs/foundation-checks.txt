@@ -1,9 +1,0 @@
-PASS: original 1.12.2 coordinate flooring, offsets, distances and 2500 signed serialization cases
-PASS: original mutable snapshots and inclusive reversed-corner iteration order across 200 boxes
-PASS: original direction indexes, negative wrapping, angle selection, rotations and mirrors
-PASS: original vector arithmetic, normalization threshold, float-root precision and trig rotations across 1200 vectors
-PASS: original fixed-list/null semantics and actual Minecraft 1.7.10 ray-hit conversion
-PASS: all 220 originally referenced foundation member descriptors link against the 1.7.10 compatibility classes
-Assertions: 72403
-Passed groups: 6
-Failed: 0

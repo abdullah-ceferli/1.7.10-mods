@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "top": "srparasites:blocks/deadhead_leaves_snow_top",
-    "side": "srparasites:blocks/deadhead_leaves_snow",
-    "bottom": "srparasites:blocks/deadhead_leaves"
-  }
-}

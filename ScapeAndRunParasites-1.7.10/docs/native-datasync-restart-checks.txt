@@ -1,3 +1,0 @@
-PASS: Tracked entity values and callback-derived animation survive a genuine JVM restart
-Assertions: 2
-Failed: 0

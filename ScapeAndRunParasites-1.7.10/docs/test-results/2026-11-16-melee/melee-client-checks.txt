@@ -1,3 +1,0 @@
-PASS: A server-only constructor goal navigates to its target and native damage reaches a distinct real client victim
-PASS: Unarmed server melee swings arrive through native tracking and animate the real client attacker
-Failed: 0

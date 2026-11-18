@@ -1,2 +1,0 @@
-PASS: Actual native client loads the GUI access rule, exposes the real Minecraft context and preserves the final flag
-Failed: 0

@@ -1,7 +1,0 @@
-PASS: Initial tracking sends gravity to a distinct real client mob and both sides remain suspended
-PASS: A live server gravity toggle reaches the client and native falling resumes
-PASS: Leaving native tracking range removes the client entity and its binding
-PASS: Tracking re-entry reconstructs a fresh client entity with the current gravity state
-PASS: Client resynchronization repairs a missing snapshot through the real authenticated request channel
-PASS: The owning player receives gravity despite different native server and client player classes
-Failed: 0

@@ -1,9 +1,0 @@
-{
-  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\entity-data-tests\\20261114-205351\\run",
-  "logs": [
-    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\entity-data-tests\\20261114-205351\\initial.log",
-    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\entity-data-tests\\20261114-205351\\restart.log"
-  ],
-  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\entity-data-tests\\20261114-205351\\run\\mods\\srp-datasync-checks.jar",
-  "installed": false
-}

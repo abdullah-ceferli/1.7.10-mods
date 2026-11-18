@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=false": { "model": "srparasites:consumed_pressure_plate_up" },
-    "powered=true": { "model": "srparasites:consumed_pressure_plate_down" }
-  }
-}

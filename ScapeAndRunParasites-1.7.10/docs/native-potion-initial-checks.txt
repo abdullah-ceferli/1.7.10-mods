@@ -1,6 +1,0 @@
-PASS: Exactly 37 named effect definitions use fixed unique byte-safe IDs while preserving vanilla instances
-PASS: Invalid ranges, duplicate IDs and changed saved-world assignments are rejected
-PASS: Native attribute bridge applies and removes the stable named modifier
-PASS: All configured effects survive native effect NBT and real effect-packet serialization, including ID 127
-PASS: Native entity effects and name/ID assignments are saved for a genuine second-JVM reload
-Failed: 0

@@ -47,3 +47,11 @@ local.properties
 # Track the curated latest mod builds
 !/Latest-Mods/**/*.jar
 /Latest-Mods/tools/offline-skins-friends-service/data/
+
+# Local-only projects; keep these files on the PC and out of public uploads
+/CulturalDelights-1.7.10/
+/ScapeAndRunParasites-1.7.10/
+/Latest-Mods/mods/culturaldelights*.jar
+/Latest-Mods/mods/SRParasites*.jar
+/Latest-Mods/mods/srparasites*.jar
+/Latest-Mods/mods/scapeandrunparasites*.jar

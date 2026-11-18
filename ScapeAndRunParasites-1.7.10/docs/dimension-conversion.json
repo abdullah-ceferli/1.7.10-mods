@@ -1,8 +1,0 @@
-{
-  "callsConverted": 254,
-  "sourceUnits": 84,
-  "originalBoundary": "Forge 1.12 WorldProvider.getDimension() returns dimensionId",
-  "nativeBoundary": "Forge 1.7 WorldProvider.dimensionId public field",
-  "reference": "https://github.com/MinecraftForge/MinecraftForge/blob/1.12.x/patches/minecraft/net/minecraft/world/WorldProvider.java.patch",
-  "fullModCompiles": false
-}

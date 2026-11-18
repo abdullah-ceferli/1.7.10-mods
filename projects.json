@@ -6,12 +6,6 @@
     "license": "MIT"
   },
   {
-    "project": "CulturalDelights-1.7.10",
-    "name": "Cultural Delights",
-    "status": "initial test build",
-    "license": "private; upstream All Rights Reserved"
-  },
-  {
     "project": "DisplayDelight-1.7.10",
     "name": "Display Delight",
     "status": "built backport",
@@ -28,12 +22,6 @@
     "name": "Industrial Technology",
     "status": "built",
     "license": "project MIT; separate third-party notices"
-  },
-  {
-    "project": "ScapeAndRunParasites-1.7.10",
-    "name": "Scape and Run: Parasites",
-    "status": "unfinished; no playable JAR",
-    "license": "private; upstream All Rights Reserved"
   },
   {
     "project": "industrialMOD/block line counter mod",

@@ -1,4 +1,0 @@
-PASS: Actual MCP/SRG factory receives exactly two idempotent scoped filter hooks
-PASS: Changed native factory signatures fail and unrelated classes remain byte-identical
-PASS: Nested modern factory scope restores native distance/settings decisions exactly
-Failed: 0

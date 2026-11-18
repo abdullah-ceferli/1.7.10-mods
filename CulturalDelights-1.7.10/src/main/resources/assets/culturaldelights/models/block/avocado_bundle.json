@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "culturaldelights:block/avocado_bundle_top",
-    "side": "culturaldelights:block/avocado_bundle_side"
-  }
-}

@@ -1,7 +1,0 @@
-PASS: Pending names retain active/explicit domains, inherited fluent identity and native vanilla names
-PASS: Block registration precedes custom ItemBlocks without auto-generating replacements
-PASS: Duplicate names/objects and item-before-block errors reject before changing native entries
-PASS: All sixteen custom item metadata variants survive native stack NBT and block drops
-PASS: Native chunk save retains all metadata and namespaced tile NBT
-Assertions: 81
-Failed: 0

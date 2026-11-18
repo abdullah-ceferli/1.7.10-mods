@@ -1,30 +1,39 @@
-# Latest built mods — Minecraft 1.7.10
+# Latest builds — Minecraft 1.7.10
 
-Latest existing production artifacts collected from this workspace. Older versions, source JARs and test harnesses are omitted. SHA-256 hashes and original build paths are in manifest.json and SHA256SUMS.txt. Collection does not mean every mod is finished or that every combination has been tested.
+**[Download from GitHub Releases](https://github.com/abdullah-ceferli/1.7.10-mods/releases/tag/builds-2026-11-18)**. Choose individual JARs or use the collection ZIP. Experimental builds are identified below.
 
-| Mod | Version | File | Status |
-| --- | --- | --- | --- |
-| Croptopia | 4.0.1-backport.1 | `mods/croptopia-1.7.10-4.0.1-backport.1.jar` | initial test build |
-| Cultural Delights | 0.16.7-backport.1 | `mods/culturaldelights-1.7.10-0.16.7-backport.1.jar` | initial test build |
-| Display Delight | 1.7.0-backport.1 | `mods/displaydelight-1.7.10-1.7.0-backport.1.jar` | built backport |
-| Hands-On Delight | 1.5.1-backport.4 | `mods/handson-delight-1.7.10-1.5.1-backport.4.jar` | built backport |
-| Industrial Technology | 2.10.1 | `mods/IndustrialTechnology-1.7.10-2.10.1.jar` | built |
-| Block Line Counter | 1.0.0 | `alternatives/BlockLineCounter-1.7.10-1.0.0.jar` | standalone alternative |
-| Control Presets | 1.0.0 | `alternatives/ControlPresets-1.7.10-1.0.0.jar` | standalone alternative |
-| Offline Skins | 1.2.0 | `mods/OfflineSkins-1.7.10-1.2.0.jar` | built |
-| Personal Client Tools | 1.1.0 | `mods/PersonalClientTools-1.7.10-1.1.0.jar` | combined client tools |
-| True Horror | 1.0.0 | `mods/TrueHorror-1.7.10-1.0.0.jar` | built |
+These are the latest existing built artifacts from the workspace. SHA-256 hashes and original build paths are recorded in [manifest.json](manifest.json) and [SHA256SUMS.txt](SHA256SUMS.txt).
 
-## Choosing files
+| Mod | Version | Status | Download | Local collection path |
+| --- | --- | --- | --- | --- |
+| Croptopia | 4.0.1-backport.1 | initial test build | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/croptopia-1.7.10-4.0.1-backport.1.jar) | [croptopia-1.7.10-4.0.1-backport.1.jar](<mods/croptopia-1.7.10-4.0.1-backport.1.jar>) |
+| Display Delight | 1.7.0-backport.1 | built backport | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/displaydelight-1.7.10-1.7.0-backport.1.jar) | [displaydelight-1.7.10-1.7.0-backport.1.jar](<mods/displaydelight-1.7.10-1.7.0-backport.1.jar>) |
+| Hands-On Delight | 1.5.1-backport.4 | built backport | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/handson-delight-1.7.10-1.5.1-backport.4.jar) | [handson-delight-1.7.10-1.5.1-backport.4.jar](<mods/handson-delight-1.7.10-1.5.1-backport.4.jar>) |
+| Industrial Technology | 2.10.1 | built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/IndustrialTechnology-1.7.10-2.10.1.jar) | [IndustrialTechnology-1.7.10-2.10.1.jar](<mods/IndustrialTechnology-1.7.10-2.10.1.jar>) |
+| Block Line Counter | 1.0.0 | standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/BlockLineCounter-1.7.10-1.0.0.jar) | [BlockLineCounter-1.7.10-1.0.0.jar](<alternatives/BlockLineCounter-1.7.10-1.0.0.jar>) |
+| Control Presets | 1.0.0 | standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/ControlPresets-1.7.10-1.0.0.jar) | [ControlPresets-1.7.10-1.0.0.jar](<alternatives/ControlPresets-1.7.10-1.0.0.jar>) |
+| Offline Skins | 1.2.0 | built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/OfflineSkins-1.7.10-1.2.0.jar) | [OfflineSkins-1.7.10-1.2.0.jar](<mods/OfflineSkins-1.7.10-1.2.0.jar>) |
+| Personal Client Tools | 1.1.0 | combined client tools | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/PersonalClientTools-1.7.10-1.1.0.jar) | [PersonalClientTools-1.7.10-1.1.0.jar](<mods/PersonalClientTools-1.7.10-1.1.0.jar>) |
+| True Horror | 1.0.0 | built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/TrueHorror-1.7.10-1.0.0.jar) | [TrueHorror-1.7.10-1.0.0.jar](<mods/TrueHorror-1.7.10-1.0.0.jar>) |
 
-- `mods/`: latest builds of the main mods and the combined Personal Client Tools mod.
-- `alternatives/`: standalone Block Line Counter and Control Presets. Use these instead of Personal Client Tools; do not install both forms together.
-- `dependencies/`: tested Farmer's Delight Classic, UniMixins and Baubles. Keep UniMixins' leading `+`. The food backports need this exact tested Farmer's Delight addon API build. Industrial Technology uses Baubles for its accessories.
-- `optional-nei/`: the tested NEI and CodeChickenCore versions, for recipe browsing.
-- `tools/offline-skins-friends-service/`: optional external companion service; do not put its JAR into Minecraft's mods folder.
+## Required dependencies and optional tools
 
-Industrial Technology 2.10.1 already embeds OpenComputers 1.8.10. Do not add another OpenComputers JAR beside it. Offline Skins and Personal Client Tools have their own installation instructions; client-only tools do not belong on a dedicated server.
+| File | Purpose | Download |
+| --- | --- | --- |
+| farmersdelight-1.1.1-mc1.7.10.jar | dependencies | [Download](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/farmersdelight-1.1.1-mc1.7.10.jar) |
+| +unimixins-all-1.7.10-0.3.1.jar | dependencies | [Download](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/%2Bunimixins-all-1.7.10-0.3.1.jar) |
+| Baubles-1.7.10-1.0.1.10.jar | dependencies | [Download](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/Baubles-1.7.10-1.0.1.10.jar) |
+| codechickencore-1.4.10.jar | optional-nei | [Download](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/codechickencore-1.4.10.jar) |
+| notenoughitems-2.3.54-gtnh.jar | optional-nei | [Download](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/notenoughitems-2.3.54-gtnh.jar) |
+| OfflineSkins-Friends-Service-1.2.0.jar | companion tool; not a Minecraft mod | [Download](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/OfflineSkins-Friends-Service-1.2.0.jar) |
 
-Croptopia and Cultural Delights are initial tested backports with remaining compatibility work. See their project docs/STATUS.md. Scape and Run: Parasites is still unfinished, so there is no SRP JAR in this collection. Existing HBM and the rest of a player's modpack are separate dependencies; this folder is not a complete launcher instance.
+## Installation notes
 
-This local collection preserves upstream licenses and does not grant new public redistribution rights. No files were installed into the live game.
+- `mods/` contains the primary mod JARs. See each mod's README for client/server installation.
+- `alternatives/` contains standalone Block Line Counter and Control Presets. Use these instead of Personal Client Tools.
+- `dependencies/` contains the tested Farmer's Delight Classic, UniMixins and Baubles versions. Keep UniMixins' leading `+`.
+- `optional-nei/` contains the tested NEI/CodeChickenCore pair.
+- `tools/offline-skins-friends-service/` is a companion program, not a Minecraft mod.
+- Industrial Technology includes OpenComputers 1.8.10. Do not also install another OpenComputers JAR.
+
+Croptopia remains an experimental backport. Cultural Delights and SRP are excluded from the current public source tree and release downloads. HBM itself and the rest of a player's modpack are separate downloads. Original licenses and third-party notices remain applicable.

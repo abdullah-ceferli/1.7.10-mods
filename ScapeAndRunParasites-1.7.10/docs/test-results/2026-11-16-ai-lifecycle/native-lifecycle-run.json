@@ -1,0 +1,9 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\lifecycle-tests\\20261116-121447\\run",
+  "logs": [
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\lifecycle-tests\\20261116-121447\\initial.log",
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\lifecycle-tests\\20261116-121447\\restart.log"
+  ],
+  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\lifecycle-tests\\20261116-121447\\run\\mods\\srp-lifecycle-checks.jar",
+  "installed": false
+}

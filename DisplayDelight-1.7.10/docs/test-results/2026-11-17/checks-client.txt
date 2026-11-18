@@ -1,0 +1,7 @@
+PASS: All native texture resource paths resolve and the plate name is translated
+PASS: Client loads all 382 food mesh types
+PASS: All 382 placed displays and full food counts synchronize to an actual native client
+PASS: Food count and hidden-plate state reach native client tile packets
+PASS: Native renderer draws the gallery without OpenGL errors; screenshot saved
+PASS: Native inventory pipeline draws all 382 display items; screenshot saved
+Failed: 0

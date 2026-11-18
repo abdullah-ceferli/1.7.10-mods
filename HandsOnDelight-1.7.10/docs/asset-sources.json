@@ -1,0 +1,11 @@
+{
+  "assemblyTexture": {
+    "repository": "https://github.com/vectorwing/FarmersDelight",
+    "commit": "e854d56d4eea8dc120650d43da0d1472711797ad",
+    "path": "src/main/resources/assets/farmersdelight/textures/gui/jei/cutting_board.png",
+    "url": "https://raw.githubusercontent.com/vectorwing/FarmersDelight/e854d56d4eea8dc120650d43da0d1472711797ad/src/main/resources/assets/farmersdelight/textures/gui/jei/cutting_board.png",
+    "sha256": "e74b17d0bb973d6ad94c6fd95e6fa68c3a4f2aebff6980943ee981838641bc1a",
+    "license": "MIT"
+  },
+  "cookbook": "Original handson-delight recipe_book.bbmodel and recipe_book/recipe_book_paper textures; revision in upstream.json"
+}

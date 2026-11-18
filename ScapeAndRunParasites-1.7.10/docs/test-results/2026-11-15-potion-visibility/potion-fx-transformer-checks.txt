@@ -1,0 +1,4 @@
+PASS: Actual native MCP bytecode receives exactly two accepted-path hooks and one finish hook, idempotently
+PASS: Actual native SRG bytecode receives exactly two accepted-path hooks and one finish hook, idempotently
+PASS: Unrelated classes stay byte-identical and unexpected target shapes fail explicitly
+Failed: 0

@@ -1,0 +1,13 @@
+{
+  "src/main/java/com/jkvin114/displaydelight/Catalog.java": "f9a05c457aa863b5d02b109c69635a5ca37811a2dc9e9bafc1cd6ea852f73363",
+  "src/main/java/com/jkvin114/displaydelight/client/ClientProxy.java": "fff42cbd15f74f8b3fe6b9fd9efc5423ea3e4193a0f87ff80ebc482f29e97294",
+  "src/main/java/com/jkvin114/displaydelight/client/DisplayRenderer.java": "ee8535d148190ec34a502ea0ba7c8b82d11f75ef95e075a8a8a34e30056801e9",
+  "src/main/java/com/jkvin114/displaydelight/CommonProxy.java": "3e2b95e6ee41651d3013c0a68ae1bf3e842de50bd96813048607867d781bd88d",
+  "src/main/java/com/jkvin114/displaydelight/DisplayBlock.java": "3ba86249c9ce2f0b94c9f3b4e0834b9058d60f166e06a6383e6c60dab230d91d",
+  "src/main/java/com/jkvin114/displaydelight/DisplayDelight.java": "db2bfddd3f505da207ab491448459835f3c66ff759859e7d4b4a7b5c80d577cd",
+  "src/main/java/com/jkvin114/displaydelight/DisplayItem.java": "410bd5d0245bce6cd500c0f687d0ec3211d7b7618f0f51b56db27e2d2d8aee93",
+  "src/main/java/com/jkvin114/displaydelight/DisplayTile.java": "971be43cf970c114585368cb229f75cc628982329283ab4d83e5138903455ee1",
+  "src/main/java/com/jkvin114/displaydelight/DisplayTrades.java": "e956b10b774a4b2436e195e0c25b0df94ec8c26afda4fc03e6c5474c98580aad",
+  "src/main/java/com/jkvin114/displaydelight/Interactions.java": "ca073a5065e86e84e30279c2adc13e5b22530481d0520136c688403e25e4aaa6",
+  "src/main/java/com/jkvin114/displaydelight/Settings.java": "4c57ee4f756ed89da9aece0e0f9561df64824bbc83b378484908ba328f8d4393"
+}

@@ -1,0 +1,19 @@
+package dev.srpbackport.tests;
+import java.io.*;import java.nio.file.*;import java.nio.charset.StandardCharsets;import java.util.*;
+import cpw.mods.fml.common.*;import cpw.mods.fml.common.event.*;import cpw.mods.fml.common.eventhandler.SubscribeEvent;import cpw.mods.fml.common.gameevent.TickEvent;
+import net.minecraft.entity.Entity;import net.minecraft.world.*;import net.minecraft.nbt.NBTTagCompound;import net.minecraft.server.MinecraftServer;import net.minecraft.init.Blocks;import net.minecraft.util.AxisAlignedBB;
+import com.dhanantry.scapeandrunparasites.backport.math.*;
+@Mod(modid="srp_geometry_checks",name="Disposable geometry checks",version="1")
+public final class NativeGeometryChecks {
+ public static final class Actor extends Entity {Actor(World world){super(world);setSize(0.5f,1);}protected void entityInit(){}protected void readEntityFromNBT(NBTTagCompound n){}protected void writeEntityToNBT(NBTTagCompound n){}}
+ private final List<String> report=new ArrayList<String>();private int ticks,failed;private boolean done;private WorldServer world;
+ @Mod.EventHandler public void init(FMLInitializationEvent event){FMLCommonHandler.instance().bus().register(this);}
+ interface Check{void run()throws Exception;}void check(boolean value,String why){if(!value)throw new AssertionError(why);}void test(String name,Check body){try{body.run();report.add("PASS: "+name);}catch(Throwable e){failed++;report.add("FAIL: "+name+" :: "+e);e.printStackTrace();}}
+ void checks(){
+  test("Converted constructors, ambiguous growth methods, immutable snapshots and SRG aliases execute against real native entities",()->GeometryRuntimeFixture.run(new Actor(world)));
+  test("Legacy final engine boxes remain mutable while modern getters return stable snapshots",()->{Actor actor=new Actor(world);actor.setPosition(8,75,8);AxisAlignedBB engine=actor.boundingBox,snapshot=Boxes.entityBox(actor);double saved=snapshot.minX;actor.setPosition(20,75,20);check(actor.boundingBox==engine&&snapshot.minX==saved&&Boxes.entityBox(actor).minX!=saved,"Getter/native mutable box interoperability");AxisAlignedBB input=Boxes.create(1,2,3,4,5,6);Boxes.setEntityBox(actor,input);check(actor.boundingBox==engine&&engine.minX==1&&engine.maxZ==6,"Final engine box replaced");actor.setPosition(30,75,30);check(input.minX==1&&input.maxZ==6,"Setter argument mutated by engine");});
+  test("Native physics still clamps falling movement on a real solid block",()->{world.setBlock(10,70,10,Blocks.stone,0,3);Actor actor=new Actor(world);actor.setPosition(10.5,74,10.5);AxisAlignedBB snapshot=Boxes.entityBox(actor),engine=actor.boundingBox;actor.moveEntity(0,-8,0);check(actor.boundingBox==engine&&actor.boundingBox.minY==71&&actor.onGround,"Native collision resolution was changed");check(snapshot.minY==74,"Old modern-style box snapshot moved with native physics");});
+  test("Modern growth and offset operations do not move an entity's collision box",()->{Actor actor=new Actor(world);actor.setPosition(12,74,12);AxisAlignedBB before=actor.boundingBox.copy();AxisAlignedBB moved=Boxes.offset(Boxes.grow(Boxes.entityBox(actor),2),100,200,300);check(actor.boundingBox.minX==before.minX&&actor.boundingBox.minY==before.minY&&actor.boundingBox.maxZ==before.maxZ&&moved.minX==before.minX-2+100,"Geometry query mutated entity collision");});
+ }
+ @SubscribeEvent public void tick(TickEvent.ServerTickEvent event){if(done||event.phase!=TickEvent.Phase.END||++ticks!=20)return;try{world=MinecraftServer.getServer().worldServerForDimension(0);world.getChunkFromChunkCoords(0,0);checks();}catch(Throwable e){failed++;report.add("FAIL: setup :: "+e);e.printStackTrace();}finally{done=true;report.add("Failed: "+failed);try{Files.write(Paths.get("geometry-initial.txt"),report,StandardCharsets.UTF_8);}catch(IOException e){throw new RuntimeException(e);}MinecraftServer.getServer().initiateShutdown();}}
+}

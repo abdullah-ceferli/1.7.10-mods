@@ -1,0 +1,17 @@
+com\dhanantry\scapeandrunparasites\client\renderer\PearlHeldGlowRenderer.java	31	import
+com\dhanantry\scapeandrunparasites\client\renderer\PearlHeldGlowRenderer.java	102	getPropertyGetter
+com\dhanantry\scapeandrunparasites\item\ItemBeholderPearl.java	61	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\ItemBough.java	65	import
+com\dhanantry\scapeandrunparasites\item\ItemBough.java	100	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\ItemClockDevelopment.java	25	import
+com\dhanantry\scapeandrunparasites\item\ItemClockDevelopment.java	39	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\ItemClockEvolution.java	31	import
+com\dhanantry\scapeandrunparasites\item\ItemClockEvolution.java	47	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\ItemCompass.java	31	import
+com\dhanantry\scapeandrunparasites\item\ItemCompass.java	51	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\tool\WeaponToolArmorBase.java	53	import
+com\dhanantry\scapeandrunparasites\item\tool\WeaponToolArmorBase.java	79	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\tool\WeaponToolRangeBase.java	57	import
+com\dhanantry\scapeandrunparasites\item\tool\WeaponToolRangeBase.java	92	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\tool\WeaponToolRangeBase.java	102	addPropertyOverride
+com\dhanantry\scapeandrunparasites\item\tool\WeaponToolRangeBase.java	109	addPropertyOverride

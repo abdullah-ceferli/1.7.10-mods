@@ -1,0 +1,10 @@
+PASS: Forge construction registers initialized properties before the first real native application
+PASS: Native hidden-only, visible-only and mixed colors retain the real amplifier-weighted color calculation
+PASS: A weaker or shorter accepted application changes visibility even when native combine retains the existing object and strength
+PASS: Rejected insertions and rejected combinations never change visibility
+PASS: Nested native applications inside accepted callbacks retain the most recent visibility
+PASS: Removal, clearing, expiry and milk cure run the native finish hook, including same-tick reapplication
+PASS: Hidden effects retain gameplay attributes and the ambient aggregate stays over all active effects
+PASS: Native NBT inserts base effects directly and preserves hidden state loaded before ActiveEffects
+PASS: Hidden state survives a genuine second-JVM entity NBT reload and native reapplication
+Failed: 0

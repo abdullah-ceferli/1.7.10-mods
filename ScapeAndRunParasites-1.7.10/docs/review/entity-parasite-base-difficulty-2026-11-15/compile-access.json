@@ -1,0 +1,15 @@
+{
+  "nativeSourceJar": "D:\\IndustrialTechnology\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar",
+  "nativeSourceSha256": "d5a9e043ee779ab0afbd120dfc97be8153212269bd65d13568b188f8ecb48ebc",
+  "compileJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\compile-access\\forgeSrc-access.jar",
+  "compileJarSha256": "1f3e8cd6d2a58b8389386598e35f43facf82c48561f34f8bc2299a3a86b3ecfb",
+  "runtimeRulesSha256": "fff234d1fe21d84c8f78db75d0c9b0bc402a10973a6d66f48596860518cc04eb",
+  "developmentRulesSha256": "e9bcde31b6b874481325f6b3146f8720e9f4fb30be749f8bb3044a9be33601fe",
+  "changedEntries": [
+    "net/minecraft/client/gui/GuiSlot.class",
+    "net/minecraft/entity/ai/EntityMoveHelper.class",
+    "net/minecraft/entity/EntityLiving.class"
+  ],
+  "finalFlagsPreserved": true,
+  "sharedCacheModified": false
+}

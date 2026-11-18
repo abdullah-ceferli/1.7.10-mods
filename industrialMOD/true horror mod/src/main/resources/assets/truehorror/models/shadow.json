@@ -1,0 +1,348 @@
+{
+  "textureWidth": 64,
+  "textureHeight": 64,
+  "parts": [
+    {
+      "name": "body",
+      "size": [
+        8,
+        12,
+        4
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        -2.0
+      ],
+      "material": "cloth",
+      "role": "torso",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 16,
+      "v": 16
+    },
+    {
+      "name": "head",
+      "size": [
+        8,
+        8,
+        8
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4,
+        -8,
+        -4
+      ],
+      "material": "skin",
+      "role": "head",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 0
+    },
+    {
+      "name": "armL",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        -6,
+        1,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "skin",
+      "role": "armL",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 40,
+      "v": 16
+    },
+    {
+      "name": "armR",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        6,
+        1,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "skin",
+      "role": "armR",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 32,
+      "v": 48
+    },
+    {
+      "name": "legL",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        -2,
+        12,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "trouser",
+      "role": "legL",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 16
+    },
+    {
+      "name": "legR",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        2,
+        12,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "trouser",
+      "role": "legR",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 16,
+      "v": 48
+    },
+    {
+      "name": "body_overlay",
+      "size": [
+        8,
+        12,
+        4
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        -2.0
+      ],
+      "material": "cloth",
+      "role": "",
+      "parent": "body",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 16,
+      "v": 32,
+      "inflate": 0.15
+    },
+    {
+      "name": "head_overlay",
+      "size": [
+        8,
+        8,
+        8
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4,
+        -8,
+        -4
+      ],
+      "material": "skin",
+      "role": "",
+      "parent": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 32,
+      "v": 0,
+      "inflate": 0.25
+    },
+    {
+      "name": "armL_overlay",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "skin",
+      "role": "",
+      "parent": "armL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 40,
+      "v": 32,
+      "inflate": 0.15
+    },
+    {
+      "name": "armR_overlay",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "skin",
+      "role": "",
+      "parent": "armR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 48,
+      "v": 48,
+      "inflate": 0.15
+    },
+    {
+      "name": "legL_overlay",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "trouser",
+      "role": "",
+      "parent": "legL",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 32,
+      "inflate": 0.15
+    },
+    {
+      "name": "legR_overlay",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        0,
+        -2.0
+      ],
+      "material": "trouser",
+      "role": "",
+      "parent": "legR",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 48,
+      "inflate": 0.15
+    }
+  ]
+}

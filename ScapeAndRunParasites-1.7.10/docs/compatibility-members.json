@@ -1,0 +1,276 @@
+{
+  "net/minecraft/client/renderer/GlStateManager": {
+    "func_179152_a (FFF)V": 104,
+    "func_179094_E ()V": 54,
+    "func_179121_F ()V": 54,
+    "func_179084_k ()V": 47,
+    "func_179109_b (FFF)V": 45,
+    "func_179147_l ()V": 45,
+    "func_179131_c (FFFF)V": 43,
+    "func_179114_b (FFFF)V": 28,
+    "func_179132_a (Z)V": 28,
+    "func_179140_f ()V": 24,
+    "func_179129_p ()V": 21,
+    "func_179098_w ()V": 19,
+    "func_179089_o ()V": 18,
+    "func_179145_e ()V": 17,
+    "func_179141_d ()V": 17,
+    "func_179126_j ()V": 16,
+    "func_179120_a (IIII)V": 13,
+    "func_187428_a (Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;Lnet/minecraft/client/renderer/GlStateManager$DestFactor;Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;Lnet/minecraft/client/renderer/GlStateManager$DestFactor;)V": 13,
+    "func_187401_a (Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;Lnet/minecraft/client/renderer/GlStateManager$DestFactor;)V": 12,
+    "func_179091_B ()V": 11,
+    "func_179101_C ()V": 11,
+    "func_179097_i ()V": 10,
+    "func_179090_x ()V": 10,
+    "func_179118_c ()V": 9,
+    "func_179138_g (I)V": 9,
+    "func_179142_g ()V": 9,
+    "func_187431_e (I)V": 9,
+    "func_187417_n ()V": 9,
+    "func_179119_h ()V": 9,
+    "func_179092_a (IF)V": 8,
+    "func_179143_c (I)V": 6,
+    "func_179139_a (DDD)V": 6,
+    "func_187430_a (Lnet/minecraft/client/renderer/GlStateManager$FogMode;)V": 5,
+    "func_187421_b (III)V": 5,
+    "func_187408_a (Lnet/minecraft/client/renderer/GlStateManager$Profile;)V": 4,
+    "func_187440_b (Lnet/minecraft/client/renderer/GlStateManager$Profile;)V": 4,
+    "func_179137_b (DDD)V": 3,
+    "func_179112_b (II)V": 3,
+    "func_179102_b (F)V": 2,
+    "func_179153_c (F)V": 2,
+    "func_187399_a (III)V": 2,
+    "func_187448_b (IILjava/nio/FloatBuffer;)V": 2,
+    "func_179144_i (I)V": 2,
+    "func_179128_n (I)V": 2,
+    "func_179086_m (I)V": 1,
+    "func_179095_a (F)V": 1,
+    "func_179096_D ()V": 1,
+    "func_187432_a (FFF)V": 1
+  },
+  "net/minecraft/client/renderer/GlStateManager$DestFactor": {
+    "ONE Lnet/minecraft/client/renderer/GlStateManager$DestFactor;": 14,
+    "ONE_MINUS_SRC_ALPHA Lnet/minecraft/client/renderer/GlStateManager$DestFactor;": 13,
+    "ZERO Lnet/minecraft/client/renderer/GlStateManager$DestFactor;": 13
+  },
+  "net/minecraft/client/renderer/GlStateManager$FogMode": {
+    "LINEAR Lnet/minecraft/client/renderer/GlStateManager$FogMode;": 3,
+    "EXP2 Lnet/minecraft/client/renderer/GlStateManager$FogMode;": 2,
+    "EXP Lnet/minecraft/client/renderer/GlStateManager$FogMode;": 1
+  },
+  "net/minecraft/client/renderer/GlStateManager$Profile": {
+    "TRANSPARENT_MODEL Lnet/minecraft/client/renderer/GlStateManager$Profile;": 4
+  },
+  "net/minecraft/client/renderer/GlStateManager$SourceFactor": {
+    "SRC_ALPHA Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;": 21,
+    "ONE Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;": 18
+  },
+  "net/minecraft/util/EnumFacing": {
+    "UP Lnet/minecraft/util/EnumFacing;": 19,
+    "DOWN Lnet/minecraft/util/EnumFacing;": 14,
+    "NORTH Lnet/minecraft/util/EnumFacing;": 13,
+    "values ()[Lnet/minecraft/util/EnumFacing;": 8,
+    "func_176734_d ()Lnet/minecraft/util/EnumFacing;": 7,
+    "SOUTH Lnet/minecraft/util/EnumFacing;": 6,
+    "WEST Lnet/minecraft/util/EnumFacing;": 6,
+    "EAST Lnet/minecraft/util/EnumFacing;": 6,
+    "func_176736_b ()I": 5,
+    "func_176740_k ()Lnet/minecraft/util/EnumFacing$Axis;": 4,
+    "func_176745_a ()I": 4,
+    "func_82600_a (I)Lnet/minecraft/util/EnumFacing;": 4,
+    "func_176731_b (I)Lnet/minecraft/util/EnumFacing;": 3,
+    "field_82609_l [Lnet/minecraft/util/EnumFacing;": 3,
+    "field_176754_o [Lnet/minecraft/util/EnumFacing;": 2,
+    "ordinal ()I": 2,
+    "func_176746_e ()Lnet/minecraft/util/EnumFacing;": 2,
+    "func_176735_f ()Lnet/minecraft/util/EnumFacing;": 2,
+    "func_176733_a (D)Lnet/minecraft/util/EnumFacing;": 1,
+    "func_82601_c ()I": 1,
+    "func_82599_e ()I": 1
+  },
+  "net/minecraft/util/EnumFacing$Axis": {
+    "Y Lnet/minecraft/util/EnumFacing$Axis;": 5,
+    "X Lnet/minecraft/util/EnumFacing$Axis;": 3,
+    "Z Lnet/minecraft/util/EnumFacing$Axis;": 3,
+    "func_176720_b ()Z": 1
+  },
+  "net/minecraft/util/EnumFacing$Plane": {
+    "HORIZONTAL Lnet/minecraft/util/EnumFacing$Plane;": 3,
+    "iterator ()Ljava/util/Iterator;": 1
+  },
+  "net/minecraft/util/Mirror": {
+    "NONE Lnet/minecraft/util/Mirror;": 5,
+    "func_185800_a (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;": 3,
+    "FRONT_BACK Lnet/minecraft/util/Mirror;": 3,
+    "ordinal ()I": 2,
+    "values ()[Lnet/minecraft/util/Mirror;": 1,
+    "LEFT_RIGHT Lnet/minecraft/util/Mirror;": 1
+  },
+  "net/minecraft/util/NonNullList": {
+    "add (Ljava/lang/Object;)Z": 29,
+    "size ()I": 11,
+    "iterator ()Ljava/util/Iterator;": 11,
+    "get (I)Ljava/lang/Object;": 10,
+    "func_191197_a (ILjava/lang/Object;)Lnet/minecraft/util/NonNullList;": 6,
+    "set (ILjava/lang/Object;)Ljava/lang/Object;": 5,
+    "clear ()V": 3
+  },
+  "net/minecraft/util/Rotation": {
+    "values ()[Lnet/minecraft/util/Rotation;": 6,
+    "ordinal ()I": 4,
+    "func_185831_a (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;": 3,
+    "CLOCKWISE_180 Lnet/minecraft/util/Rotation;": 2,
+    "COUNTERCLOCKWISE_90 Lnet/minecraft/util/Rotation;": 2,
+    "CLOCKWISE_90 Lnet/minecraft/util/Rotation;": 2,
+    "NONE Lnet/minecraft/util/Rotation;": 2
+  },
+  "net/minecraft/util/math/BlockPos": {
+    "func_177956_o ()I": 151,
+    "func_177958_n ()I": 142,
+    "func_177952_p ()I": 142,
+    "func_177977_b ()Lnet/minecraft/util/math/BlockPos;": 102,
+    "<init> (Lnet/minecraft/entity/Entity;)V": 66,
+    "func_177984_a ()Lnet/minecraft/util/math/BlockPos;": 59,
+    "<init> (DDD)V": 57,
+    "<init> (III)V": 53,
+    "func_177982_a (III)Lnet/minecraft/util/math/BlockPos;": 48,
+    "func_177979_c (I)Lnet/minecraft/util/math/BlockPos;": 43,
+    "func_177972_a (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;": 24,
+    "func_177981_b (I)Lnet/minecraft/util/math/BlockPos;": 20,
+    "func_177978_c ()Lnet/minecraft/util/math/BlockPos;": 16,
+    "func_177968_d ()Lnet/minecraft/util/math/BlockPos;": 14,
+    "func_177974_f ()Lnet/minecraft/util/math/BlockPos;": 14,
+    "func_177976_e ()Lnet/minecraft/util/math/BlockPos;": 14,
+    "func_177965_g (I)Lnet/minecraft/util/math/BlockPos;": 10,
+    "func_177964_d (I)Lnet/minecraft/util/math/BlockPos;": 10,
+    "func_177985_f (I)Lnet/minecraft/util/math/BlockPos;": 10,
+    "func_177970_e (I)Lnet/minecraft/util/math/BlockPos;": 10,
+    "func_177986_g ()J": 8,
+    "equals (Ljava/lang/Object;)Z": 8,
+    "func_177969_a (J)Lnet/minecraft/util/math/BlockPos;": 4,
+    "func_177954_c (DDD)D": 4,
+    "func_177951_i (Lnet/minecraft/util/math/Vec3i;)D": 3,
+    "func_177980_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;)Ljava/lang/Iterable;": 1,
+    "field_177992_a Lnet/minecraft/util/math/BlockPos;": 1,
+    "func_185334_h ()Lnet/minecraft/util/math/BlockPos;": 1,
+    "func_177973_b (Lnet/minecraft/util/math/Vec3i;)Lnet/minecraft/util/math/BlockPos;": 1,
+    "func_177971_a (Lnet/minecraft/util/math/Vec3i;)Lnet/minecraft/util/math/BlockPos;": 1
+  },
+  "net/minecraft/util/math/BlockPos$MutableBlockPos": {
+    "func_181079_c (III)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;": 16,
+    "<init> ()V": 15,
+    "func_177956_o ()I": 2,
+    "<init> (Lnet/minecraft/util/math/BlockPos;)V": 1,
+    "func_177977_b ()Lnet/minecraft/util/math/BlockPos;": 1,
+    "func_185334_h ()Lnet/minecraft/util/math/BlockPos;": 1,
+    "func_177958_n ()I": 1,
+    "func_177952_p ()I": 1,
+    "func_189533_g (Lnet/minecraft/util/math/Vec3i;)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;": 1,
+    "func_189532_c (DDD)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;": 1
+  },
+  "net/minecraft/util/math/RayTraceResult": {
+    "field_72308_g Lnet/minecraft/entity/Entity;": 11,
+    "field_72313_a Lnet/minecraft/util/math/RayTraceResult$Type;": 8,
+    "field_72307_f Lnet/minecraft/util/math/Vec3d;": 4,
+    "func_178782_a ()Lnet/minecraft/util/math/BlockPos;": 4,
+    "field_178784_b Lnet/minecraft/util/EnumFacing;": 2,
+    "<init> (Lnet/minecraft/entity/Entity;Lnet/minecraft/util/math/Vec3d;)V": 1,
+    "<init> (Lnet/minecraft/entity/Entity;)V": 1
+  },
+  "net/minecraft/util/math/RayTraceResult$Type": {
+    "BLOCK Lnet/minecraft/util/math/RayTraceResult$Type;": 7,
+    "MISS Lnet/minecraft/util/math/RayTraceResult$Type;": 1,
+    "ENTITY Lnet/minecraft/util/math/RayTraceResult$Type;": 1
+  },
+  "net/minecraft/util/math/Vec3d": {
+    "field_72450_a D": 56,
+    "field_72449_c D": 56,
+    "field_72448_b D": 28,
+    "<init> (DDD)V": 23,
+    "func_72432_b ()Lnet/minecraft/util/math/Vec3d;": 13,
+    "func_178788_d (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;": 10,
+    "func_72433_c ()D": 9,
+    "func_186678_a (D)Lnet/minecraft/util/math/Vec3d;": 7,
+    "func_178787_e (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;": 7,
+    "func_72441_c (DDD)Lnet/minecraft/util/math/Vec3d;": 7,
+    "func_72431_c (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;": 5,
+    "func_189985_c ()D": 2,
+    "func_72430_b (Lnet/minecraft/util/math/Vec3d;)D": 2,
+    "func_72436_e (Lnet/minecraft/util/math/Vec3d;)D": 2,
+    "func_72438_d (Lnet/minecraft/util/math/Vec3d;)D": 2,
+    "func_178789_a (F)Lnet/minecraft/util/math/Vec3d;": 1,
+    "func_178785_b (F)Lnet/minecraft/util/math/Vec3d;": 1,
+    "field_186680_a Lnet/minecraft/util/math/Vec3d;": 1,
+    "func_178786_a (DDD)Lnet/minecraft/util/math/Vec3d;": 1
+  },
+  "net/minecraft/block/state/BlockStateContainer": {
+    "func_177621_b ()Lnet/minecraft/block/state/IBlockState;": 49,
+    "<init> (Lnet/minecraft/block/Block;[Lnet/minecraft/block/properties/IProperty;)V": 45
+  },
+  "net/minecraft/block/state/IBlockState": {
+    "func_177230_c ()Lnet/minecraft/block/Block;": 179,
+    "func_177226_a (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;": 106,
+    "func_177229_b (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;": 58,
+    "func_185904_a ()Lnet/minecraft/block/material/Material;": 50,
+    "func_185913_b ()Z": 28,
+    "func_185887_b (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)F": 17,
+    "func_185917_h ()Z": 16,
+    "isSideSolid (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z": 10,
+    "func_177227_a ()Ljava/util/Collection;": 9,
+    "func_185914_p ()Z": 4,
+    "func_189884_a (Lnet/minecraft/entity/Entity;)Z": 4,
+    "func_185907_a (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;": 3,
+    "func_185915_l ()Z": 3,
+    "func_193401_d (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;": 2,
+    "func_185898_k ()Z": 2,
+    "func_185897_m ()Z": 2,
+    "func_177231_a (Lnet/minecraft/block/properties/IProperty;)Lnet/minecraft/block/state/IBlockState;": 1,
+    "func_185899_b (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;": 1,
+    "func_185906_d ()I": 1,
+    "func_177228_b ()Lcom/google/common/collect/ImmutableMap;": 1,
+    "func_185890_d (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;": 1
+  },
+  "net/minecraft/block/properties/PropertyBool": {
+    "func_177716_a (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyBool;": 12
+  },
+  "net/minecraft/block/state/BlockFaceShape": {
+    "UNDEFINED Lnet/minecraft/block/state/BlockFaceShape;": 5,
+    "SOLID Lnet/minecraft/block/state/BlockFaceShape;": 4,
+    "MIDDLE_POLE Lnet/minecraft/block/state/BlockFaceShape;": 1,
+    "CENTER Lnet/minecraft/block/state/BlockFaceShape;": 1
+  },
+  "net/minecraft/block/properties/PropertyInteger": {
+    "func_177719_a (Ljava/lang/String;II)Lnet/minecraft/block/properties/PropertyInteger;": 15
+  },
+  "net/minecraft/block/properties/PropertyEnum": {
+    "func_177709_a (Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/block/properties/PropertyEnum;": 19
+  },
+  "net/minecraft/block/properties/PropertyDirection": {
+    "func_177712_a (Ljava/lang/String;Lcom/google/common/base/Predicate;)Lnet/minecraft/block/properties/PropertyDirection;": 2,
+    "func_177713_a (Ljava/lang/String;Ljava/util/Collection;)Lnet/minecraft/block/properties/PropertyDirection;": 1,
+    "func_177714_a (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;": 1
+  },
+  "net/minecraft/block/properties/IProperty": {
+    "func_177700_c ()Ljava/util/Collection;": 5,
+    "func_177701_a ()Ljava/lang/String;": 5,
+    "func_177699_b ()Ljava/lang/Class;": 2,
+    "func_177702_a (Ljava/lang/Comparable;)Ljava/lang/String;": 1
+  },
+  "net/minecraft/network/datasync/EntityDataManager": {
+    "func_187214_a (Lnet/minecraft/network/datasync/DataParameter;Ljava/lang/Object;)V": 81,
+    "func_187227_b (Lnet/minecraft/network/datasync/DataParameter;Ljava/lang/Object;)V": 82,
+    "func_187225_a (Lnet/minecraft/network/datasync/DataParameter;)Ljava/lang/Object;": 81,
+    "func_187226_a (Ljava/lang/Class;Lnet/minecraft/network/datasync/DataSerializer;)Lnet/minecraft/network/datasync/DataParameter;": 81
+  },
+  "net/minecraft/network/datasync/DataSerializers": {
+    "field_187198_h Lnet/minecraft/network/datasync/DataSerializer;": 34,
+    "field_187191_a Lnet/minecraft/network/datasync/DataSerializer;": 46,
+    "field_187192_b Lnet/minecraft/network/datasync/DataSerializer;": 22,
+    "field_187193_c Lnet/minecraft/network/datasync/DataSerializer;": 15,
+    "field_187200_j Lnet/minecraft/network/datasync/DataSerializer;": 1
+  },
+  "net/minecraft/network/datasync/DataParameter": {
+    "equals (Ljava/lang/Object;)Z": 10
+  }
+}

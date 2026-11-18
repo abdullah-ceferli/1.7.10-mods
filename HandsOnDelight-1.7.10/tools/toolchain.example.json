@@ -1,0 +1,8 @@
+{
+  "javac": "C:/path/to/jdk8/bin/javac.exe",
+  "java": "C:/path/to/jdk8/bin/java.exe",
+  "forgeJar": "C:/path/to/forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar",
+  "srgToMcp": "C:/path/to/srg-mcp.srg",
+  "runtimeClasspathFile": "C:/path/to/runtime-classpath.txt",
+  "existingGradleCache": "C:/path/to/gradle-user"
+}

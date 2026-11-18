@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-17",
+  "installed": [
+    {
+      "file": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\farmersdelight-1.1.1-mc1.7.10.jar",
+      "sha256": "032fc9e94b05cf80ff8b6a2a3c3995701f84454385466d3a1b1953f85acb4dbb"
+    },
+    {
+      "file": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\+unimixins-all-1.7.10-0.3.1.jar",
+      "sha256": "ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318"
+    },
+    {
+      "file": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\handson-delight-1.7.10-1.5.1-backport.4.jar",
+      "sha256": "16bfbeeda8438d6e4f35df55596ea7a058e5dac3c5f7f3295a58109e8bcba6b7"
+    }
+  ],
+  "verification": {
+    "runDirectory": "D:\\IndustrialTechnology\\DisplayDelight-1.7.10\\.toolchain\\food-install\\20261117-190332\\run",
+    "log": "D:\\IndustrialTechnology\\DisplayDelight-1.7.10\\.toolchain\\food-install\\20261117-190332\\server.log",
+    "report": "PASS: Farmer's Delight Classic 1.1.1 and UniMixins initialize with native Display Delight\nPASS: Display Delight resolves 49 real food links; beef stew uses the installed Farmer's Delight item\nPASS: Placed stew display returns the actual edible Farmer's Delight item\nFailed: 0\n",
+    "userWorldOpened": false,
+    "fullExistingModpackTested": false
+  },
+  "handsOnDelightInstalled": true,
+  "handsOnDelightReason": "Native four-station release installed after 38 dedicated, reload and full-modpack client checks. Explicit rendering-state restoration and world right-clicks verified on the native desktop modpack; affected Android device confirmation remains pending, with the original cookbook/UI, cooking motions and NEI integration retained.",
+  "existingModFilesReplaced": false,
+  "userWorldOpened": false,
+  "handsOnDelight": {
+    "date": "2026-11-17T23:42:46",
+    "file": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\handson-delight-1.7.10-1.5.1-backport.4.jar",
+    "sha256": "16bfbeeda8438d6e4f35df55596ea7a058e5dac3c5f7f3295a58109e8bcba6b7",
+    "status": "native four-station release",
+    "backup": "D:\\IndustrialTechnology\\HandsOnDelight-1.7.10\\backups\\20261117-234246\\handson-delight-1.7.10-1.5.1-backport.3.jar",
+    "checks": {
+      "dedicatedGroups": 19,
+      "reloadGroups": 2,
+      "clientGroups": 17,
+      "fullModpackWithFreshConfiguration": true,
+      "originalScenesAndModelsVerified": 60
+    },
+    "userWorldOpened": false,
+    "otherModFilesChanged": false,
+    "androidRendererTested": false,
+    "androidConfirmation": "pending affected-device confirmation"
+  }
+}

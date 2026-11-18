@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "srparasites:parasiteplank",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "srparasites:deadhead_ladder",
+    "count": 3
+  }
+}

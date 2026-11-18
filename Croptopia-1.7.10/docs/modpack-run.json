@@ -1,0 +1,16 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\Croptopia-1.7.10\\.toolchain\\tests\\20261118-134021-267541\\run",
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "userWorldOpened": false,
+  "modpack": true,
+  "excludedClientMods": [
+    "EasyLAN-v1.5-[1.7.10].jar"
+  ],
+  "testJarHashes": {
+    "croptopia-tests.jar": "4204ae584251020ed31a72bd0294bb5b9e3c0c56d982c45fb2046e3054899b46",
+    "culturaldelights-tests.jar": "be57aa4ae57aea8d87b986a9ae171fca888fa464676134bf54ded69f8cde5b49"
+  }
+}

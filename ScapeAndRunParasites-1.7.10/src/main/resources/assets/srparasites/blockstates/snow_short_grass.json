@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "normal": [
+      { "model": "srparasites:snow_short_grass" },
+      { "model": "srparasites:snow_short_grass_1" },
+      { "model": "srparasites:snow_short_grass_2" },
+      { "model": "srparasites:snow_short_grass_3" },
+      { "model": "srparasites:snow_short_grass_4" }
+    ]
+  }
+}

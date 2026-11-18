@@ -1,0 +1,4 @@
+PASS: Native items and armor retain isolated callback registries, namespaced keys and replacement semantics
+PASS: Null registration rejects before mutation and absent/null lookup keys return no callback
+PASS: Dedicated-server registration preserves the callback object without invoking client-only members stripped by Forge
+Failed: 0

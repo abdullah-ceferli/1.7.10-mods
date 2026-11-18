@@ -1,0 +1,16 @@
+{
+  "com/jkvin114/displaydelight/Catalog$Definition.class": "6a6a76bd8f5c7735b5d76588222264a4816a2e8266447d02d8f7697a3b9f2e01",
+  "com/jkvin114/displaydelight/Catalog.class": "f9f871aa1314dbc3244a0e167f3fb7e5dd6f4c3600cb3b6a62d1e6a27f0dcd07",
+  "com/jkvin114/displaydelight/client/ClientProxy.class": "2d683f9eb8a2befa1e089c42ce844c3b05c4510cdb6df6c00426f900e4ee5108",
+  "com/jkvin114/displaydelight/client/DisplayRenderer$Quad.class": "a8e1d44b68cf9c7aacbc25f8556839dda9deeb31b79590d7a376933ad2e96bd4",
+  "com/jkvin114/displaydelight/client/DisplayRenderer.class": "73cd8d7ba04fc53d0a6ad84e0c0b13b02a3d8a79c425fc283f4cd7b9a0bb70ee",
+  "com/jkvin114/displaydelight/CommonProxy.class": "f9e4efd082de9925ed8fb303c19938320236946180f95e728446fa50f2a7bf54",
+  "com/jkvin114/displaydelight/DisplayBlock.class": "eb0114f59fed6458dd7f835a5512c08c635f211ee6f36ebb82343ab35f5966d0",
+  "com/jkvin114/displaydelight/DisplayDelight$1.class": "95dcb9448a2d95b92367c8cd6594b1a8aeed265a7d82e35599811264a77366e3",
+  "com/jkvin114/displaydelight/DisplayDelight.class": "b223dce67a7022325b0ec027072e82a19d1992763fd37b410f35e0341fdd0c6c",
+  "com/jkvin114/displaydelight/DisplayItem.class": "73ec9f063fb320681b813e7ef45b70dc816c46edca3313bcce2bf45483dc67e6",
+  "com/jkvin114/displaydelight/DisplayTile.class": "6da4f9a4555959c9978fb2895da64323b105f56cd1dba17d60fd86bebe47016f",
+  "com/jkvin114/displaydelight/DisplayTrades.class": "ef6c2488d62f50c267a73e14a508e63f033ce71d04ac948e7dca9c584a93965e",
+  "com/jkvin114/displaydelight/Interactions.class": "f7ba2c6869d95a2b6f673f1cc5921bc2f818a6a715af0fbe44bc1dece73721b9",
+  "com/jkvin114/displaydelight/Settings.class": "452b62372b65a3d27ad96532191a6cb706757ea9c8e0f17454a6866dc1a71b69"
+}

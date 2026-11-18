@@ -1,0 +1,7 @@
+PASS: Steering atan2 matches original bytecode across signed zeros, infinities, NaNs, extremes and 50,000 randomized inputs
+PASS: Native controller API preserves original zero initialization, command speed/position and WAIT/MOVE_TO state
+PASS: All 25 actual converted SRP flight controllers match original class bytecode over 24,000 update steps
+PASS: Arrival clears updating state, halves momentum and accepts a new native movement command
+PASS: Flam's movement lock preserves its pending command and releases it when unlocked
+PASS: Native PathNavigate delivers real path commands through the shared controller interface
+Failed: 0

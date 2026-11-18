@@ -1,0 +1,1 @@
+[{"modid":"blocklinecounter","name":"Block Line Counter","description":"Select two aligned blocks with G and right-click to count non-air blocks, skipping gaps.","version":"${version}","mcversion":"1.7.10","authorList":["Personal Mods contributors"]}]

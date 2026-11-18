@@ -1,0 +1,13 @@
+{
+  "beforeReportedDiagnostics": 7145,
+  "afterReportedDiagnostics": 7056,
+  "reportedChange": -89,
+  "beforeEntityDiagnostics": 2676,
+  "afterEntityDiagnostics": 2603,
+  "beforeBaseDiagnostics": 117,
+  "afterBaseDiagnostics": 113,
+  "afterBackportDiagnostics": 0,
+  "remainingNativeEntityLivingSpawnDiagnostics": 0,
+  "compilerExitCode": 4,
+  "countIsExhaustive": false
+}

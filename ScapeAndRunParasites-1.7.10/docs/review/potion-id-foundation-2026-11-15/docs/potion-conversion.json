@@ -1,0 +1,28 @@
+{
+  "nativeVanillaReferencesConverted": 134,
+  "sourceUnitsConverted": 64,
+  "nativeFields": {
+    "regeneration": 7,
+    "ABSORPTION": 5,
+    "poison": 25,
+    "moveSlowdown": 42,
+    "invisibility": 8,
+    "weakness": 16,
+    "hunger": 4,
+    "digSlowdown": 9,
+    "fireResistance": 1,
+    "moveSpeed": 2,
+    "damageBoost": 2,
+    "wither": 3,
+    "harm": 1,
+    "blindness": 7,
+    "digSpeed": 1,
+    "confusion": 1
+  },
+  "newerVanillaEffectsNotReplaced": [
+    "GLOWING",
+    "LEVITATION"
+  ],
+  "fiveArgumentPotionEffectsNotRewritten": true,
+  "brewingAndPotionTypesNotYetPorted": true
+}

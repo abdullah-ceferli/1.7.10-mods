@@ -1,0 +1,20 @@
+{
+  "expressionsConverted": 599,
+  "sourceUnits": 181,
+  "operations": {
+    "constructor/6": 200,
+    "offset/1": 3,
+    "grow/1": 109,
+    "expand/3": 70,
+    "getEntityBoundingBox/0": 168,
+    "constructor/1": 17,
+    "offset/3": 2,
+    "isVecInside/1": 6,
+    "intersectsWith/1": 12,
+    "shrink/1": 1,
+    "addCoord/3": 7,
+    "calculateIntercept/2": 4
+  },
+  "typeResolution": "Declared field/local/method return types with lexical scopes; ItemStack grow/shrink are retained. Three-axis box operations use the original preferred SRG-to-MCP aliases.",
+  "fullModCompiles": false
+}

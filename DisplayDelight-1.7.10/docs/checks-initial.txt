@@ -1,0 +1,13 @@
+PASS: All 382 source displays register without optional food mods and vanilla links resolve
+PASS: Real food goes onto plates one at a time and sneak insertion respects capacity and inventory
+PASS: Taking one or all returns the native edible food and leaves the correct empty plate
+PASS: Hiding and replacing plates preserves food count and consumes or returns one plate
+PASS: Small plates accept configured subtype food mappings and preserve native item damage
+PASS: Uninstalled foods remain decorative and cannot be converted into invented edible items
+PASS: Sneak use places native mushroom stew through the real Forge interaction event
+PASS: Native block harvesting returns exact edible counts and plate; Silk Touch keeps a full display
+PASS: Count and hidden state serialize, clamp invalid values, and never tick
+PASS: Support tables react to native support blocks and preserve source exceptions
+PASS: Adventure permissions reject food interactions without changing stacks or the plate
+PASS: Farmer villager offers replace absent wandering traders and prioritize missing-addon displays
+Failed: 0

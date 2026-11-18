@@ -1,0 +1,26 @@
+{
+  "sourceArchive": ".toolchain/minecraft-1.12.2-client.jar",
+  "sourceSha256": "8ada07da5ee77dad3527bd7278fbd05ee1fc8a597813b216a871a2d7d64cc64f",
+  "resources": {
+    "src/main/resources/assets/srparasites/textures/backport/minecraft112/particles.png": {
+      "archiveEntry": "assets/minecraft/textures/particle/particles.png",
+      "sha256": "c66a9868209b3e3b47782628b1158f69ddbce727e02a6248d9cecde6e0f4935a",
+      "bytes": 3191
+    },
+    "src/main/resources/assets/srparasites/textures/backport/minecraft112/barrier.png": {
+      "archiveEntry": "assets/minecraft/textures/items/barrier.png",
+      "sha256": "ef71a3922771841fe21057978f52676fea2618e28b0c32ce5f359dd6cfdeb8d8",
+      "bytes": 224
+    },
+    "src/main/resources/assets/srparasites/textures/backport/minecraft112/sweep.png": {
+      "archiveEntry": "assets/minecraft/textures/entity/sweep.png",
+      "sha256": "38070824338823063001b7fb8b528b708ef78a2cce776f471eb63aa1d492417c",
+      "bytes": 1009
+    },
+    "src/main/resources/assets/srparasites/textures/backport/minecraft112/guardian_elder.png": {
+      "archiveEntry": "assets/minecraft/textures/entity/guardian_elder.png",
+      "sha256": "70acb52a84a26cd5b7f6a64ff69212914f9dff7e3b2c1b8bf99416edc59e1033",
+      "bytes": 4747
+    }
+  }
+}

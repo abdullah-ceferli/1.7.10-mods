@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "srparasites:blocks/brucewood_planks"
+  }
+}

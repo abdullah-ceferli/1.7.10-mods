@@ -1,0 +1,7 @@
+PASS: Dedicated Forge initializes sound packets and entity hooks without loading client audio classes
+PASS: Sound packets preserve all ten categories, signed truncated coordinates and full float volume/pitch
+PASS: Invalid sound category and trailing payload bytes are rejected
+PASS: Native players, monsters, bats and modern providers resolve their original category
+PASS: Sound delivery radius and distance-delay math retain strict boundaries and original float multiplication
+PASS: All 12 original material families preserve five sounds, metal pitch and anvil volume
+Failed: 0

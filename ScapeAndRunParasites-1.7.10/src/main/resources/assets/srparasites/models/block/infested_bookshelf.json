@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "srparasites:blocks/infested_planks",
+    "side": "srparasites:blocks/infested_bookshelf"
+  }
+}

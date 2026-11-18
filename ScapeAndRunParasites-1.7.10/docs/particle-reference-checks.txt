@@ -1,0 +1,3 @@
+PASS: All 49 particle names, IDs, range flags and argument counts match original 1.12.2 bytecode
+PASS: Batch positions, count-zero float velocity products and six-Gaussian RNG order match original handler bytecode in 2450 cases
+Failed: 0

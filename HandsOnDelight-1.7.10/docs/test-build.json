@@ -1,0 +1,7 @@
+{
+  "jar": "D:\\IndustrialTechnology\\HandsOnDelight-1.7.10\\build\\libs\\handson-delight-tests.jar",
+  "sha256": "4c5ddacc2aa5c4415995c09dc13b8adda1642c7394b11a2e8bf4a08aa44ea32f",
+  "javaUnits": 47,
+  "nativeCompilerApi": "D:\\IndustrialTechnology\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar",
+  "tests": true
+}

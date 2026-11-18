@@ -1,0 +1,3058 @@
+[
+  {
+    "id": "glow_berry_custard",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersdelight:glow_berry_custard",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fruit_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:fruit_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nether_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:nether_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cooked_rice",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:cooked_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mixed_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:mixed_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "beef_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:beef_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "chicken_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:chicken_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "vegetable_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:vegetable_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fish_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:fish_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fried_rice",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:fried_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pumpkin_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:pumpkin_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "baked_cod_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:baked_cod_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "noodle_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:noodle_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bone_broth",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:bone_broth",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bacon_and_eggs",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:bacon_and_eggs",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pasta_with_meatballs",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:pasta_with_meatballs",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pasta_with_mutton_chop",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:pasta_with_mutton_chop",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "roasted_mutton_chops",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:roasted_mutton_chops",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "steak_and_potatoes",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:steak_and_potatoes",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "vegetable_noodles",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:vegetable_noodles",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ratatouille",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:ratatouille",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "squid_ink_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:squid_ink_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "grilled_salmon",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:grilled_salmon",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mushroom_rice",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersdelight:mushroom_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "roast_chicken",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:roast_chicken",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "stuffed_pumpkin",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:stuffed_pumpkin",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "honey_glazed_ham",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:honey_glazed_ham",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "shepherds_pie",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:shepherds_pie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "apple_cider",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersdelight:apple_cider",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "melon_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersdelight:melon_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "hot_cocoa",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersdelight:hot_cocoa",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "gleaming_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:gleaming_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "onion_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersdelight:onion_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mushroom_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "minecraft:mushroom_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "rabbit_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "minecraft:rabbit_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "beetroot_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "minecraft:beetroot_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_nachos_bowl",
+    "kind": "food",
+    "max": 1,
+    "food": "corn_delight:nachos_bowl",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_creamy_corn_drink",
+    "kind": "drink",
+    "max": 1,
+    "food": "corn_delight:creamy_corn_drink",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "cd_cornbread_stuffing",
+    "kind": "food",
+    "max": 1,
+    "food": "corn_delight:cornbread_stuffing",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_corn_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "corn_delight:corn_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_creamed_corn",
+    "kind": "food",
+    "max": 1,
+    "food": "corn_delight:creamed_corn",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_matcha_ice_cream",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:matcha_ice_cream",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_matcha_milkshake",
+    "kind": "drink",
+    "max": 1,
+    "food": "delightful:matcha_milkshake",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_salmonberry_ice_cream",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:salmonberry_ice_cream",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_salmonberry_milkshake",
+    "kind": "drink",
+    "max": 1,
+    "food": "delightful:salmonberry_milkshake",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_matcha_latte",
+    "kind": "drink",
+    "max": 1,
+    "food": "delightful:matcha_latte",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "df_ender_nectar",
+    "kind": "drink",
+    "max": 1,
+    "food": "delightful:ender_nectar",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "df_berry_matcha_latte",
+    "kind": "drink",
+    "max": 1,
+    "food": "delightful:berry_matcha_latte",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_cactus_chili",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:cactus_chili",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_field_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:field_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_stuffed_cantaloupe",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:stuffed_cantaloupe",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_sinigang",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:sinigang",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_cactus_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "delightful:cactus_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pd_pineapple_fried_rice",
+    "kind": "food",
+    "max": 1,
+    "food": "pineapple_delight:pineapple_fried_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pd_pineapple_ice_cream",
+    "kind": "drink",
+    "max": 1,
+    "food": "pineapple_delight:pineapple_ice_cream",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pd_pineapple_milk_shake",
+    "kind": "drink",
+    "max": 1,
+    "food": "pineapple_delight:pineapple_milk_shake",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pd_pineapple_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "pineapple_delight:pineapple_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_bowl_of_guardian_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "oceansdelight:bowl_of_guardian_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_braised_sea_pickle",
+    "kind": "food",
+    "max": 1,
+    "food": "oceansdelight:braised_sea_pickle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_seagrass_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "oceansdelight:seagrass_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_squid_rings",
+    "kind": "food",
+    "max": 1,
+    "food": "oceansdelight:squid_rings",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_maggot_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "alexsdelight:maggot_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_kangaroo_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "alexsdelight:kangaroo_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_acacia_blossom_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "alexsdelight:acacia_blossom_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_lobster_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "alexsdelight:lobster_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_kangaroo_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "alexsdelight:kangaroo_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_hearty_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "culturaldelights:hearty_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_creamed_corn",
+    "kind": "food",
+    "max": 1,
+    "food": "culturaldelights:creamed_corn",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_spicy_curry",
+    "kind": "food",
+    "max": 1,
+    "food": "culturaldelights:spicy_curry",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_fried_eggplant_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "culturaldelights:fried_eggplant_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_pufferfish_broth",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:pufferfish_broth",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_potato_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:potato_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_red_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:red_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_tomato_egg_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:tomato_egg_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_cod_deluxe",
+    "kind": "wide",
+    "max": 1,
+    "food": "largemeals:cod_deluxe",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_hearty_lunch",
+    "kind": "wide",
+    "max": 1,
+    "food": "largemeals:hearty_lunch",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_chicken_curry",
+    "kind": "wide",
+    "max": 1,
+    "food": "largemeals:chicken_curry",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_pasta_with_mushroom_sauce",
+    "kind": "wide",
+    "max": 1,
+    "food": "largemeals:pasta_with_mushroom_sauce",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_omurice",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:omurice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_mushroom_pot_pie",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:mushroom_pot_pie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_roasted_mutton_rack",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:roasted_mutton_rack",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_sweet_berry_custard",
+    "kind": "drink",
+    "max": 1,
+    "food": "largemeals:sweet_berry_custard",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "lm_rice_pudding",
+    "kind": "food",
+    "max": 1,
+    "food": "largemeals:rice_pudding",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fd_festive_chicken",
+    "kind": "food",
+    "max": 1,
+    "food": "festive_delight:festive_chicken",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fd_christmas_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "festive_delight:christmas_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fd_salmon_verrines",
+    "kind": "drink",
+    "max": 1,
+    "food": "festive_delight:salmon_verrines",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_fiery_fondue",
+    "kind": "food",
+    "max": 1,
+    "food": "brewinandchewin:fiery_fondue",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_scarlet_pierogi",
+    "kind": "wide",
+    "max": 1,
+    "food": "brewinandchewin:scarlet_pierogi",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_horror_lasagna",
+    "kind": "wide",
+    "max": 1,
+    "food": "brewinandchewin:horror_lasagna",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_cheesy_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "brewinandchewin:cheesy_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_creamy_onion_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "brewinandchewin:creamy_onion_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_vegetable_omelet",
+    "kind": "food",
+    "max": 1,
+    "food": "brewinandchewin:vegetable_omelet",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_poached_eggplants",
+    "kind": "food",
+    "max": 1,
+    "food": "culturaldelights:poached_eggplants",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_eggplant_parmesan",
+    "kind": "food",
+    "max": 1,
+    "food": "culturaldelights:eggplant_parmesan",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_poor_fisher_chowder",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:poor_fisher_chowder",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_jellyfish_jelly",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:jellyfish_jelly",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_unusual_fish_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:unusual_fish_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_bass_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:bass_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_fish_chorba",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:fish_chorba",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_fish_and_chips",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:fish_and_chips",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_halaszle",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:halaszle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_crispy_nori_kelp",
+    "kind": "food",
+    "max": 1,
+    "food": "aquaculturedelight:crispy_nori_kelp",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_baked_pollock_with_carrots",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:baked_pollock_with_carrots",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_large_fish_with_vegetables",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:large_fish_with_vegetables",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_rollmops",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:rollmops",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_tuna_spaghetti",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:tuna_spaghetti",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_halibut_with_tartar_sauce",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:halibut_with_tartar_sauce",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_buckling",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:buckling",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_turtle_meat_dish",
+    "kind": "wide",
+    "max": 1,
+    "food": "aquaculturedelight:turtle_meat_dish",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_chorus_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "endersdelight:chorus_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_amberveil_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "endersdelight:amberveil_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_amberveiled_curry",
+    "kind": "food",
+    "max": 1,
+    "food": "endersdelight:amberveiled_curry",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_chorus_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "endersdelight:chorus_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_twisted_cereal",
+    "kind": "food",
+    "max": 1,
+    "food": "endersdelight:twisted_cereal",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_endermite_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "endersdelight:endermite_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_ender_paella",
+    "kind": "wide",
+    "max": 1,
+    "food": "endersdelight:ender_paella",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_chicken_curry",
+    "kind": "wide",
+    "max": 1,
+    "food": "endersdelight:chicken_curry",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_steak_fries",
+    "kind": "wide",
+    "max": 1,
+    "food": "endersdelight:steak_fries",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_veil_of_flames_risotto",
+    "kind": "wide",
+    "max": 1,
+    "food": "endersdelight:veil_of_flames_risotto",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_pearl_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "endersdelight:pearl_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_stuffed_shulker_bowl",
+    "kind": "food",
+    "max": 1,
+    "food": "endersdelight:stuffed_shulker_bowl",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_dragon_breath_and_chorus_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:dragon_breath_and_chorus_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_shulker_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:shulker_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_ender_noodle",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:ender_noodle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_enderman_gristle_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:enderman_gristle_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_stir_fried_shulker_meat",
+    "kind": "wide",
+    "max": 1,
+    "food": "ends_delight:stir_fried_shulker_meat",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_roasted_dragon_steak",
+    "kind": "wide",
+    "max": 1,
+    "food": "ends_delight:roasted_dragon_steak",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_end_mixed_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:end_mixed_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_assorted_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:assorted_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_ender_congee",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:ender_congee",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_chorus_fruit_milk_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "ends_delight:chorus_fruit_milk_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "edd_chorus_fruit_wine",
+    "kind": "drink",
+    "max": 1,
+    "food": "ends_delight:chorus_fruit_wine",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_bubble_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "ends_delight:bubble_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "edd_dragon_breath_soda",
+    "kind": "drink",
+    "max": 1,
+    "food": "ends_delight:dragon_breath_soda",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_chorus_flower_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "ends_delight:chorus_flower_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "edd_grilled_shulker",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:grilled_shulker",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_dragon_meat_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:dragon_meat_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_steamed_dragon_egg",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:steamed_dragon_egg",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_dragon_leg_with_sauce",
+    "kind": "food",
+    "max": 1,
+    "food": "ends_delight:dragon_leg_with_sauce",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_sizzling_pudding",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:sizzling_pudding",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_rock_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:rock_soup",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "mnd_spicy_noodle_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:spicy_noodle_soup",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "mnd_strider_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:strider_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_ghast_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:ghast_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_dried_ghast_with_milk",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:dried_ghast_with_milk",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_sausage_and_potatoes",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:sausage_and_potatoes",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_spicy_hoglin_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:spicy_hoglin_stew",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "mnd_egg_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:egg_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_breakfast_sampler",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:breakfast_sampler",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_fried_hoglin_chop",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:fried_hoglin_chop",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_twisted_ghasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:twisted_ghasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_strider_with_grilled_fungus",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:strider_with_grilled_fungus",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_scotch_eggs",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:scotch_eggs",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_giant_takoyaki",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:giant_takoyaki",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_blue_tenderloin_steak",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:blue_tenderloin_steak",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_crimson_stroganoff",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:crimson_stroganoff",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_spicy_curry",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:spicy_curry",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "mnd_bleeding_tartar",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:bleeding_tartar",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_hot_wings",
+    "kind": "wide",
+    "max": 1,
+    "food": "mynethersdelight:hot_wings",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "mnd_plate_of_ghasta_with_cream",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:plate_of_ghasta_with_cream",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plate_of_stuffed_hoglin_snout",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:plate_of_stuffed_hoglin_snout",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plate_of_stuffed_hoglin_ham",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:plate_of_stuffed_hoglin_ham",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plate_of_stuffed_hoglin",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:plate_of_stuffed_hoglin",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plate_of_cold_striderloaf",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:plate_of_cold_striderloaf",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plate_of_striderloaf",
+    "kind": "food",
+    "max": 1,
+    "food": "mynethersdelight:plate_of_striderloaf",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_kelp_shake",
+    "kind": "drink",
+    "max": 1,
+    "food": "crabbersdelight:kelp_shake",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_coconut_pudding",
+    "kind": "drink",
+    "max": 1,
+    "food": "crabbersdelight:coconut_pudding",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_coconut_milk",
+    "kind": "drink",
+    "max": 1,
+    "food": "crabbersdelight:coconut_milk",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_clam_bake",
+    "kind": "wide",
+    "max": 1,
+    "food": "crabbersdelight:clam_bake",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_surf_and_turf",
+    "kind": "wide",
+    "max": 1,
+    "food": "crabbersdelight:surf_and_turf",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_seafood_gumbo",
+    "kind": "food",
+    "max": 1,
+    "food": "crabbersdelight:seafood_gumbo",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_shrimp_fried_rice",
+    "kind": "food",
+    "max": 1,
+    "food": "crabbersdelight:shrimp_fried_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_coral_crunch",
+    "kind": "food",
+    "max": 1,
+    "food": "crabbersdelight:coral_crunch",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_clam_chowder",
+    "kind": "food",
+    "max": 1,
+    "food": "crabbersdelight:clam_chowder",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_bisque",
+    "kind": "food",
+    "max": 1,
+    "food": "crabbersdelight:bisque",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_plate_of_stuffed_hoglin_snout",
+    "kind": "food",
+    "max": 1,
+    "food": "nethersdelight:plate_of_stuffed_hoglin_snout",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_plate_of_stuffed_hoglin_ham",
+    "kind": "food",
+    "max": 1,
+    "food": "nethersdelight:plate_of_stuffed_hoglin_ham",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_plate_of_stuffed_hoglin_roast",
+    "kind": "food",
+    "max": 1,
+    "food": "nethersdelight:plate_of_stuffed_hoglin_roast",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_strider_moss_stew",
+    "kind": "food",
+    "max": 1,
+    "food": "nethersdelight:strider_moss_stew",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_warped_moldy_meat",
+    "kind": "wide",
+    "max": 1,
+    "food": "nethersdelight:warped_moldy_meat",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_grilled_strider",
+    "kind": "wide",
+    "max": 1,
+    "food": "nethersdelight:grilled_strider",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_cherry_cream_soda",
+    "kind": "drink",
+    "max": 1,
+    "food": "abnormals_delight:cherry_cream_soda",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_seared_venison",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:seared_venison",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_duck_noodles",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:duck_noodles",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_dune_platter",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:dune_platter",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_passion_aloe_nectar",
+    "kind": "drink",
+    "max": 1,
+    "food": "abnormals_delight:passion_aloe_nectar",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_passion_fruit_glazed_duck",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:passion_fruit_glazed_duck",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_perch_with_mushrooms",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:perch_with_mushrooms",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_pickerelweed_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "abnormals_delight:pickerelweed_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_pike_with_beetroot",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:pike_with_beetroot",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_slabdish",
+    "kind": "food",
+    "max": 1,
+    "food": "abnormals_delight:slabdish",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_venison_with_bamboo_shoots",
+    "kind": "wide",
+    "max": 1,
+    "food": "abnormals_delight:venison_with_bamboo_shoots",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fr_black_cod",
+    "kind": "wide",
+    "max": 1,
+    "food": "farmersrespite:black_cod",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fr_black_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:black_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_blazing_chili",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersrespite:blazing_chili",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "fr_coffee",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:coffee",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_dandelion_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:dandelion_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_gamblers_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:gamblers_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_green_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:green_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_purulent_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:purulent_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_rose_hip_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:rose_hip_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "fr_tea_curry",
+    "kind": "food",
+    "max": 1,
+    "food": "farmersrespite:tea_curry",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fr_yellow_tea",
+    "kind": "drink",
+    "max": 1,
+    "food": "farmersrespite:yellow_tea",
+    "steam": true,
+    "fiery": false
+  },
+  {
+    "id": "md_bowl_of_stuffed_squid",
+    "kind": "food",
+    "max": 1,
+    "food": "minersdelight:bowl_of_stuffed_squid",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_cave_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "minersdelight:cave_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_glow_ink_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "minersdelight:glow_ink_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_pasta_with_veggieballs",
+    "kind": "wide",
+    "max": 1,
+    "food": "minersdelight:pasta_with_veggieballs",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_plate_of_fake_meatloaf",
+    "kind": "food",
+    "max": 1,
+    "food": "minersdelight:plate_of_fake_meatloaf",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_plate_of_glazed_arachnid_limbs",
+    "kind": "food",
+    "max": 1,
+    "food": "minersdelight:plate_of_glazed_arachnid_limbs",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_takoyaki",
+    "kind": "wide",
+    "max": 1,
+    "food": "minersdelight:takoyaki",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_vegan_steak_and_potatoes",
+    "kind": "wide",
+    "max": 1,
+    "food": "minersdelight:vegan_steak_and_potatoes",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_dumplings",
+    "kind": "plate",
+    "max": 2,
+    "food": "farmersdelight:dumplings",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_hamburger",
+    "kind": "plate",
+    "max": 1,
+    "food": "farmersdelight:hamburger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_barbecue_stick",
+    "kind": "plate",
+    "max": 3,
+    "food": "farmersdelight:barbecue_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_chicken_sandwich",
+    "kind": "plate",
+    "max": 2,
+    "food": "farmersdelight:chicken_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_egg_sandwich",
+    "kind": "plate",
+    "max": 2,
+    "food": "farmersdelight:egg_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_kelp_roll",
+    "kind": "plate",
+    "max": 3,
+    "food": "farmersdelight:kelp_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_melon_popsicle",
+    "kind": "plate",
+    "max": 2,
+    "food": "farmersdelight:melon_popsicle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_stuffed_potato",
+    "kind": "plate",
+    "max": 3,
+    "food": "farmersdelight:stuffed_potato",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_mutton_wrap",
+    "kind": "plate",
+    "max": 2,
+    "food": "farmersdelight:mutton_wrap",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_bacon_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "farmersdelight:bacon_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_cabbage_rolls",
+    "kind": "plate",
+    "max": 3,
+    "food": "farmersdelight:cabbage_rolls",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_cod_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "farmersdelight:cod_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_kelp_roll_slice",
+    "kind": "plate",
+    "max": 6,
+    "food": "farmersdelight:kelp_roll_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_salmon_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "farmersdelight:salmon_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_sweet_berry_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "farmersdelight:sweet_berry_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_honey_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "farmersdelight:honey_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "minecraft:cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "plated_pumpkin_pie",
+    "kind": "plate",
+    "max": 1,
+    "food": "minecraft:pumpkin_pie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_plated_grilled_corn",
+    "kind": "plate",
+    "max": 2,
+    "food": "corn_delight:grilled_corn",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_plated_classic_corn_dog",
+    "kind": "plate",
+    "max": 2,
+    "food": "corn_delight:classic_corn_dog",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "cd_plated_taco",
+    "kind": "plate",
+    "max": 2,
+    "food": "corn_delight:taco",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_smore",
+    "kind": "plate",
+    "max": 2,
+    "food": "delightful:smore",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_cheeseburger",
+    "kind": "plate",
+    "max": 1,
+    "food": "delightful:cheeseburger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_deluxe_cheeseburger",
+    "kind": "plate",
+    "max": 1,
+    "food": "delightful:deluxe_cheeseburger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_nut_butter_and_jelly_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "delightful:nut_butter_and_jelly_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_cooked_marshmallow_stick",
+    "kind": "plate",
+    "max": 3,
+    "food": "delightful:cooked_marshmallow_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_cantaloupe_popsicle",
+    "kind": "plate",
+    "max": 2,
+    "food": "delightful:cantaloupe_popsicle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_cantaloupe_bread",
+    "kind": "plate",
+    "max": 2,
+    "food": "delightful:cantaloupe_bread",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_plated_wrapped_cantaloupe",
+    "kind": "plate",
+    "max": 2,
+    "food": "delightful:wrapped_cantaloupe",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_plated_baked_tentacle_on_a_stick",
+    "kind": "plate",
+    "max": 2,
+    "food": "oceansdelight:baked_tentacle_on_a_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_plated_elder_guardian_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "oceansdelight:elder_guardian_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_plated_fugu_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "oceansdelight:fugu_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_plated_honey_fried_kelp",
+    "kind": "plate",
+    "max": 1,
+    "food": "oceansdelight:honey_fried_kelp",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_plated_cooked_stuffed_cod",
+    "kind": "plate",
+    "max": 2,
+    "food": "oceansdelight:cooked_stuffed_cod",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_plated_bunfungus_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "alexsdelight:bunfungus_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_plated_bison_burger",
+    "kind": "plate",
+    "max": 1,
+    "food": "alexsdelight:bison_burger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ad_plated_gongylidia_bruschetta",
+    "kind": "plate",
+    "max": 2,
+    "food": "alexsdelight:gongylidia_bruschetta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_elote",
+    "kind": "plate",
+    "max": 2,
+    "food": "culturaldelights:elote",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_empanada",
+    "kind": "plate",
+    "max": 2,
+    "food": "culturaldelights:empanada",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_beef_burrito",
+    "kind": "plate",
+    "max": 2,
+    "food": "culturaldelights:beef_burrito",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_mutton_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "culturaldelights:mutton_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_eggplant_burger",
+    "kind": "plate",
+    "max": 1,
+    "food": "culturaldelights:eggplant_burger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_avocado_toast",
+    "kind": "plate",
+    "max": 1,
+    "food": "culturaldelights:avocado_toast",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_chicken_taco",
+    "kind": "plate",
+    "max": 2,
+    "food": "culturaldelights:chicken_taco",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_pork_wrap",
+    "kind": "plate",
+    "max": 2,
+    "food": "culturaldelights:pork_wrap",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_fish_taco",
+    "kind": "plate",
+    "max": 2,
+    "food": "culturaldelights:fish_taco",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_chicken_roll",
+    "kind": "plate",
+    "max": 3,
+    "food": "culturaldelights:chicken_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_midori_roll",
+    "kind": "plate",
+    "max": 3,
+    "food": "culturaldelights:midori_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_chicken_roll_slice",
+    "kind": "plate",
+    "max": 6,
+    "food": "culturaldelights:chicken_roll_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_midori_roll_slice",
+    "kind": "plate",
+    "max": 6,
+    "food": "culturaldelights:midori_roll_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_pufferfish_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "culturaldelights:pufferfish_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_tropical_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "culturaldelights:tropical_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_rice_ball",
+    "kind": "plate",
+    "max": 4,
+    "food": "culturaldelights:rice_ball",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_egg_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "culturaldelights:egg_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_plated_calamari_roll",
+    "kind": "plate",
+    "max": 6,
+    "food": "culturaldelights:calamari_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_plated_catfish_barbecue",
+    "kind": "plate",
+    "max": 3,
+    "food": "aquaculturedelight:catfish_barbecue",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_plated_ham_and_cheese_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "brewinandchewin:ham_and_cheese_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_cranberry_goat_cheese_toast",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:cranberry_goat_cheese_toast",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_plated_uncanny_cookies",
+    "kind": "plate",
+    "max": 4,
+    "food": "endersdelight:uncanny_cookies",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_plated_crispy_skewer",
+    "kind": "plate",
+    "max": 3,
+    "food": "endersdelight:crispy_skewer",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_plated_strange_eclair",
+    "kind": "plate",
+    "max": 3,
+    "food": "endersdelight:strange_eclair",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_plated_crawling_sandwich",
+    "kind": "plate",
+    "max": 2,
+    "food": "endersdelight:crawling_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_plated_stuffed_rice_cake",
+    "kind": "plate",
+    "max": 3,
+    "food": "ends_delight:stuffed_rice_cake",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_plated_chorus_flower_pie",
+    "kind": "plate",
+    "max": 1,
+    "food": "ends_delight:chorus_flower_pie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_plated_ender_bamboo_rice",
+    "kind": "plate",
+    "max": 2,
+    "food": "ends_delight:ender_bamboo_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_plated_chorus_fruit_popsicle",
+    "kind": "plate",
+    "max": 2,
+    "food": "ends_delight:chorus_fruit_popsicle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_plated_end_barbecue_stick",
+    "kind": "plate",
+    "max": 3,
+    "food": "ends_delight:end_barbecue_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_stuffed_pepper",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:stuffed_pepper",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_hotdog_with_mixed_salad",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:hotdog_with_mixed_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_hotdog_with_nether_salad",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:hotdog_with_nether_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_chilidog",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:chilidog",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "mnd_plated_spicy_cotton",
+    "kind": "plate",
+    "max": 1,
+    "food": "mynethersdelight:spicy_cotton",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_fries_ghasta",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:fries_ghasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_spicy_skewer",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:spicy_skewer",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_red_loin_on_a_stick",
+    "kind": "plate",
+    "max": 3,
+    "food": "mynethersdelight:red_loin_on_a_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_nether_burger",
+    "kind": "plate",
+    "max": 1,
+    "food": "mynethersdelight:nether_burger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_plated_bacon-wrapped_sausage_on_a_stick",
+    "kind": "plate",
+    "max": 2,
+    "food": "mynethersdelight:bacon-wrapped_sausage_on_a_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "nd_plated_nether_skewer",
+    "kind": "plate",
+    "max": 2,
+    "food": "nethersdelight:nether_skewer",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_plated_frog_leg_kebab",
+    "kind": "plate",
+    "max": 1,
+    "food": "crabbersdelight:frog_leg_kebab",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_plated_squid_kebab",
+    "kind": "plate",
+    "max": 1,
+    "food": "crabbersdelight:squid_kebab",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_plated_shrimp_skewer",
+    "kind": "plate",
+    "max": 2,
+    "food": "crabbersdelight:shrimp_skewer",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_plated_fish_stick",
+    "kind": "plate",
+    "max": 1,
+    "food": "crabbersdelight:fish_stick",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "crd_plated_stuffed_nautilus_shell",
+    "kind": "plate",
+    "max": 1,
+    "food": "crabbersdelight:stuffed_nautilus_shell",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_plated_cherry_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "abnormals_delight:cherry_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_plated_escargot",
+    "kind": "plate",
+    "max": 1,
+    "food": "abnormals_delight:escargot",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_plated_maple_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "abnormals_delight:maple_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_plated_mulberry_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "abnormals_delight:mulberry_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fr_plated_green_tea_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "farmersrespite:green_tea_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_plated_cave_hamburger",
+    "kind": "plate",
+    "max": 1,
+    "food": "minersdelight:cave_hamburger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_plated_squid_sandwich",
+    "kind": "plate",
+    "max": 2,
+    "food": "minersdelight:squid_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_plated_vegan_hamburger",
+    "kind": "plate",
+    "max": 1,
+    "food": "minersdelight:vegan_hamburger",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "md_plated_vegan_wrap",
+    "kind": "plate",
+    "max": 2,
+    "food": "minersdelight:vegan_wrap",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_apple_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:apple_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_chocolate_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:chocolate_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_sweet_berry_cheesecake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:sweet_berry_cheesecake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_stuffed_potato",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:stuffed_potato",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_cod_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:cod_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_salmon_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:salmon_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_kelp_roll_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:kelp_roll_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_cabbage_rolls",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:cabbage_rolls",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_plated_pumpkin_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersdelight:pumpkin_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_small_plated_salmonberry_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "delightful:salmonberry_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "df_small_plated_pumpkin_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "delightful:pumpkin_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pd_small_plated_pineapple_pie_side",
+    "kind": "small",
+    "max": 1,
+    "food": "pineapple_delight:pineapple_pie_side",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "pd_small_plated_pineapple_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "pineapple_delight:pineapple_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_small_plated_elder_guardian_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "oceansdelight:elder_guardian_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "od_small_plated_fugu_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "oceansdelight:fugu_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_chicken_roll_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:chicken_roll_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_midori_roll_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:midori_roll_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_pufferfish_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:pufferfish_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_tropical_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:tropical_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_egg_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:egg_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_calamari_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:calamari_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ctd_small_plated_cut_pickle",
+    "kind": "small",
+    "max": 1,
+    "food": "culturaldelights:cut_pickle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "bnc_small_plated_quiche_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "brewinandchewin:quiche_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_small_plated_cranberry_cobbler_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "expandeddelight:cranberry_cobbler_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_small_plated_honeyed_goat_cheese_tart_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "expandeddelight:honeyed_goat_cheese_tart_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_small_plated_raw_fish_fillet_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "aquaculturedelight:raw_fish_fillet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "acd_small_plated_fried_perch_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "aquaculturedelight:fried_perch_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "erd_small_plated_chorus_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "endersdelight:chorus_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "edd_small_plated_chorus_fruit_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "ends_delight:chorus_fruit_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "mnd_small_plated_magma_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "mynethersdelight:magma_cake_slice",
+    "steam": false,
+    "fiery": true
+  },
+  {
+    "id": "abd_small_plated_adzuki_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:adzuki_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_small_plated_banana_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:banana_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_small_plated_chocolate_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:chocolate_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_small_plated_mint_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:mint_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_small_plated_strawberry_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:strawberry_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_small_plated_vanilla_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:vanilla_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "abd_small_plated_yucca_gateau_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "abnormals_delight:yucca_gateau_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fr_small_plated_coffee_cake_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersrespite:coffee_cake_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "fr_small_plated_rose_hip_pie_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "farmersrespite:rose_hip_pie_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_asparagus_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:asparagus_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_asparagus_soup_creamy",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:asparagus_soup_creamy",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_asparagus_and_bacon_cheesy",
+    "kind": "wide",
+    "max": 1,
+    "food": "expandeddelight:asparagus_and_bacon_cheesy",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_peperonata",
+    "kind": "wide",
+    "max": 1,
+    "food": "expandeddelight:peperonata",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_peanut_honey_soup",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:peanut_honey_soup",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_mac_and_cheese",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:mac_and_cheese",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_peanut_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:peanut_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_sweet_potato_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:sweet_potato_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_cinnamon_rice",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:cinnamon_rice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_cinnamon_apples",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:cinnamon_apples",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_apple_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "expandeddelight:apple_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_sweet_berry_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "expandeddelight:sweet_berry_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_glow_berry_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "expandeddelight:glow_berry_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_asparagus_frittata",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:asparagus_frittata",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_chili_pepper_salmon",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:chili_pepper_salmon",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_goat_cheese_beetroot_salad",
+    "kind": "food",
+    "max": 1,
+    "food": "expandeddelight:goat_cheese_beetroot_salad",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_cranberry_juice",
+    "kind": "drink",
+    "max": 1,
+    "food": "expandeddelight:cranberry_juice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_cranberry_chicken",
+    "kind": "wide",
+    "max": 1,
+    "food": "expandeddelight:cranberry_chicken",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_asparagus_mushroom_pasta",
+    "kind": "wide",
+    "max": 1,
+    "food": "expandeddelight:asparagus_mushroom_pasta",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_sweet_potato_casserole",
+    "kind": "wide",
+    "max": 1,
+    "food": "expandeddelight:sweet_potato_casserole",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_small_plated_sweet_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "expandeddelight:sweet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_small_plated_berry_sweet_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "expandeddelight:berry_sweet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_small_plated_glow_berry_sweet_roll",
+    "kind": "small",
+    "max": 1,
+    "food": "expandeddelight:glow_berry_sweet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_small_plated_cheese_slice",
+    "kind": "small",
+    "max": 1,
+    "food": "expandeddelight:cheese_slice",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_peanut_butter_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:peanut_butter_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_peanut_butter_honey_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:peanut_butter_honey_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_glow_berry_jelly_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:glow_berry_jelly_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_sweet_berry_jelly_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:sweet_berry_jelly_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_cheese_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:cheese_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_grilled_cheese",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:grilled_cheese",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_cranberry_jelly_sandwich",
+    "kind": "plate",
+    "max": 1,
+    "food": "expandeddelight:cranberry_jelly_sandwich",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_chocolate_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "expandeddelight:chocolate_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_sugar_cookie",
+    "kind": "plate",
+    "max": 4,
+    "food": "expandeddelight:sugar_cookie",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_snickerdoodle",
+    "kind": "plate",
+    "max": 4,
+    "food": "expandeddelight:snickerdoodle",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_sweet_roll",
+    "kind": "plate",
+    "max": 4,
+    "food": "expandeddelight:sweet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_berry_sweet_roll",
+    "kind": "plate",
+    "max": 4,
+    "food": "expandeddelight:berry_sweet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "ed_plated_glow_berry_sweet_roll",
+    "kind": "plate",
+    "max": 4,
+    "food": "expandeddelight:glow_berry_sweet_roll",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "food_plate",
+    "kind": "empty",
+    "max": 1,
+    "food": "",
+    "steam": false,
+    "fiery": false
+  },
+  {
+    "id": "small_food_plate",
+    "kind": "empty_small",
+    "max": 1,
+    "food": "",
+    "steam": false,
+    "fiery": false
+  }
+]

@@ -1,0 +1,4 @@
+PASS: Actual MCP/SRG native initialization gets one idempotent attribute-registration hook
+PASS: Armor and potion transformers compose in both orders without losing existing hooks
+PASS: Unexpected native attribute signatures fail explicitly and unrelated classes stay unchanged
+Failed: 0

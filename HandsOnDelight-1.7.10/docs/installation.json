@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17T23:42:46",
+  "file": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\handson-delight-1.7.10-1.5.1-backport.4.jar",
+  "sha256": "16bfbeeda8438d6e4f35df55596ea7a058e5dac3c5f7f3295a58109e8bcba6b7",
+  "status": "native four-station release",
+  "backup": "D:\\IndustrialTechnology\\HandsOnDelight-1.7.10\\backups\\20261117-234246\\handson-delight-1.7.10-1.5.1-backport.3.jar",
+  "checks": {
+    "dedicatedGroups": 19,
+    "reloadGroups": 2,
+    "clientGroups": 17,
+    "fullModpackWithFreshConfiguration": true,
+    "originalScenesAndModelsVerified": 60
+  },
+  "userWorldOpened": false,
+  "otherModFilesChanged": false,
+  "androidRendererTested": false,
+  "androidConfirmation": "pending affected-device confirmation"
+}

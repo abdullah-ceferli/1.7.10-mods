@@ -1,0 +1,5 @@
+tile.displaydelight.food_plate.name=お皿
+tile.displaydelight.small_food_plate.name=小さいお皿
+item.displaydelight.tooltip.can_placed_on=以下に設置可能: 
+item.displaydelight.tooltip.displayable=スニーク右クリックで設置可能
+itemGroup.displaydelight=Display Delight

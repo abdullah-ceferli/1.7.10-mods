@@ -1,0 +1,4 @@
+PASS: All 16 property states survive a genuine dedicated-server JVM restart
+PASS: State-dependent tile presence and its NBT survive a genuine restart
+Assertions: 18
+Failed: 0

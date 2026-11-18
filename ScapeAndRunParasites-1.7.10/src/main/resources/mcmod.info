@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "srparasites",
+    "name": "Scape and Run Parasites",
+    "description": "Minecraft 1.7.10 port of Scape and Run: Parasites, intended for play alongside HBM and other 1.7.10 mods. Development build; not yet playable.",
+    "version": "${version}",
+    "mcversion": "1.7.10",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/scape-and-run-parasites",
+    "updateUrl": "",
+    "authorList": [
+      "Dhanantry"
+    ],
+    "credits": "Minecraft 1.7.10 port by Zahin. Sound effects obtained from https://www.zapsplat.com",
+    "logoFile": "assets/srparasites/logo2.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

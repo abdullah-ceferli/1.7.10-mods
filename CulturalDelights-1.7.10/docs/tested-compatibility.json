@@ -1,0 +1,19 @@
+{
+  "items": 67,
+  "crops": 4,
+  "blocks": 18,
+  "unavailable": {
+    "glow_squid/glowing": "The modern glowing outline effect has no native 1.7.10 equivalent yet.",
+    "culturaldelights:fermenting/pickle": "Requires modern machine recipe integration: brewinandchewin:fermenting",
+    "culturaldelights:calamari_roll": "Unavailable ingredient {\"item\":\"minecraft:dried_kelp\"}",
+    "culturaldelights:chicken_roll": "Unavailable ingredient {\"item\":\"minecraft:dried_kelp\"}",
+    "culturaldelights:egg_roll": "Unavailable ingredient {\"item\":\"minecraft:dried_kelp\"}",
+    "culturaldelights:midori_roll": "Unavailable ingredient {\"item\":\"minecraft:dried_kelp\"}",
+    "culturaldelights:mutton_sandwich": "Unavailable ingredient {\"item\":\"minecraft:beetroot\"}",
+    "culturaldelights:rice_ball": "Unavailable ingredient {\"item\":\"minecraft:sweet_berries\"}",
+    "culturaldelights:tropical_roll": "Unavailable ingredient {\"item\":\"minecraft:dried_kelp\"}",
+    "culturaldelights:cutting/avocado_log": "Unavailable output minecraft:stripped_jungle_log",
+    "culturaldelights:cutting/avocado_wood": "Unavailable output minecraft:stripped_jungle_wood",
+    "culturaldelights:cutting/raw_calamari_from_glowsquid": "Unavailable output minecraft:glow_ink_sac"
+  }
+}

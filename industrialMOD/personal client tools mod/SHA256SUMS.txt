@@ -1,0 +1,2 @@
+47a9f029ad6b511b34134fc50bea536e74aa68dc5d9930a65bb09f33ceb21523  PersonalClientTools-1.7.10-1.1.0.jar
+bfbb920f202be1406fa8c2c0ddfe286cbfe3720f18cb49ed27e61ef9703459dc  PersonalClientTools-1.7.10-1.1.0-sources.jar

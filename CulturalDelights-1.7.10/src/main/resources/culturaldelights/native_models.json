@@ -1,0 +1,9895 @@
+{
+  "culturaldelights:block/avocado_bundle": {
+    "parent": "block/cube_column",
+    "textures": {
+      "end": "culturaldelights:block/avocado_bundle_top",
+      "side": "culturaldelights:block/avocado_bundle_side"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_crate": {
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "side": "culturaldelights:block/avocado_crate_side",
+      "bottom": "culturaldelights:block/crate_bottom",
+      "top": "culturaldelights:block/avocado_crate_top"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#bottom",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#top",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_leaf_carpet": {
+    "parent": "minecraft:block/carpet",
+    "textures": {
+      "wool": "culturaldelights:block/avocado_leaves"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          1,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#wool",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#wool",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#wool",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#wool",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#wool",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#wool",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_leaves": {
+    "parent": "minecraft:block/leaves",
+    "textures": {
+      "all": "culturaldelights:block/avocado_leaves"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_log": {
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "culturaldelights:block/avocado_log_top",
+      "side": "culturaldelights:block/avocado_log"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_log_horizontal": {
+    "parent": "minecraft:block/cube_column_horizontal",
+    "textures": {
+      "end": "culturaldelights:block/avocado_log_top",
+      "side": "culturaldelights:block/avocado_log"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_pit": {
+    "credit": "Made with Blockbench",
+    "textures": {
+      "0": "culturaldelights:block/avocado_pit",
+      "particle": "culturaldelights:block/avocado_pit"
+    },
+    "elements": [
+      {
+        "from": [
+          6,
+          0,
+          6
+        ],
+        "to": [
+          10,
+          3,
+          10
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              9,
+              7,
+              13,
+              10
+            ],
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              9,
+              6,
+              13,
+              9
+            ],
+            "texture": "#0"
+          },
+          "south": {
+            "uv": [
+              9,
+              7,
+              13,
+              10
+            ],
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              9,
+              6,
+              13,
+              9
+            ],
+            "texture": "#0"
+          },
+          "up": {
+            "uv": [
+              3,
+              6,
+              7,
+              10
+            ],
+            "texture": "#0"
+          },
+          "down": {
+            "uv": [
+              3,
+              6,
+              7,
+              10
+            ],
+            "texture": "#0"
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_sapling": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/avocado_sapling"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_wood": {
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "culturaldelights:block/avocado_log",
+      "side": "culturaldelights:block/avocado_log"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/avocado_wood_horizontal": {
+    "parent": "minecraft:block/cube_column_horizontal",
+    "textures": {
+      "end": "culturaldelights:block/avocado_log",
+      "side": "culturaldelights:block/avocado_log"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#end",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/bamboo_mat": {
+    "credit": "Made with Blockbench",
+    "textures": {
+      "0": "culturaldelights:block/bamboo_mat",
+      "1": "culturaldelights:block/bamboo_mat_side",
+      "particle": "culturaldelights:block/bamboo_mat"
+    },
+    "elements": [
+      {
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          1,
+          15
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            9,
+            8,
+            9
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              1,
+              15,
+              15
+            ],
+            "rotation": 90,
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              1,
+              15,
+              15,
+              16
+            ],
+            "texture": "#1"
+          },
+          "south": {
+            "uv": [
+              1,
+              1,
+              2,
+              15
+            ],
+            "rotation": 270,
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              1,
+              15,
+              15,
+              16
+            ],
+            "texture": "#1"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "rotation": 90,
+            "texture": "#0"
+          },
+          "down": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "rotation": 270,
+            "texture": "#0"
+          }
+        }
+      }
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          3
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          75,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          2.5,
+          3
+        ],
+        "scale": [
+          0.375,
+          0.375,
+          0.375
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          4.25,
+          0
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "translation": [
+          0,
+          4.25,
+          0
+        ],
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      },
+      "ground": {
+        "translation": [
+          0,
+          3,
+          0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "gui": {
+        "rotation": [
+          30,
+          225,
+          0
+        ],
+        "translation": [
+          0,
+          3.5,
+          0
+        ],
+        "scale": [
+          0.625,
+          0.625,
+          0.625
+        ]
+      },
+      "head": {
+        "translation": [
+          0,
+          14,
+          0
+        ]
+      },
+      "fixed": {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    }
+  },
+  "culturaldelights:block/corn_cob_crate": {
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "side": "culturaldelights:block/corn_cob_crate_side",
+      "bottom": "culturaldelights:block/crate_bottom",
+      "top": "culturaldelights:block/corn_cob_crate_top"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#bottom",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#top",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_stage0": {
+    "parent": "block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_stage0"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_stage1": {
+    "parent": "block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_stage1"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_stage2": {
+    "parent": "block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_stage2"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_stage3": {
+    "parent": "block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_stage3"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_supporting": {
+    "parent": "block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_supporting"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_upper_stage0": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_upper_stage0"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_upper_stage1": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_upper_stage1"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_upper_stage2": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_upper_stage2"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/corn_upper_stage3": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/corn_upper_stage3"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumber_crate": {
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "side": "culturaldelights:block/cucumber_crate_side",
+      "bottom": "culturaldelights:block/crate_bottom",
+      "top": "culturaldelights:block/cucumber_crate_top"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#bottom",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#top",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumbers_stage0": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/cucumbers_stage0"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumbers_stage1": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/cucumbers_stage1"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumbers_stage2": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/cucumbers_stage2"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumbers_stage3": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/cucumbers_stage3"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumbers_stage4": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/cucumbers_stage4"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/cucumbers_stage5": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/cucumbers_stage5"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplant_crate": {
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "side": "culturaldelights:block/eggplant_crate_side",
+      "bottom": "culturaldelights:block/crate_bottom",
+      "top": "culturaldelights:block/eggplant_crate_top"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#bottom",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#top",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplant_parmesan_block_leftover": {
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+      "0": "farmersdelight:block/tray_bottom",
+      "1": "culturaldelights:block/eggplant_parmesan/tray_eggplant_leftover",
+      "particle": "culturaldelights:block/eggplant_parmesan/tray_eggplant_leftover"
+    },
+    "elements": [
+      {
+        "name": "tray",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "south": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "texture": "#1"
+          },
+          "down": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "texture": "#0"
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplant_parmesan_block_stage0": {
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+      "0": "farmersdelight:block/tray_bottom",
+      "1": "culturaldelights:block/eggplant_parmesan/tray_eggplant",
+      "2": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_top",
+      "3": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_sides",
+      "4": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_1",
+      "5": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_2",
+      "6": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_3",
+      "7": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_4",
+      "particle": "culturaldelights:block/eggplant_parmesan/tray_eggplant"
+    },
+    "elements": [
+      {
+        "name": "tray",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "south": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "rotation": 180,
+            "texture": "#1"
+          },
+          "down": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "texture": "#0"
+          }
+        }
+      },
+      {
+        "name": "pasta",
+        "from": [
+          2,
+          2,
+          2
+        ],
+        "to": [
+          14,
+          4,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              2,
+              8,
+              14,
+              10
+            ],
+            "texture": "#3"
+          },
+          "east": {
+            "uv": [
+              2,
+              10,
+              14,
+              12
+            ],
+            "texture": "#3"
+          },
+          "south": {
+            "uv": [
+              2,
+              12,
+              14,
+              14
+            ],
+            "texture": "#3"
+          },
+          "west": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "texture": "#3"
+          },
+          "up": {
+            "uv": [
+              14,
+              14,
+              2,
+              2
+            ],
+            "texture": "#2"
+          }
+        }
+      },
+      {
+        "name": "slice1",
+        "from": [
+          2,
+          4,
+          2
+        ],
+        "to": [
+          8,
+          7,
+          8
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "x",
+          "origin": [
+            6.5,
+            7,
+            3.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#4"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#4"
+          },
+          "south": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#4"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#4"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#4"
+          },
+          "down": {
+            "uv": [
+              5,
+              0,
+              0,
+              6
+            ],
+            "texture": "#4"
+          }
+        }
+      },
+      {
+        "name": "slice2",
+        "from": [
+          8,
+          4,
+          2
+        ],
+        "to": [
+          14,
+          6,
+          8
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "z",
+          "origin": [
+            12.5,
+            6,
+            4.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#5"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#5"
+          },
+          "south": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#5"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#5"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#5"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#5"
+          }
+        }
+      },
+      {
+        "name": "slice3",
+        "from": [
+          8,
+          4,
+          8
+        ],
+        "to": [
+          14,
+          7,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "x",
+          "origin": [
+            12.5,
+            6,
+            10.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#6"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#6"
+          },
+          "south": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#6"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#6"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#6"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#6"
+          }
+        }
+      },
+      {
+        "name": "slice4",
+        "from": [
+          2,
+          4,
+          8
+        ],
+        "to": [
+          8,
+          6,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            4.5,
+            5,
+            11.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "south": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#7"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#7"
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplant_parmesan_block_stage1": {
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+      "0": "farmersdelight:block/tray_bottom",
+      "1": "culturaldelights:block/eggplant_parmesan/tray_eggplant",
+      "2": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_top",
+      "3": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_sides",
+      "5": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_2",
+      "6": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_3",
+      "7": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_4",
+      "8": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_inner",
+      "particle": "culturaldelights:block/eggplant_parmesan/tray_eggplant"
+    },
+    "elements": [
+      {
+        "name": "tray",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "south": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "rotation": 180,
+            "texture": "#1"
+          },
+          "down": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "texture": "#0"
+          }
+        }
+      },
+      {
+        "name": "pasta2",
+        "from": [
+          8,
+          2,
+          2
+        ],
+        "to": [
+          14,
+          4,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              2,
+              8,
+              8,
+              10
+            ],
+            "texture": "#3"
+          },
+          "east": {
+            "uv": [
+              8,
+              10,
+              14,
+              12
+            ],
+            "texture": "#3"
+          },
+          "south": {
+            "uv": [
+              8,
+              12,
+              14,
+              14
+            ],
+            "texture": "#3"
+          },
+          "west": {
+            "uv": [
+              2,
+              14,
+              8,
+              16
+            ],
+            "texture": "#8"
+          },
+          "up": {
+            "uv": [
+              8,
+              14,
+              2,
+              8
+            ],
+            "texture": "#2"
+          }
+        }
+      },
+      {
+        "name": "pasta",
+        "from": [
+          2,
+          2,
+          8
+        ],
+        "to": [
+          14,
+          4,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            5,
+            3,
+            11
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "texture": "#8"
+          },
+          "east": {
+            "uv": [
+              2,
+              10,
+              8,
+              12
+            ],
+            "texture": "#3"
+          },
+          "south": {
+            "uv": [
+              2,
+              12,
+              14,
+              14
+            ],
+            "texture": "#3"
+          },
+          "west": {
+            "uv": [
+              8,
+              14,
+              14,
+              16
+            ],
+            "texture": "#3"
+          },
+          "up": {
+            "uv": [
+              2,
+              2,
+              14,
+              8
+            ],
+            "rotation": 180,
+            "texture": "#2"
+          }
+        }
+      },
+      {
+        "name": "slice2",
+        "from": [
+          8,
+          4,
+          2
+        ],
+        "to": [
+          14,
+          6,
+          8
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            12.5,
+            6,
+            4.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#5"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#5"
+          },
+          "south": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#5"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#5"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#5"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#5"
+          }
+        }
+      },
+      {
+        "name": "slice3",
+        "from": [
+          8,
+          4,
+          8
+        ],
+        "to": [
+          14,
+          7,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            12.5,
+            6,
+            10.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#6"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#6"
+          },
+          "south": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#6"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#6"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#6"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#6"
+          }
+        }
+      },
+      {
+        "name": "slice4",
+        "from": [
+          2,
+          4,
+          8
+        ],
+        "to": [
+          8,
+          6,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            4.5,
+            5,
+            11.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "south": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#7"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#7"
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplant_parmesan_block_stage2": {
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+      "0": "farmersdelight:block/tray_bottom",
+      "1": "culturaldelights:block/eggplant_parmesan/tray_eggplant",
+      "2": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_top",
+      "3": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_sides",
+      "6": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_3",
+      "7": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_4",
+      "8": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_inner",
+      "particle": "culturaldelights:block/eggplant_parmesan/tray_eggplant"
+    },
+    "elements": [
+      {
+        "name": "tray",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "south": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "rotation": 180,
+            "texture": "#1"
+          },
+          "down": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "texture": "#0"
+          }
+        }
+      },
+      {
+        "name": "pasta",
+        "from": [
+          2,
+          2,
+          8
+        ],
+        "to": [
+          14,
+          4,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            5,
+            3,
+            11
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "texture": "#8"
+          },
+          "east": {
+            "uv": [
+              2,
+              10,
+              8,
+              12
+            ],
+            "texture": "#3"
+          },
+          "south": {
+            "uv": [
+              2,
+              12,
+              14,
+              14
+            ],
+            "texture": "#3"
+          },
+          "west": {
+            "uv": [
+              8,
+              14,
+              14,
+              16
+            ],
+            "texture": "#3"
+          },
+          "up": {
+            "uv": [
+              2,
+              2,
+              14,
+              8
+            ],
+            "rotation": 180,
+            "texture": "#2"
+          }
+        }
+      },
+      {
+        "name": "slice3",
+        "from": [
+          8,
+          4,
+          8
+        ],
+        "to": [
+          14,
+          7,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            12.5,
+            6,
+            10.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#6"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#6"
+          },
+          "south": {
+            "uv": [
+              6,
+              3,
+              12,
+              6
+            ],
+            "texture": "#6"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              3
+            ],
+            "texture": "#6"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#6"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#6"
+          }
+        }
+      },
+      {
+        "name": "slice4",
+        "from": [
+          2,
+          4,
+          8
+        ],
+        "to": [
+          8,
+          6,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            4.5,
+            5,
+            11.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "south": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#7"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#7"
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplant_parmesan_block_stage3": {
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+      "0": "farmersdelight:block/tray_bottom",
+      "1": "culturaldelights:block/eggplant_parmesan/tray_eggplant",
+      "2": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_top",
+      "3": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_sides",
+      "7": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_slice_4",
+      "8": "culturaldelights:block/eggplant_parmesan/eggplant_parmesan_pasta_inner",
+      "particle": "culturaldelights:block/eggplant_parmesan/tray_eggplant"
+    },
+    "elements": [
+      {
+        "name": "tray",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "east": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "south": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "west": {
+            "uv": [
+              1,
+              11,
+              15,
+              13
+            ],
+            "texture": "#0"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "rotation": 180,
+            "texture": "#1"
+          },
+          "down": {
+            "uv": [
+              1,
+              1,
+              15,
+              15
+            ],
+            "texture": "#0"
+          }
+        }
+      },
+      {
+        "name": "pasta",
+        "from": [
+          2,
+          2,
+          8
+        ],
+        "to": [
+          8,
+          4,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            5,
+            3,
+            11
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              14,
+              14,
+              16
+            ],
+            "texture": "#8"
+          },
+          "east": {
+            "uv": [
+              2,
+              14,
+              8,
+              16
+            ],
+            "texture": "#8"
+          },
+          "south": {
+            "uv": [
+              2,
+              12,
+              8,
+              14
+            ],
+            "texture": "#3"
+          },
+          "west": {
+            "uv": [
+              8,
+              14,
+              14,
+              16
+            ],
+            "texture": "#3"
+          },
+          "up": {
+            "uv": [
+              8,
+              2,
+              14,
+              8
+            ],
+            "rotation": 180,
+            "texture": "#2"
+          }
+        }
+      },
+      {
+        "name": "slice4",
+        "from": [
+          2,
+          4,
+          8
+        ],
+        "to": [
+          8,
+          6,
+          14
+        ],
+        "rotation": {
+          "angle": 0,
+          "axis": "y",
+          "origin": [
+            4.5,
+            5,
+            11.5
+          ]
+        },
+        "faces": {
+          "north": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "east": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "south": {
+            "uv": [
+              6,
+              2,
+              12,
+              4
+            ],
+            "texture": "#7"
+          },
+          "west": {
+            "uv": [
+              6,
+              0,
+              12,
+              2
+            ],
+            "texture": "#7"
+          },
+          "up": {
+            "uv": [
+              6,
+              6,
+              0,
+              0
+            ],
+            "texture": "#7"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              6,
+              6
+            ],
+            "texture": "#7"
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplants_stage0": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/eggplants_stage0"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplants_stage1": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/eggplants_stage1"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplants_stage2": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/eggplants_stage2"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplants_stage3": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/eggplants_stage3"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplants_stage4": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/eggplants_stage4"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/eggplants_stage5": {
+    "parent": "minecraft:block/crop",
+    "textures": {
+      "crop": "culturaldelights:block/eggplants_stage5"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#crop",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_leftover": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage0": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "kelp_1",
+        "from": [
+          9,
+          3,
+          10
+        ],
+        "to": [
+          12,
+          6,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              4,
+              9,
+              7,
+              12
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "kelp_2",
+        "from": [
+          11,
+          3,
+          7
+        ],
+        "to": [
+          14,
+          6,
+          10
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              4,
+              9,
+              7,
+              12
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "kelp_3",
+        "from": [
+          11,
+          3,
+          3
+        ],
+        "to": [
+          14,
+          6,
+          6
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              4,
+              9,
+              7,
+              12
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_4",
+        "from": [
+          8,
+          3,
+          3
+        ],
+        "to": [
+          10,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_5",
+        "from": [
+          5,
+          3,
+          3
+        ],
+        "to": [
+          7,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_6",
+        "from": [
+          2,
+          3,
+          3
+        ],
+        "to": [
+          4,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage1": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "kelp_2",
+        "from": [
+          11,
+          3,
+          7
+        ],
+        "to": [
+          14,
+          6,
+          10
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              4,
+              9,
+              7,
+              12
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "kelp_3",
+        "from": [
+          11,
+          3,
+          3
+        ],
+        "to": [
+          14,
+          6,
+          6
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              4,
+              9,
+              7,
+              12
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_4",
+        "from": [
+          8,
+          3,
+          3
+        ],
+        "to": [
+          10,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_5",
+        "from": [
+          5,
+          3,
+          3
+        ],
+        "to": [
+          7,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_6",
+        "from": [
+          2,
+          3,
+          3
+        ],
+        "to": [
+          4,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage2": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "kelp_3",
+        "from": [
+          11,
+          3,
+          3
+        ],
+        "to": [
+          14,
+          6,
+          6
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              1,
+              9,
+              4,
+              12
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              4,
+              9,
+              7,
+              12
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_4",
+        "from": [
+          8,
+          3,
+          3
+        ],
+        "to": [
+          10,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_5",
+        "from": [
+          5,
+          3,
+          3
+        ],
+        "to": [
+          7,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_6",
+        "from": [
+          2,
+          3,
+          3
+        ],
+        "to": [
+          4,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage3": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "salmon_4",
+        "from": [
+          8,
+          3,
+          3
+        ],
+        "to": [
+          10,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_5",
+        "from": [
+          5,
+          3,
+          3
+        ],
+        "to": [
+          7,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_6",
+        "from": [
+          2,
+          3,
+          3
+        ],
+        "to": [
+          4,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage4": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "salmon_5",
+        "from": [
+          5,
+          3,
+          3
+        ],
+        "to": [
+          7,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "salmon_6",
+        "from": [
+          2,
+          3,
+          3
+        ],
+        "to": [
+          4,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage5": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "salmon_6",
+        "from": [
+          2,
+          3,
+          3
+        ],
+        "to": [
+          4,
+          5,
+          8
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              1,
+              6,
+              3,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              3,
+              1,
+              8,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              1,
+              1,
+              3,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage6": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "cod_7",
+        "from": [
+          6,
+          3,
+          8
+        ],
+        "to": [
+          8,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/exotic_roll_medley_block_stage7": {
+    "format_version": "1.9.0",
+    "parent": "block/block",
+    "textures": {
+      "rolls": "culturaldelights:block/exotic_roll_medley",
+      "particle": "farmersdelight:block/platter",
+      "platter": "farmersdelight:block/platter"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              14,
+              0,
+              16,
+              12
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              12,
+              14,
+              14
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              14,
+              12,
+              16,
+              0
+            ],
+            "rotation": 90,
+            "texture": "#platter"
+          },
+          "up": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              0,
+              0,
+              14,
+              12
+            ],
+            "texture": "#platter"
+          }
+        }
+      },
+      {
+        "name": "east_support",
+        "from": [
+          11,
+          0,
+          2
+        ],
+        "to": [
+          13,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "west_support",
+        "from": [
+          3,
+          0,
+          2
+        ],
+        "to": [
+          5,
+          1,
+          14
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              14,
+              15,
+              16,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "east": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "south": {
+            "uv": [
+              0,
+              15,
+              2,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "west": {
+            "uv": [
+              2,
+              15,
+              14,
+              16
+            ],
+            "texture": "#platter"
+          },
+          "down": {
+            "uv": [
+              2,
+              14,
+              14,
+              16
+            ],
+            "rotation": 90,
+            "texture": "#platter",
+            "cullface": "down"
+          }
+        }
+      },
+      {
+        "name": "cod_8",
+        "from": [
+          3,
+          3,
+          8
+        ],
+        "to": [
+          5,
+          5,
+          13
+        ],
+        "faces": {
+          "north": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "east": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "south": {
+            "uv": [
+              8,
+              6,
+              10,
+              8
+            ],
+            "texture": "#rolls"
+          },
+          "west": {
+            "uv": [
+              10,
+              1,
+              15,
+              3
+            ],
+            "texture": "#rolls"
+          },
+          "up": {
+            "uv": [
+              8,
+              1,
+              10,
+              6
+            ],
+            "texture": "#rolls"
+          }
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "platter",
+        "origin": [
+          1,
+          1,
+          1
+        ],
+        "color": 0,
+        "children": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "rolls",
+        "origin": [
+          10,
+          1,
+          10
+        ],
+        "color": 0,
+        "children": [
+          3
+        ]
+      }
+    ]
+  },
+  "culturaldelights:block/fruiting_avocado_leaves_0": {
+    "parent": "minecraft:block/leaves",
+    "textures": {
+      "all": "culturaldelights:block/fruiting_avocado_leaves_0"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/fruiting_avocado_leaves_1": {
+    "parent": "minecraft:block/leaves",
+    "textures": {
+      "all": "culturaldelights:block/fruiting_avocado_leaves_1"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/fruiting_avocado_leaves_2": {
+    "parent": "minecraft:block/leaves",
+    "textures": {
+      "all": "culturaldelights:block/fruiting_avocado_leaves_2"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/fruiting_avocado_leaves_3": {
+    "parent": "minecraft:block/leaves",
+    "textures": {
+      "all": "culturaldelights:block/fruiting_avocado_leaves_3"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/fruiting_avocado_leaves_4": {
+    "parent": "minecraft:block/leaves",
+    "textures": {
+      "all": "culturaldelights:block/fruiting_avocado_leaves_4"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#all",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/pickle_crate": {
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "side": "culturaldelights:block/pickle_crate_side",
+      "bottom": "culturaldelights:block/crate_bottom",
+      "top": "culturaldelights:block/pickle_crate_top"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#bottom",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#top",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/potted_avocado_sapling": {
+    "parent": "minecraft:block/flower_pot_cross",
+    "textures": {
+      "plant": "culturaldelights:block/avocado_sapling",
+      "pot": "minecraft:block/flower_pot",
+      "dirt": "minecraft:block/dirt"
+    },
+    "render_type": "cutout",
+    "elements": [
+      {
+        "from": [
+          5,
+          0,
+          5
+        ],
+        "to": [
+          11,
+          6,
+          11
+        ],
+        "faces": {
+          "down": {
+            "texture": "#pot",
+            "uv": [
+              5,
+              10,
+              11,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#dirt",
+            "uv": [
+              5,
+              10,
+              11,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#pot",
+            "uv": [
+              5,
+              10,
+              11,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#pot",
+            "uv": [
+              5,
+              10,
+              11,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#pot",
+            "uv": [
+              5,
+              10,
+              11,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#pot",
+            "uv": [
+              5,
+              10,
+              11,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          2,
+          6,
+          8
+        ],
+        "to": [
+          14,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#plant",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#plant",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          2,
+          6,
+          8
+        ],
+        "to": [
+          14,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#plant",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#plant",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/white_eggplant_crate": {
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "side": "culturaldelights:block/white_eggplant_crate_side",
+      "bottom": "culturaldelights:block/crate_bottom",
+      "top": "culturaldelights:block/white_eggplant_crate_top"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "faces": {
+          "down": {
+            "texture": "#bottom",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#top",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "north": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#side",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/wild_corn": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/wild_corn"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/wild_cucumbers": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/wild_cucumbers"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "culturaldelights:block/wild_eggplants": {
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "culturaldelights:block/wild_eggplants"
+    },
+    "elements": [
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": -45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          0,
+          0,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          8
+        ],
+        "rotation": {
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "axis": "y",
+          "angle": 45
+        },
+        "faces": {
+          "north": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#cross",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

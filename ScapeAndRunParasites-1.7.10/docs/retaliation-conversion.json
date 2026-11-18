@@ -1,0 +1,514 @@
+{
+  "imports": [
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/EntityAIDodAttack.java",
+      "import": "EntityAITarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/EntityAIFlightAttack.java",
+      "import": "EntityAITarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/abomination/EntityAboBodies.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/abomination/EntityAboHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityBanoAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityCanraAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityEmanaAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityGimAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityHullAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityIkiAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityLumAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityNoglaAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityRanracAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityShycoAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityWymoAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityZaaAdapted.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/ancient/EntityDharma.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/ancient/EntityOronco.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/ancient/EntityTerla.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/awakened/EntityOroncoAW.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityCruxA.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityDone.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityHeed.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityHost.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityHostII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityInhooM.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityInhooS.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityLeer.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityMes.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityQuac.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/derived/EntityHeblu.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/derived/EntityKirin.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/EntityNak.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/EntityTonro.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/EntityUnvo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerBear.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerCow.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerEnderman.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerHorse.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerHuman.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerPig.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerSheep.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerVillager.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/feral/EntityFerWolf.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/focused/EntityBanoFocused.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/focused/EntityShycoFocused.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/hijacked/EntityHiBlaze.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/hijacked/EntityHiGolem.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/hijacked/EntityHiSkeleton.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityAta.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityButhol.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityGothol.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityKol.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityLodo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityMudo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityNuuh.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityRathol.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityViin.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityDorpa.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfBear.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfCow.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfDragonE.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfEnderman.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfHorse.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfHuman.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfPig.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfPlayer.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfSheep.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfSquid.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfVillager.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/EntityInfWolf.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityBano.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityCanra.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityEmana.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityGim.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityHull.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityIki.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityLum.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityNogla.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityRanrac.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityShyco.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityWymo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityZaa.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityAlafha.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityAnged.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityEsor.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityFlog.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityGanro.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityOmboo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityOrch.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityRond.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntitySoo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityDod.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityDodSII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityDodSIII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityDodSIV.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityLeem.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityLeemSII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityLeemSIII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityLeemSIV.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityVenkrol.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityVenkrolSII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityVenkrolSIII.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityVenkrolSIV.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/nexus/EntityVenkrolSV.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfCowHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfDragonEHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfEndermanHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfHorseHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfHumanHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfPigHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfPlayerHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfSheepHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfVillagerHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/head/EntityInfWolfHead.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/special/EntitySpeBear.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/special/EntitySpeCow.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/special/EntitySpeEnderman.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/special/EntitySpeHuman.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/special/EntitySpeSheep.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/infected/special/EntitySpeVillager.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityElvia.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityJinjo.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityLencia.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityPheon.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityTenn.java",
+      "import": "EntityAIHurtByTarget"
+    },
+    {
+      "file": "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityVesta.java",
+      "import": "EntityAIHurtByTarget"
+    }
+  ],
+  "sourceUnits": 127,
+  "constructorCallSites": 125
+}

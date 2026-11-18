@@ -1,0 +1,9 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\registry-tests\\20261115-100739\\run",
+  "logs": [
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\registry-tests\\20261115-100739\\initial.log",
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\registry-tests\\20261115-100739\\restart.log"
+  ],
+  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\registry-tests\\20261115-100739\\run\\mods\\srp-registry-checks.jar",
+  "installed": false
+}

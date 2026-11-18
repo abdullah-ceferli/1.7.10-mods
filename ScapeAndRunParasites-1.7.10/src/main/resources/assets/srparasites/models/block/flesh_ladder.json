@@ -1,0 +1,6 @@
+{
+  "parent": "block/ladder",
+  "textures": {
+    "texture": "srparasites:blocks/flesh_ladder"
+  }
+}

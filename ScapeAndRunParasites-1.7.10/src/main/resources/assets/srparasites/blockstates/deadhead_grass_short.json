@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "texture=0": { "model": "srparasites:deadhead_grass_short1" },
+    "texture=1": { "model": "srparasites:deadhead_grass_short2" },
+    "texture=2": { "model": "srparasites:deadhead_grass_short3" },
+    "texture=3": { "model": "srparasites:deadhead_grass_short4" },
+    "texture=4": { "model": "srparasites:deadhead_grass_short5" }
+  }
+}

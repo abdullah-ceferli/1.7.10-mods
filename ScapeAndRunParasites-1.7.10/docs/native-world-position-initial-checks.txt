@@ -1,0 +1,7 @@
+PASS: Converted world calls preserve nested evaluation, chunk/world height overloads, state methods, comments and literals
+PASS: Loaded checks never provide a missing server chunk and preserve original vertical/reversed-area behavior
+PASS: Modern top-surface scan includes y=0, skips Forge leaves/foliage and liquids, and returns -1 for empty columns
+PASS: Native Forge air, solidity, light, precipitation and tile-entity hooks retain coordinates
+PASS: Modern explosion sampling uses centered horizontal samples against real native collision geometry
+PASS: Scheduled position updates reach the native block tick callback
+Failed: 0

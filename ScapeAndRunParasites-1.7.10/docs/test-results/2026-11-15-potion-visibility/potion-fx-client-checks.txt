@@ -1,0 +1,7 @@
+PASS: Actual native spawn/tracker packets deliver filtered color while both gameplay effects exist on a distinct client entity
+PASS: A plain native weaker application resets visibility and synchronizes the real mixed color
+PASS: A hidden reapplication synchronizes the filtered color again without removing either effect
+PASS: Removing the visible effect leaves zero synced color for the still-active hidden effect, with no unfiltered-color tick
+PASS: Leaving native tracking range removes the client entity
+PASS: Tracker re-entry creates a fresh native client entity with the hidden effect and zero particle color
+Failed: 0

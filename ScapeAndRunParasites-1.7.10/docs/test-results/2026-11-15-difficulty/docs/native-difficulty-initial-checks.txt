@@ -1,0 +1,5 @@
+PASS: Native global difficulty, day-time and all eight provider moon phases feed local difficulty
+PASS: Unloaded server chunk is not generated and contributes zero inhabited time and moon factor
+PASS: Entity position helper selects the native negative-coordinate chunk
+PASS: Native and explicit modern spawn initialization dispatch once and retain group data
+Failed: 0

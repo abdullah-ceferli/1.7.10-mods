@@ -1,0 +1,15 @@
+PASS: Original bytecode and port: revenge timer gates execution; start sets target and mutex bits; reset cannot replay old hurt
+PASS: Original bytecode and port: initial targeting requires sight, attack eligibility and home distance, with direct floor-Y coordinates
+PASS: Original bytecode and port: unseen attacker persists exactly 300 ticks, and sight refreshes that memory
+PASS: Original bytecode and port: fallback target is restored, while dead or out-of-range targets terminate continuation
+PASS: Original bytecode and port: teams reject initial targets, continuation and friendly helper recruitment
+PASS: Original bytecode and port: help toggle preserves ordinary allies, busy allies and other-species selection
+PASS: Original bytecode and port: helper exclusions match exact runtime classes and do not reject the attacker or subclasses
+PASS: Original bytecode and port: helper search retains full follow range, ten vertical blocks and the one-block origin box
+PASS: Original bytecode and port: tamed helpers require the same resolved owner object, including unresolved owners
+PASS: Original bytecode and port: static suitability rejects own owner, shared owner UUID, self, null and dead candidates
+PASS: Original bytecode and port: player invulnerability is honored and continuation stops when a player becomes invulnerable
+PASS: Original bytecode and port: nearby path reachability rejects null paths/endpoints and retains its retry cache
+PASS: Original bytecode and port: nearby endpoint tolerance, custom unseen memory and reset match the original base goal
+PASS: Original bytecode and port: native task scheduler selects the revenge goal and assigns its target
+Failed: 0

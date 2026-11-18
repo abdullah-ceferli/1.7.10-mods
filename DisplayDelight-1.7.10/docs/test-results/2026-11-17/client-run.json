@@ -1,0 +1,8 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\DisplayDelight-1.7.10\\.toolchain\\tests\\20261117-184909\\run",
+  "testJar": "D:\\IndustrialTechnology\\DisplayDelight-1.7.10\\build\\libs\\displaydelight-1.7.10-tests.jar",
+  "phases": [
+    "client"
+  ],
+  "installedIntoUserGame": false
+}

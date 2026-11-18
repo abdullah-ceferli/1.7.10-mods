@@ -1,0 +1,3 @@
+PASS: Real client chunks preserve original allow-empty placeholders, strict area checks and unchanged loaded-chunk count
+PASS: Actual integrated server rejects the same unloaded client placeholder and never forces its chunk
+Failed: 0

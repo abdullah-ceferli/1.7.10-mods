@@ -1,0 +1,5 @@
+PASS: all 432 original custom sound IDs use native 1.7.10 string identifiers
+PASS: 7 originally uninitialized sound fields preserved without invented IDs
+PASS: actual 1.7.10 playSound and ambient/hurt/death callback signatures
+PASS: actual 1.7.10 styled clickable text survives JSON serialization
+Failed: 0

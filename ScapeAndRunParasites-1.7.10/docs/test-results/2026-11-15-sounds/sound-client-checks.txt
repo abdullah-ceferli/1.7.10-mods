@@ -1,0 +1,13 @@
+PASS: All 206 original audio clips and sound registry load through the real client resource manager with exact hashes
+PASS: All 104 imported events have their original weighted pools and resolve to real source clips
+PASS: All ten per-playback categories resolve independently without changing the underlying event
+PASS: UI, music and record factories retain original category, pitch, volume and attenuation
+PASS: Production transformed SoundManager preserves modern float normalization across 10,000 cases and ordinary native behavior
+PASS: Client exclusion overload plays exactly once for the owning player and suppresses a null origin
+PASS: Distance-delayed playback enters the actual native sound scheduler
+PASS: Real server sound and direct FML packets arrive exactly once on the client thread, excluding origin and out-of-range players
+PASS: Native Entity.playSound callbacks route SRP sounds through the category-aware network
+PASS: Original downloaded clips decode and play on actual OpenAL sources
+PASS: Changing music volume updates its live native audio source while the hostile instance keeps its own volume
+PASS: Resource reload rebuilds aliases against fresh pools and original SRP custom sounds remain available
+Failed: 0

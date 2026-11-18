@@ -1,0 +1,18 @@
+{
+  "nativeSourceJar": "D:\\IndustrialTechnology\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar",
+  "nativeSourceSha256": "d5a9e043ee779ab0afbd120dfc97be8153212269bd65d13568b188f8ecb48ebc",
+  "compileJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\compile-access\\forgeSrc-access.jar",
+  "compileJarSha256": "38b0888f3404f3c438299abfb166040d423cb1c615cda19f0184d883245bd973",
+  "runtimeRulesSha256": "a824ac6ddfff12939efa0ded367ebf8b1d084db89c8cfe672950a1d524fa2dcd",
+  "developmentRulesSha256": "95c287cfb1452fbf3abb23bff4d27776425e835ff17ed6f69704e4744b69b108",
+  "changedEntries": [
+    "net/minecraft/client/gui/GuiSlot.class",
+    "net/minecraft/entity/ai/EntityMoveHelper.class",
+    "net/minecraft/entity/EntityLiving.class",
+    "net/minecraft/potion/Potion.class"
+  ],
+  "finalFlagsPreservedExcept": [
+    "net.minecraft.potion.Potion.potionTypes"
+  ],
+  "sharedCacheModified": false
+}

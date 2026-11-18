@@ -1,0 +1,537 @@
+{
+  "sourceUnitsCompared": 132,
+  "originalLiteralTokensPreserved": true,
+  "originalConstructionSequencePreserved": true,
+  "duplicateIdenticalCheckpointEntries": 2,
+  "files": {
+    "src/main/java/com/dhanantry/scapeandrunparasites/init/SRPBlocks.java": {
+      "literalTokens": 369,
+      "constructorCalls": 302
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/init/SRPItems.java": {
+      "literalTokens": 262,
+      "constructorCalls": 241
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/proxy/CommonProxy.java": {
+      "literalTokens": 6,
+      "constructorCalls": 47
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/bestiary/blocks/BlockBestiaryEntry.java": {
+      "literalTokens": 0,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/bestiary/blocks/BlockDiscoveryHandler.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/bestiary/blocks/SRPBlockCompendiumRegistry.java": {
+      "literalTokens": 52,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockAlveoli.java": {
+      "literalTokens": 4,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockAlveoliGrowth.java": {
+      "literalTokens": 2,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockAshenGlass.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockAssimilatedPumpkin.java": {
+      "literalTokens": 1,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockAssimilatedReed.java": {
+      "literalTokens": 6,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockBase.java": {
+      "literalTokens": 1,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockBiomassBlock.java": {
+      "literalTokens": 3,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockBushBase.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockDeadheadGrassShort.java": {
+      "literalTokens": 5,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockDeadheadGrassTall.java": {
+      "literalTokens": 5,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockDeadheadLeaves.java": {
+      "literalTokens": 6,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockEntityTrophy.java": {
+      "literalTokens": 1,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockEpitomeInfestationWarpDiffuser.java": {
+      "literalTokens": 7,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockFallingBase.java": {
+      "literalTokens": 1,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockFluid.java": {
+      "literalTokens": 1,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockFogNullifier.java": {
+      "literalTokens": 4,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockGlassBase.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockGore.java": {
+      "literalTokens": 3,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockGothshroom.java": {
+      "literalTokens": 5,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockHairFolliclePillar.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockHarleskinnFence.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockHarleskinnSlab.java": {
+      "literalTokens": 6,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockHarleskinnStairs.java": {
+      "literalTokens": 1,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockHirsuteHair.java": {
+      "literalTokens": 2,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockInfestedBush.java": {
+      "literalTokens": 40,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockInfestedColumn.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockInfestedFurnace.java": {
+      "literalTokens": 20,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockInfestedRemain.java": {
+      "literalTokens": 8,
+      "constructorCalls": 7
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockInfestedTrunk.java": {
+      "literalTokens": 2,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockInfuserFurnace.java": {
+      "literalTokens": 1,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockLeafLike.java": {
+      "literalTokens": 3,
+      "constructorCalls": 7
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockLipomaMass.java": {
+      "literalTokens": 2,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockNodeRelay.java": {
+      "literalTokens": 3,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteBush.java": {
+      "literalTokens": 52,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteCactus.java": {
+      "literalTokens": 3,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteCanisterC.java": {
+      "literalTokens": 1,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteFog.java": {
+      "literalTokens": 2,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteSapling.java": {
+      "literalTokens": 4,
+      "constructorCalls": 18
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteThin.java": {
+      "literalTokens": 8,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockParasiteTrunk.java": {
+      "literalTokens": 3,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockPottedSRPFlower.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockRelay.java": {
+      "literalTokens": 4,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockRelayController.java": {
+      "literalTokens": 4,
+      "constructorCalls": 9
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSRPBookshelf.java": {
+      "literalTokens": 2,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSRPButton.java": {
+      "literalTokens": 2,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSRPFlower.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSRPLadder.java": {
+      "literalTokens": 2,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSRPPressurePlate.java": {
+      "literalTokens": 2,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSRPWorkbench.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSnowCoveredGrass.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockSnowGrass.java": {
+      "literalTokens": 2,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockStairBase.java": {
+      "literalTokens": 4,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockThornshade.java": {
+      "literalTokens": 14,
+      "constructorCalls": 10
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockTressesHair.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockVineBase.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockWallBase.java": {
+      "literalTokens": 3,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/BlockWebBase.java": {
+      "literalTokens": 2,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/PurifyMappings.java": {
+      "literalTokens": 103,
+      "constructorCalls": 11
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/SRPDoor.java": {
+      "literalTokens": 3,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/SRPGlassPane.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/SRPTrapDoor.java": {
+      "literalTokens": 4,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/TileEntityParasiteBarrier.java": {
+      "literalTokens": 10,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/slabs/BlockSlabBase.java": {
+      "literalTokens": 1,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/slabs/BlockSlabRubble.java": {
+      "literalTokens": 4,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/block/slabs/BlockSlabStain.java": {
+      "literalTokens": 4,
+      "constructorCalls": 7
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/client/DeadBloodFogHandler.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/EntityAIBlockLight.java": {
+      "literalTokens": 1,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/misc/EntityPMalleable.java": {
+      "literalTokens": 22,
+      "constructorCalls": 21
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/misc/EntityPStationary.java": {
+      "literalTokens": 8,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/misc/EntityParasiteBase.java": {
+      "literalTokens": 92,
+      "constructorCalls": 45
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/EntityWaveShock.java": {
+      "literalTokens": 1,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/adapted/EntityLumAdapted.java": {
+      "literalTokens": 1,
+      "constructorCalls": 9
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityCruxA.java": {
+      "literalTokens": 6,
+      "constructorCalls": 14
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityLum.java": {
+      "literalTokens": 1,
+      "constructorCalls": 9
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/EntityOrch.java": {
+      "literalTokens": 1,
+      "constructorCalls": 11
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityFlam.java": {
+      "literalTokens": 1,
+      "constructorCalls": 14
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/pure/preeminent/EntityPheon.java": {
+      "literalTokens": 1,
+      "constructorCalls": 13
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/projectile/EntityProjectileHebluLight.java": {
+      "literalTokens": 24,
+      "constructorCalls": 17
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/tile/TileEntityCanister.java": {
+      "literalTokens": 6,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/events/FishingHooksSRP.java": {
+      "literalTokens": 2,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/init/SRPEntities.java": {
+      "literalTokens": 176,
+      "constructorCalls": 7
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemAdvancementIcon.java": {
+      "literalTokens": 1,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemAlveolarFluid.java": {
+      "literalTokens": 1,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemAlveoli.java": {
+      "literalTokens": 3,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBase.java": {
+      "literalTokens": 2,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBaseNoTooltip.java": {
+      "literalTokens": 2,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBeholderPearl.java": {
+      "literalTokens": 18,
+      "constructorCalls": 7
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBlockWithTooltip.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBookOfVengeance.java": {
+      "literalTokens": 9,
+      "constructorCalls": 9
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemCompass.java": {
+      "literalTokens": 2,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemDeadBlood.java": {
+      "literalTokens": 1,
+      "constructorCalls": 3
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemDiscRecord.java": {
+      "literalTokens": 1,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemFalseApple.java": {
+      "literalTokens": 4,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemFishlin.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemInfestedBonemeal.java": {
+      "literalTokens": 96,
+      "constructorCalls": 25
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemMobilityArmor.java": {
+      "literalTokens": 3,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemModule.java": {
+      "literalTokens": 5,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemSRPFieldGuide.java": {
+      "literalTokens": 4,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemShrimp.java": {
+      "literalTokens": 4,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemThrowable.java": {
+      "literalTokens": 2,
+      "constructorCalls": 2
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemVectorMapReport.java": {
+      "literalTokens": 14,
+      "constructorCalls": 4
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemVenkrolBoots.java": {
+      "literalTokens": 6,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/SRPArmorSetBase.java": {
+      "literalTokens": 43,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/hijacked/ItemHijackedIronAxe.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/hijacked/ItemHijackedIronHoe.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/hijacked/ItemHijackedIronPickaxe.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/hijacked/ItemHijackedIronShovel.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/hijacked/ItemHijackedIronSword.java": {
+      "literalTokens": 3,
+      "constructorCalls": 0
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/tool/WeaponMeleeMaul.java": {
+      "literalTokens": 19,
+      "constructorCalls": 12
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/tool/WeaponToolArmorBase.java": {
+      "literalTokens": 19,
+      "constructorCalls": 10
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/tool/WeaponToolMeleeBase.java": {
+      "literalTokens": 15,
+      "constructorCalls": 8
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/tool/WeaponToolRangeBase.java": {
+      "literalTokens": 8,
+      "constructorCalls": 10
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/network/CommandHarlequinScatter.java": {
+      "literalTokens": 36,
+      "constructorCalls": 7
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/proxy/ClientProxy.java": {
+      "literalTokens": 18,
+      "constructorCalls": 11
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/tileentity/TileEntityParasiteLoot.java": {
+      "literalTokens": 3,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/util/ParasiteEventWorld.java": {
+      "literalTokens": 8,
+      "constructorCalls": 6
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/util/convert/BeckonBlockInfestation.java": {
+      "literalTokens": 33,
+      "constructorCalls": 11
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/util/handlers/HebluDebugAttackHandler.java": {
+      "literalTokens": 4,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/util/handlers/KirinDebugAttackHandler.java": {
+      "literalTokens": 4,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/util/handlers/SRPEventHandlerBus.java": {
+      "literalTokens": 57,
+      "constructorCalls": 64
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/util/handlers/SRPRegisterModels.java": {
+      "literalTokens": 45,
+      "constructorCalls": 14
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/world/SRPExplosion.java": {
+      "literalTokens": 1,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/world/SRPWorldEntitySpawner.java": {
+      "literalTokens": 120,
+      "constructorCalls": 15
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/world/biome/BiomeParasiteBase.java": {
+      "literalTokens": 35,
+      "constructorCalls": 1
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/world/gen/HarlequinRockBushGen.java": {
+      "literalTokens": 14,
+      "constructorCalls": 5
+    },
+    "src/main/java/com/dhanantry/scapeandrunparasites/world/gen/feature/WorldGenParasiteMeteorCrash.java": {
+      "literalTokens": 10,
+      "constructorCalls": 6
+    }
+  },
+  "fullModCompiles": false
+}

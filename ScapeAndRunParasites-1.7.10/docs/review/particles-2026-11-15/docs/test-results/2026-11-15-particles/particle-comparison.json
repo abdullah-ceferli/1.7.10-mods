@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-15",
+  "beforeDiagnostics": 6683,
+  "afterDiagnostics": 6448,
+  "diagnosticsReduction": 235,
+  "beforeEntityDiagnostics": 2285,
+  "afterEntityDiagnostics": 2099,
+  "beforeBaseEntityDiagnostics": 98,
+  "afterBaseEntityDiagnostics": 92,
+  "backportDiagnostics": 0,
+  "javaSourceUnits": 1155,
+  "backportSourceUnits": 61,
+  "compilerExitCode": 4,
+  "countIsExhaustive": false,
+  "catalogEntriesComparedToOriginal": 49,
+  "originalHandlerExpansionCasesPassed": 2450,
+  "originalRegisteredParticleFactoriesVerified": 48,
+  "newEffectRenderChecks": 10,
+  "nativePassRecords": {
+    "particle-reference-checks.txt": 2,
+    "particle-transformer-checks.txt": 3,
+    "native-particle-initial-checks.txt": 5,
+    "particle-client-checks.txt": 8
+  },
+  "distinctNewBoundaries": 18,
+  "sourceHashesVerified": 1155,
+  "migration": {
+    "convertedParticleCalls": 119,
+    "convertedAlwaysVisibleCalls": 5,
+    "totalConvertedCalls": 124,
+    "callingSourceFiles": 54,
+    "enumImportSourceFiles": 81,
+    "byArgumentCount": {
+      "8": 73,
+      "10": 39,
+      "11": 7
+    },
+    "postMigrationAuditsEmpty": true
+  },
+  "playable": false
+}

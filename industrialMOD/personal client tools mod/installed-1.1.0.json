@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-09",
+  "installed_jar": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\PersonalClientTools-1.7.10-1.1.0.jar",
+  "sha256": "47a9f029ad6b511b34134fc50bea536e74aa68dc5d9930a65bb09f33ceb21523",
+  "combined_features": [
+    "Block Line Counter",
+    "Control Presets"
+  ],
+  "separate_jars_removed_from_mods": true,
+  "existing_settings_unchanged": true
+}

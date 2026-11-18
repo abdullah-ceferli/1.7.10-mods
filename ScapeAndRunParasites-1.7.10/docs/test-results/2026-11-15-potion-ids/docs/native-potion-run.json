@@ -1,0 +1,10 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\potion-tests\\20261115-172428\\run",
+  "logs": [
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\potion-tests\\20261115-172428\\initial.log",
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\potion-tests\\20261115-172428\\restart.log",
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\potion-tests\\20261115-172428\\conflict.log"
+  ],
+  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\potion-tests\\20261115-172428\\run\\mods\\srp-potion-checks.jar",
+  "installed": false
+}

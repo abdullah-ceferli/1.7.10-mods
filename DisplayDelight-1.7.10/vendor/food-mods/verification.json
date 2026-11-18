@@ -1,0 +1,7 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\DisplayDelight-1.7.10\\.toolchain\\food-install\\20261117-190332\\run",
+  "log": "D:\\IndustrialTechnology\\DisplayDelight-1.7.10\\.toolchain\\food-install\\20261117-190332\\server.log",
+  "report": "PASS: Farmer's Delight Classic 1.1.1 and UniMixins initialize with native Display Delight\nPASS: Display Delight resolves 49 real food links; beef stew uses the installed Farmer's Delight item\nPASS: Placed stew display returns the actual edible Farmer's Delight item\nFailed: 0\n",
+  "userWorldOpened": false,
+  "fullExistingModpackTested": false
+}

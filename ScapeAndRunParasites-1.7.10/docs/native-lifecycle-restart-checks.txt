@@ -1,0 +1,2 @@
+PASS: A new dedicated-server process reconstructs goals once and runs them after loading saved NBT
+Failed: 0

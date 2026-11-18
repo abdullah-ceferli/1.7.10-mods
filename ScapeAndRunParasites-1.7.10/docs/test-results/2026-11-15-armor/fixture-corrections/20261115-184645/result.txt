@@ -1,0 +1,12 @@
+PASS: Native watched attributes register before subclass setup and NBT on SRP mobs, players and vanilla living entities
+PASS: Native damageEntity and public attack dispatch use modern armor once with preserved armor-wear callback
+FAIL: Runtime armor and toughness changes affect subsequent native damage rather than storing unused numbers :: java.lang.AssertionError: Toughness had no effect
+PASS: Armor-bypassing damage skips reduction and wear and Forge hurt adjustments/cancellation remain upstream
+PASS: Native equipment contributes exactly once through transient slot modifiers including diamond toughness and removal
+PASS: Explicit item armor/toughness modifiers pass through native equipment updates without additive fallback duplication
+PASS: Victim base-stat queries retain native zombie/wither intrinsic armor and exclude equipped armor
+PASS: Native player ISpecialArmor remains active and native vanilla mob damage is not silently modernized
+PASS: Native entity NBT retains named bases and saved modifiers while equipment modifiers are rebuilt once
+PASS: Armor registration composes with production potion application hooks on the same native entity class
+PASS: Armor names, equipment and modifiers are saved for a genuine second-JVM reload
+Failed: 1

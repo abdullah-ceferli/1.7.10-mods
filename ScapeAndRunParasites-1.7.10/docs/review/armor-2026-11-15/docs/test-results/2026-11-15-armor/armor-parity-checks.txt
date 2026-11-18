@@ -1,0 +1,2 @@
+PASS: Supplied armor formula matches original 1.12.2 CombatRules bytecode bit-for-bit across 30432 boundary/random cases
+Failed: 0

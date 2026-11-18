@@ -1,0 +1,9 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\movement-tests\\20261115-232428\\run",
+  "logs": [
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\movement-tests\\20261115-232428\\initial.log",
+    "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\movement-tests\\20261115-232428\\restart.log"
+  ],
+  "testJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\movement-tests\\20261115-232428\\run\\mods\\srp-movement-checks.jar",
+  "installed": false
+}

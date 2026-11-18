@@ -1,0 +1,8 @@
+{
+  "oldProductionVersion": "1.5.1-backport.2",
+  "regressionFixtureSha256": "8924182a7aeafcf60538926a900270434672988d68bddabfa61d68d9e3ef8661",
+  "result": "FAIL: stage 3 :: java.lang.AssertionError: A normal world right-click did not open the pot",
+  "cause": "Client Forge event canceled before Minecraft could send C08PacketPlayerBlockPlacement",
+  "fix": "Intercept server-side only; preserve client event, protection denials and sneak use",
+  "userWorldOpened": false
+}

@@ -1,0 +1,12 @@
+{
+  "convertedConstructors": 294,
+  "sourceFiles": 102,
+  "byArgumentCount": {
+    "5": 217,
+    "3": 42,
+    "2": 35
+  },
+  "fiveArgumentHidden": 165,
+  "fiveArgumentVisible": 51,
+  "fiveArgumentDynamic": 1
+}

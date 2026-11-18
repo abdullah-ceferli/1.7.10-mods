@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-09",
+  "version": "1.0.0",
+  "installed_jar": "D:\\programs\\Maincraft\\Minecraft\\game\\mods\\TrueHorror-1.7.10-1.0.0.jar",
+  "sha256": "46d8cc407e735a72a7784848e01f4a6cce4381864726313a8e1e03bf7e55d4a9",
+  "unit_tests": 18,
+  "full_modpack_passed": true,
+  "dedicated_two_clients_passed": true,
+  "all_30_events_tested": true,
+  "no_extra_chunks_navigation_tested": true,
+  "main_save_opened": false,
+  "existing_skin_and_tools_jars_unchanged": true
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "event": "footsteps",
+    "duration_seconds": 2.8,
+    "style": "steps",
+    "peak": 0.48000000000000004,
+    "rms": 0.04291508492145067,
+    "sha256": "8091ea9211f1087bdb79ac8deace67f3ab677bde76bac5729a1655f5c6990761"
+  },
+  {
+    "event": "running",
+    "duration_seconds": 2.5,
+    "style": "steps",
+    "peak": 0.48,
+    "rms": 0.04609564383978683,
+    "sha256": "3fc8421a21472d9cc9923b87035dc7c944b64d75d39f3d7b20114e53343597fd"
+  },
+  {
+    "event": "branches",
+    "duration_seconds": 1.6,
+    "style": "snap",
+    "peak": 0.48,
+    "rms": 0.02529007378490889,
+    "sha256": "ae0e7ef3e4865306a6cacc935d40f8ea00d6abdb4bfa36a428fed4d0bf297c1b"
+  },
+  {
+    "event": "breathing",
+    "duration_seconds": 4.2,
+    "style": "breath",
+    "peak": 0.48,
+    "rms": 0.101399684456981,
+    "sha256": "738e6ee7faf1f17702d0994131c0286d199a73e8d14caa1ed7932e061bd3279f"
+  },
+  {
+    "event": "whispers",
+    "duration_seconds": 4.5,
+    "style": "whisper",
+    "peak": 0.48000000000000004,
+    "rms": 0.051370601800423944,
+    "sha256": "15d930c0913a7e2830970ae9ace02149be7582a7974ac0d6618b061185590eb3"
+  },
+  {
+    "event": "laughter",
+    "duration_seconds": 3.4,
+    "style": "laugh",
+    "peak": 0.48,
+    "rms": 0.07818795428312032,
+    "sha256": "5544b64b454f707903dd98ffdc5ce38234d19810ff37b4664b2f68c6d0f71f8d"
+  },
+  {
+    "event": "knocking",
+    "duration_seconds": 2.8,
+    "style": "knock",
+    "peak": 0.48,
+    "rms": 0.037957067349141345,
+    "sha256": "aba2bc37b59132aa91b7afef4d440e2300b4c4ef8890eae083ea7c83c833ad74"
+  },
+  {
+    "event": "mining",
+    "duration_seconds": 3.2,
+    "style": "knock",
+    "peak": 0.48,
+    "rms": 0.03074987882608637,
+    "sha256": "e44b1c3b7a31f6ebf037a4d834edb686f98aeee3d65106abbd27b74ca796fe82"
+  },
+  {
+    "event": "scratching",
+    "duration_seconds": 3.2,
+    "style": "scratch",
+    "peak": 0.48,
+    "rms": 0.06830155229525485,
+    "sha256": "0e89aacdba94917d3f5c48e6fbd2967e0164ceec03341d6337df29b8a2e433f4"
+  },
+  {
+    "event": "distant_scream",
+    "duration_seconds": 5.1,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.1564873442018965,
+    "sha256": "e6ae7c26ad3fe26e6097a82aa12efecee7b000e11d6cb4beea5aa30fa747f51e"
+  },
+  {
+    "event": "tunnel_echo",
+    "duration_seconds": 4.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.1466350597744689,
+    "sha256": "994351b6cfecf0365fc259823fc19190b6c83230be2441d7108ec7fab0910964"
+  },
+  {
+    "event": "torch",
+    "duration_seconds": 1.5,
+    "style": "snap",
+    "peak": 0.48,
+    "rms": 0.024853978095026198,
+    "sha256": "be2924c0d46eaa1cc85cf99c57087b34fb811866e85978998ce7bfbadac17358"
+  },
+  {
+    "event": "wake",
+    "duration_seconds": 3.8,
+    "style": "whisper",
+    "peak": 0.48,
+    "rms": 0.05281992730141787,
+    "sha256": "d94d9c18e216fb2a56c105ef83fcb51d7b2e4a8e1a9ba2d2112da97d76039792"
+  },
+  {
+    "event": "sting_behind",
+    "duration_seconds": 2.8,
+    "style": "sting",
+    "peak": 0.63,
+    "rms": 0.16664895087575987,
+    "sha256": "43ba528f99a07fc660f04b79b8a1e92febc72ec88c539372f7f8be03b51dcdcb"
+  },
+  {
+    "event": "sting_mining",
+    "duration_seconds": 2.3,
+    "style": "sting",
+    "peak": 0.63,
+    "rms": 0.1867800251487005,
+    "sha256": "d9bca1e2be92f1d36cd458d80c7f00fd5f43561b55bf82b61d58242e79b713bb"
+  },
+  {
+    "event": "sting_rush",
+    "duration_seconds": 3.5,
+    "style": "sting",
+    "peak": 0.63,
+    "rms": 0.18376467539691432,
+    "sha256": "31da6ff0b2965ff9ae0c8ca59c8e955d5edbf40fd34b5173f11443ad4316714e"
+  },
+  {
+    "event": "sting_window",
+    "duration_seconds": 2.7,
+    "style": "sting",
+    "peak": 0.63,
+    "rms": 0.16899499743026702,
+    "sha256": "cec70d36c5a9826ea7f9dd82eb7a8ee86da1bc3efcb5159b8af5b0ad24c230be"
+  },
+  {
+    "event": "creatures.herobrine.ambient",
+    "duration_seconds": 4,
+    "style": "whisper",
+    "peak": 0.48,
+    "rms": 0.05520961589277214,
+    "sha256": "88b7e8b62597b7dd66b2c70b008ac126a8f0b9892fe1eea3742d228649b8db7d"
+  },
+  {
+    "event": "creatures.herobrine.hunt",
+    "duration_seconds": 2.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.14390335142420999,
+    "sha256": "3e28dc30fd48723ada0243094e31192d0f934ae2d8f490ec3691bde103fd9005"
+  },
+  {
+    "event": "creatures.herobrine.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.13864660635245296,
+    "sha256": "6675bc57c8f18423556fdc4141fb9015831651956adf9378982ee3785aa3a9ee"
+  },
+  {
+    "event": "creatures.watcher.ambient",
+    "duration_seconds": 3.4,
+    "style": "breath",
+    "peak": 0.4799999999999999,
+    "rms": 0.11714432554360076,
+    "sha256": "179c25eab93d69b2f7945369e8cf3f12a6d6834d3e74456b61181f52b506bdc6"
+  },
+  {
+    "event": "creatures.watcher.hunt",
+    "duration_seconds": 2.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.13150120196606102,
+    "sha256": "bbf384d8d628c36d5d57ba439d136e8b55b4028f9bebb08be34e6fd8d97c436d"
+  },
+  {
+    "event": "creatures.watcher.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.14211631157091184,
+    "sha256": "5b1c83dff42dd014a14de5b09b260da7dc871632bf2d4d245a451b5653fd985b"
+  },
+  {
+    "event": "creatures.mimic.ambient",
+    "duration_seconds": 3.4,
+    "style": "laugh",
+    "peak": 0.48,
+    "rms": 0.07950345170957179,
+    "sha256": "77835c5965ea3a0da76c81de89394ce8d0e36d4c1328b83edadf76ac95955c3f"
+  },
+  {
+    "event": "creatures.mimic.hunt",
+    "duration_seconds": 2.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.15083718421239928,
+    "sha256": "a9f5947667153d9bbe1b195dca685ef06e1a30ab42bf55048d8c964db5430ea6"
+  },
+  {
+    "event": "creatures.mimic.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.15352803654500782,
+    "sha256": "e914ace67f95c81d320dc4376f2e2d9a40a0144f89476e49fd0116d26efb8bbf"
+  },
+  {
+    "event": "creatures.crawler.ambient",
+    "duration_seconds": 3.4,
+    "style": "scratch",
+    "peak": 0.4799999999999999,
+    "rms": 0.05600327372483495,
+    "sha256": "5058fb801cec3026ae9407a470e8054de855cc6ed1cae59ff451b9d16a3c5746"
+  },
+  {
+    "event": "creatures.crawler.hunt",
+    "duration_seconds": 2.8,
+    "style": "scratch",
+    "peak": 0.48,
+    "rms": 0.09244737828759061,
+    "sha256": "ff21d42c1493028cf0a6dc35d981d1951bbcf0133a6d7e574953b517b5c9be79"
+  },
+  {
+    "event": "creatures.crawler.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.15474109907601244,
+    "sha256": "87757012698ab37f9ec3b0517a55add0c9e7b800cfe2f355f98beee5c86bd2c9"
+  },
+  {
+    "event": "creatures.pale_man.ambient",
+    "duration_seconds": 3.4,
+    "style": "breath",
+    "peak": 0.48000000000000004,
+    "rms": 0.11006492271835003,
+    "sha256": "73aa5fc2e87f241c48e789e8b6ca6ac1f145298bf15f1aed18a1361ff7553012"
+  },
+  {
+    "event": "creatures.pale_man.hunt",
+    "duration_seconds": 2.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.15662567261624688,
+    "sha256": "db538e75b045a4aaa312b9172e54e4978654f5898ed39a072666d90579698904"
+  },
+  {
+    "event": "creatures.pale_man.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.13953688453413124,
+    "sha256": "bce50cf9a0d2d882b0fb4d04f6c4b1fc1762ff08e44884a357d94b1426d57f7f"
+  },
+  {
+    "event": "creatures.shadow.ambient",
+    "duration_seconds": 4,
+    "style": "whisper",
+    "peak": 0.48000000000000004,
+    "rms": 0.051148409071316195,
+    "sha256": "09a58bce698bf6cac6c9b381e2ed4ab614d2c83840cdc9763b04fa7ddd553ace"
+  },
+  {
+    "event": "creatures.shadow.hunt",
+    "duration_seconds": 2.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.15405437358006158,
+    "sha256": "a413757b4586698b63f66417ea3f691ff9bcba660ff26f3d134889b9f2a7cdfb"
+  },
+  {
+    "event": "creatures.shadow.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.1549110462241097,
+    "sha256": "526ce3dc96f0bbdc8eb918aa648e736b71744ec7cab5d13c0c36a0c4a5eea65e"
+  },
+  {
+    "event": "creatures.dweller.ambient",
+    "duration_seconds": 4,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.14614016863129506,
+    "sha256": "580ed34613c7e051f86226b5f44ca718f3c22ef3c5173d5a99b8df54ba82bd62"
+  },
+  {
+    "event": "creatures.dweller.hunt",
+    "duration_seconds": 2.8,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.15921483542968118,
+    "sha256": "0cca327ab746092ee057f4046e8d3afbd5b6c7bd197d6ba935ad334ec7879e4c"
+  },
+  {
+    "event": "creatures.dweller.hurt",
+    "duration_seconds": 0.95,
+    "style": "voice",
+    "peak": 0.48,
+    "rms": 0.1442082888321136,
+    "sha256": "b5da5dd41cdfaf6c44cab0caa6990040eaab7734a1354eb1b8c9a2b869bbb29f"
+  }
+]

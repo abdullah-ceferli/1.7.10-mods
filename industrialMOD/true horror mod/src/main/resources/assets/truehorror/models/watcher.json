@@ -1,0 +1,454 @@
+{
+  "textureWidth": 128,
+  "textureHeight": 128,
+  "parts": [
+    {
+      "name": "ribcage",
+      "size": [
+        5,
+        22,
+        4
+      ],
+      "pivot": [
+        0,
+        -26,
+        0
+      ],
+      "origin": [
+        -2.5,
+        0,
+        -2.0
+      ],
+      "material": "hide",
+      "role": "torso",
+      "parent": "",
+      "rotation": [
+        0.12,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 0
+    },
+    {
+      "name": "shoulders",
+      "size": [
+        10,
+        3,
+        4
+      ],
+      "pivot": [
+        0,
+        -26,
+        0
+      ],
+      "origin": [
+        -5.0,
+        0,
+        -2.0
+      ],
+      "material": "hide",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 19,
+      "v": 0
+    },
+    {
+      "name": "neck",
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "pivot": [
+        0,
+        -26,
+        0
+      ],
+      "origin": [
+        -1,
+        -6,
+        -1
+      ],
+      "material": "hide",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 48,
+      "v": 0
+    },
+    {
+      "name": "head",
+      "size": [
+        5,
+        8,
+        5
+      ],
+      "pivot": [
+        0,
+        -32,
+        -0.5
+      ],
+      "origin": [
+        -2.5,
+        -8,
+        -2.5
+      ],
+      "material": "skin",
+      "role": "head",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 57,
+      "v": 0
+    },
+    {
+      "name": "armL",
+      "size": [
+        2,
+        24,
+        2
+      ],
+      "pivot": [
+        -5,
+        -24,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "armL",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 78,
+      "v": 0
+    },
+    {
+      "name": "armR",
+      "size": [
+        2,
+        24,
+        2
+      ],
+      "pivot": [
+        5,
+        -24,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "armR",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 87,
+      "v": 0
+    },
+    {
+      "name": "foreL",
+      "size": [
+        2,
+        17,
+        2
+      ],
+      "pivot": [
+        0,
+        24,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "foreL",
+      "parent": "armL",
+      "rotation": [
+        -0.12,
+        0,
+        -0.08
+      ],
+      "u": 96,
+      "v": 0
+    },
+    {
+      "name": "foreR",
+      "size": [
+        2,
+        17,
+        2
+      ],
+      "pivot": [
+        0,
+        24,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "foreR",
+      "parent": "armR",
+      "rotation": [
+        -0.12,
+        0,
+        0.08
+      ],
+      "u": 105,
+      "v": 0
+    },
+    {
+      "name": "foreL_finger0",
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "pivot": [
+        -1,
+        16.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreL_finger0",
+      "parent": "foreL",
+      "rotation": [
+        -0.12,
+        0,
+        0
+      ],
+      "u": 114,
+      "v": 0
+    },
+    {
+      "name": "foreL_finger1",
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "pivot": [
+        0,
+        16.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreL_finger1",
+      "parent": "foreL",
+      "rotation": [
+        -0.039999999999999994,
+        0,
+        0
+      ],
+      "u": 119,
+      "v": 0
+    },
+    {
+      "name": "foreL_finger2",
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "pivot": [
+        1,
+        16.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreL_finger2",
+      "parent": "foreL",
+      "rotation": [
+        0.04000000000000001,
+        0,
+        0
+      ],
+      "u": 124,
+      "v": 0
+    },
+    {
+      "name": "foreR_finger0",
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "pivot": [
+        -1,
+        16.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreR_finger0",
+      "parent": "foreR",
+      "rotation": [
+        -0.12,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 27
+    },
+    {
+      "name": "foreR_finger1",
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "pivot": [
+        0,
+        16.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreR_finger1",
+      "parent": "foreR",
+      "rotation": [
+        -0.039999999999999994,
+        0,
+        0
+      ],
+      "u": 5,
+      "v": 27
+    },
+    {
+      "name": "foreR_finger2",
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "pivot": [
+        1,
+        16.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreR_finger2",
+      "parent": "foreR",
+      "rotation": [
+        0.04000000000000001,
+        0,
+        0
+      ],
+      "u": 10,
+      "v": 27
+    },
+    {
+      "name": "legL",
+      "size": [
+        2,
+        28,
+        2
+      ],
+      "pivot": [
+        -1.7,
+        -4,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "legL",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 15,
+      "v": 27
+    },
+    {
+      "name": "legR",
+      "size": [
+        2,
+        28,
+        2
+      ],
+      "pivot": [
+        1.7,
+        -4,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "legR",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 24,
+      "v": 27
+    }
+  ]
+}

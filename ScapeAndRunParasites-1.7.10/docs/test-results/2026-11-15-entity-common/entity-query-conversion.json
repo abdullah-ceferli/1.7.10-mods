@@ -1,0 +1,12 @@
+{
+  "expressionsConverted": 538,
+  "sourceUnits": 173,
+  "operations": {
+    "loadedEntityList": 42,
+    "getEntitiesWithinAABB/2": 187,
+    "getEntitiesWithinAABB/3": 9,
+    "getPosition/0": 273,
+    "playerEntities": 27
+  },
+  "fullModCompiles": false
+}

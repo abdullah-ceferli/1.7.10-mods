@@ -1,0 +1,3 @@
+PASS: Native constructor receives one idempotent callback and unrelated classes are unchanged
+PASS: Missing constructors, multiple returns, incorrect callbacks and duplicate hooks are rejected
+Failed: 0

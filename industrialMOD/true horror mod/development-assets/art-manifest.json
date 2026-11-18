@@ -1,0 +1,49 @@
+[
+  {
+    "creature": "herobrine",
+    "parts": 12,
+    "texture": "64x64",
+    "authorship": "user-supplied PNG, preserved byte-for-byte; canonical skin UV layout including clothing layers"
+  },
+  {
+    "creature": "watcher",
+    "parts": 16,
+    "texture": "128x128",
+    "pixel_density": "one pixel per model unit",
+    "authorship": "original deliberate mesh and palette/face painting"
+  },
+  {
+    "creature": "mimic",
+    "parts": 16,
+    "texture": "128x128",
+    "pixel_density": "one pixel per model unit",
+    "authorship": "original deliberate mesh and palette/face painting"
+  },
+  {
+    "creature": "crawler",
+    "parts": 22,
+    "texture": "128x128",
+    "pixel_density": "one pixel per model unit",
+    "authorship": "original deliberate mesh and palette/face painting"
+  },
+  {
+    "creature": "pale_man",
+    "parts": 18,
+    "texture": "128x128",
+    "pixel_density": "one pixel per model unit",
+    "authorship": "original deliberate mesh and palette/face painting"
+  },
+  {
+    "creature": "shadow",
+    "parts": 12,
+    "texture": "64x64",
+    "authorship": "user-supplied PNG, preserved byte-for-byte; canonical skin UV layout including clothing layers"
+  },
+  {
+    "creature": "dweller",
+    "parts": 22,
+    "texture": "128x128",
+    "pixel_density": "one pixel per model unit",
+    "authorship": "original deliberate mesh and palette/face painting"
+  }
+]

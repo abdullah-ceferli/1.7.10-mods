@@ -1,0 +1,30 @@
+{
+  "excludedBinaryDependencies": [
+    {
+      "path": "vendor/+unimixins-all-1.7.10-0.3.1.jar",
+      "bytes": 5519796,
+      "sha256": "ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318"
+    },
+    {
+      "path": "vendor/codechickencore-1.4.10.jar",
+      "bytes": 446154,
+      "sha256": "eb55946d997ba92e4533ef2b88e6f633fd5aee862bcbcaa3a030ea53aeb20398"
+    },
+    {
+      "path": "vendor/farmersdelight-1.1.1-mc1.7.10.jar",
+      "bytes": 1945321,
+      "sha256": "032fc9e94b05cf80ff8b6a2a3c3995701f84454385466d3a1b1953f85acb4dbb"
+    },
+    {
+      "path": "vendor/joml-1.10.5.jar",
+      "bytes": 712082,
+      "sha256": "cac9f22f83a7aa33eebda73c16ff5261e3cb4911b6bafcf4c79ea486099d0c9a"
+    },
+    {
+      "path": "vendor/notenoughitems-2.3.54-gtnh.jar",
+      "bytes": 756653,
+      "sha256": "81d700d02f87c8ebdb92ed4a4c6f18960f7dd1ad173e211d6201150b723450d6"
+    }
+  ],
+  "note": "Restore these local dependency artifacts from the documented upstream sources; they are not source files."
+}

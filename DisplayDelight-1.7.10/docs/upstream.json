@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/jkvin114/displaydelight-1.20.1-neoforge",
+  "commit": "3214499d29a8889459911772db57df5a6eeaa2cf",
+  "sourceVersion": "1.7.0",
+  "originalMinecraft": "1.20.1",
+  "targetMinecraft": "1.7.10",
+  "license": "Original LICENSE.txt (LGPLv3 and Pder MIT notice)",
+  "downloadedDate": "2026-11-17"
+}

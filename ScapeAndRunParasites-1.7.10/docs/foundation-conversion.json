@@ -1,0 +1,30 @@
+{
+  "normalizedRemainingSrgIdentifiers": 17435,
+  "routes": {
+    "net.minecraft.util.math.Vec3i": "com.dhanantry.scapeandrunparasites.backport.math.Vec3i",
+    "net.minecraft.util.math.BlockPos": "com.dhanantry.scapeandrunparasites.backport.math.BlockPos",
+    "net.minecraft.util.math.Vec3d": "com.dhanantry.scapeandrunparasites.backport.math.Vec3d",
+    "net.minecraft.util.math.RayTraceResult": "com.dhanantry.scapeandrunparasites.backport.math.RayTraceResult",
+    "net.minecraft.util.EnumFacing": "com.dhanantry.scapeandrunparasites.backport.util.EnumFacing",
+    "net.minecraft.util.Rotation": "com.dhanantry.scapeandrunparasites.backport.util.Rotation",
+    "net.minecraft.util.Mirror": "com.dhanantry.scapeandrunparasites.backport.util.Mirror",
+    "net.minecraft.util.NonNullList": "com.dhanantry.scapeandrunparasites.backport.util.NonNullList",
+    "net.minecraft.util.IStringSerializable": "com.dhanantry.scapeandrunparasites.backport.util.IStringSerializable",
+    "net.minecraft.client.renderer.GlStateManager": "com.dhanantry.scapeandrunparasites.backport.client.GlStateManager",
+    "net.minecraft.block.properties.IProperty": "com.dhanantry.scapeandrunparasites.backport.state.IProperty",
+    "net.minecraft.block.properties.PropertyHelper": "com.dhanantry.scapeandrunparasites.backport.state.PropertyHelper",
+    "net.minecraft.block.properties.PropertyBool": "com.dhanantry.scapeandrunparasites.backport.state.PropertyBool",
+    "net.minecraft.block.properties.PropertyInteger": "com.dhanantry.scapeandrunparasites.backport.state.PropertyInteger",
+    "net.minecraft.block.properties.PropertyEnum": "com.dhanantry.scapeandrunparasites.backport.state.PropertyEnum",
+    "net.minecraft.block.properties.PropertyDirection": "com.dhanantry.scapeandrunparasites.backport.state.PropertyDirection",
+    "net.minecraft.block.state.IBlockState": "com.dhanantry.scapeandrunparasites.backport.state.IBlockState",
+    "net.minecraft.block.state.BlockStateContainer": "com.dhanantry.scapeandrunparasites.backport.state.BlockStateContainer",
+    "net.minecraft.block.state.BlockFaceShape": "com.dhanantry.scapeandrunparasites.backport.state.BlockFaceShape",
+    "net.minecraft.network.datasync.DataParameter": "com.dhanantry.scapeandrunparasites.backport.datasync.DataParameter",
+    "net.minecraft.network.datasync.DataSerializer": "com.dhanantry.scapeandrunparasites.backport.datasync.DataSerializer",
+    "net.minecraft.network.datasync.DataSerializers": "com.dhanantry.scapeandrunparasites.backport.datasync.DataSerializers",
+    "net.minecraft.network.datasync.EntityDataManager": "com.dhanantry.scapeandrunparasites.backport.datasync.EntityDataManager"
+  },
+  "checkpointSha256": "977c2fd43fa335e9850c2203c6eea7898a07d09fd8d3eaf65bcf3a4b8def1315",
+  "mappingArchiveSha256": "13a31f28c11f8f395ffe7e8563ade459f5a0ee46493abbbde3ce6e9493ac4152"
+}

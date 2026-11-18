@@ -1,0 +1,18 @@
+{
+  "sourceUnitsConverted": 108,
+  "changes": {
+    "world.getDifficultyForLocation/1": 44,
+    "world.getDifficulty/0": 21,
+    "DifficultyInstance import": 79
+  },
+  "nativeApiNamesConfirmed": [
+    "World.difficultySetting",
+    "WorldProvider.moonPhaseFactors",
+    "WorldProvider.getMoonPhase(long)",
+    "Chunk.inhabitedTime"
+  ],
+  "localTimeSource": "World.getWorldTime()",
+  "compatibilitySourceUnitsAdded": 2,
+  "nativeSpawnBridge": "LegacyEntityMob.onSpawnWithEgg -> onInitialSpawn -> native super.onSpawnWithEgg",
+  "remainingCallsInMigrationPreview": 0
+}

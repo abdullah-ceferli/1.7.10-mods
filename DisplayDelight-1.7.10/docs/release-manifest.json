@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-17",
+  "version": "1.7.0-backport.1",
+  "minecraft": "1.7.10",
+  "forge": "10.13.4.1614",
+  "java": 8,
+  "upstream": {
+    "repository": "https://github.com/jkvin114/displaydelight-1.20.1-neoforge",
+    "commit": "3214499d29a8889459911772db57df5a6eeaa2cf",
+    "sourceVersion": "1.7.0",
+    "originalMinecraft": "1.20.1",
+    "targetMinecraft": "1.7.10",
+    "license": "Original LICENSE.txt (LGPLv3 and Pder MIT notice)",
+    "downloadedDate": "2026-11-17"
+  },
+  "registeredDisplays": 382,
+  "buildStatus": "Native test build; 19 groups pass. Modpack integration unverified.",
+  "runtimeJar": "displaydelight-1.7.10-1.7.0-backport.1.jar",
+  "sources": "displaydelight-1.7.10-1.7.0-backport.1-sources.zip",
+  "sourceHashes": {
+    "src/main/java/com/jkvin114/displaydelight/Catalog.java": "f9a05c457aa863b5d02b109c69635a5ca37811a2dc9e9bafc1cd6ea852f73363",
+    "src/main/java/com/jkvin114/displaydelight/client/ClientProxy.java": "fff42cbd15f74f8b3fe6b9fd9efc5423ea3e4193a0f87ff80ebc482f29e97294",
+    "src/main/java/com/jkvin114/displaydelight/client/DisplayRenderer.java": "ee8535d148190ec34a502ea0ba7c8b82d11f75ef95e075a8a8a34e30056801e9",
+    "src/main/java/com/jkvin114/displaydelight/CommonProxy.java": "3e2b95e6ee41651d3013c0a68ae1bf3e842de50bd96813048607867d781bd88d",
+    "src/main/java/com/jkvin114/displaydelight/DisplayBlock.java": "3ba86249c9ce2f0b94c9f3b4e0834b9058d60f166e06a6383e6c60dab230d91d",
+    "src/main/java/com/jkvin114/displaydelight/DisplayDelight.java": "db2bfddd3f505da207ab491448459835f3c66ff759859e7d4b4a7b5c80d577cd",
+    "src/main/java/com/jkvin114/displaydelight/DisplayItem.java": "410bd5d0245bce6cd500c0f687d0ec3211d7b7618f0f51b56db27e2d2d8aee93",
+    "src/main/java/com/jkvin114/displaydelight/DisplayTile.java": "971be43cf970c114585368cb229f75cc628982329283ab4d83e5138903455ee1",
+    "src/main/java/com/jkvin114/displaydelight/DisplayTrades.java": "e956b10b774a4b2436e195e0c25b0df94ec8c26afda4fc03e6c5474c98580aad",
+    "src/main/java/com/jkvin114/displaydelight/Interactions.java": "ca073a5065e86e84e30279c2adc13e5b22530481d0520136c688403e25e4aaa6",
+    "src/main/java/com/jkvin114/displaydelight/Settings.java": "4c57ee4f756ed89da9aece0e0f9561df64824bbc83b378484908ba328f8d4393"
+  },
+  "files": {
+    "COPYING": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "displaydelight-1.7.10-1.7.0-backport.1-sources.zip": "53a3a198b9c6958cfab04bf39b661e564ae43ec3f51feb6efa7d35312c283dd7",
+    "displaydelight-1.7.10-1.7.0-backport.1.jar": "fee72fbc383b4b4cc1a90579f1074c2f532485de1dfeadf98e97b186049d2f05",
+    "LICENSE.txt": "66265c7c4cbd3bba75e8cf124644a94c9eb8fcf1a8e33522aba8d48b1375a376",
+    "README.md": "c20a00cfb4d5b0fdcce7462df5b3c508e74322771419fb794a742cf0fe0f4628",
+    "TESTING.md": "618ce72875104357348b53dd3dda84deb716522e0bd8239d526b47d6710d7538",
+    "THIRD_PARTY.md": "5907b4f887d329de2a2e01a24f69fe3d6ddaef15f9001fa7f721921a97dc7fc1"
+  }
+}

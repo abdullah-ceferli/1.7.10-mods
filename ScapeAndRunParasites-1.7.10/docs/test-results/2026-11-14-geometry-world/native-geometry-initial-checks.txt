@@ -1,0 +1,5 @@
+PASS: Converted constructors, ambiguous growth methods, immutable snapshots and SRG aliases execute against real native entities
+PASS: Legacy final engine boxes remain mutable while modern getters return stable snapshots
+PASS: Native physics still clamps falling movement on a real solid block
+PASS: Modern growth and offset operations do not move an entity's collision box
+Failed: 0

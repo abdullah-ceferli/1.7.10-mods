@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "https://github.com/Pocky-l/handson-delight",
+    "commit": "2956a833b13958bc54f055532cfa0f8eae2987a1"
+  },
+  {
+    "repository": "https://github.com/GlowingFederal/FarmersDelight-Legacy",
+    "commit": "265ad36daa4c63c93759649f7dca5fafad8f807e"
+  },
+  {
+    "repository": "https://github.com/Pocky-l/diegesis",
+    "commit": "bd4207f333fee1f36a63bfb5a8cf602ede67d959"
+  }
+]

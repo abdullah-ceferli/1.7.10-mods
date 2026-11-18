@@ -1,0 +1,344 @@
+{
+  "footsteps": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:footsteps",
+        "stream": false
+      }
+    ]
+  },
+  "running": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:running",
+        "stream": false
+      }
+    ]
+  },
+  "branches": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:branches",
+        "stream": false
+      }
+    ]
+  },
+  "breathing": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:breathing",
+        "stream": false
+      }
+    ]
+  },
+  "whispers": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:whispers",
+        "stream": false
+      }
+    ]
+  },
+  "laughter": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:laughter",
+        "stream": false
+      }
+    ]
+  },
+  "knocking": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:knocking",
+        "stream": false
+      }
+    ]
+  },
+  "mining": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:mining",
+        "stream": false
+      }
+    ]
+  },
+  "scratching": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:scratching",
+        "stream": false
+      }
+    ]
+  },
+  "distant_scream": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:distant_scream",
+        "stream": false
+      }
+    ]
+  },
+  "tunnel_echo": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:tunnel_echo",
+        "stream": false
+      }
+    ]
+  },
+  "torch": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:torch",
+        "stream": false
+      }
+    ]
+  },
+  "wake": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "truehorror:wake",
+        "stream": false
+      }
+    ]
+  },
+  "sting_behind": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:sting_behind",
+        "stream": false
+      }
+    ]
+  },
+  "sting_mining": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:sting_mining",
+        "stream": false
+      }
+    ]
+  },
+  "sting_rush": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:sting_rush",
+        "stream": false
+      }
+    ]
+  },
+  "sting_window": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:sting_window",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.herobrine.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/herobrine_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.herobrine.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/herobrine_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.herobrine.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/herobrine_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.watcher.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/watcher_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.watcher.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/watcher_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.watcher.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/watcher_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.mimic.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/mimic_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.mimic.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/mimic_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.mimic.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/mimic_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.crawler.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/crawler_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.crawler.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/crawler_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.crawler.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/crawler_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.pale_man.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/pale_man_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.pale_man.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/pale_man_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.pale_man.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/pale_man_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.shadow.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/shadow_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.shadow.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/shadow_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.shadow.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/shadow_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.dweller.ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/dweller_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.dweller.hunt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/dweller_hunt",
+        "stream": false
+      }
+    ]
+  },
+  "creatures.dweller.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "truehorror:creatures/dweller_hurt",
+        "stream": false
+      }
+    ]
+  }
+}

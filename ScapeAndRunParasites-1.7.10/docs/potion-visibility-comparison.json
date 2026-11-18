@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-15",
+  "beforeDiagnostics": 7056,
+  "afterDiagnostics": 6827,
+  "diagnosticsReduction": 229,
+  "beforeEntityDiagnostics": 2603,
+  "afterEntityDiagnostics": 2429,
+  "beforeBaseEntityDiagnostics": 113,
+  "afterBaseEntityDiagnostics": 104,
+  "backportDiagnostics": 0,
+  "javaSourceUnits": 1141,
+  "backportSourceUnits": 47,
+  "sourceSnapshotStable": true,
+  "sourceHashesVerified": 1141,
+  "compilerExitCode": 4,
+  "countIsExhaustive": false,
+  "playable": false,
+  "diagnosticsByArea": {
+    "entity": 2429,
+    "client": 1691,
+    "block": 958,
+    "init": 447,
+    "item": 274,
+    "bestiary": 261,
+    "world": 184,
+    "tileentity": 162,
+    "compatibility": 102,
+    "util": 83,
+    "advancements": 62,
+    "container": 47,
+    "events": 37,
+    "potion": 33,
+    "network": 19,
+    "gui": 13,
+    "feature": 9,
+    "recipes": 6,
+    "proxy": 6,
+    "mixins": 3,
+    "fluid": 1,
+    "backport": 0
+  },
+  "sourceMigration": {
+    "convertedConstructors": 294,
+    "sourceFiles": 102,
+    "byArgumentCount": {
+      "5": 217,
+      "3": 42,
+      "2": 35
+    },
+    "fiveArgumentHidden": 165,
+    "fiveArgumentVisible": 51,
+    "fiveArgumentDynamic": 1
+  },
+  "nativeVisibilityPassRecords": {
+    "potion-fx-transformer-checks.txt": 3,
+    "native-potion-fx-initial-checks.txt": 9,
+    "native-potion-fx-restart-checks.txt": 9,
+    "potion-fx-client-checks.txt": 6
+  },
+  "nativeVisibilityUniqueBoundaries": 19,
+  "sameProductionClassesInServerAndClientFixtures": 84,
+  "compilerInventorySha256": "fa83ed0034c3a78025983436323d7e1000ca6e6e8a476920008efcb2acaa7bb2"
+}

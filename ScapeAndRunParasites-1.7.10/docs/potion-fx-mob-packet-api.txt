@@ -1,0 +1,98 @@
+net.minecraft.entity.EntityLivingBase
+  protected void onNewPotionEffect(net.minecraft.potion.PotionEffect);
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #13                 // Field potionsNeedUpdate:Z
+       5: aload_0
+       6: getfield      #58                 // Field worldObj:Lnet/minecraft/world/World;
+       9: getfield      #63                 // Field net/minecraft/world/World.isRemote:Z
+      12: ifne          35
+      15: getstatic     #239                // Field net/minecraft/potion/Potion.potionTypes:[Lnet/minecraft/potion/Potion;
+      18: aload_1
+      19: invokevirtual #196                // Method net/minecraft/potion/PotionEffect.getPotionID:()I
+      22: aaload
+      23: aload_0
+      24: aload_0
+      25: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+      28: aload_1
+      29: invokevirtual #240                // Method net/minecraft/potion/PotionEffect.getAmplifier:()I
+      32: invokevirtual #241                // Method net/minecraft/potion/Potion.applyAttributesModifiersToEntity:(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;I)V
+      35: return
+
+
+net.minecraft.entity.EntityLivingBase
+  protected void onChangedPotionEffect(net.minecraft.potion.PotionEffect, boolean);
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #13                 // Field potionsNeedUpdate:Z
+       5: iload_2
+       6: ifeq          59
+       9: aload_0
+      10: getfield      #58                 // Field worldObj:Lnet/minecraft/world/World;
+      13: getfield      #63                 // Field net/minecraft/world/World.isRemote:Z
+      16: ifne          59
+      19: getstatic     #239                // Field net/minecraft/potion/Potion.potionTypes:[Lnet/minecraft/potion/Potion;
+      22: aload_1
+      23: invokevirtual #196                // Method net/minecraft/potion/PotionEffect.getPotionID:()I
+      26: aaload
+      27: aload_0
+      28: aload_0
+      29: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+      32: aload_1
+      33: invokevirtual #240                // Method net/minecraft/potion/PotionEffect.getAmplifier:()I
+      36: invokevirtual #242                // Method net/minecraft/potion/Potion.removeAttributesModifiersFromEntity:(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;I)V
+      39: getstatic     #239                // Field net/minecraft/potion/Potion.potionTypes:[Lnet/minecraft/potion/Potion;
+      42: aload_1
+      43: invokevirtual #196                // Method net/minecraft/potion/PotionEffect.getPotionID:()I
+      46: aaload
+      47: aload_0
+      48: aload_0
+      49: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+      52: aload_1
+      53: invokevirtual #240                // Method net/minecraft/potion/PotionEffect.getAmplifier:()I
+      56: invokevirtual #241                // Method net/minecraft/potion/Potion.applyAttributesModifiersToEntity:(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;I)V
+      59: return
+
+
+net.minecraft.entity.EntityLivingBase
+  protected void onFinishedPotionEffect(net.minecraft.potion.PotionEffect);
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #13                 // Field potionsNeedUpdate:Z
+       5: aload_0
+       6: getfield      #58                 // Field worldObj:Lnet/minecraft/world/World;
+       9: getfield      #63                 // Field net/minecraft/world/World.isRemote:Z
+      12: ifne          35
+      15: getstatic     #239                // Field net/minecraft/potion/Potion.potionTypes:[Lnet/minecraft/potion/Potion;
+      18: aload_1
+      19: invokevirtual #196                // Method net/minecraft/potion/PotionEffect.getPotionID:()I
+      22: aaload
+      23: aload_0
+      24: aload_0
+      25: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+      28: aload_1
+      29: invokevirtual #240                // Method net/minecraft/potion/PotionEffect.getAmplifier:()I
+      32: invokevirtual #242                // Method net/minecraft/potion/Potion.removeAttributesModifiersFromEntity:(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;I)V
+      35: return
+
+
+net.minecraft.entity.player.EntityPlayerMP
+  protected void onFinishedPotionEffect(net.minecraft.potion.PotionEffect);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #374                // Method net/minecraft/entity/player/EntityPlayer.onFinishedPotionEffect:(Lnet/minecraft/potion/PotionEffect;)V
+       5: aload_0
+       6: getfield      #77                 // Field playerNetServerHandler:Lnet/minecraft/network/NetHandlerPlayServer;
+       9: new           #375                // class net/minecraft/network/play/server/S1EPacketRemoveEntityEffect
+      12: dup
+      13: aload_0
+      14: invokevirtual #371                // Method getEntityId:()I
+      17: aload_1
+      18: invokespecial #376                // Method net/minecraft/network/play/server/S1EPacketRemoveEntityEffect."<init>":(ILnet/minecraft/potion/PotionEffect;)V
+      21: invokevirtual #80                 // Method net/minecraft/network/NetHandlerPlayServer.sendPacket:(Lnet/minecraft/network/Packet;)V
+      24: return
+

@@ -1,0 +1,20 @@
+{
+  "sourceUnitsChanged": 8,
+  "boundariesChanged": 17,
+  "importsChanged": 7,
+  "registrationsChanged": 9,
+  "lookupsChanged": 1,
+  "callbackBodiesAndAnnotationsPreserved": true,
+  "lineCountsPreserved": true,
+  "usesSyntaxTree": true,
+  "files": [
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBeholderPearl.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemBough.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemClockDevelopment.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemClockEvolution.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/ItemCompass.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/client/renderer/PearlHeldGlowRenderer.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/tool/WeaponToolArmorBase.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/item/tool/WeaponToolRangeBase.java"
+  ]
+}

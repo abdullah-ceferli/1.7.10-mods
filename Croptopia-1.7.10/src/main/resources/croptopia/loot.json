@@ -1,0 +1,5369 @@
+{
+  "blocks/almond_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:almond_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:almond"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:almond_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:almond_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:almond_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/almond_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:almond_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/apple_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:apple_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "minecraft:apple"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:apple_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:apple_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:apple_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/apple_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:apple_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/apricot_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:apricot_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:apricot"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:apricot_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:apricot_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:apricot_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/apricot_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:apricot_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/artichoke_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:artichoke_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:artichoke"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/asparagus_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:asparagus_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:asparagus"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/avocado_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:avocado_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:avocado"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:avocado_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:avocado_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:avocado_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/avocado_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:avocado_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/banana_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:banana_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:banana"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:banana_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:banana_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:banana_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/banana_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:banana_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/barley_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:barley_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:barley"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/basil_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:basil_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:basil"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/bellpepper_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:bellpepper_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:bellpepper"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/blackbean_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:blackbean_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:blackbean"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/blackberry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:blackberry_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:blackberry"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/blueberry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:blueberry_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:blueberry"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/broccoli_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:broccoli_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:broccoli"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cabbage_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:cabbage_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:cabbage"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cantaloupe_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:cantaloupe_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:cantaloupe"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cashew_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:cashew_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:cashew"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cashew_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:cashew_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:cashew_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cashew_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cashew_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cauliflower_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:cauliflower_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:cauliflower"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/celery_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:celery_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:celery"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cherry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:cherry_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:cherry"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cherry_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:cherry_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:cherry_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cherry_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cherry_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/chile_pepper_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:chile_pepper_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:chile_pepper"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cinnamon_leaves": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": [
+                            "minecraft:shears"
+                          ]
+                        }
+                      },
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "enchantments": [
+                            {
+                              "enchantment": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "name": "croptopia:cinnamon_leaves"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "chances": [
+                      0.05,
+                      0.0625,
+                      0.083333336,
+                      0.1
+                    ],
+                    "condition": "minecraft:table_bonus",
+                    "enchantment": "minecraft:fortune"
+                  }
+                ],
+                "name": "croptopia:cinnamon_sapling"
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "chances": [
+                  0.02,
+                  0.022222223,
+                  0.025,
+                  0.033333335,
+                  0.1
+                ],
+                "condition": "minecraft:table_bonus",
+                "enchantment": "minecraft:fortune"
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "minecraft:explosion_decay"
+              }
+            ],
+            "name": "minecraft:stick"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cinnamon_log": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cinnamon_log"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cinnamon_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cinnamon_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cinnamon_wood": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:cinnamon_wood"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/coconut_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:coconut_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:coconut"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:coconut_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:coconut_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:coconut_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/coconut_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:coconut_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/coffee_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:coffee_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:coffee_beans"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/corn_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:corn_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:corn"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cranberry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:cranberry_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:cranberry"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/cucumber_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:cucumber_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:cucumber"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/currant_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:currant_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:currant"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/date_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:date_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:date"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:date_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:date_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:date_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/date_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:date_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/dragonfruit_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:dragonfruit_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:dragonfruit"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:dragonfruit_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:dragonfruit_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:dragonfruit_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/dragonfruit_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:dragonfruit_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/eggplant_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:eggplant_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:eggplant"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/elderberry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:elderberry_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:elderberry"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/fig_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:fig_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:fig"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:fig_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:fig_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:fig_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/fig_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:fig_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/garlic_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:garlic_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:garlic"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/ginger_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:ginger_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:ginger"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/grape_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:grape_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:grape"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/grapefruit_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:grapefruit_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:grapefruit"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:grapefruit_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:grapefruit_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:grapefruit_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/grapefruit_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:grapefruit_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/greenbean_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:greenbean_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:greenbean"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/greenonion_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:greenonion_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:greenonion"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/honeydew_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:honeydew_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:honeydew"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/hops_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:hops_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:hops"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/kale_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:kale_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:kale"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/kiwi_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:kiwi_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:kiwi"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/kumquat_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:kumquat_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:kumquat"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:kumquat_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:kumquat_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:kumquat_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/kumquat_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:kumquat_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/leek_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:leek_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:leek"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/lemon_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:lemon_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:lemon"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:lemon_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:lemon_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:lemon_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/lemon_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:lemon_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/lettuce_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:lettuce_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:lettuce"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/lime_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:lime_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:lime"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:lime_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:lime_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:lime_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/lime_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:lime_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/mango_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:mango_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:mango"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:mango_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:mango_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:mango_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/mango_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:mango_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/mustard_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:mustard_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:mustard"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/nectarine_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:nectarine_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:nectarine"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:nectarine_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:nectarine_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:nectarine_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/nectarine_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:nectarine_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/nutmeg_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:nutmeg_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:nutmeg"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:nutmeg_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:nutmeg_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:nutmeg_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/nutmeg_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:nutmeg_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/oat_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:oat_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:oat"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/olive_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:olive_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:olive"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/onion_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:onion_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:onion"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/orange_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:orange_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:orange"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:orange_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:orange_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:orange_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/orange_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:orange_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/peach_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:peach_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:peach"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:peach_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:peach_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:peach_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/peach_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:peach_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/peanut_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:peanut_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:peanut"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/pear_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:pear_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:pear"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:pear_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:pear_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:pear_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/pear_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:pear_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/pecan_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:pecan_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:pecan"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:pecan_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:pecan_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:pecan_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/pecan_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:pecan_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/pepper_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:pepper_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:pepper"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/persimmon_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:persimmon_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:persimmon"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:persimmon_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:persimmon_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:persimmon_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/persimmon_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:persimmon_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/pineapple_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:pineapple_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:pineapple"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/plum_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:plum_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:plum"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:plum_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:plum_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:plum_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/plum_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:plum_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/radish_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:radish_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:radish"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/raspberry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:raspberry_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:raspberry"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/rhubarb_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:rhubarb_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:rhubarb"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/rice_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:rice_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:rice"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/rutabaga_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:rutabaga_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:rutabaga"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/saguaro_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:saguaro_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:saguaro"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/salt_ore": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "name": "croptopia:salt_ore"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  }
+                ],
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  }
+                ],
+                "name": "croptopia:salt"
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/soybean_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:soybean_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:soybean"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/spinach_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:spinach_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:spinach"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/squash_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:squash_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:squash"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/starfruit_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:starfruit_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:starfruit"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:starfruit_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:starfruit_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:starfruit_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/starfruit_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:starfruit_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/strawberry_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:strawberry_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:strawberry"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/stripped_cinnamon_log": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:stripped_cinnamon_log"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/stripped_cinnamon_wood": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:stripped_cinnamon_wood"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/sweetpotato_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:sweetpotato_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:sweetpotato"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/tea_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:tea_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:tea_leaves"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/tomatillo_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:tomatillo_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:tomatillo"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/tomato_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:tomato_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:tomato"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/turmeric_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:turmeric_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:turmeric"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/turnip_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:turnip_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:turnip"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/vanilla_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:vanilla_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:vanilla"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/walnut_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              },
+              {
+                "block": "croptopia:walnut_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "3"
+                }
+              }
+            ],
+            "name": "croptopia:walnut"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:walnut_sapling",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 95
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            ],
+            "functions": [
+              {
+                "block": "croptopia:walnut_crop",
+                "function": "minecraft:copy_state",
+                "properties": [
+                  "age"
+                ]
+              }
+            ],
+            "name": "croptopia:walnut_crop"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/walnut_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "croptopia:walnut_sapling"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/yam_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:yam_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:yam"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "blocks/zucchini_crop": {
+    "type": "minecraft:block",
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ],
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "croptopia:zucchini_crop",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "function": "minecraft:apply_bonus",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "croptopia:zucchini"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  },
+  "gameplay/fishing/fish": {
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "croptopia:tuna"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "croptopia:anchovy"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "croptopia:shrimp"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "croptopia:crab"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "croptopia:clam"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "croptopia:oyster"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "croptopia:sea_lettuce"
+          }
+        ]
+      }
+    ]
+  }
+}

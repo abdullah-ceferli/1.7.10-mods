@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "croptopia",
+    "name": "Croptopia",
+    "version": "4.0.1-backport.1",
+    "mcversion": "1.7.10",
+    "description": "Native 1.7.10 adaptation. Original recipes and assets. Backport maintenance: Zahin.",
+    "authorList": [
+      "Thonk",
+      "Rainbowcraft2"
+    ],
+    "credits": "Original project contributors; 1.7.10 maintenance: Zahin",
+    "url": "https://github.com/ExcessiveAmountsOfZombies/Croptopia",
+    "dependencies": [
+      "farmersdelight"
+    ]
+  }
+]

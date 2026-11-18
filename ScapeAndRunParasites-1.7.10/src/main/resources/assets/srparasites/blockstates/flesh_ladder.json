@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "srparasites:flesh_ladder"
+    },
+    "facing=east": {
+      "model": "srparasites:flesh_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "srparasites:flesh_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "srparasites:flesh_ladder",
+      "y": 270
+    }
+  }
+}

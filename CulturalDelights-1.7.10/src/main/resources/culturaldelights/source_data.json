@@ -1,0 +1,2911 @@
+{
+  "advancements/pickle": {
+    "parent": "farmersdelight:main/craft_knife",
+    "display": {
+      "icon": {
+        "item": "culturaldelights:pickle"
+      },
+      "title": "Funniest thing I've ever seen!",
+      "description": "Pickle a cucumber in the fermenter",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "pickle": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "culturaldelights:pickle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "pickle"
+      ]
+    ]
+  },
+  "forge/biome_modifier/trees_avocado": {
+    "type": "forge:add_features",
+    "biomes": {
+      "type": "forge:or",
+      "values": [
+        "minecraft:bamboo_jungle",
+        "minecraft:sparse_jungle",
+        "minecraft:jungle"
+      ]
+    },
+    "features": "culturaldelights:trees_avocado",
+    "step": "vegetal_decoration"
+  },
+  "forge/biome_modifier/wild_corn": {
+    "type": "forge:add_features",
+    "biomes": {
+      "type": "forge:or",
+      "values": [
+        "minecraft:plains"
+      ]
+    },
+    "features": "culturaldelights:wild_corn",
+    "step": "vegetal_decoration"
+  },
+  "forge/biome_modifier/wild_cucumbers": {
+    "type": "forge:add_features",
+    "biomes": {
+      "type": "forge:or",
+      "values": [
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp"
+      ]
+    },
+    "features": "culturaldelights:wild_cucumbers",
+    "step": "vegetal_decoration"
+  },
+  "forge/biome_modifier/wild_eggplants": {
+    "type": "forge:add_features",
+    "biomes": {
+      "type": "forge:or",
+      "values": [
+        "minecraft:bamboo_jungle",
+        "minecraft:sparse_jungle",
+        "minecraft:jungle"
+      ]
+    },
+    "features": "culturaldelights:wild_eggplants",
+    "step": "vegetal_decoration"
+  },
+  "loot_tables/blocks/avocado_bundle": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "name": "culturaldelights:avocado_bundle"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 2.0,
+                      "max": 4.0,
+                      "type": "minecraft:uniform"
+                    }
+                  },
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 1
+                    }
+                  },
+                  {
+                    "function": "minecraft:limit_count",
+                    "limit": {
+                      "max": 8
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "culturaldelights:avocado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_crate": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_crate"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_leaf_carpet": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_leaf_carpet"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_leaves": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": [
+                            "minecraft:shears"
+                          ]
+                        }
+                      },
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "enchantments": [
+                            {
+                              "enchantment": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "name": "culturaldelights:avocado_leaves"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "condition": "minecraft:table_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "chances": [
+                      0.05,
+                      0.0625,
+                      0.083333336,
+                      0.1
+                    ]
+                  }
+                ],
+                "name": "culturaldelights:avocado_sapling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [
+                  0.02,
+                  0.022222223,
+                  0.025,
+                  0.033333335,
+                  0.1
+                ]
+              }
+            ],
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1.0,
+                  "max": 2.0
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:explosion_decay"
+              }
+            ],
+            "name": "minecraft:stick"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              },
+              {
+                "condition": "minecraft:table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [
+                  0.005,
+                  0.0055555557,
+                  0.00625,
+                  0.008333334,
+                  0.025
+                ]
+              }
+            ],
+            "name": "culturaldelights:avocado"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_log": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_log"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_pit": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_pit"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_sapling"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/avocado_wood": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_wood"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/corn": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:corn_kernels"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ]
+  },
+  "loot_tables/blocks/corn_cob_crate": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:corn_cob_crate"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/corn_upper": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "culturaldelights:corn_upper",
+                    "properties": {
+                      "age": "3"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "tag": "farmersdelight:tools/knives"
+                    }
+                  }
+                ],
+                "name": "farmersdelight:straw"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "culturaldelights:corn_upper",
+                    "properties": {
+                      "age": "3"
+                    }
+                  }
+                ],
+                "name": "culturaldelights:corn_cob"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ]
+  },
+  "loot_tables/blocks/cucumber_crate": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:cucumber_crate"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/cucumbers": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "culturaldelights:cucumbers",
+                    "properties": {
+                      "age": "7"
+                    }
+                  }
+                ],
+                "name": "culturaldelights:cucumber"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "culturaldelights:cucumber_seeds"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "culturaldelights:cucumber_seeds"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "culturaldelights:cucumbers",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ]
+  },
+  "loot_tables/blocks/eggplant_crate": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:eggplant_crate"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/eggplants": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "culturaldelights:eggplants",
+                    "properties": {
+                      "age": "7"
+                    }
+                  }
+                ],
+                "name": "culturaldelights:eggplant"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "culturaldelights:eggplant_seeds"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pool2",
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "parameters": {
+                  "extra": 3,
+                  "probability": 0.5714286
+                }
+              }
+            ],
+            "name": "culturaldelights:eggplant_seeds"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "culturaldelights:eggplants",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ]
+  },
+  "loot_tables/blocks/exotic_roll_medley_block": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:exotic_roll_medley_block"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "culturaldelights:exotic_roll_medley_block",
+            "properties": {
+              "servings": "8"
+            }
+          }
+        ]
+      },
+      {
+        "name": "pool2",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bowl"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:block_state_property",
+              "block": "culturaldelights:exotic_roll_medley_block",
+              "properties": {
+                "servings": "8"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/fruiting_avocado_leaves": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "items": [
+                            "minecraft:shears"
+                          ]
+                        }
+                      },
+                      {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                          "enchantments": [
+                            {
+                              "enchantment": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "name": "culturaldelights:fruiting_avocado_leaves"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  },
+                  {
+                    "condition": "minecraft:table_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "chances": [
+                      0.05,
+                      0.0625,
+                      0.083333336,
+                      0.1
+                    ]
+                  }
+                ],
+                "name": "culturaldelights:avocado_sapling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [
+                  0.02,
+                  0.022222223,
+                  0.025,
+                  0.033333335,
+                  0.1
+                ]
+              }
+            ],
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1.0,
+                  "max": 2.0
+                },
+                "add": false
+              },
+              {
+                "function": "minecraft:explosion_decay"
+              }
+            ],
+            "name": "minecraft:stick"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              },
+              {
+                "condition": "minecraft:table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [
+                  0.005,
+                  0.0055555557,
+                  0.00625,
+                  0.008333334,
+                  0.025
+                ]
+              }
+            ],
+            "name": "culturaldelights:avocado"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/pickle_crate": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:pickle_crate"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/potted_avocado_sapling": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flower_pot"
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 0,
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:avocado_sapling"
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  },
+  "loot_tables/blocks/white_eggplant_crate": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "culturaldelights:white_eggplant_crate"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/wild_corn": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:shears"
+                  }
+                }
+              }
+            ],
+            "name": "minecraft:wheat_seeds"
+          }
+        ]
+      },
+      {
+        "name": "pool2",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "tag": "forge:shears"
+                    }
+                  }
+                ],
+                "name": "culturaldelights:wild_corn"
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "culturaldelights:corn_kernels"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/wild_cucumbers": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:shears"
+                  }
+                }
+              }
+            ],
+            "name": "culturaldelights:cucumber"
+          }
+        ]
+      },
+      {
+        "name": "pool2",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "tag": "forge:shears"
+                    }
+                  }
+                ],
+                "name": "culturaldelights:wild_cucumbers"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "culturaldelights:cucumber_seeds"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "loot_tables/blocks/wild_eggplants": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "name": "pool1",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "forge:shears"
+                  }
+                }
+              }
+            ],
+            "name": "culturaldelights:white_eggplant"
+          }
+        ]
+      },
+      {
+        "name": "pool2",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "tag": "forge:shears"
+                    }
+                  }
+                ],
+                "name": "culturaldelights:wild_eggplants"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:uniform_bonus_count",
+                    "parameters": {
+                      "bonusMultiplier": 2
+                    }
+                  },
+                  {
+                    "function": "minecraft:explosion_decay"
+                  }
+                ],
+                "name": "culturaldelights:eggplant_seeds"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "recipes/avocado_crate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:avocado"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:avocado_crate"
+    }
+  },
+  "recipes/avocado_pit": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:avocado"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:avocado_pit",
+      "count": 1
+    }
+  },
+  "recipes/avocado_toast": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "culturaldelights:avocados"
+      },
+      {
+        "tag": "culturaldelights:avocados"
+      },
+      {
+        "item": "minecraft:bread"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:avocado_toast",
+      "count": 4
+    }
+  },
+  "recipes/avocado_wood": {
+    "type": "minecraft:crafting_shaped",
+    "group": "bark",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:avocado_log"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:avocado_wood",
+      "count": 3
+    }
+  },
+  "recipes/beef_burrito": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:tortilla"
+      },
+      {
+        "tag": "forge:cooked_beef"
+      },
+      {
+        "tag": "culturaldelights:avocados"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:beef_burrito",
+      "count": 1
+    }
+  },
+  "recipes/calamari_roll": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "culturaldelights:raw_calamari"
+      },
+      {
+        "item": "culturaldelights:raw_calamari"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:calamari_roll",
+      "count": 2
+    }
+  },
+  "recipes/chicken_roll": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " ! ",
+      "@?@",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dried_kelp"
+      },
+      "@": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "?": {
+        "tag": "forge:cooked_chicken"
+      },
+      "!": {
+        "item": "minecraft:beetroot"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:chicken_roll"
+    }
+  },
+  "recipes/chicken_taco": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:tortilla"
+      },
+      {
+        "tag": "forge:cooked_chicken"
+      },
+      {
+        "tag": "forge:crops/onion"
+      },
+      {
+        "item": "farmersdelight:tomato_sauce"
+      },
+      {
+        "tag": "culturaldelights:cucumbers"
+      },
+      {
+        "tag": "forge:crops/corn"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:chicken_taco",
+      "count": 1
+    }
+  },
+  "recipes/cooking/creamed_corn": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "tag": "forge:crops/corn"
+      },
+      {
+        "tag": "forge:crops/corn"
+      },
+      {
+        "tag": "forge:milk"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:creamed_corn",
+      "count": 1
+    },
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "experience": 0.2,
+    "cookingtime": 200
+  },
+  "recipes/cooking/eggplant_parmesan": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "tag": "culturaldelights:regular_eggplants"
+      },
+      {
+        "item": "farmersdelight:raw_pasta"
+      },
+      {
+        "item": "farmersdelight:tomato_sauce"
+      },
+      {
+        "tag": "forge:milk"
+      },
+      {
+        "tag": "forge:eggs"
+      },
+      {
+        "tag": "forge:bread"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:eggplant_parmesan_block",
+      "count": 1
+    },
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "experience": 0.2,
+    "cookingtime": 200
+  },
+  "recipes/cooking/elote": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "tag": "forge:crops/corn"
+      },
+      {
+        "tag": "forge:milk"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:elote",
+      "count": 1
+    },
+    "container": {
+      "item": "minecraft:stick"
+    },
+    "experience": 0.2,
+    "cookingtime": 200
+  },
+  "recipes/cooking/empanada": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "item": "culturaldelights:corn_dough"
+      },
+      {
+        "item": "culturaldelights:corn_dough"
+      },
+      {
+        "tag": "culturaldelights:avocados"
+      },
+      {
+        "tag": "forge:crops/tomato"
+      },
+      {
+        "tag": "forge:crops/onion"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:empanada",
+      "count": 2
+    },
+    "experience": 0.1,
+    "cookingtime": 100
+  },
+  "recipes/cooking/poached_eggplants": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "tag": "culturaldelights:regular_eggplants"
+      },
+      {
+        "tag": "forge:eggs"
+      },
+      {
+        "tag": "forge:crops/onion"
+      },
+      {
+        "item": "farmersdelight:tomato_sauce"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:poached_eggplants",
+      "count": 1
+    },
+    "container": {
+      "item": "minecraft:bowl"
+    },
+    "experience": 0.2,
+    "cookingtime": 200
+  },
+  "recipes/cooking/raw_pasta": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:egg"
+      }
+    ],
+    "result": {
+      "item": "farmersdelight:raw_pasta",
+      "count": 4
+    },
+    "experience": 0.2,
+    "cookingtime": 200
+  },
+  "recipes/cooking/spicy_curry": {
+    "type": "farmersdelight:cooking",
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "farmersdelight:tomato_sauce"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "tag": "forge:crops/onion"
+      },
+      {
+        "tag": "forge:cooked_chicken"
+      },
+      {
+        "tag": "forge:milk"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:spicy_curry"
+    },
+    "experience": 0.35,
+    "cookingtime": 200
+  },
+  "recipes/corn_cob_crate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "tag": "forge:crops/corn"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:corn_cob_crate"
+    }
+  },
+  "recipes/corn_dough": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "tag": "forge:crops/corn"
+      },
+      {
+        "tag": "forge:crops/corn"
+      },
+      {
+        "tag": "forge:crops/corn"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:corn_dough",
+      "count": 3
+    }
+  },
+  "recipes/cucumber_crate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:cucumber"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:cucumber_crate"
+    }
+  },
+  "recipes/cutting/avocado_log": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:avocado_log"
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_strip"
+    },
+    "result": [
+      {
+        "item": "minecraft:stripped_jungle_log"
+      },
+      {
+        "item": "farmersdelight:tree_bark"
+      }
+    ],
+    "sound": "minecraft:item.axe.strip"
+  },
+  "recipes/cutting/avocado_wood": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:avocado_wood"
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:tool_action",
+      "action": "axe_strip"
+    },
+    "result": [
+      {
+        "item": "minecraft:stripped_jungle_wood"
+      },
+      {
+        "item": "farmersdelight:tree_bark"
+      }
+    ],
+    "sound": "minecraft:item.axe.strip"
+  },
+  "recipes/cutting/chicken_roll_slice": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:chicken_roll"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:chicken_roll_slice",
+        "count": 3
+      }
+    ]
+  },
+  "recipes/cutting/corn_kernels": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "tag": "forge:crops/corn"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:corn_kernels"
+      },
+      {
+        "item": "culturaldelights:corn_kernels"
+      },
+      {
+        "item": "culturaldelights:corn_kernels",
+        "chance": 0.5
+      },
+      {
+        "item": "farmersdelight:straw",
+        "chance": 1
+      }
+    ]
+  },
+  "recipes/cutting/cut_avocado": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:avocado"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:cut_avocado",
+        "count": 2
+      },
+      {
+        "item": "culturaldelights:avocado_pit"
+      }
+    ]
+  },
+  "recipes/cutting/cut_cucumber": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:cucumber"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:cut_cucumber",
+        "count": 2
+      }
+    ]
+  },
+  "recipes/cutting/cut_eggplant": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:eggplant"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:cut_eggplant",
+        "count": 2
+      }
+    ]
+  },
+  "recipes/cutting/cut_pickle": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:pickle"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:cut_pickle",
+        "count": 2
+      }
+    ]
+  },
+  "recipes/cutting/midori_roll_slice": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:midori_roll"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:midori_roll_slice",
+        "count": 3
+      }
+    ]
+  },
+  "recipes/cutting/raw_calamari": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:squid"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:raw_calamari",
+        "count": 2
+      },
+      {
+        "item": "minecraft:ink_sac",
+        "count": 3,
+        "chance": 0.5
+      }
+    ]
+  },
+  "recipes/cutting/raw_calamari_from_glowsquid": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:glow_squid"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:raw_calamari",
+        "count": 2
+      },
+      {
+        "item": "minecraft:glow_ink_sac",
+        "count": 3,
+        "chance": 0.5
+      }
+    ]
+  },
+  "recipes/cutting/tortilla_chips": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:tortilla"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:tortilla_chips",
+        "count": 3
+      }
+    ]
+  },
+  "recipes/cutting/wild_corn": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:wild_corn"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:corn_kernels"
+      },
+      {
+        "item": "culturaldelights:corn_kernels",
+        "chance": 0.5
+      }
+    ]
+  },
+  "recipes/cutting/wild_cucumbers": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:wild_cucumbers"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:cucumber"
+      },
+      {
+        "item": "culturaldelights:cucumber_seeds"
+      },
+      {
+        "item": "minecraft:yellow_dye",
+        "count": 2,
+        "chance": 0.5
+      }
+    ]
+  },
+  "recipes/cutting/wild_eggplants": {
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "culturaldelights:wild_eggplants"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "culturaldelights:white_eggplant"
+      },
+      {
+        "item": "culturaldelights:eggplant_seeds"
+      },
+      {
+        "item": "minecraft:light_gray_dye",
+        "chance": 0.5
+      }
+    ]
+  },
+  "recipes/egg_roll": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "tag": "forge:cooked_eggs"
+      },
+      {
+        "tag": "forge:cooked_eggs"
+      },
+      {
+        "tag": "forge:cooked_eggs"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:egg_roll",
+      "count": 4
+    }
+  },
+  "recipes/eggplant_burger": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "tag": "culturaldelights:smoked_regular_eggplants"
+      },
+      {
+        "tag": "forge:salad_ingredients"
+      },
+      {
+        "tag": "forge:crops/tomato"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:eggplant_burger",
+      "count": 1
+    }
+  },
+  "recipes/eggplant_crate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:eggplant"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:eggplant_crate"
+    }
+  },
+  "recipes/exotic_roll_medley": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:chicken_roll_slice"
+      },
+      {
+        "item": "culturaldelights:chicken_roll_slice"
+      },
+      {
+        "item": "culturaldelights:chicken_roll_slice"
+      },
+      {
+        "item": "culturaldelights:tropical_roll"
+      },
+      {
+        "item": "culturaldelights:tropical_roll"
+      },
+      {
+        "item": "culturaldelights:tropical_roll"
+      },
+      {
+        "item": "culturaldelights:pufferfish_roll"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "culturaldelights:pufferfish_roll"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:exotic_roll_medley"
+    }
+  },
+  "recipes/fermenting/pickle": {
+    "type": "brewinandchewin:fermenting",
+    "experience": 0.6,
+    "fermentingtime": 12000,
+    "ingredients": [
+      {
+        "item": "culturaldelights:cucumber"
+      },
+      {
+        "item": "culturaldelights:cucumber"
+      },
+      {
+        "item": "culturaldelights:cucumber"
+      },
+      {
+        "item": "culturaldelights:cucumber"
+      }
+    ],
+    "result": {
+      "count": 4,
+      "item": "culturaldelights:pickle"
+    },
+    "temperature": 2
+  },
+  "recipes/fish_taco": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:tortilla"
+      },
+      {
+        "tag": "forge:cooked_fishes"
+      },
+      {
+        "tag": "forge:crops/tomato"
+      },
+      {
+        "tag": "forge:salad_ingredients"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:fish_taco",
+      "count": 1
+    }
+  },
+  "recipes/from_crate/avocado": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:avocado_crate"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:avocado",
+      "count": 9
+    }
+  },
+  "recipes/from_crate/corn_cob": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:corn_cob_crate"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:corn_cob",
+      "count": 9
+    }
+  },
+  "recipes/from_crate/cucumber": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:cucumber_crate"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:cucumber",
+      "count": 9
+    }
+  },
+  "recipes/from_crate/eggplant": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:eggplant_crate"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:eggplant",
+      "count": 9
+    }
+  },
+  "recipes/from_crate/pickle": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:pickle_crate"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:pickle",
+      "count": 9
+    }
+  },
+  "recipes/from_crate/white_eggplant": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:white_eggplant_crate"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:white_eggplant",
+      "count": 9
+    }
+  },
+  "recipes/hearty_salad": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "forge:crops/tomato"
+      },
+      {
+        "tag": "culturaldelights:avocados"
+      },
+      {
+        "tag": "forge:crops/corn"
+      },
+      {
+        "item": "culturaldelights:cucumber"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:hearty_salad"
+    }
+  },
+  "recipes/jungle_planks": {
+    "type": "minecraft:crafting_shapeless",
+    "group": "planks",
+    "ingredients": [
+      {
+        "tag": "culturaldelights:avocado_logs"
+      }
+    ],
+    "result": {
+      "item": "minecraft:jungle_planks",
+      "count": 4
+    }
+  },
+  "recipes/midori_roll": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " ! ",
+      "@?@",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dried_kelp"
+      },
+      "@": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "?": {
+        "tag": "culturaldelights:avocados"
+      },
+      "!": {
+        "tag": "culturaldelights:cucumbers"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:midori_roll"
+    }
+  },
+  "recipes/mutton_sandwich": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "forge:bread"
+      },
+      {
+        "tag": "forge:cooked_mutton"
+      },
+      {
+        "tag": "forge:cooked_eggs"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:mutton_sandwich",
+      "count": 1
+    }
+  },
+  "recipes/pickle_crate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:pickle"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:pickle_crate"
+    }
+  },
+  "recipes/pork_wrap": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "culturaldelights:tortilla"
+      },
+      {
+        "tag": "forge:cooked_pork"
+      },
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "tag": "forge:salad_ingredients"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:pork_wrap",
+      "count": 1
+    }
+  },
+  "recipes/pufferfish_roll": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:pufferfish_roll",
+      "count": 2
+    }
+  },
+  "recipes/rice_ball": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "tag": "forge:raw_fishes/salmon"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:rice_ball",
+      "count": 5
+    }
+  },
+  "recipes/smelting/cooked_calamari": {
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "culturaldelights:raw_calamari"
+    },
+    "result": "culturaldelights:cooked_calamari",
+    "experience": 0.35,
+    "cookingtime": 200
+  },
+  "recipes/smelting/cooked_calamari_from_campfire": {
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+      "item": "culturaldelights:raw_calamari"
+    },
+    "result": "culturaldelights:cooked_calamari",
+    "experience": 0.35,
+    "cookingtime": 600
+  },
+  "recipes/smelting/cooked_calamari_from_smoking": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:raw_calamari"
+    },
+    "result": "culturaldelights:cooked_calamari",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/cooked_glowsquid": {
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "culturaldelights:glow_squid"
+    },
+    "result": "culturaldelights:cooked_squid",
+    "experience": 0.35,
+    "cookingtime": 200
+  },
+  "recipes/smelting/cooked_glowsquid_from_campfire": {
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+      "item": "culturaldelights:glow_squid"
+    },
+    "result": "culturaldelights:cooked_squid",
+    "experience": 0.35,
+    "cookingtime": 600
+  },
+  "recipes/smelting/cooked_glowsquid_from_smoking": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:glow_squid"
+    },
+    "result": "culturaldelights:cooked_squid",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/cooked_squid": {
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "culturaldelights:squid"
+    },
+    "result": "culturaldelights:cooked_squid",
+    "experience": 0.35,
+    "cookingtime": 200
+  },
+  "recipes/smelting/cooked_squid_from_campfire": {
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+      "item": "culturaldelights:squid"
+    },
+    "result": "culturaldelights:cooked_squid",
+    "experience": 0.35,
+    "cookingtime": 600
+  },
+  "recipes/smelting/cooked_squid_from_smoking": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:squid"
+    },
+    "result": "culturaldelights:cooked_squid",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/popcorn": {
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "culturaldelights:corn_kernels"
+    },
+    "result": "culturaldelights:popcorn",
+    "experience": 0.35,
+    "cookingtime": 200
+  },
+  "recipes/smelting/popcorn_from_campfire": {
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+      "item": "culturaldelights:corn_kernels"
+    },
+    "result": "culturaldelights:popcorn",
+    "experience": 0.35,
+    "cookingtime": 600
+  },
+  "recipes/smelting/popcorn_from_smoking": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:corn_kernels"
+    },
+    "result": "culturaldelights:popcorn",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/smoked_cut_eggplant": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:cut_eggplant"
+    },
+    "result": "culturaldelights:smoked_cut_eggplant",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/smoked_eggplant": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:eggplant"
+    },
+    "result": "culturaldelights:smoked_eggplant",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/smoked_tomato": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "farmersdelight:tomato"
+    },
+    "result": "culturaldelights:smoked_tomato",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/smoked_white_eggplant": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:white_eggplant"
+    },
+    "result": "culturaldelights:smoked_white_eggplant",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/smelting/tortilla": {
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "culturaldelights:corn_dough"
+    },
+    "result": "culturaldelights:tortilla",
+    "experience": 0.35,
+    "cookingtime": 200
+  },
+  "recipes/smelting/tortilla_from_campfire": {
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+      "item": "culturaldelights:corn_dough"
+    },
+    "result": "culturaldelights:tortilla",
+    "experience": 0.35,
+    "cookingtime": 600
+  },
+  "recipes/smelting/tortilla_from_smoking": {
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "culturaldelights:corn_dough"
+    },
+    "result": "culturaldelights:tortilla",
+    "experience": 0.35,
+    "cookingtime": 100
+  },
+  "recipes/tortilla_chips": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:tortilla"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:tortilla_chips",
+      "count": 2
+    }
+  },
+  "recipes/tropical_roll": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    "result": {
+      "item": "culturaldelights:tropical_roll",
+      "count": 2
+    }
+  },
+  "recipes/white_eggplant_crate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "culturaldelights:white_eggplant"
+      }
+    },
+    "result": {
+      "item": "culturaldelights:white_eggplant_crate"
+    }
+  },
+  "tags/items/all_eggplants": {
+    "replace": false,
+    "values": [
+      "culturaldelights:eggplant",
+      "culturaldelights:cut_eggplant",
+      "culturaldelights:white_eggplant"
+    ]
+  },
+  "tags/items/avocado_logs": {
+    "replace": false,
+    "values": [
+      "culturaldelights:avocado_log",
+      "culturaldelights:avocado_wood"
+    ]
+  },
+  "tags/items/avocados": {
+    "replace": false,
+    "values": [
+      "culturaldelights:avocado",
+      "culturaldelights:cut_avocado"
+    ]
+  },
+  "tags/items/cucumbers": {
+    "replace": false,
+    "values": [
+      "culturaldelights:cucumber",
+      "culturaldelights:cut_cucumber"
+    ]
+  },
+  "tags/items/regular_eggplants": {
+    "replace": false,
+    "values": [
+      "culturaldelights:eggplant",
+      "culturaldelights:cut_eggplant"
+    ]
+  },
+  "tags/items/smoked_regular_eggplants": {
+    "replace": false,
+    "values": [
+      "culturaldelights:smoked_eggplant",
+      "culturaldelights:smoked_cut_eggplant"
+    ]
+  },
+  "worldgen/configured_feature/avocado_pit": {
+    "type": "minecraft:tree",
+    "config": {
+      "decorators": [],
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:dirt"
+        }
+      },
+      "foliage_placer": {
+        "type": "minecraft:acacia_foliage_placer",
+        "offset": 0,
+        "radius": 0
+      },
+      "foliage_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "culturaldelights:avocado_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      },
+      "force_dirt": false,
+      "ignore_vines": true,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size",
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1
+      },
+      "trunk_placer": {
+        "type": "minecraft:straight_trunk_placer",
+        "base_height": 3,
+        "height_rand_a": 2,
+        "height_rand_b": 0
+      },
+      "trunk_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "culturaldelights:avocado_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  },
+  "worldgen/configured_feature/avocado_spawn": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "default": "culturaldelights:avocado_tree",
+      "features": [
+        {
+          "chance": 0.2,
+          "feature": "culturaldelights:avocado_tree"
+        }
+      ]
+    }
+  },
+  "worldgen/configured_feature/avocado_tree": {
+    "type": "minecraft:tree",
+    "config": {
+      "decorators": [],
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:dirt"
+        }
+      },
+      "foliage_placer": {
+        "type": "minecraft:acacia_foliage_placer",
+        "offset": 0,
+        "radius": 3
+      },
+      "foliage_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "data": {
+              "Name": "culturaldelights:avocado_leaves",
+              "Properties": {
+                "distance": "7",
+                "persistent": "false",
+                "waterlogged": "false"
+              }
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "Name": "culturaldelights:fruiting_avocado_leaves",
+              "Properties": {
+                "age": "4",
+                "distance": "7",
+                "persistent": "false",
+                "waterlogged": "false"
+              }
+            },
+            "weight": 1
+          }
+        ]
+      },
+      "force_dirt": false,
+      "ignore_vines": true,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size",
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1
+      },
+      "trunk_placer": {
+        "type": "minecraft:straight_trunk_placer",
+        "base_height": 3,
+        "height_rand_a": 2,
+        "height_rand_b": 0
+      },
+      "trunk_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "culturaldelights:avocado_log",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      }
+    }
+  },
+  "worldgen/configured_feature/wild_corn": {
+    "type": "minecraft:flower",
+    "config": {
+      "feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "culturaldelights:wild_corn"
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      },
+      "tries": 32,
+      "xz_spread": 6,
+      "y_spread": 2
+    }
+  },
+  "worldgen/configured_feature/wild_cucumber": {
+    "type": "minecraft:flower",
+    "config": {
+      "feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "culturaldelights:wild_cucumbers"
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      },
+      "tries": 32,
+      "xz_spread": 6,
+      "y_spread": 2
+    }
+  },
+  "worldgen/configured_feature/wild_eggplant": {
+    "type": "minecraft:flower",
+    "config": {
+      "feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "culturaldelights:wild_eggplants"
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            }
+          }
+        ]
+      },
+      "tries": 32,
+      "xz_spread": 6,
+      "y_spread": 2
+    }
+  },
+  "worldgen/placed_feature/avocado_tree": {
+    "feature": "culturaldelights:avocado_tree",
+    "placement": [
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:would_survive",
+          "state": {
+            "Name": "culturaldelights:avocado_sapling",
+            "Properties": {
+              "stage": "0"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "worldgen/placed_feature/trees_avocado": {
+    "feature": "culturaldelights:avocado_spawn",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "data": 0,
+              "weight": 9
+            },
+            {
+              "data": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:surface_water_depth_filter",
+        "max_water_depth": 0
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "OCEAN_FLOOR"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/wild_corn": {
+    "feature": "culturaldelights:wild_corn",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 25
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "MOTION_BLOCKING"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/wild_cucumbers": {
+    "feature": "culturaldelights:wild_cucumber",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 25
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "MOTION_BLOCKING"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/wild_eggplants": {
+    "feature": "culturaldelights:wild_eggplant",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 25
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "MOTION_BLOCKING"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

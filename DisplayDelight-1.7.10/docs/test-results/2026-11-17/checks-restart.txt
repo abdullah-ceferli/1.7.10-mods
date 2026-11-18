@@ -1,0 +1,2 @@
+PASS: Actual dedicated-server restart preserves count, hidden plate and facing
+Failed: 0

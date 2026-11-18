@@ -1,0 +1,434 @@
+net.minecraft.entity.ai.attributes.RangedAttribute
+  public net.minecraft.entity.ai.attributes.RangedAttribute(java.lang.String, double, double, double);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: dload_2
+       3: invokespecial #1                  // Method net/minecraft/entity/ai/attributes/BaseAttribute."<init>":(Ljava/lang/String;D)V
+       6: aload_0
+       7: dload         4
+       9: putfield      #2                  // Field minimumValue:D
+      12: aload_0
+      13: dload         6
+      15: putfield      #3                  // Field maximumValue:D
+      18: dload         4
+      20: dload         6
+      22: dcmpl
+      23: ifle          36
+      26: new           #4                  // class java/lang/IllegalArgumentException
+      29: dup
+      30: ldc           #5                  // String Minimum value cannot be bigger than maximum value!
+      32: invokespecial #6                  // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      35: athrow
+      36: dload_2
+      37: dload         4
+      39: dcmpg
+      40: ifge          53
+      43: new           #4                  // class java/lang/IllegalArgumentException
+      46: dup
+      47: ldc           #7                  // String Default value cannot be lower than minimum value!
+      49: invokespecial #6                  // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      52: athrow
+      53: dload_2
+      54: dload         6
+      56: dcmpl
+      57: ifle          70
+      60: new           #4                  // class java/lang/IllegalArgumentException
+      63: dup
+      64: ldc           #8                  // String Default value cannot be bigger than maximum value!
+      66: invokespecial #6                  // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      69: athrow
+      70: return
+
+
+net.minecraft.entity.ai.attributes.BaseAttribute
+  public net.minecraft.entity.ai.attributes.BaseAttribute setShouldWatch(boolean);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #7                  // Field shouldWatch:Z
+       5: aload_0
+       6: areturn
+
+
+net.minecraft.entity.EntityLivingBase
+  protected void applyEntityAttributes();
+    Code:
+       0: aload_0
+       1: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+       4: getstatic     #42                 // Field net/minecraft/entity/SharedMonsterAttributes.maxHealth:Lnet/minecraft/entity/ai/attributes/IAttribute;
+       7: invokevirtual #43                 // Method net/minecraft/entity/ai/attributes/BaseAttributeMap.registerAttribute:(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      10: pop
+      11: aload_0
+      12: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+      15: getstatic     #44                 // Field net/minecraft/entity/SharedMonsterAttributes.knockbackResistance:Lnet/minecraft/entity/ai/attributes/IAttribute;
+      18: invokevirtual #43                 // Method net/minecraft/entity/ai/attributes/BaseAttributeMap.registerAttribute:(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      21: pop
+      22: aload_0
+      23: invokevirtual #41                 // Method getAttributeMap:()Lnet/minecraft/entity/ai/attributes/BaseAttributeMap;
+      26: getstatic     #45                 // Field net/minecraft/entity/SharedMonsterAttributes.movementSpeed:Lnet/minecraft/entity/ai/attributes/IAttribute;
+      29: invokevirtual #43                 // Method net/minecraft/entity/ai/attributes/BaseAttributeMap.registerAttribute:(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      32: pop
+      33: aload_0
+      34: invokevirtual #46                 // Method isAIEnabled:()Z
+      37: ifne          55
+      40: aload_0
+      41: getstatic     #45                 // Field net/minecraft/entity/SharedMonsterAttributes.movementSpeed:Lnet/minecraft/entity/ai/attributes/IAttribute;
+      44: invokevirtual #47                 // Method getEntityAttribute:(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      47: ldc2_w        #48                 // double 0.10000000149011612d
+      50: invokeinterface #50,  3           // InterfaceMethod net/minecraft/entity/ai/attributes/IAttributeInstance.setBaseValue:(D)V
+      55: return
+
+
+net.minecraft.entity.EntityLivingBase
+  public int getTotalArmorValue();
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: aload_0
+       3: invokevirtual #167                // Method getLastActiveItems:()[Lnet/minecraft/item/ItemStack;
+       6: astore_2
+       7: aload_2
+       8: arraylength
+       9: istore_3
+      10: iconst_0
+      11: istore        4
+      13: iload         4
+      15: iload_3
+      16: if_icmpge     65
+      19: aload_2
+      20: iload         4
+      22: aaload
+      23: astore        5
+      25: aload         5
+      27: ifnull        59
+      30: aload         5
+      32: invokevirtual #306                // Method net/minecraft/item/ItemStack.getItem:()Lnet/minecraft/item/Item;
+      35: instanceof    #356                // class net/minecraft/item/ItemArmor
+      38: ifeq          59
+      41: aload         5
+      43: invokevirtual #306                // Method net/minecraft/item/ItemStack.getItem:()Lnet/minecraft/item/Item;
+      46: checkcast     #356                // class net/minecraft/item/ItemArmor
+      49: getfield      #357                // Field net/minecraft/item/ItemArmor.damageReduceAmount:I
+      52: istore        6
+      54: iload_1
+      55: iload         6
+      57: iadd
+      58: istore_1
+      59: iinc          4, 1
+      62: goto          13
+      65: iload_1
+      66: ireturn
+
+
+net.minecraft.entity.EntityLivingBase
+  protected void damageArmor(float);
+    Code:
+       0: return
+
+
+net.minecraft.entity.EntityLivingBase
+  protected float applyArmorCalculations(net.minecraft.util.DamageSource, float);
+    Code:
+       0: aload_1
+       1: invokevirtual #358                // Method net/minecraft/util/DamageSource.isUnblockable:()Z
+       4: ifne          33
+       7: bipush        25
+       9: aload_0
+      10: invokevirtual #359                // Method getTotalArmorValue:()I
+      13: isub
+      14: istore_3
+      15: fload_2
+      16: iload_3
+      17: i2f
+      18: fmul
+      19: fstore        4
+      21: aload_0
+      22: fload_2
+      23: invokevirtual #360                // Method damageArmor:(F)V
+      26: fload         4
+      28: ldc_w         #361                // float 25.0f
+      31: fdiv
+      32: fstore_2
+      33: fload_2
+      34: freturn
+
+
+net.minecraft.entity.EntityLivingBase
+  protected void damageEntity(net.minecraft.util.DamageSource, float);
+    Code:
+       0: aload_0
+       1: invokevirtual #247                // Method isEntityInvulnerable:()Z
+       4: ifne          101
+       7: aload_0
+       8: aload_1
+       9: fload_2
+      10: invokestatic  #367                // Method net/minecraftforge/common/ForgeHooks.onLivingHurt:(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/DamageSource;F)F
+      13: fstore_2
+      14: fload_2
+      15: fconst_0
+      16: fcmpg
+      17: ifgt          21
+      20: return
+      21: aload_0
+      22: aload_1
+      23: fload_2
+      24: invokevirtual #368                // Method applyArmorCalculations:(Lnet/minecraft/util/DamageSource;F)F
+      27: fstore_2
+      28: aload_0
+      29: aload_1
+      30: fload_2
+      31: invokevirtual #369                // Method applyPotionDamageCalculations:(Lnet/minecraft/util/DamageSource;F)F
+      34: fstore_2
+      35: fload_2
+      36: fstore_3
+      37: fload_2
+      38: aload_0
+      39: invokevirtual #166                // Method getAbsorptionAmount:()F
+      42: fsub
+      43: fconst_0
+      44: invokestatic  #370                // Method java/lang/Math.max:(FF)F
+      47: fstore_2
+      48: aload_0
+      49: aload_0
+      50: invokevirtual #166                // Method getAbsorptionAmount:()F
+      53: fload_3
+      54: fload_2
+      55: fsub
+      56: fsub
+      57: invokevirtual #189                // Method setAbsorptionAmount:(F)V
+      60: fload_2
+      61: fconst_0
+      62: fcmpl
+      63: ifeq          101
+      66: aload_0
+      67: invokevirtual #113                // Method getHealth:()F
+      70: fstore        4
+      72: aload_0
+      73: fload         4
+      75: fload_2
+      76: fsub
+      77: invokevirtual #16                 // Method setHealth:(F)V
+      80: aload_0
+      81: invokevirtual #321                // Method func_110142_aN:()Lnet/minecraft/util/CombatTracker;
+      84: aload_1
+      85: fload         4
+      87: fload_2
+      88: invokevirtual #371                // Method net/minecraft/util/CombatTracker.func_94547_a:(Lnet/minecraft/util/DamageSource;FF)V
+      91: aload_0
+      92: aload_0
+      93: invokevirtual #166                // Method getAbsorptionAmount:()F
+      96: fload_2
+      97: fsub
+      98: invokevirtual #189                // Method setAbsorptionAmount:(F)V
+     101: return
+
+
+net.minecraft.entity.player.EntityPlayer
+  protected void damageEntity(net.minecraft.util.DamageSource, float);
+    Code:
+       0: aload_0
+       1: invokevirtual #373                // Method isEntityInvulnerable:()Z
+       4: ifne          143
+       7: aload_0
+       8: aload_1
+       9: fload_2
+      10: invokestatic  #393                // Method net/minecraftforge/common/ForgeHooks.onLivingHurt:(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/DamageSource;F)F
+      13: fstore_2
+      14: fload_2
+      15: fconst_0
+      16: fcmpg
+      17: ifgt          21
+      20: return
+      21: aload_1
+      22: invokevirtual #394                // Method net/minecraft/util/DamageSource.isUnblockable:()Z
+      25: ifne          48
+      28: aload_0
+      29: invokevirtual #395                // Method isBlocking:()Z
+      32: ifeq          48
+      35: fload_2
+      36: fconst_0
+      37: fcmpl
+      38: ifle          48
+      41: fconst_1
+      42: fload_2
+      43: fadd
+      44: ldc           #111                // float 0.5f
+      46: fmul
+      47: fstore_2
+      48: aload_0
+      49: aload_0
+      50: getfield      #8                  // Field inventory:Lnet/minecraft/entity/player/InventoryPlayer;
+      53: getfield      #392                // Field net/minecraft/entity/player/InventoryPlayer.armorInventory:[Lnet/minecraft/item/ItemStack;
+      56: aload_1
+      57: fload_2
+      58: f2d
+      59: invokestatic  #396                // Method net/minecraftforge/common/ISpecialArmor$ArmorProperties.ApplyArmor:(Lnet/minecraft/entity/EntityLivingBase;[Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/DamageSource;D)F
+      62: fstore_2
+      63: fload_2
+      64: fconst_0
+      65: fcmpg
+      66: ifgt          70
+      69: return
+      70: aload_0
+      71: aload_1
+      72: fload_2
+      73: invokevirtual #397                // Method applyPotionDamageCalculations:(Lnet/minecraft/util/DamageSource;F)F
+      76: fstore_2
+      77: fload_2
+      78: fstore_3
+      79: fload_2
+      80: aload_0
+      81: invokevirtual #398                // Method getAbsorptionAmount:()F
+      84: fsub
+      85: fconst_0
+      86: invokestatic  #399                // Method java/lang/Math.max:(FF)F
+      89: fstore_2
+      90: aload_0
+      91: aload_0
+      92: invokevirtual #398                // Method getAbsorptionAmount:()F
+      95: fload_3
+      96: fload_2
+      97: fsub
+      98: fsub
+      99: invokevirtual #400                // Method setAbsorptionAmount:(F)V
+     102: fload_2
+     103: fconst_0
+     104: fcmpl
+     105: ifeq          143
+     108: aload_0
+     109: aload_1
+     110: invokevirtual #401                // Method net/minecraft/util/DamageSource.getHungerDamage:()F
+     113: invokevirtual #402                // Method addExhaustion:(F)V
+     116: aload_0
+     117: invokevirtual #159                // Method getHealth:()F
+     120: fstore        4
+     122: aload_0
+     123: aload_0
+     124: invokevirtual #159                // Method getHealth:()F
+     127: fload_2
+     128: fsub
+     129: invokevirtual #180                // Method setHealth:(F)V
+     132: aload_0
+     133: invokevirtual #403                // Method func_110142_aN:()Lnet/minecraft/util/CombatTracker;
+     136: aload_1
+     137: fload         4
+     139: fload_2
+     140: invokevirtual #404                // Method net/minecraft/util/CombatTracker.func_94547_a:(Lnet/minecraft/util/DamageSource;FF)V
+     143: return
+
+
+net.minecraft.entity.monster.EntityZombie
+  public int getTotalArmorValue();
+    Code:
+       0: aload_0
+       1: invokespecial #59                 // Method net/minecraft/entity/monster/EntityMob.getTotalArmorValue:()I
+       4: iconst_2
+       5: iadd
+       6: istore_1
+       7: iload_1
+       8: bipush        20
+      10: if_icmple     16
+      13: bipush        20
+      15: istore_1
+      16: iload_1
+      17: ireturn
+
+
+net.minecraft.entity.boss.EntityWither
+  public int getTotalArmorValue();
+    Code:
+       0: iconst_4
+       1: ireturn
+
+
+net.minecraft.util.DamageSource
+  static {};
+    Code:
+       0: new           #23                 // class net/minecraft/util/DamageSource
+       3: dup
+       4: ldc           #52                 // String inFire
+       6: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+       9: invokevirtual #53                 // Method setFireDamage:()Lnet/minecraft/util/DamageSource;
+      12: putstatic     #54                 // Field inFire:Lnet/minecraft/util/DamageSource;
+      15: new           #23                 // class net/minecraft/util/DamageSource
+      18: dup
+      19: ldc           #9                  // String onFire
+      21: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+      24: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+      27: invokevirtual #53                 // Method setFireDamage:()Lnet/minecraft/util/DamageSource;
+      30: putstatic     #56                 // Field onFire:Lnet/minecraft/util/DamageSource;
+      33: new           #23                 // class net/minecraft/util/DamageSource
+      36: dup
+      37: ldc           #57                 // String lava
+      39: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+      42: invokevirtual #53                 // Method setFireDamage:()Lnet/minecraft/util/DamageSource;
+      45: putstatic     #58                 // Field lava:Lnet/minecraft/util/DamageSource;
+      48: new           #23                 // class net/minecraft/util/DamageSource
+      51: dup
+      52: ldc           #59                 // String inWall
+      54: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+      57: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+      60: putstatic     #60                 // Field inWall:Lnet/minecraft/util/DamageSource;
+      63: new           #23                 // class net/minecraft/util/DamageSource
+      66: dup
+      67: ldc           #61                 // String drown
+      69: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+      72: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+      75: putstatic     #62                 // Field drown:Lnet/minecraft/util/DamageSource;
+      78: new           #23                 // class net/minecraft/util/DamageSource
+      81: dup
+      82: ldc           #63                 // String starve
+      84: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+      87: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+      90: invokevirtual #64                 // Method setDamageIsAbsolute:()Lnet/minecraft/util/DamageSource;
+      93: putstatic     #65                 // Field starve:Lnet/minecraft/util/DamageSource;
+      96: new           #23                 // class net/minecraft/util/DamageSource
+      99: dup
+     100: ldc           #66                 // String cactus
+     102: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     105: putstatic     #67                 // Field cactus:Lnet/minecraft/util/DamageSource;
+     108: new           #23                 // class net/minecraft/util/DamageSource
+     111: dup
+     112: ldc           #68                 // String fall
+     114: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     117: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+     120: putstatic     #69                 // Field fall:Lnet/minecraft/util/DamageSource;
+     123: new           #23                 // class net/minecraft/util/DamageSource
+     126: dup
+     127: ldc           #70                 // String outOfWorld
+     129: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     132: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+     135: invokevirtual #71                 // Method setDamageAllowedInCreativeMode:()Lnet/minecraft/util/DamageSource;
+     138: putstatic     #72                 // Field outOfWorld:Lnet/minecraft/util/DamageSource;
+     141: new           #23                 // class net/minecraft/util/DamageSource
+     144: dup
+     145: ldc           #73                 // String generic
+     147: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     150: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+     153: putstatic     #74                 // Field generic:Lnet/minecraft/util/DamageSource;
+     156: new           #23                 // class net/minecraft/util/DamageSource
+     159: dup
+     160: ldc           #75                 // String magic
+     162: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     165: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+     168: invokevirtual #16                 // Method setMagicDamage:()Lnet/minecraft/util/DamageSource;
+     171: putstatic     #76                 // Field magic:Lnet/minecraft/util/DamageSource;
+     174: new           #23                 // class net/minecraft/util/DamageSource
+     177: dup
+     178: ldc           #77                 // String wither
+     180: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     183: invokevirtual #55                 // Method setDamageBypassesArmor:()Lnet/minecraft/util/DamageSource;
+     186: putstatic     #78                 // Field wither:Lnet/minecraft/util/DamageSource;
+     189: new           #23                 // class net/minecraft/util/DamageSource
+     192: dup
+     193: ldc           #79                 // String anvil
+     195: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     198: putstatic     #80                 // Field anvil:Lnet/minecraft/util/DamageSource;
+     201: new           #23                 // class net/minecraft/util/DamageSource
+     204: dup
+     205: ldc           #81                 // String fallingBlock
+     207: invokespecial #25                 // Method "<init>":(Ljava/lang/String;)V
+     210: putstatic     #82                 // Field fallingBlock:Lnet/minecraft/util/DamageSource;
+     213: return
+}

@@ -1,0 +1,20 @@
+PASS: Upstream stirring quality rewards steady circles, decays while idle, and bounds packet floods
+PASS: World opening preserves claim denials, canceled interactions and the native sneak-use bypass
+PASS: Native pot transformer gates attended cooking on stirring and consumes a complete two-serving batch once
+PASS: Serving uses the native container and meal rules and pays native recipe experience
+PASS: Shift-serving drains the remaining native meal batch with exact container and output accounting
+PASS: Unattended and hopper-fed pots keep ordinary Farmer's Delight cooking
+PASS: Two-sided batch frying waits for a toss, retains cooked food, and returns the exact batch
+PASS: Board cuts batch ingredients through native recipes and charges native knife durability per item
+PASS: Recipe book autofill is atomic; sandwich assembly validates and consumes the installed native recipe
+PASS: Breaking a layered board returns each native and extra ingredient exactly once
+PASS: Blocked stoves return food and clear the manual frying state
+PASS: Session validation rejects distance changes and replaced tile entities
+PASS: Native tile NBT hooks preserve fractional frying progress and board layers
+PASS: All 17 eligible native assembly recipes produce their exact outputs, reject personal crafting and retain automation matching
+PASS: Shift-book assembly preserves full output batches and consumes nonstacking containers once per batch, returning their native remainder
+PASS: Manual assembly accepts a late base below batch filling and retrieves only the upper layer without loss
+PASS: Bulk stove placement fills all six available positions and retains the remaining ingredients
+PASS: Native tools can be stuck into an empty board and retrieved without copying or losing them
+PASS: Shift-book pot filling adds complete sets to compatible existing ingredients and lays repeated ingredients out for native matching
+Failed: 0

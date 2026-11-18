@@ -1,0 +1,873 @@
+{
+  "sourcePath": "src/main/java/com/dhanantry/scapeandrunparasites/entity/ai/misc/EntityParasiteBase.java",
+  "sourceSha256": "576447375e2c21f2db7c20779f0081d91ae56109334cfa154dc3e773a6e12ef1",
+  "sourceLinesMatchVerified": true,
+  "reportedErrorsForFile": 92,
+  "errors": [
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 117,
+      "message": "package net.minecraft.advancements does not exist",
+      "details": "import net.minecraft.advancements.CriteriaTriggers;\n                                 ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 119,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.block.BlockEndGateway;\n                          ^\n  symbol:   class BlockEndGateway\n  location: package net.minecraft.block",
+      "symbol": "class BlockEndGateway",
+      "location": "package net.minecraft.block",
+      "symbolKind": "class",
+      "symbolName": "BlockEndGateway"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 123,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.block.SoundType;\n                          ^\n  symbol:   class SoundType\n  location: package net.minecraft.block",
+      "symbol": "class SoundType",
+      "location": "package net.minecraft.block",
+      "symbolKind": "class",
+      "symbolName": "SoundType"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 133,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.entity.MultiPartEntityPart;\n                           ^\n  symbol:   class MultiPartEntityPart\n  location: package net.minecraft.entity",
+      "symbol": "class MultiPartEntityPart",
+      "location": "package net.minecraft.entity",
+      "symbolKind": "class",
+      "symbolName": "MultiPartEntityPart"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 147,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.inventory.EntityEquipmentSlot;\n                              ^\n  symbol:   class EntityEquipmentSlot\n  location: package net.minecraft.inventory",
+      "symbol": "class EntityEquipmentSlot",
+      "location": "package net.minecraft.inventory",
+      "symbolKind": "class",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 150,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.item.ItemShield;\n                         ^\n  symbol:   class ItemShield\n  location: package net.minecraft.item",
+      "symbol": "class ItemShield",
+      "location": "package net.minecraft.item",
+      "symbolKind": "class",
+      "symbolName": "ItemShield"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 159,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.pathfinding.PathNavigateFlying;\n                                ^\n  symbol:   class PathNavigateFlying\n  location: package net.minecraft.pathfinding",
+      "symbol": "class PathNavigateFlying",
+      "location": "package net.minecraft.pathfinding",
+      "symbolKind": "class",
+      "symbolName": "PathNavigateFlying"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 160,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.pathfinding.PathNavigateGround;\n                                ^\n  symbol:   class PathNavigateGround\n  location: package net.minecraft.pathfinding",
+      "symbol": "class PathNavigateGround",
+      "location": "package net.minecraft.pathfinding",
+      "symbolKind": "class",
+      "symbolName": "PathNavigateGround"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 165,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.util.EnumHand;\n                         ^\n  symbol:   class EnumHand\n  location: package net.minecraft.util",
+      "symbol": "class EnumHand",
+      "location": "package net.minecraft.util",
+      "symbolKind": "class",
+      "symbolName": "EnumHand"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 167,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.util.SoundCategory;\n                         ^\n  symbol:   class SoundCategory\n  location: package net.minecraft.util",
+      "symbol": "class SoundCategory",
+      "location": "package net.minecraft.util",
+      "symbolKind": "class",
+      "symbolName": "SoundCategory"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 176,
+      "message": "cannot find symbol",
+      "details": "import net.minecraft.world.biome.Biome;\n                                ^\n  symbol:   class Biome\n  location: package net.minecraft.world.biome",
+      "symbol": "class Biome",
+      "location": "package net.minecraft.world.biome",
+      "symbolKind": "class",
+      "symbolName": "Biome"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1097,
+      "message": "cannot find symbol",
+      "details": "    protected boolean processInteract(EntityPlayer player, EnumHand hand) {\n                                                           ^\n  symbol:   class EnumHand\n  location: class EntityParasiteBase",
+      "symbol": "class EnumHand",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "EnumHand"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1635,
+      "message": "cannot find symbol",
+      "details": "    private boolean isBiomeBlacklistedForFrozen(Biome biome) {\n                                                ^\n  symbol:   class Biome\n  location: class EntityParasiteBase",
+      "symbol": "class Biome",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "Biome"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2235,
+      "message": "cannot find symbol",
+      "details": "    public boolean attackEntityFromPart(MultiPartEntityPart dragonPart, DamageSource source, float damage) {\n                                        ^\n  symbol:   class MultiPartEntityPart\n  location: class EntityParasiteBase",
+      "symbol": "class MultiPartEntityPart",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "MultiPartEntityPart"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 388,
+      "message": "cannot find symbol",
+      "details": "        if (this.isAIDisabled()) {\n                ^\n  symbol: method isAIDisabled()",
+      "symbol": "method isAIDisabled()",
+      "symbolKind": "method",
+      "symbolName": "isAIDisabled()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 544,
+      "message": "cannot find symbol",
+      "details": "                    if (!bl.isPassable((IBlockAccess)this.worldObj, EntityQueries.position(this))) {\n                           ^\n  symbol:   method isPassable(IBlockAccess,BlockPos)\n  location: variable bl of type Block",
+      "symbol": "method isPassable(IBlockAccess,BlockPos)",
+      "location": "variable bl of type Block",
+      "symbolKind": "method",
+      "symbolName": "isPassable(IBlockAccess,BlockPos)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 613,
+      "message": "incompatible types: Object cannot be converted to EntityParasiteBase",
+      "details": "        for (EntityParasiteBase mob : moblist) {\n                                      ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 724,
+      "message": "cannot find symbol",
+      "details": "                    playerIn.getItemStackFromSlot(EntityEquipmentSlot.MAINHAND).damageItem(count, (EntityLivingBase)playerIn);\n                                                  ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 725,
+      "message": "cannot find symbol",
+      "details": "                    playerIn.getItemStackFromSlot(EntityEquipmentSlot.OFFHAND).damageItem(count, (EntityLivingBase)playerIn);\n                                                  ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 730,
+      "message": "cannot find symbol",
+      "details": "            if (playerIn.getItemStackFromSlot(EntityEquipmentSlot.MAINHAND).getItem() instanceof WeaponToolMeleeBase) {\n                                              ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 753,
+      "message": "incompatible types: Potion cannot be converted to int",
+      "details": "                this.removePotionEffect(SRPPotions.PIVOT_E);\n                                                  ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 765,
+      "message": "cannot find symbol",
+      "details": "                damageName = RegistryNames.get(((EntityPlayer)Objects.requireNonNull(source.getEntity())).getItemStackFromSlot(EntityEquipmentSlot.MAINHAND).getItem()).toString();\n                                                                                                                               ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 768,
+      "message": "cannot find symbol",
+      "details": "                damageName = EntityList.getKey((Entity)source.getSourceOfDamage()).toString();\n                                       ^\n  symbol:   method getKey(Entity)\n  location: class EntityList",
+      "symbol": "method getKey(Entity)",
+      "location": "class EntityList",
+      "symbolKind": "method",
+      "symbolName": "getKey(Entity)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 897,
+      "message": "cannot find symbol",
+      "details": "            ItemStack itemStack = itemstack1 = entityplayer.isHandActive() ? entityplayer.getActiveItemStack() : ItemStack.EMPTY;\n                                                           ^\n  symbol:   method isHandActive()\n  location: variable entityplayer of type EntityPlayer",
+      "symbol": "method isHandActive()",
+      "location": "variable entityplayer of type EntityPlayer",
+      "symbolKind": "method",
+      "symbolName": "isHandActive()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 897,
+      "message": "cannot find symbol",
+      "details": "            ItemStack itemStack = itemstack1 = entityplayer.isHandActive() ? entityplayer.getActiveItemStack() : ItemStack.EMPTY;\n                                                                                         ^\n  symbol:   method getActiveItemStack()\n  location: variable entityplayer of type EntityPlayer",
+      "symbol": "method getActiveItemStack()",
+      "location": "variable entityplayer of type EntityPlayer",
+      "symbolKind": "method",
+      "symbolName": "getActiveItemStack()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 897,
+      "message": "cannot find symbol",
+      "details": "            ItemStack itemStack = itemstack1 = entityplayer.isHandActive() ? entityplayer.getActiveItemStack() : ItemStack.EMPTY;\n                                                                                                                          ^\n  symbol:   variable EMPTY\n  location: class ItemStack",
+      "symbol": "variable EMPTY",
+      "location": "class ItemStack",
+      "symbolKind": "variable",
+      "symbolName": "EMPTY"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 898,
+      "message": "cannot find symbol",
+      "details": "            if (itemstack1.getItem() instanceof ItemShield && entityplayer.isActiveItemStackBlocking() && !entityplayer.getCooldownTracker().hasCooldown(itemstack1.getItem())) {\n                                                ^\n  symbol:   class ItemShield\n  location: class EntityParasiteBase",
+      "symbol": "class ItemShield",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "ItemShield"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 898,
+      "message": "cannot find symbol",
+      "details": "            if (itemstack1.getItem() instanceof ItemShield && entityplayer.isActiveItemStackBlocking() && !entityplayer.getCooldownTracker().hasCooldown(itemstack1.getItem())) {\n                                                                          ^\n  symbol:   method isActiveItemStackBlocking()\n  location: variable entityplayer of type EntityPlayer",
+      "symbol": "method isActiveItemStackBlocking()",
+      "location": "variable entityplayer of type EntityPlayer",
+      "symbolKind": "method",
+      "symbolName": "isActiveItemStackBlocking()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 898,
+      "message": "cannot find symbol",
+      "details": "            if (itemstack1.getItem() instanceof ItemShield && entityplayer.isActiveItemStackBlocking() && !entityplayer.getCooldownTracker().hasCooldown(itemstack1.getItem())) {\n                                                                                                                       ^\n  symbol:   method getCooldownTracker()\n  location: variable entityplayer of type EntityPlayer",
+      "symbol": "method getCooldownTracker()",
+      "location": "variable entityplayer of type EntityPlayer",
+      "symbolKind": "method",
+      "symbolName": "getCooldownTracker()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 901,
+      "message": "cannot find symbol",
+      "details": "                    entityplayer.getCooldownTracker().setCooldown(itemstack1.getItem(), 100);\n                                ^\n  symbol:   method getCooldownTracker()\n  location: variable entityplayer of type EntityPlayer",
+      "symbol": "method getCooldownTracker()",
+      "location": "variable entityplayer of type EntityPlayer",
+      "symbolKind": "method",
+      "symbolName": "getCooldownTracker()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 904,
+      "message": "cannot find symbol",
+      "details": "                this.damageShield(MinimumDamage);\n                    ^\n  symbol: method damageShield(float)",
+      "symbol": "method damageShield(float)",
+      "symbolKind": "method",
+      "symbolName": "damageShield(float)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 915,
+      "message": "cannot find symbol",
+      "details": "            if (target.getCombatTracker() != null && s != null) {\n                      ^\n  symbol:   method getCombatTracker()\n  location: variable target of type EntityLivingBase",
+      "symbol": "method getCombatTracker()",
+      "location": "variable target of type EntityLivingBase",
+      "symbolKind": "method",
+      "symbolName": "getCombatTracker()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 916,
+      "message": "cannot find symbol",
+      "details": "                target.getCombatTracker().trackDamage(s, f1, damage);\n                      ^\n  symbol:   method getCombatTracker()\n  location: variable target of type EntityLivingBase",
+      "symbol": "method getCombatTracker()",
+      "location": "variable target of type EntityLivingBase",
+      "symbolKind": "method",
+      "symbolName": "getCombatTracker()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 931,
+      "message": "cannot find symbol",
+      "details": "            for (EnumHand enumhand : EnumHand.values()) {\n                                     ^\n  symbol:   variable EnumHand\n  location: class EntityParasiteBase",
+      "symbol": "variable EnumHand",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EnumHand"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 931,
+      "message": "cannot find symbol",
+      "details": "            for (EnumHand enumhand : EnumHand.values()) {\n                 ^\n  symbol:   class EnumHand\n  location: class EntityParasiteBase",
+      "symbol": "class EnumHand",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "EnumHand"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 933,
+      "message": "cannot find symbol",
+      "details": "                if (itemstack1.getItem() != Items.TOTEM_OF_UNDYING) continue;\n                                                 ^\n  symbol:   variable TOTEM_OF_UNDYING\n  location: class Items",
+      "symbol": "variable TOTEM_OF_UNDYING",
+      "location": "class Items",
+      "symbolKind": "variable",
+      "symbolName": "TOTEM_OF_UNDYING"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 935,
+      "message": "cannot find symbol",
+      "details": "                itemstack1.shrink(1);\n                          ^\n  symbol:   method shrink(int)\n  location: variable itemstack1 of type ItemStack",
+      "symbol": "method shrink(int)",
+      "location": "variable itemstack1 of type ItemStack",
+      "symbolKind": "method",
+      "symbolName": "shrink(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 941,
+      "message": "cannot find symbol",
+      "details": "                    entityplayermp.triggerAchievement(StatList.getObjectUseStats((Item)Items.TOTEM_OF_UNDYING));\n                                                                                            ^\n  symbol:   variable TOTEM_OF_UNDYING\n  location: class Items",
+      "symbol": "variable TOTEM_OF_UNDYING",
+      "location": "class Items",
+      "symbolKind": "variable",
+      "symbolName": "TOTEM_OF_UNDYING"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 941,
+      "message": "cannot find symbol",
+      "details": "                    entityplayermp.triggerAchievement(StatList.getObjectUseStats((Item)Items.TOTEM_OF_UNDYING));\n                                                              ^\n  symbol:   method getObjectUseStats(Item)\n  location: class StatList",
+      "symbol": "method getObjectUseStats(Item)",
+      "location": "class StatList",
+      "symbolKind": "method",
+      "symbolName": "getObjectUseStats(Item)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 942,
+      "message": "package CriteriaTriggers does not exist",
+      "details": "                    CriteriaTriggers.USED_TOTEM.trigger(entityplayermp, itemstack);\n                                    ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 983,
+      "message": "cannot find symbol",
+      "details": "        for (int i = 0; i < player.inventory.mainInventory.size(); ++i) {\n                                                          ^\n  symbol:   method size()\n  location: variable mainInventory of type ItemStack[]",
+      "symbol": "method size()",
+      "location": "variable mainInventory of type ItemStack[]",
+      "symbolKind": "method",
+      "symbolName": "size()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 984,
+      "message": "cannot find symbol",
+      "details": "            if (!(((ItemStack)player.inventory.mainInventory.get(i)).getItem() instanceof ItemFood)) continue;\n                                                            ^\n  symbol:   method get(int)\n  location: variable mainInventory of type ItemStack[]",
+      "symbol": "method get(int)",
+      "location": "variable mainInventory of type ItemStack[]",
+      "symbolKind": "method",
+      "symbolName": "get(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 986,
+      "message": "cannot find symbol",
+      "details": "            ((ItemStack)player.inventory.mainInventory.get(i)).shrink(amm);\n                                                      ^\n  symbol:   method get(int)\n  location: variable mainInventory of type ItemStack[]",
+      "symbol": "method get(int)",
+      "location": "variable mainInventory of type ItemStack[]",
+      "symbolKind": "method",
+      "symbolName": "get(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 986,
+      "message": "cannot find symbol",
+      "details": "            ((ItemStack)player.inventory.mainInventory.get(i)).shrink(amm);\n                                                              ^\n  symbol:   method shrink(int)\n  location: class ItemStack",
+      "symbol": "method shrink(int)",
+      "location": "class ItemStack",
+      "symbolKind": "method",
+      "symbolName": "shrink(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 989,
+      "message": "cannot find symbol",
+      "details": "            entityitem.setDefaultPickupDelay();\n                      ^\n  symbol:   method setDefaultPickupDelay()\n  location: variable entityitem of type EntityItem",
+      "symbol": "method setDefaultPickupDelay()",
+      "location": "variable entityitem of type EntityItem",
+      "symbolKind": "method",
+      "symbolName": "setDefaultPickupDelay()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 993,
+      "message": "cannot find symbol",
+      "details": "        if (player.getItemStackFromSlot(EntityEquipmentSlot.OFFHAND).getItem() instanceof ItemFood) {\n                                        ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 995,
+      "message": "cannot find symbol",
+      "details": "            player.getItemStackFromSlot(EntityEquipmentSlot.OFFHAND).shrink(amm);\n                                        ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 998,
+      "message": "cannot find symbol",
+      "details": "            entityitem.setDefaultPickupDelay();\n                      ^\n  symbol:   method setDefaultPickupDelay()\n  location: variable entityitem of type EntityItem",
+      "symbol": "method setDefaultPickupDelay()",
+      "location": "variable entityitem of type EntityItem",
+      "symbolKind": "method",
+      "symbolName": "setDefaultPickupDelay()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1050,
+      "message": "cannot find symbol",
+      "details": "        if (this.disloNumberEleven > 0 && potioneffectIn.getPotion().isBadEffect()) {\n                                                        ^\n  symbol:   method getPotion()\n  location: variable potioneffectIn of type PotionEffect",
+      "symbol": "method getPotion()",
+      "location": "variable potioneffectIn of type PotionEffect",
+      "symbolKind": "method",
+      "symbolName": "getPotion()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1053,
+      "message": "cannot find symbol",
+      "details": "        Potion potion = potioneffectIn.getPotion();\n                                      ^\n  symbol:   method getPotion()\n  location: variable potioneffectIn of type PotionEffect",
+      "symbol": "method getPotion()",
+      "location": "variable potioneffectIn of type PotionEffect",
+      "symbolKind": "method",
+      "symbolName": "getPotion()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1064,
+      "message": "cannot find symbol",
+      "details": "        return super.canBeRidden(entityIn);\n                    ^\n  symbol: method canBeRidden(Entity)",
+      "symbol": "method canBeRidden(Entity)",
+      "symbolKind": "method",
+      "symbolName": "canBeRidden(Entity)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1067,
+      "message": "name clash: canAttackClass(Class<? extends EntityLivingBase>) in EntityParasiteBase and canAttackClass(Class) in EntityLiving have the same erasure, yet neither overrides the other",
+      "details": "    public boolean canAttackClass(Class<? extends EntityLivingBase> cls) {\n                   ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1073,
+      "message": "cannot find symbol",
+      "details": "            name = EntityList.getKey(cls).toString();\n                             ^\n  symbol:   method getKey(Class<CAP#1>)\n  location: class EntityList\n  where CAP#1 is a fresh type-variable:\n    CAP#1 extends EntityLivingBase from capture of ? extends EntityLivingBase",
+      "symbol": "method getKey(Class<CAP#1>)",
+      "location": "class EntityList",
+      "symbolKind": "method",
+      "symbolName": "getKey(Class<CAP#1>)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1098,
+      "message": "cannot find symbol",
+      "details": "        if (hand != EnumHand.MAIN_HAND || this.worldObj.isRemote) {\n                    ^\n  symbol:   variable EnumHand\n  location: class EntityParasiteBase",
+      "symbol": "variable EnumHand",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EnumHand"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1101,
+      "message": "cannot find symbol",
+      "details": "        Item wea = player.getItemStackFromSlot(EntityEquipmentSlot.MAINHAND).getItem();\n                                               ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1328,
+      "message": "incompatible types: Object cannot be converted to EntityParasiteBase",
+      "details": "            for (EntityParasiteBase mob : moblist) {\n                                          ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1339,
+      "message": "incompatible types: Object cannot be converted to EntityParasiteBase",
+      "details": "                for (EntityParasiteBase mob : moblist) {\n                                              ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1352,
+      "message": "incompatible types: Object cannot be converted to EntityParasiteBase",
+      "details": "                for (EntityParasiteBase mob : moblist) {\n                                              ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1353,
+      "message": "cannot find symbol",
+      "details": "                    mob.addExhaustion(count);\n                       ^\n  symbol:   method addExhaustion(int)\n  location: variable mob of type EntityParasiteBase",
+      "symbol": "method addExhaustion(int)",
+      "location": "variable mob of type EntityParasiteBase",
+      "symbolKind": "method",
+      "symbolName": "addExhaustion(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1372,
+      "message": "cannot find symbol",
+      "details": "        Item ga = playerIn.getItemStackFromSlot(EntityEquipmentSlot.MAINHAND).getItem();\n                                                ^\n  symbol:   variable EntityEquipmentSlot\n  location: class EntityParasiteBase",
+      "symbol": "variable EntityEquipmentSlot",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "EntityEquipmentSlot"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1402,
+      "message": "cannot find symbol",
+      "details": "            if (!this.worldObj.isRemote && (this.isPlayer() || this.recentlyHit > 0 && this.canDropLoot() && this.worldObj.getGameRules().getGameRuleBooleanValue(\"doMobLoot\")) && !this.isPotionActive(SRPPotions.DEBAR_E)) {\n                                                                                           ^\n  symbol: method canDropLoot()",
+      "symbol": "method canDropLoot()",
+      "symbolKind": "method",
+      "symbolName": "canDropLoot()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1408,
+      "message": "cannot find symbol",
+      "details": "                        for (i = ForgeEventFactory.getExperienceDrop((EntityLivingBase)this, (EntityPlayer)this.attackingPlayer, (int)i); i > 0; i -= j) {\n                                                  ^\n  symbol:   method getExperienceDrop(EntityLivingBase,EntityPlayer,int)\n  location: class ForgeEventFactory",
+      "symbol": "method getExperienceDrop(EntityLivingBase,EntityPlayer,int)",
+      "location": "class ForgeEventFactory",
+      "symbolKind": "method",
+      "symbolName": "getExperienceDrop(EntityLivingBase,EntityPlayer,int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1415,
+      "message": "cannot find symbol",
+      "details": "                    for (i = ForgeEventFactory.getExperienceDrop((EntityLivingBase)this, (EntityPlayer)this.attackingPlayer, (int)i); i > 0; i -= j) {\n                                              ^\n  symbol:   method getExperienceDrop(EntityLivingBase,EntityPlayer,int)\n  location: class ForgeEventFactory",
+      "symbol": "method getExperienceDrop(EntityLivingBase,EntityPlayer,int)",
+      "location": "class ForgeEventFactory",
+      "symbolKind": "method",
+      "symbolName": "getExperienceDrop(EntityLivingBase,EntityPlayer,int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1449,
+      "message": "cannot find symbol",
+      "details": "        if (!this.worldObj.isRemote && (this.isPlayer() || this.recentlyHit > 0 && this.canDropLoot() && this.worldObj.getGameRules().getGameRuleBooleanValue(\"doMobLoot\"))) {\n                                                                                       ^\n  symbol: method canDropLoot()",
+      "symbol": "method canDropLoot()",
+      "symbolKind": "method",
+      "symbolName": "canDropLoot()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1452,
+      "message": "cannot find symbol",
+      "details": "            for (i = ForgeEventFactory.getExperienceDrop((EntityLivingBase)this, (EntityPlayer)this.attackingPlayer, (int)i); i > 0; i -= j) {\n                                      ^\n  symbol:   method getExperienceDrop(EntityLivingBase,EntityPlayer,int)\n  location: class ForgeEventFactory",
+      "symbol": "method getExperienceDrop(EntityLivingBase,EntityPlayer,int)",
+      "location": "class ForgeEventFactory",
+      "symbolKind": "method",
+      "symbolName": "getExperienceDrop(EntityLivingBase,EntityPlayer,int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1556,
+      "message": "cannot find symbol",
+      "details": "        if (this.worldObj.getBiome(EntityQueries.position(this)) instanceof BiomeParasiteBase) {\n                         ^\n  symbol:   method getBiome(BlockPos)\n  location: variable worldObj of type World",
+      "symbol": "method getBiome(BlockPos)",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "getBiome(BlockPos)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1560,
+      "message": "cannot find symbol",
+      "details": "        if (this.worldObj.getLightFor(EnumSkyBlock.SKY, blockpos) > this.rand.nextInt(32)) {\n                                                  ^\n  symbol:   variable SKY\n  location: class EnumSkyBlock",
+      "symbol": "variable SKY",
+      "location": "class EnumSkyBlock",
+      "symbolKind": "variable",
+      "symbolName": "SKY"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1565,
+      "message": "cannot find symbol",
+      "details": "            int j = this.worldObj.getSkylightSubtracted();\n                                 ^\n  symbol:   method getSkylightSubtracted()\n  location: variable worldObj of type World",
+      "symbol": "method getSkylightSubtracted()",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "getSkylightSubtracted()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1566,
+      "message": "cannot find symbol",
+      "details": "            this.worldObj.setSkylightSubtracted(10);\n                         ^\n  symbol:   method setSkylightSubtracted(int)\n  location: variable worldObj of type World",
+      "symbol": "method setSkylightSubtracted(int)",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "setSkylightSubtracted(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1568,
+      "message": "cannot find symbol",
+      "details": "            this.worldObj.setSkylightSubtracted(j);\n                         ^\n  symbol:   method setSkylightSubtracted(int)\n  location: variable worldObj of type World",
+      "symbol": "method setSkylightSubtracted(int)",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "setSkylightSubtracted(int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1572,
+      "message": "no suitable method found for getBlockPathWeight(BlockPos)",
+      "details": "        if (!(this.getBlockPathWeight(blockPos) >= 0.0f)) return false;\n                  ^\n    method EntityCreature.getBlockPathWeight(int,int,int) is not applicable\n      (actual and formal argument lists differ in length)\n    method EntityMob.getBlockPathWeight(int,int,int) is not applicable\n      (actual and formal argument lists differ in length)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1578,
+      "message": "cannot find symbol",
+      "details": "        int light = this.worldObj.getLightFor(EnumSkyBlock.BLOCK, blockpos);\n                                                          ^\n  symbol:   variable BLOCK\n  location: class EnumSkyBlock",
+      "symbol": "variable BLOCK",
+      "location": "class EnumSkyBlock",
+      "symbolKind": "variable",
+      "symbolName": "BLOCK"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1601,
+      "message": "cannot find symbol",
+      "details": "        return this.rand.nextInt(8) == 0 && this.worldObj.getBiome(EntityQueries.position(this)) instanceof BiomeParasiteBase;\n                                                         ^\n  symbol:   method getBiome(BlockPos)\n  location: variable worldObj of type World",
+      "symbol": "method getBiome(BlockPos)",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "getBiome(BlockPos)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1618,
+      "message": "cannot find symbol",
+      "details": "        Biome c = this.worldObj.getBiome(EntityQueries.position(this));\n        ^\n  symbol:   class Biome\n  location: class EntityParasiteBase",
+      "symbol": "class Biome",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "Biome"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 1618,
+      "message": "cannot find symbol",
+      "details": "        Biome c = this.worldObj.getBiome(EntityQueries.position(this));\n                               ^\n  symbol:   method getBiome(BlockPos)\n  location: variable worldObj of type World",
+      "symbol": "method getBiome(BlockPos)",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "getBiome(BlockPos)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2066,
+      "message": "cannot find symbol",
+      "details": "        if (!ForgeEventFactory.getMobGriefingEvent((World)this.worldObj, (Entity)this)) {\n                              ^\n  symbol:   method getMobGriefingEvent(World,Entity)\n  location: class ForgeEventFactory",
+      "symbol": "method getMobGriefingEvent(World,Entity)",
+      "location": "class ForgeEventFactory",
+      "symbolKind": "method",
+      "symbolName": "getMobGriefingEvent(World,Entity)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2097,
+      "message": "cannot find symbol",
+      "details": "                    if (!(bHard <= this.getBlockH()) || !(bHard >= 0.0f) || block instanceof IMetaName && block != SRPBlocks.ParasiteCanister || block == SRPBlocks.BiomeHeart || block == SRPBlocks.ColonyHeart || block == SRPBlocks.ParasiteRubbleDense || block == SRPBlocks.ParasiteCanisterActive || block == SRPBlocks.dodN || block instanceof BlockLiquid || block instanceof BlockPortal || block instanceof BlockEndGateway || block instanceof BlockEndPortalFrame || iblockstate.getMaterial() == Material.portal || this.blockException(name = RegistryNames.get(block).toString()) || block == Blocks.air || !block.canEntityDestroy(iblockstate, (IBlockAccess)this.worldObj, blockpos, (Entity)this) || !ForgeEventFactory.onEntityDestroyBlock((EntityLivingBase)this, (BlockPos)blockpos, (IBlockState)iblockstate)) continue;\n                                                                                                                                                                                                                                                                                                                                                                                                                       ^\n  symbol:   class BlockEndGateway\n  location: class EntityParasiteBase",
+      "symbol": "class BlockEndGateway",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "BlockEndGateway"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2097,
+      "message": "method canEntityDestroy in class Block cannot be applied to given types;",
+      "details": "                    if (!(bHard <= this.getBlockH()) || !(bHard >= 0.0f) || block instanceof IMetaName && block != SRPBlocks.ParasiteCanister || block == SRPBlocks.BiomeHeart || block == SRPBlocks.ColonyHeart || block == SRPBlocks.ParasiteRubbleDense || block == SRPBlocks.ParasiteCanisterActive || block == SRPBlocks.dodN || block instanceof BlockLiquid || block instanceof BlockPortal || block instanceof BlockEndGateway || block instanceof BlockEndPortalFrame || iblockstate.getMaterial() == Material.portal || this.blockException(name = RegistryNames.get(block).toString()) || block == Blocks.air || !block.canEntityDestroy(iblockstate, (IBlockAccess)this.worldObj, blockpos, (Entity)this) || !ForgeEventFactory.onEntityDestroyBlock((EntityLivingBase)this, (BlockPos)blockpos, (IBlockState)iblockstate)) continue;\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^\n  required: IBlockAccess,int,int,int,Entity\n  found: IBlockState,IBlockAccess,BlockPos,Entity\n  reason: actual and formal argument lists differ in length",
+      "required": "IBlockAccess,int,int,int,Entity",
+      "found": "IBlockState,IBlockAccess,BlockPos,Entity",
+      "reason": "actual and formal argument lists differ in length"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2097,
+      "message": "cannot find symbol",
+      "details": "                    if (!(bHard <= this.getBlockH()) || !(bHard >= 0.0f) || block instanceof IMetaName && block != SRPBlocks.ParasiteCanister || block == SRPBlocks.BiomeHeart || block == SRPBlocks.ColonyHeart || block == SRPBlocks.ParasiteRubbleDense || block == SRPBlocks.ParasiteCanisterActive || block == SRPBlocks.dodN || block instanceof BlockLiquid || block instanceof BlockPortal || block instanceof BlockEndGateway || block instanceof BlockEndPortalFrame || iblockstate.getMaterial() == Material.portal || this.blockException(name = RegistryNames.get(block).toString()) || block == Blocks.air || !block.canEntityDestroy(iblockstate, (IBlockAccess)this.worldObj, blockpos, (Entity)this) || !ForgeEventFactory.onEntityDestroyBlock((EntityLivingBase)this, (BlockPos)blockpos, (IBlockState)iblockstate)) continue;\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^\n  symbol:   method onEntityDestroyBlock(EntityLivingBase,BlockPos,IBlockState)\n  location: class ForgeEventFactory",
+      "symbol": "method onEntityDestroyBlock(EntityLivingBase,BlockPos,IBlockState)",
+      "location": "class ForgeEventFactory",
+      "symbolKind": "method",
+      "symbolName": "onEntityDestroyBlock(EntityLivingBase,BlockPos,IBlockState)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2118,
+      "message": "method isAir in class Block cannot be applied to given types;",
+      "details": "        if (block.isAir(iblockstate, (IBlockAccess)this.worldObj, pos)) {\n                 ^\n  required: IBlockAccess,int,int,int\n  found: IBlockState,IBlockAccess,BlockPos\n  reason: actual and formal argument lists differ in length",
+      "required": "IBlockAccess,int,int,int",
+      "found": "IBlockState,IBlockAccess,BlockPos",
+      "reason": "actual and formal argument lists differ in length"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2122,
+      "message": "cannot find symbol",
+      "details": "            this.worldObj.playEvent(2001, pos, BlockStates.stateId((IBlockState)iblockstate));\n                         ^\n  symbol:   method playEvent(int,BlockPos,int)\n  location: variable worldObj of type World",
+      "symbol": "method playEvent(int,BlockPos,int)",
+      "location": "variable worldObj of type World",
+      "symbolKind": "method",
+      "symbolName": "playEvent(int,BlockPos,int)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2125,
+      "message": "cannot find symbol",
+      "details": "            SoundType soundtype = block.getSoundType(BlockStates.stateById((int)BlockStates.stateId((IBlockState)iblockstate)), this.worldObj, pos, null);\n            ^\n  symbol:   class SoundType\n  location: class EntityParasiteBase",
+      "symbol": "class SoundType",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "class",
+      "symbolName": "SoundType"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2125,
+      "message": "cannot find symbol",
+      "details": "            SoundType soundtype = block.getSoundType(BlockStates.stateById((int)BlockStates.stateId((IBlockState)iblockstate)), this.worldObj, pos, null);\n                                       ^\n  symbol:   method getSoundType(IBlockState,World,BlockPos,<null>)\n  location: variable block of type Block",
+      "symbol": "method getSoundType(IBlockState,World,BlockPos,<null>)",
+      "location": "variable block of type Block",
+      "symbolKind": "method",
+      "symbolName": "getSoundType(IBlockState,World,BlockPos,<null>)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2126,
+      "message": "cannot find symbol",
+      "details": "            this.worldObj.playSound((EntityPlayer)null, pos, soundtype.getBreakSound(), SoundCategory.BLOCKS, (soundtype.getVolume() + 1.0f) / 2.0f, soundtype.getPitch() * 0.8f);\n                                                                                        ^\n  symbol:   variable SoundCategory\n  location: class EntityParasiteBase",
+      "symbol": "variable SoundCategory",
+      "location": "class EntityParasiteBase",
+      "symbolKind": "variable",
+      "symbolName": "SoundCategory"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2129,
+      "message": "no suitable method found for dropBlockAsItem(World,BlockPos,IBlockState,int)",
+      "details": "            block.dropBlockAsItem(this.worldObj, pos, iblockstate, 0);\n                 ^\n    method Block.dropBlockAsItem(World,int,int,int,int,int) is not applicable\n      (actual and formal argument lists differ in length)\n    method Block.dropBlockAsItem(World,int,int,int,ItemStack) is not applicable\n      (actual and formal argument lists differ in length)"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2219,
+      "message": "incompatible types: Object cannot be converted to EntityLivingBase",
+      "details": "                    for (EntityLivingBase mob : moblist) {\n                                                ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2264,
+      "message": "cannot find symbol",
+      "details": "            hb.setDead();\n              ^\n  symbol:   method setDead()\n  location: variable hb of type EntityHitbox",
+      "symbol": "method setDead()",
+      "location": "variable hb of type EntityHitbox",
+      "symbolKind": "method",
+      "symbolName": "setDead()"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2265,
+      "message": "incompatible types: EntityHitbox cannot be converted to Entity",
+      "details": "            this.worldObj.removePlayerEntityDangerously((Entity)hb);\n                                                                ^"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2289,
+      "message": "cannot find symbol",
+      "details": "            if (parentIn.getNavigator() instanceof PathNavigateGround) {\n                                                   ^\n  symbol:   class PathNavigateGround\n  location: class EntityAIJumping",
+      "symbol": "class PathNavigateGround",
+      "location": "class EntityAIJumping",
+      "symbolKind": "class",
+      "symbolName": "PathNavigateGround"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2290,
+      "message": "cannot find symbol",
+      "details": "                ((PathNavigateGround)parentIn.getNavigator()).setCanSwim(true);\n                  ^\n  symbol:   class PathNavigateGround\n  location: class EntityAIJumping",
+      "symbol": "class PathNavigateGround",
+      "location": "class EntityAIJumping",
+      "symbolKind": "class",
+      "symbolName": "PathNavigateGround"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2291,
+      "message": "cannot find symbol",
+      "details": "            } else if (parentIn.getNavigator() instanceof PathNavigateFlying) {\n                                                          ^\n  symbol:   class PathNavigateFlying\n  location: class EntityAIJumping",
+      "symbol": "class PathNavigateFlying",
+      "location": "class EntityAIJumping",
+      "symbolKind": "class",
+      "symbolName": "PathNavigateFlying"
+    },
+    {
+      "file": "src\\main\\java\\com\\dhanantry\\scapeandrunparasites\\entity\\ai\\misc\\EntityParasiteBase.java",
+      "line": 2292,
+      "message": "cannot find symbol",
+      "details": "                ((PathNavigateFlying)parentIn.getNavigator()).setCanFloat(true);\n                  ^\n  symbol:   class PathNavigateFlying\n  location: class EntityAIJumping",
+      "symbol": "class PathNavigateFlying",
+      "location": "class EntityAIJumping",
+      "symbolKind": "class",
+      "symbolName": "PathNavigateFlying"
+    }
+  ]
+}

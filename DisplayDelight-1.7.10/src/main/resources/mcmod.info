@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "displaydelight",
+    "name": "Display Delight",
+    "description": "3D food displays for Minecraft 1.7.10. Original mod by jkvin114; 1.7.10 port by Zahin.",
+    "version": "1.7.0-backport.1",
+    "mcversion": "1.7.10",
+    "url": "https://github.com/jkvin114/displaydelight-1.20.1-neoforge",
+    "authorList": [
+      "jkvin114",
+      "Zahin (1.7.10 port)"
+    ],
+    "credits": "Original mod/models by jkvin114. Farmers 3D derived models: Pder. See LICENSE.txt."
+  }
+]

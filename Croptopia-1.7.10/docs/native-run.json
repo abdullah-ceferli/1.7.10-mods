@@ -1,0 +1,13 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\Croptopia-1.7.10\\.toolchain\\tests\\20261118-132710-373792\\run",
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "userWorldOpened": false,
+  "fullModpack": false,
+  "testJarHashes": {
+    "croptopia-tests.jar": "b6f93350b07969e24f0a7d7ce41ecae812f16ca6d70f36d05a50ddb6559a66bb",
+    "culturaldelights-tests.jar": "0c48e80db152a807cfc5e191e664004fb7e3515dd375a3baadde55a61d8df91f"
+  }
+}

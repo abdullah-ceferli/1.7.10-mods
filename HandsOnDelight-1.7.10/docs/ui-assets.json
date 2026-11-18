@@ -1,0 +1,302 @@
+[
+  {
+    "path": "assets/handson_delight/diegesis/scenes/alchemist_pot.json",
+    "sha256": "72bc15449e5de1bdffba4169b61cfdbe635aa1539d0c807a59e60ee412ae5b87",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/basin.json",
+    "sha256": "170421db07bb11b3c83d46d99c2c45416ad65f9ba30e6ec25a615d3a1373aa9e",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/cooking_pot.json",
+    "sha256": "fb36646fa993b7222b423392a629c7b34388b16aa7fe8660ae8e44504bd6dfce",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/copper_pot.json",
+    "sha256": "bc404915dc4df735cf4861c75b48264f2af9a4a7a93544491b8b3efc6801f9ac",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/cutting_board.json",
+    "sha256": "6b2aa1b9f05cb6d3080c5ef5cdafdbc6f467107bdfc3036196b9139f7368c26b",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/grill.json",
+    "sha256": "b7b64c81432071fc8a20b56c71780cbb8c3d4a983629f08ad8870060582ce8c2",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/keg.json",
+    "sha256": "abf4d810c2bcbd6e306211a064a27a3aa3ac90e844a06265646d6a639e1cde28",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/kettle.json",
+    "sha256": "b56a69cb1fd50f3f88d2d12eafc860bb546e96e0849edcfd092460603d757ee9",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/monster_pot.json",
+    "sha256": "6f81125ce7a25dd5b1da8d1741002467b95505d195aaded761b0266123e21bd6",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/skillet.json",
+    "sha256": "7dee2de160cd56eb5c928f9d2d8c29b6eb58082a5c6a3ad9ead9240bebedc5c4",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/standing_keg.json",
+    "sha256": "a13d1c863983de58833113786cab2f7b6cd2d360a8ac3682ad9a05af12bf4c52",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/stove.json",
+    "sha256": "40b11ae923c779509502bd518b920a87324d026a809955dd626d0cf2259cea65",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_board.json",
+    "sha256": "a4df6ab7875ceb187531107c6a1cc89a4d7f677785c1194ac0bcc614f6f815a3",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_kettle.json",
+    "sha256": "c3908fd230998d1077def63a218b94923c05509383f432f4acf0d58f81cae68c",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_short_pot.json",
+    "sha256": "b4bf70e9354705f0df9794e95ca49f492f95f00356d23598de9a4221e78e97b0",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_small_pot.json",
+    "sha256": "99ef61c21ad80db760d757e8ff7b84dbcd4b8bb37fd1aac2cf4181da4f4a61cc",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_steamer.json",
+    "sha256": "54cce74baf0a747248524a3c4f49117b5444197515cd55f04edf053e6db79b3d",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_stockpot.json",
+    "sha256": "48f357d6a060045e0c8f9bc601849bc2e867e1ce4aee75dc176def5afc75ac5e",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/diegesis/scenes/youkai_tank.json",
+    "sha256": "6aa3c2e0cb23df5654ae785e9e9b310a3aa8f5cbe00877d7fdb7235775981961",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/alchemist_pot/body.json",
+    "sha256": "dcad7e82d18770e370e4943ffa5abbe0d02e338d0acab9e90e6a0679bc41342c",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/alchemist_pot/ladle.json",
+    "sha256": "ed1c0cabd3d2f28d106dbd5c5924bca3050df1bedf5af1778a1eb014e8aca463",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/copper_pot/body.json",
+    "sha256": "933c4e7106e792533420575824a50340f6c4513323e9a236e7a1cfda95a812cc",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/copper_pot/hoop.json",
+    "sha256": "8d65f3ca2460d82fa4b6736e6b99a39df2911299dd6c3b30b7ffdbf09d6fa06c",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/copper_pot/ladle.json",
+    "sha256": "5d60116361ec07f5f92b43227bf3980a096188c3e26adee906c1254d69338eab",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/keg/body.json",
+    "sha256": "24ace81fbda51de8422ab6dbb1ecd18b038a42ad1d18df0d925016d61cc9ff33",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/keg/lid.json",
+    "sha256": "ee5d1754b1993b02595a84c359cef4bdb30bc6569ab47769f892b8c28adc6d91",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/keg/rack.json",
+    "sha256": "11830a650b5350e1ad43ddeb49b93e37e8eaca46a3eb2987b195f1be77562a93",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/keg/tankard.json",
+    "sha256": "ae9ff830520406fb2d2c63ece6f07f4775925147a855056515e9d92aa889cfa1",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/keg/vertical_body.json",
+    "sha256": "a88e681156c08a627242f06a6a3ed97f73544125603dbd375fc6414c9d5b68c1",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/keg/vertical_lid.json",
+    "sha256": "981cbf4ba479612365286736310c763fd53405f0fd301eb98ef477e94bd51ba3",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/kettle/body.json",
+    "sha256": "0b08e19f35694a7624b49bd62ad8328baa47f13bf345c0d977715983fae02592",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/kettle/hanger.json",
+    "sha256": "adfffe2baa71157a1fb51fccaafe593d470d85141fe4f63d514091f4f8eebf69",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/kettle/lid.json",
+    "sha256": "05fbd7932c7ba0eb2b31ecbd90b72eea6684e2b05b7f3ce936f62f51938c83e7",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/kettle/mug.json",
+    "sha256": "d0d2ac42ac0334f97941ef8e4c924b70662153560438caae289ed5f61c0e6666",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/monster_pot/body.json",
+    "sha256": "764c00f575ecc9aa30199fd484d985f63872f5694ecbd37366f2a3b80cd63811",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/monster_pot/hoop.json",
+    "sha256": "d7bac9493539304da97cc256c19bebb8a65191179b14d3ef7a909362ce1dba90",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/monster_pot/ladle.json",
+    "sha256": "13b3c7dbda7dea6671e893444187de680692bd71181214ad30575af96de0b807",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/monster_pot/tray.json",
+    "sha256": "dcab67fbbefd714cd558795592bef27a896c5e24a43d661bcfc9dd69aec4499f",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/pot/body.json",
+    "sha256": "b686e6dbe8c5e6fbcbfe570e432bbfdcbccc82896ffc3e9832629b351f4eb45f",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/pot/body_hoop.json",
+    "sha256": "dae92d3026b8dad177757792c25938983b1c10ba88fb29f8880cbebecc25222c",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/pot/body_tray.json",
+    "sha256": "9d7b382fe233cbb8f5567335518912de1f97b60e13d1ca75d3fcacab8c7e9694",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/pot/hoop.json",
+    "sha256": "31f1c50ed886b86ccd407e170cd23316d7c27e86c8f0b4f61a405fe77afe2476",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/pot/ladle.json",
+    "sha256": "46f03f5afb39d4075d2f40ae5c60d520c7b17a1ebe0195b5203383c0e9fee047",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/pot/tray.json",
+    "sha256": "db122a473ed576267d4f6f11b606ec982b1c915484df8329943d5ac12d0d4b21",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/skillet/handle.json",
+    "sha256": "79ce3e05a8f303b629df225735666f3305e14e68fe1f4ca3f711e847f8522568",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/skillet/pan.json",
+    "sha256": "966c9fe8c181a3653b135c48396b8eba983631f936d0beb670628b1d9ff4c4b4",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/skillet/stand.json",
+    "sha256": "e6697132a82c34906008adebf42ff12c644c52b413e4e649eb5e456daaf3e5a7",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_kettle/body.json",
+    "sha256": "862ec8a41e7d11131f6085013ca90889749b1082090300c823383a9f03741f27",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_kettle/hanger.json",
+    "sha256": "9f672b360e50eafdbc7a043d4ead39d33ce74b2b8412a583d51044ab0781312d",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_kettle/lid.json",
+    "sha256": "f9a66eec092bb488f65227076daea58da4d9bc83a4a54ef318801805280a11c0",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_kettle/tray.json",
+    "sha256": "9db92252380dbc49be2d020b640fded29b54322a8f02fd251c5baac0b76f24fd",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_short_iron_pot/body.json",
+    "sha256": "f2ec13d259bd02899756ad71a20dd8ab6dee697e965ea421e2944ce6b8d0fe0a",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_small_iron_pot/body.json",
+    "sha256": "6b14fc707742e554dddb8b0bd174e419ad350a67e275d8afd6ab7c4eddb9a0fb",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_steamer/lid.json",
+    "sha256": "5a2a56897f9c7fcc235e85bd9c7b0d4e58f2770f7459aa2a3ff81bdd4356600b",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_steamer/pot.json",
+    "sha256": "c3a2f6032e60f5ae5ebd26d1b0eebf883f23e3355cf6f75a27fded8065e04c7f",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_steamer/rack.json",
+    "sha256": "619eeb6437148d8109311b2ce50eaa553b4e0653ce9d18755299ee7745e62d14",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_stockpot/body.json",
+    "sha256": "4ff4beb9b0a51dee9de9f232631be1ac07e2665a05446c44d32c1e9b8d6342ef",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_stockpot/spoon.json",
+    "sha256": "f72e57f30e75b7b03a7367e9f865ef0fcc0009e7b1eec2617155dbe5fa51bc82",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_tank/body.json",
+    "sha256": "a5df5907b7fa9c543249d5b2af90ad90497c6fe14f4d68fca6ccc3606327d558",
+    "repository": "handson-delight"
+  },
+  {
+    "path": "assets/handson_delight/models/diegesis/youkai_tank/lid.json",
+    "sha256": "77a2cbc294a4e11f0a42351f6644cba624d50ebc3c14e921daff50bff29fca50",
+    "repository": "handson-delight"
+  }
+]

@@ -30,7 +30,7 @@ public final class PresetsScreen extends GuiScreen implements GuiYesNoCallback {
         buttonList.clear();
         try { store = controls.store(); names = store.names(); }
         catch (IOException ex) { store = null; message = ex.getMessage(); error = true; }
-        rows = Math.max(1, Math.min(7, (height - 174) / 22));
+        rows = Math.max(1, Math.min(7, (height - 192) / 22));
         page = Math.max(0, Math.min(page, Math.max(0, (names.size() - 1) / rows)));
         int x = width / 2 - 150;
         for (int row = 0; row < rows && page * rows + row < names.size(); row++) {

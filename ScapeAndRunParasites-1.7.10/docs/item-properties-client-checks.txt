@@ -1,0 +1,3 @@
+PASS: Real client retains client-only fields/methods and stateful callbacks accept nullable world and entity contexts
+PASS: Callback lookup evaluates the original stack with the actual client world/player and observes live stack changes
+Failed: 0

@@ -1,0 +1,4 @@
+PASS: All four navigator types construct on tracked native clients while only server entities initialize goals
+PASS: Server pathfinding drives actual flying motion around a wall and native tracking delivers the arrival to the client
+FAIL: stage 4 :: java.lang.AssertionError: Client navigation timeout at 4
+Failed: 1

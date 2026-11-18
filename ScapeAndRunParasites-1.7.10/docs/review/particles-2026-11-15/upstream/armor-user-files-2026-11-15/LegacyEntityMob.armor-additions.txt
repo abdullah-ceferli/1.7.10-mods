@@ -1,0 +1,23 @@
+// ---- add these three members to LegacyEntityMob (needs imports:
+//      net.minecraft.util.DamageSource, net.minecraft.util.MathHelper) ----
+
+@Override protected void applyEntityAttributes() {
+    super.applyEntityAttributes();
+    // Subclasses call getEntityAttribute(ARMOR / ARMOR_TOUGHNESS).setBaseValue(...) after super, so register here.
+    getAttributeMap().registerAttribute(ModernAttributes.ARMOR);
+    getAttributeMap().registerAttribute(ModernAttributes.ARMOR_TOUGHNESS);
+}
+
+/** 1.12: total armour is the floored attribute value. Native equipment armour is kept additive (see the open question). */
+@Override public int getTotalArmorValue() {
+    return super.getTotalArmorValue() + MathHelper.floor_double(getEntityAttribute(ModernAttributes.ARMOR).getAttributeValue());
+}
+
+@Override protected float applyArmorCalculations(DamageSource source, float damage) {
+    if (!source.isUnblockable()) {
+        damageArmor(damage);
+        damage = ArmorMath.afterAbsorb(damage, (float) getTotalArmorValue(),
+                (float) getEntityAttribute(ModernAttributes.ARMOR_TOUGHNESS).getAttributeValue());
+    }
+    return damage;
+}

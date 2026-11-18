@@ -1,0 +1,8 @@
+{
+  "name": "JOML",
+  "version": "1.10.5",
+  "url": "https://repo.maven.apache.org/maven2/org/joml/joml/1.10.5/joml-1.10.5.jar",
+  "sha256": "cac9f22f83a7aa33eebda73c16ff5261e3cb4911b6bafcf4c79ea486099d0c9a",
+  "license": "MIT",
+  "shadedPackage": "com.pockyl.handson_delight.math.joml"
+}

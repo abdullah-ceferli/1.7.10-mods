@@ -1,0 +1,27 @@
+{
+  "mod": "croptopia",
+  "version": "4.0.1",
+  "repository": "https://github.com/ExcessiveAmountsOfZombies/Croptopia",
+  "commit": "bae8e837dbb1743fd6b73a93cc320f0c0800fc14",
+  "license": "MIT",
+  "originalJarSha256": "bbd35cbdbe8b9d20a70ab79a42781a82f19f51de068861c431879becbce66d28",
+  "javaUnits": 51,
+  "items": 446,
+  "crops": 58,
+  "trees": 27,
+  "recipeTypes": {
+    "minecraft:crafting_shapeless": 216,
+    "minecraft:crafting_shaped": 86,
+    "minecraft:smelting": 17,
+    "minecraft:smoking": 17,
+    "minecraft:blasting": 1,
+    "botanypots:crop": 27,
+    "minecraft:campfire_cooking": 9,
+    "immersiveengineering:cloche": 58,
+    "thermal:insolator": 58
+  },
+  "recipeCount": 489,
+  "itemTags": 688,
+  "originalAssets": 2373,
+  "unclassifiedRecipeItems": []
+}

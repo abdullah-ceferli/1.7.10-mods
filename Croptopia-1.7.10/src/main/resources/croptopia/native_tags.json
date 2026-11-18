@@ -1,0 +1,5838 @@
+{
+  "croptopia:advancements_drinks": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_juice",
+      "croptopia:orange_juice",
+      "croptopia:apple_juice",
+      "croptopia:cranberry_juice",
+      "croptopia:saguaro_juice",
+      "croptopia:tomato_juice",
+      "croptopia:melon_juice",
+      "croptopia:pineapple_juice",
+      "croptopia:coffee",
+      "croptopia:lemonade",
+      "croptopia:limeade",
+      "croptopia:soy_milk",
+      "croptopia:strawberry_smoothie",
+      "croptopia:banana_smoothie",
+      "croptopia:kale_smoothie",
+      "croptopia:fruit_smoothie",
+      "croptopia:beer",
+      "croptopia:wine",
+      "croptopia:mead",
+      "croptopia:rum",
+      "croptopia:pumpkin_spice_latte",
+      "croptopia:tea"
+    ]
+  },
+  "croptopia:advancements_food_big": {
+    "replace": false,
+    "values": [
+      "croptopia:salsa",
+      "croptopia:onion_rings",
+      "croptopia:caesar_salad",
+      "croptopia:fruit_salad",
+      "croptopia:trail_mix",
+      "croptopia:protein_bar",
+      "croptopia:nougat",
+      "croptopia:tofuburger",
+      "croptopia:supreme_pizza",
+      "croptopia:cheese_pizza",
+      "croptopia:pineapple_pepperoni_pizza",
+      "croptopia:lemon_chicken",
+      "croptopia:fried_chicken",
+      "croptopia:chicken_and_noodles",
+      "croptopia:taco",
+      "croptopia:cashew_chicken",
+      "croptopia:apple_pie",
+      "croptopia:banana_cream_pie",
+      "croptopia:vanilla_ice_cream",
+      "croptopia:strawberry_ice_cream",
+      "croptopia:mango_ice_cream",
+      "croptopia:rum_raisin_ice_cream",
+      "croptopia:pecan_ice_cream",
+      "croptopia:cherry_pie",
+      "croptopia:cheese_cake",
+      "croptopia:brownies",
+      "croptopia:banana_nut_bread",
+      "croptopia:pecan_pie",
+      "croptopia:tostada",
+      "croptopia:horchata",
+      "croptopia:carnitas",
+      "croptopia:fajitas",
+      "croptopia:tamales",
+      "croptopia:tres_leche_cake",
+      "croptopia:stuffed_poblanos",
+      "croptopia:chili_relleno",
+      "croptopia:refried_beans",
+      "croptopia:quesadilla",
+      "croptopia:shepherds_pie",
+      "croptopia:beef_wellington",
+      "croptopia:fish_and_chips",
+      "croptopia:eton_mess",
+      "croptopia:cornish_pasty",
+      "croptopia:scones",
+      "croptopia:figgy_pudding",
+      "croptopia:treacle_tart",
+      "croptopia:sticky_toffee_pudding",
+      "croptopia:trifle",
+      "croptopia:ajvar",
+      "croptopia:ajvar_toast",
+      "croptopia:beef_stew",
+      "croptopia:beef_stir_fry",
+      "croptopia:buttered_green_beans",
+      "croptopia:chocolate_ice_cream",
+      "croptopia:eggplant_parmesan",
+      "croptopia:fruit_cake",
+      "croptopia:grilled_eggplant",
+      "croptopia:lemon_coconut_bar",
+      "croptopia:nether_wart_stew",
+      "croptopia:peanut_butter",
+      "croptopia:peanut_butter_with_celery",
+      "croptopia:potato_soup",
+      "croptopia:ratatouille",
+      "croptopia:roasted_asparagus",
+      "croptopia:roasted_radishes",
+      "croptopia:roasted_squash",
+      "croptopia:roasted_turnips",
+      "croptopia:steamed_broccoli",
+      "croptopia:stir_fry",
+      "croptopia:stuffed_artichoke",
+      "croptopia:toast_sandwich",
+      "croptopia:pumpkin_bars",
+      "croptopia:pumpkin_soup",
+      "croptopia:cabbage_roll",
+      "croptopia:borscht",
+      "croptopia:goulash",
+      "croptopia:candied_kumquats",
+      "croptopia:deep_fried_shrimp",
+      "croptopia:crab_legs",
+      "croptopia:steamed_clams",
+      "croptopia:grilled_oysters",
+      "croptopia:anchovy_pizza"
+    ]
+  },
+  "croptopia:advancements_food_crafted": {
+    "replace": false,
+    "values": [
+      "croptopia:cheese",
+      "croptopia:butter",
+      "croptopia:tofu",
+      "croptopia:chocolate",
+      "croptopia:tortilla",
+      "croptopia:salsa",
+      "croptopia:artichoke_dip",
+      "croptopia:pepperoni",
+      "croptopia:grape_jam",
+      "croptopia:strawberry_jam",
+      "croptopia:peach_jam",
+      "croptopia:apricot_jam",
+      "croptopia:blackberry_jam",
+      "croptopia:blueberry_jam",
+      "croptopia:cherry_jam",
+      "croptopia:elderberry_jam",
+      "croptopia:raspberry_jam",
+      "croptopia:beef_jerky",
+      "croptopia:pork_jerky",
+      "croptopia:pork_jerky",
+      "croptopia:kale_chips",
+      "croptopia:potato_chips",
+      "croptopia:steamed_rice",
+      "croptopia:french_fries",
+      "croptopia:sweet_potato_fries",
+      "croptopia:onion_rings",
+      "croptopia:raisins",
+      "croptopia:doughnut",
+      "croptopia:popcorn",
+      "croptopia:baked_beans",
+      "croptopia:toast",
+      "croptopia:cucumber_salad",
+      "croptopia:caesar_salad",
+      "croptopia:leafy_salad",
+      "croptopia:fruit_salad",
+      "croptopia:veggie_salad",
+      "croptopia:pork_and_beans",
+      "croptopia:oatmeal",
+      "croptopia:leek_soup",
+      "croptopia:yoghurt",
+      "croptopia:saucy_chips",
+      "croptopia:roasted_nuts",
+      "croptopia:trail_mix",
+      "croptopia:protein_bar",
+      "croptopia:nougat",
+      "croptopia:scrambled_eggs",
+      "croptopia:buttered_toast",
+      "croptopia:toast_with_jam",
+      "croptopia:ham_sandwich",
+      "croptopia:peanut_butter_and_jam",
+      "croptopia:blt",
+      "croptopia:grilled_cheese",
+      "croptopia:cheeseburger",
+      "croptopia:hamburger",
+      "croptopia:tofuburger",
+      "croptopia:pizza",
+      "croptopia:supreme_pizza",
+      "croptopia:cheese_pizza",
+      "croptopia:pineapple_pepperoni_pizza",
+      "croptopia:lemon_chicken",
+      "croptopia:fried_chicken",
+      "croptopia:chicken_and_noodles",
+      "croptopia:chicken_and_dumplings",
+      "croptopia:tofu_and_dumplings",
+      "croptopia:spaghetti_squash",
+      "croptopia:chicken_and_rice",
+      "croptopia:taco",
+      "croptopia:sushi",
+      "croptopia:egg_roll",
+      "croptopia:cashew_chicken",
+      "croptopia:apple_pie",
+      "croptopia:yam_jam",
+      "croptopia:banana_cream_pie",
+      "croptopia:candy_corn",
+      "croptopia:vanilla_ice_cream",
+      "croptopia:strawberry_ice_cream",
+      "croptopia:mango_ice_cream",
+      "croptopia:rum_raisin_ice_cream",
+      "croptopia:pecan_ice_cream",
+      "croptopia:cherry_pie",
+      "croptopia:brownies",
+      "croptopia:snicker_doodle",
+      "croptopia:banana_nut_bread",
+      "croptopia:pecan_pie",
+      "croptopia:candied_nuts",
+      "croptopia:almond_brittle",
+      "croptopia:raisin_oatmeal_cookie",
+      "croptopia:nutty_cookie",
+      "croptopia:burrito",
+      "croptopia:tostada",
+      "croptopia:horchata",
+      "croptopia:carnitas",
+      "croptopia:fajitas",
+      "croptopia:enchilada",
+      "croptopia:churros",
+      "croptopia:tamales",
+      "croptopia:tres_leche_cake",
+      "croptopia:stuffed_poblanos",
+      "croptopia:chili_relleno",
+      "croptopia:crema",
+      "croptopia:refried_beans",
+      "croptopia:chimichanga",
+      "croptopia:quesadilla",
+      "croptopia:shepherds_pie",
+      "croptopia:beef_wellington",
+      "croptopia:fish_and_chips",
+      "croptopia:eton_mess",
+      "croptopia:cornish_pasty",
+      "croptopia:scones",
+      "croptopia:figgy_pudding",
+      "croptopia:treacle_tart",
+      "croptopia:sticky_toffee_pudding",
+      "croptopia:trifle",
+      "croptopia:ajvar",
+      "croptopia:ajvar_toast",
+      "croptopia:avocado_toast",
+      "croptopia:bacon",
+      "croptopia:baked_sweet_potato",
+      "croptopia:baked_yam",
+      "croptopia:beef_stew",
+      "croptopia:beef_stir_fry",
+      "croptopia:buttered_green_beans",
+      "croptopia:cheesy_asparagus",
+      "croptopia:chocolate_ice_cream",
+      "croptopia:cooked_bacon",
+      "croptopia:eggplant_parmesan",
+      "croptopia:fruit_cake",
+      "croptopia:grilled_eggplant",
+      "croptopia:kiwi_sorbet",
+      "croptopia:lemon_coconut_bar",
+      "croptopia:nether_wart_stew",
+      "croptopia:peanut_butter",
+      "croptopia:peanut_butter_with_celery",
+      "croptopia:potato_soup",
+      "croptopia:ratatouille",
+      "croptopia:rhubarb_crisp",
+      "croptopia:roasted_asparagus",
+      "croptopia:roasted_radishes",
+      "croptopia:roasted_squash",
+      "croptopia:roasted_turnips",
+      "croptopia:steamed_broccoli",
+      "croptopia:steamed_green_beans",
+      "croptopia:stir_fry",
+      "croptopia:stuffed_artichoke",
+      "croptopia:toast_sandwich",
+      "croptopia:roasted_pumpkin_seeds",
+      "croptopia:roasted_sunflower_seeds",
+      "croptopia:pumpkin_bars",
+      "croptopia:corn_bread",
+      "croptopia:pumpkin_soup",
+      "croptopia:meringue",
+      "croptopia:cabbage_roll",
+      "croptopia:borscht",
+      "croptopia:goulash",
+      "croptopia:beetroot_salad",
+      "croptopia:candied_kumquats",
+      "croptopia:cooked_shrimp",
+      "croptopia:cooked_tuna",
+      "croptopia:cooked_calamari",
+      "croptopia:steamed_crab",
+      "croptopia:deep_fried_shrimp",
+      "croptopia:fried_calamari",
+      "croptopia:crab_legs",
+      "croptopia:steamed_clams",
+      "croptopia:grilled_oysters",
+      "croptopia:anchovy_pizza",
+      "croptopia:mashed_potatoes"
+    ]
+  },
+  "croptopia:advancements_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:banana_sapling",
+      "croptopia:apple_sapling",
+      "croptopia:orange_sapling",
+      "croptopia:persimmon_sapling",
+      "croptopia:plum_sapling",
+      "croptopia:cherry_sapling",
+      "croptopia:lemon_sapling",
+      "croptopia:grapefruit_sapling",
+      "croptopia:kumquat_sapling",
+      "croptopia:peach_sapling",
+      "croptopia:coconut_sapling",
+      "croptopia:nutmeg_sapling",
+      "croptopia:fig_sapling",
+      "croptopia:nectarine_sapling",
+      "croptopia:mango_sapling",
+      "croptopia:dragonfruit_sapling",
+      "croptopia:starfruit_sapling",
+      "croptopia:avocado_sapling",
+      "croptopia:apricot_sapling",
+      "croptopia:pear_sapling",
+      "croptopia:lime_sapling",
+      "croptopia:date_sapling",
+      "croptopia:almond_sapling",
+      "croptopia:cashew_sapling",
+      "croptopia:pecan_sapling",
+      "croptopia:walnut_sapling",
+      "croptopia:cinnamon_sapling"
+    ]
+  },
+  "croptopia:advancements_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_seed",
+      "croptopia:asparagus_seed",
+      "croptopia:bellpepper_seed",
+      "croptopia:blackbean_seed",
+      "croptopia:blackberry_seed",
+      "croptopia:blueberry_seed",
+      "croptopia:broccoli_seed",
+      "croptopia:cabbage_seed",
+      "croptopia:cantaloupe_seed",
+      "croptopia:cauliflower_seed",
+      "croptopia:celery_seed",
+      "croptopia:corn_seed",
+      "croptopia:cranberry_seed",
+      "croptopia:cucumber_seed",
+      "croptopia:currant_seed",
+      "croptopia:eggplant_seed",
+      "croptopia:elderberry_seed",
+      "croptopia:garlic_seed",
+      "croptopia:grape_seed",
+      "croptopia:greenbean_seed",
+      "croptopia:honeydew_seed",
+      "croptopia:hops_seed",
+      "croptopia:kale_seed",
+      "croptopia:kiwi_seed",
+      "croptopia:leek_seed",
+      "croptopia:lettuce_seed",
+      "croptopia:olive_seed",
+      "croptopia:onion_seed",
+      "croptopia:peanut_seed",
+      "croptopia:pineapple_seed",
+      "croptopia:radish_seed",
+      "croptopia:raspberry_seed",
+      "croptopia:rhubarb_seed",
+      "croptopia:rice_seed",
+      "croptopia:rutabaga_seed",
+      "croptopia:saguaro_seed",
+      "croptopia:squash_seed",
+      "croptopia:strawberry_seed",
+      "croptopia:tomatillo_seed",
+      "croptopia:tomato_seed",
+      "croptopia:turnip_seed",
+      "croptopia:yam_seed",
+      "croptopia:zucchini_seed",
+      "croptopia:mustard_seed",
+      "croptopia:chile_pepper_seed",
+      "croptopia:turmeric_seed",
+      "croptopia:ginger_seed",
+      "croptopia:basil_seed",
+      "croptopia:oat_seed",
+      "croptopia:barley_seed",
+      "croptopia:soybean_seed",
+      "croptopia:vanilla_seeds",
+      "croptopia:pepper_seed",
+      "croptopia:tea_seed"
+    ]
+  },
+  "croptopia:beef_mutton": {
+    "replace": false,
+    "values": [
+      "minecraft:beef",
+      "minecraft:mutton"
+    ]
+  },
+  "croptopia:beef_replacements": {
+    "replace": false,
+    "values": [
+      "minecraft:beef",
+      "croptopia:tofu"
+    ]
+  },
+  "croptopia:chicken_replacements": {
+    "replace": false,
+    "values": [
+      "minecraft:chicken",
+      "croptopia:tofu"
+    ]
+  },
+  "croptopia:cinnamon_logs": {
+    "replace": false,
+    "values": [
+      "croptopia:cinnamon_log",
+      "croptopia:stripped_cinnamon_log",
+      "croptopia:cinnamon_wood",
+      "croptopia:stripped_cinnamon_wood"
+    ]
+  },
+  "croptopia:fishes": {
+    "replace": false,
+    "values": [
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:tropical_fish",
+      "minecraft:pufferfish"
+    ]
+  },
+  "croptopia:flourable": {
+    "replace": false,
+    "values": [
+      "minecraft:wheat",
+      "croptopia:barley",
+      "croptopia:oat",
+      "croptopia:corn"
+    ]
+  },
+  "croptopia:meat_replacements": {
+    "replace": false,
+    "values": [
+      "minecraft:beef",
+      "minecraft:chicken",
+      "minecraft:porkchop",
+      "croptopia:tofu"
+    ]
+  },
+  "croptopia:melons": {
+    "replace": false,
+    "values": [
+      "minecraft:melon_slice",
+      "croptopia:honeydew",
+      "croptopia:cantaloupe"
+    ]
+  },
+  "croptopia:nuts": {
+    "replace": false,
+    "values": [
+      "croptopia:almond",
+      "croptopia:walnut",
+      "croptopia:pecan",
+      "croptopia:cashew",
+      "croptopia:peanut"
+    ]
+  },
+  "croptopia:peppers": {
+    "replace": false,
+    "values": [
+      "croptopia:chile_pepper",
+      "croptopia:bellpepper"
+    ]
+  },
+  "croptopia:pork_replacements": {
+    "replace": false,
+    "values": [
+      "minecraft:porkchop",
+      "croptopia:tofu"
+    ]
+  },
+  "croptopia:sauces": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_dip",
+      "croptopia:salsa"
+    ]
+  },
+  "dehydration:hydrating_drinks": {
+    "replace": false,
+    "values": [
+      "croptopia:coffee",
+      "croptopia:lemonade",
+      "croptopia:limeade",
+      "croptopia:soy_milk",
+      "croptopia:strawberry_smoothie",
+      "croptopia:banana_smoothie",
+      "croptopia:kale_smoothie",
+      "croptopia:fruit_smoothie",
+      "croptopia:chocolate_milkshake",
+      "croptopia:beer",
+      "croptopia:wine",
+      "croptopia:mead",
+      "croptopia:rum",
+      "croptopia:pumpkin_spice_latte",
+      "croptopia:water_bottle",
+      "croptopia:milk_bottle",
+      "croptopia:tea",
+      "croptopia:kiwi_sorbet"
+    ]
+  },
+  "dehydration:hydrating_foods": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_dip",
+      "croptopia:salsa",
+      "croptopia:soy_milk",
+      "croptopia:honeydew",
+      "croptopia:cantaloupe",
+      "minecraft:apple",
+      "croptopia:orange",
+      "croptopia:banana",
+      "croptopia:strawberry",
+      "croptopia:blackberry",
+      "croptopia:blueberry",
+      "croptopia:grape",
+      "croptopia:cantaloupe",
+      "croptopia:honeydew",
+      "croptopia:cranberry",
+      "croptopia:raspberry",
+      "croptopia:persimmon",
+      "croptopia:plum",
+      "croptopia:cherry",
+      "croptopia:lemon",
+      "croptopia:grapefruit",
+      "croptopia:kumquat",
+      "croptopia:peach",
+      "croptopia:nectarine",
+      "croptopia:mango",
+      "croptopia:dragonfruit",
+      "croptopia:starfruit",
+      "croptopia:apricot",
+      "croptopia:pear",
+      "croptopia:lime"
+    ]
+  },
+  "dehydration:hydrating_stew": {
+    "replace": false,
+    "values": [
+      "croptopia:leek_soup",
+      "croptopia:grape_juice",
+      "croptopia:orange_juice",
+      "croptopia:apple_juice",
+      "croptopia:cranberry_juice",
+      "croptopia:saguaro_juice",
+      "croptopia:tomato_juice",
+      "croptopia:melon_juice",
+      "croptopia:pineapple_juice"
+    ]
+  },
+  "forge:almond_brittles": {
+    "replace": false,
+    "values": [
+      "croptopia:almond_brittle"
+    ]
+  },
+  "forge:almond_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:almond_sapling",
+      "#forge:saplings/almond"
+    ]
+  },
+  "forge:almonds": {
+    "replace": false,
+    "values": [
+      "croptopia:almond",
+      "#forge:nuts/almond",
+      "croptopia:almond",
+      "#forge:crops/almond",
+      "croptopia:almond",
+      "#forge:fruits/almond"
+    ]
+  },
+  "forge:anchovies": {
+    "replace": false,
+    "values": [
+      "croptopia:anchovy"
+    ]
+  },
+  "forge:anchovy_pizzas": {
+    "replace": false,
+    "values": [
+      "croptopia:anchovy_pizza"
+    ]
+  },
+  "forge:apple_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:apple_juice",
+      "#forge:juices/apple_juice"
+    ]
+  },
+  "forge:apple_pies": {
+    "replace": false,
+    "values": [
+      "croptopia:apple_pie"
+    ]
+  },
+  "forge:apple_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:apple_sapling",
+      "#forge:saplings/apple"
+    ]
+  },
+  "forge:apples": {
+    "replace": false,
+    "values": [
+      "minecraft:apple",
+      "#forge:fruits/apple",
+      "minecraft:apple",
+      "#forge:crops/apple"
+    ]
+  },
+  "forge:apricot_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot_jam",
+      "#forge:jams/apricot_jam"
+    ]
+  },
+  "forge:apricot_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot_sapling",
+      "#forge:saplings/apricot"
+    ]
+  },
+  "forge:apricots": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot",
+      "#forge:fruits/apricot",
+      "croptopia:apricot",
+      "#forge:crops/apricot"
+    ]
+  },
+  "forge:artichoke_dips": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_dip"
+    ]
+  },
+  "forge:artichoke_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_seed",
+      "#forge:seeds/artichoke"
+    ]
+  },
+  "forge:artichokes": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke",
+      "#forge:vegetables/artichoke",
+      "croptopia:artichoke",
+      "#forge:crops/artichoke"
+    ]
+  },
+  "forge:asparagus": {
+    "replace": false,
+    "values": [
+      "croptopia:asparagus",
+      "#forge:vegetables/asparagus",
+      "croptopia:asparagus",
+      "#forge:crops/asparagus"
+    ]
+  },
+  "forge:asparagus_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:asparagus_seed",
+      "#forge:seeds/asparagus"
+    ]
+  },
+  "forge:avocado_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:avocado_sapling",
+      "#forge:saplings/avocado"
+    ]
+  },
+  "forge:avocados": {
+    "replace": false,
+    "values": [
+      "croptopia:avocado",
+      "#forge:fruits/avocado",
+      "croptopia:avocado",
+      "#forge:crops/avocado"
+    ]
+  },
+  "forge:baked_beans": {
+    "replace": false,
+    "values": [
+      "croptopia:baked_beans"
+    ]
+  },
+  "forge:baked_crepes": {
+    "replace": false,
+    "values": [
+      "croptopia:baked_crepes"
+    ]
+  },
+  "forge:baked_sweet_potatos": {
+    "replace": false,
+    "values": [
+      "croptopia:baked_sweet_potato"
+    ]
+  },
+  "forge:baked_yams": {
+    "replace": false,
+    "values": [
+      "croptopia:baked_yam"
+    ]
+  },
+  "forge:banana_cream_pies": {
+    "replace": false,
+    "values": [
+      "croptopia:banana_cream_pie"
+    ]
+  },
+  "forge:banana_nut_breads": {
+    "replace": false,
+    "values": [
+      "croptopia:banana_nut_bread"
+    ]
+  },
+  "forge:banana_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:banana_sapling",
+      "#forge:saplings/banana"
+    ]
+  },
+  "forge:banana_smoothies": {
+    "replace": false,
+    "values": [
+      "croptopia:banana_smoothie"
+    ]
+  },
+  "forge:bananas": {
+    "replace": false,
+    "values": [
+      "croptopia:banana",
+      "#forge:fruits/banana",
+      "croptopia:banana",
+      "#forge:crops/banana"
+    ]
+  },
+  "forge:barley": {
+    "replace": false,
+    "values": [
+      "croptopia:barley",
+      "#forge:grain/barley",
+      "croptopia:barley",
+      "#forge:crops/barley"
+    ]
+  },
+  "forge:barley_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:barley_seed",
+      "#forge:seeds/barley"
+    ]
+  },
+  "forge:basil": {
+    "replace": false,
+    "values": [
+      "croptopia:basil",
+      "#forge:crops/basil"
+    ]
+  },
+  "forge:basil_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:basil_seed",
+      "#forge:seeds/basil"
+    ]
+  },
+  "forge:beef_jerkies": {
+    "replace": false,
+    "values": [
+      "croptopia:beef_jerky"
+    ]
+  },
+  "forge:beef_wellington": {
+    "replace": false,
+    "values": [
+      "croptopia:beef_wellington"
+    ]
+  },
+  "forge:beers": {
+    "replace": false,
+    "values": [
+      "croptopia:beer"
+    ]
+  },
+  "forge:beetroot_salads": {
+    "replace": false,
+    "values": [
+      "croptopia:beetroot_salad"
+    ]
+  },
+  "forge:bellpepper_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:bellpepper_seed",
+      "#forge:seeds/bellpepper"
+    ]
+  },
+  "forge:bellpeppers": {
+    "replace": false,
+    "values": [
+      "croptopia:bellpepper",
+      "#forge:fruits/bellpepper",
+      "croptopia:bellpepper",
+      "#forge:crops/bellpepper"
+    ]
+  },
+  "forge:blackbean_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:blackbean_seed",
+      "#forge:seeds/blackbean"
+    ]
+  },
+  "forge:blackbeans": {
+    "replace": false,
+    "values": [
+      "croptopia:blackbean",
+      "#forge:crops/blackbean"
+    ]
+  },
+  "forge:blackberries": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry",
+      "#forge:fruits/blackberry",
+      "croptopia:blackberry",
+      "#forge:crops/blackberry"
+    ]
+  },
+  "forge:blackberry_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry_jam",
+      "#forge:jams/blackberry_jam"
+    ]
+  },
+  "forge:blackberry_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry_seed",
+      "#forge:seeds/blackberry"
+    ]
+  },
+  "forge:blts": {
+    "replace": false,
+    "values": [
+      "croptopia:blt"
+    ]
+  },
+  "forge:blueberries": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry",
+      "#forge:fruits/blueberry",
+      "croptopia:blueberry",
+      "#forge:crops/blueberry"
+    ]
+  },
+  "forge:blueberry_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry_jam",
+      "#forge:jams/blueberry_jam"
+    ]
+  },
+  "forge:blueberry_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry_seed",
+      "#forge:seeds/blueberry"
+    ]
+  },
+  "forge:borscht": {
+    "replace": false,
+    "values": [
+      "croptopia:borscht"
+    ]
+  },
+  "forge:broccoli": {
+    "replace": false,
+    "values": [
+      "croptopia:broccoli",
+      "#forge:vegetables/broccoli",
+      "croptopia:broccoli",
+      "#forge:crops/broccoli"
+    ]
+  },
+  "forge:broccoli_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:broccoli_seed",
+      "#forge:seeds/broccoli"
+    ]
+  },
+  "forge:brownies": {
+    "replace": false,
+    "values": [
+      "croptopia:brownies"
+    ]
+  },
+  "forge:buttered_toasts": {
+    "replace": false,
+    "values": [
+      "croptopia:buttered_toast"
+    ]
+  },
+  "forge:butters": {
+    "replace": false,
+    "values": [
+      "croptopia:butter"
+    ]
+  },
+  "forge:cabbage": {
+    "replace": false,
+    "values": [
+      "croptopia:cabbage",
+      "#forge:vegetables/cabbage",
+      "croptopia:cabbage",
+      "#forge:crops/cabbage"
+    ]
+  },
+  "forge:cabbage_rolls": {
+    "replace": false,
+    "values": [
+      "croptopia:cabbage_roll"
+    ]
+  },
+  "forge:cabbage_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:cabbage_seed",
+      "#forge:seeds/cabbage"
+    ]
+  },
+  "forge:caesar_salads": {
+    "replace": false,
+    "values": [
+      "croptopia:caesar_salad"
+    ]
+  },
+  "forge:calamari": {
+    "replace": false,
+    "values": [
+      "croptopia:calamari"
+    ]
+  },
+  "forge:candied_kumquats": {
+    "replace": false,
+    "values": [
+      "croptopia:candied_kumquats"
+    ]
+  },
+  "forge:candied_nuts": {
+    "replace": false,
+    "values": [
+      "croptopia:candied_nuts"
+    ]
+  },
+  "forge:candy_corns": {
+    "replace": false,
+    "values": [
+      "croptopia:candy_corn"
+    ]
+  },
+  "forge:cantaloupe_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:cantaloupe_seed",
+      "#forge:seeds/cantaloupe"
+    ]
+  },
+  "forge:cantaloupes": {
+    "replace": false,
+    "values": [
+      "croptopia:cantaloupe",
+      "#forge:fruits/cantaloupe",
+      "croptopia:cantaloupe",
+      "#forge:crops/cantaloupe"
+    ]
+  },
+  "forge:caramel": {
+    "replace": false,
+    "values": [
+      "croptopia:caramel"
+    ]
+  },
+  "forge:cashew_chickens": {
+    "replace": false,
+    "values": [
+      "croptopia:cashew_chicken"
+    ]
+  },
+  "forge:cashew_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:cashew_sapling",
+      "#forge:saplings/cashew"
+    ]
+  },
+  "forge:cashews": {
+    "replace": false,
+    "values": [
+      "croptopia:cashew",
+      "#forge:crops/cashew"
+    ]
+  },
+  "forge:cauliflower": {
+    "replace": false,
+    "values": [
+      "croptopia:cauliflower",
+      "#forge:vegetables/cauliflower",
+      "croptopia:cauliflower",
+      "#forge:crops/cauliflower"
+    ]
+  },
+  "forge:cauliflower_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:cauliflower_seed",
+      "#forge:seeds/cauliflower"
+    ]
+  },
+  "forge:celery": {
+    "replace": false,
+    "values": [
+      "croptopia:celery",
+      "#forge:vegetables/celery",
+      "croptopia:celery",
+      "#forge:crops/celery"
+    ]
+  },
+  "forge:celery_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:celery_seed",
+      "#forge:seeds/celery"
+    ]
+  },
+  "forge:cheese_cakes": {
+    "replace": false,
+    "values": [
+      "croptopia:cheese_cake"
+    ]
+  },
+  "forge:cheese_pizzas": {
+    "replace": false,
+    "values": [
+      "croptopia:cheese_pizza"
+    ]
+  },
+  "forge:cheeseburgers": {
+    "replace": false,
+    "values": [
+      "croptopia:cheeseburger"
+    ]
+  },
+  "forge:cheeses": {
+    "replace": false,
+    "values": [
+      "croptopia:cheese"
+    ]
+  },
+  "forge:cherries": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry",
+      "#forge:fruits/cherry",
+      "croptopia:cherry",
+      "#forge:crops/cherry"
+    ]
+  },
+  "forge:cherry_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry_jam",
+      "#forge:jams/cherry_jam"
+    ]
+  },
+  "forge:cherry_pies": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry_pie"
+    ]
+  },
+  "forge:cherry_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry_sapling",
+      "#forge:saplings/cherry"
+    ]
+  },
+  "forge:chicken_and_dumplings": {
+    "replace": false,
+    "values": [
+      "croptopia:chicken_and_dumplings"
+    ]
+  },
+  "forge:chicken_and_noodles": {
+    "replace": false,
+    "values": [
+      "croptopia:chicken_and_noodles"
+    ]
+  },
+  "forge:chicken_and_rice": {
+    "replace": false,
+    "values": [
+      "croptopia:chicken_and_rice"
+    ]
+  },
+  "forge:chile_pepper_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:chile_pepper_seed",
+      "#forge:seeds/chilepepper"
+    ]
+  },
+  "forge:chile_peppers": {
+    "replace": false,
+    "values": [
+      "croptopia:chile_pepper",
+      "#forge:crops/chile_pepper"
+    ]
+  },
+  "forge:chocolate_milkshakes": {
+    "replace": false,
+    "values": [
+      "croptopia:chocolate_milkshake"
+    ]
+  },
+  "forge:chocolates": {
+    "replace": false,
+    "values": [
+      "croptopia:chocolate"
+    ]
+  },
+  "forge:cinnamon": {
+    "replace": false,
+    "values": [
+      "croptopia:cinnamon",
+      "#forge:crops/cinnamon"
+    ]
+  },
+  "forge:cinnamon_rolls": {
+    "replace": false,
+    "values": [
+      "croptopia:cinnamon_roll"
+    ]
+  },
+  "forge:cinnamon_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:cinnamon_sapling",
+      "#forge:saplings/cinnamon"
+    ]
+  },
+  "forge:clams": {
+    "replace": false,
+    "values": [
+      "croptopia:clam"
+    ]
+  },
+  "forge:coconut_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:coconut_sapling",
+      "#forge:saplings/coconut"
+    ]
+  },
+  "forge:coconuts": {
+    "replace": false,
+    "values": [
+      "croptopia:coconut",
+      "#forge:fruits/coconut",
+      "croptopia:coconut",
+      "#forge:crops/coconut"
+    ]
+  },
+  "forge:coffee_beans": {
+    "replace": false,
+    "values": [
+      "croptopia:coffee_beans",
+      "#forge:crops/coffee_beans"
+    ]
+  },
+  "forge:coffee_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:coffee_seed",
+      "#forge:seeds/coffee_beans"
+    ]
+  },
+  "forge:coffees": {
+    "replace": false,
+    "values": [
+      "croptopia:coffee"
+    ]
+  },
+  "forge:cooked_anchovies": {
+    "replace": false,
+    "values": [
+      "croptopia:cooked_anchovy"
+    ]
+  },
+  "forge:cooked_bacon": {
+    "replace": false,
+    "values": [
+      "croptopia:cooked_bacon"
+    ]
+  },
+  "forge:cooked_calamari": {
+    "replace": false,
+    "values": [
+      "croptopia:cooked_calamari"
+    ]
+  },
+  "forge:cooked_ravager_meat": {
+    "replace": false,
+    "values": [
+      "croptopia:cooked_ravager_meat",
+      "croptopia:cooked_ravager_meat"
+    ]
+  },
+  "forge:cooked_shrimp": {
+    "replace": false,
+    "values": [
+      "croptopia:cooked_shrimp"
+    ]
+  },
+  "forge:cooked_tuna": {
+    "replace": false,
+    "values": [
+      "croptopia:cooked_tuna"
+    ]
+  },
+  "forge:cooking_pots": {
+    "replace": false,
+    "values": [
+      "croptopia:cooking_pot"
+    ]
+  },
+  "forge:corn": {
+    "replace": false,
+    "values": [
+      "croptopia:corn",
+      "#forge:grain/corn",
+      "croptopia:corn",
+      "#forge:crops/corn"
+    ]
+  },
+  "forge:corn_breads": {
+    "replace": false,
+    "values": [
+      "croptopia:corn_bread"
+    ]
+  },
+  "forge:corn_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:corn_seed",
+      "#forge:seeds/corn"
+    ]
+  },
+  "forge:cornish_pasty": {
+    "replace": false,
+    "values": [
+      "croptopia:cornish_pasty"
+    ]
+  },
+  "forge:crab_legs": {
+    "replace": false,
+    "values": [
+      "croptopia:crab_legs"
+    ]
+  },
+  "forge:crabs": {
+    "replace": false,
+    "values": [
+      "croptopia:crab"
+    ]
+  },
+  "forge:cranberries": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry",
+      "#forge:fruits/cranberry",
+      "croptopia:cranberry",
+      "#forge:crops/cranberry"
+    ]
+  },
+  "forge:cranberry_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry_juice",
+      "#forge:juices/cranberry_juice"
+    ]
+  },
+  "forge:cranberry_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry_seed",
+      "#forge:seeds/cranberry"
+    ]
+  },
+  "forge:crops": {
+    "replace": false,
+    "values": [
+      "#forge:artichokes",
+      "#forge:asparagus",
+      "#forge:barley",
+      "#forge:basil",
+      "#forge:bellpeppers",
+      "#forge:blackbeans",
+      "#forge:blackberries",
+      "#forge:blueberries",
+      "#forge:broccoli",
+      "#forge:cabbage",
+      "#forge:cantaloupes",
+      "#forge:cauliflower",
+      "#forge:celery",
+      "#forge:chile_peppers",
+      "#forge:coffee_beans",
+      "#forge:corn",
+      "#forge:cranberries",
+      "#forge:cucumbers",
+      "#forge:currants",
+      "#forge:eggplants",
+      "#forge:elderberries",
+      "#forge:garlic",
+      "#forge:gingers",
+      "#forge:grapes",
+      "#forge:greenbeans",
+      "#forge:greenonions",
+      "#forge:honeydew",
+      "#forge:hops",
+      "#forge:kale",
+      "#forge:kiwis",
+      "#forge:leek",
+      "#forge:lettuce",
+      "#forge:mustard",
+      "#forge:oat",
+      "#forge:olives",
+      "#forge:onions",
+      "#forge:peanuts",
+      "#forge:pepper",
+      "#forge:pineapples",
+      "#forge:radishes",
+      "#forge:raspberries",
+      "#forge:rhubarb",
+      "#forge:rice",
+      "#forge:rutabagas",
+      "#forge:saguaros",
+      "#forge:soybeans",
+      "#forge:spinach",
+      "#forge:squashes",
+      "#forge:strawberries",
+      "#forge:sweetpotatos",
+      "#forge:tea_leaves",
+      "#forge:tomatillos",
+      "#forge:tomatoes",
+      "#forge:turmeric",
+      "#forge:turnips",
+      "#forge:vanilla",
+      "#forge:yams",
+      "#forge:zucchini",
+      "#forge:almonds",
+      "#forge:apples",
+      "#forge:apricots",
+      "#forge:avocados",
+      "#forge:bananas",
+      "#forge:cashews",
+      "#forge:cherries",
+      "#forge:coconuts",
+      "#forge:dates",
+      "#forge:dragonfruits",
+      "#forge:figs",
+      "#forge:grapefruits",
+      "#forge:kumquats",
+      "#forge:lemons",
+      "#forge:limes",
+      "#forge:mangos",
+      "#forge:nectarines",
+      "#forge:nutmegs",
+      "#forge:oranges",
+      "#forge:peaches",
+      "#forge:pears",
+      "#forge:pecans",
+      "#forge:persimmons",
+      "#forge:plums",
+      "#forge:starfruits",
+      "#forge:walnuts",
+      "#forge:cinnamon"
+    ]
+  },
+  "forge:crops/almond": {
+    "replace": false,
+    "values": [
+      "croptopia:almond"
+    ]
+  },
+  "forge:crops/apple": {
+    "replace": false,
+    "values": [
+      "minecraft:apple"
+    ]
+  },
+  "forge:crops/apricot": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot"
+    ]
+  },
+  "forge:crops/artichoke": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke"
+    ]
+  },
+  "forge:crops/asparagus": {
+    "replace": false,
+    "values": [
+      "croptopia:asparagus"
+    ]
+  },
+  "forge:crops/avocado": {
+    "replace": false,
+    "values": [
+      "croptopia:avocado"
+    ]
+  },
+  "forge:crops/banana": {
+    "replace": false,
+    "values": [
+      "croptopia:banana"
+    ]
+  },
+  "forge:crops/barley": {
+    "replace": false,
+    "values": [
+      "croptopia:barley"
+    ]
+  },
+  "forge:crops/basil": {
+    "replace": false,
+    "values": [
+      "croptopia:basil"
+    ]
+  },
+  "forge:crops/bellpepper": {
+    "replace": false,
+    "values": [
+      "croptopia:bellpepper"
+    ]
+  },
+  "forge:crops/blackbean": {
+    "replace": false,
+    "values": [
+      "croptopia:blackbean"
+    ]
+  },
+  "forge:crops/blackberry": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry"
+    ]
+  },
+  "forge:crops/blueberry": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry"
+    ]
+  },
+  "forge:crops/broccoli": {
+    "replace": false,
+    "values": [
+      "croptopia:broccoli"
+    ]
+  },
+  "forge:crops/cabbage": {
+    "replace": false,
+    "values": [
+      "croptopia:cabbage"
+    ]
+  },
+  "forge:crops/cantaloupe": {
+    "replace": false,
+    "values": [
+      "croptopia:cantaloupe"
+    ]
+  },
+  "forge:crops/cashew": {
+    "replace": false,
+    "values": [
+      "croptopia:cashew"
+    ]
+  },
+  "forge:crops/cauliflower": {
+    "replace": false,
+    "values": [
+      "croptopia:cauliflower"
+    ]
+  },
+  "forge:crops/celery": {
+    "replace": false,
+    "values": [
+      "croptopia:celery"
+    ]
+  },
+  "forge:crops/cherry": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry"
+    ]
+  },
+  "forge:crops/chile_pepper": {
+    "replace": false,
+    "values": [
+      "croptopia:chile_pepper"
+    ]
+  },
+  "forge:crops/cinnamon": {
+    "replace": false,
+    "values": [
+      "croptopia:cinnamon"
+    ]
+  },
+  "forge:crops/coconut": {
+    "replace": false,
+    "values": [
+      "croptopia:coconut"
+    ]
+  },
+  "forge:crops/coffee_beans": {
+    "replace": false,
+    "values": [
+      "croptopia:coffee_beans"
+    ]
+  },
+  "forge:crops/corn": {
+    "replace": false,
+    "values": [
+      "croptopia:corn"
+    ]
+  },
+  "forge:crops/cranberry": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry"
+    ]
+  },
+  "forge:crops/cucumber": {
+    "replace": false,
+    "values": [
+      "croptopia:cucumber"
+    ]
+  },
+  "forge:crops/currant": {
+    "replace": false,
+    "values": [
+      "croptopia:currant"
+    ]
+  },
+  "forge:crops/date": {
+    "replace": false,
+    "values": [
+      "croptopia:date"
+    ]
+  },
+  "forge:crops/dragonfruit": {
+    "replace": false,
+    "values": [
+      "croptopia:dragonfruit"
+    ]
+  },
+  "forge:crops/eggplant": {
+    "replace": false,
+    "values": [
+      "croptopia:eggplant"
+    ]
+  },
+  "forge:crops/elderberry": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry"
+    ]
+  },
+  "forge:crops/fig": {
+    "replace": false,
+    "values": [
+      "croptopia:fig"
+    ]
+  },
+  "forge:crops/garlic": {
+    "replace": false,
+    "values": [
+      "croptopia:garlic"
+    ]
+  },
+  "forge:crops/ginger": {
+    "replace": false,
+    "values": [
+      "croptopia:ginger"
+    ]
+  },
+  "forge:crops/grape": {
+    "replace": false,
+    "values": [
+      "croptopia:grape"
+    ]
+  },
+  "forge:crops/grapefruit": {
+    "replace": false,
+    "values": [
+      "croptopia:grapefruit"
+    ]
+  },
+  "forge:crops/greenbean": {
+    "replace": false,
+    "values": [
+      "croptopia:greenbean"
+    ]
+  },
+  "forge:crops/greenonion": {
+    "replace": false,
+    "values": [
+      "croptopia:greenonion"
+    ]
+  },
+  "forge:crops/honeydew": {
+    "replace": false,
+    "values": [
+      "croptopia:honeydew"
+    ]
+  },
+  "forge:crops/hops": {
+    "replace": false,
+    "values": [
+      "croptopia:hops"
+    ]
+  },
+  "forge:crops/kale": {
+    "replace": false,
+    "values": [
+      "croptopia:kale"
+    ]
+  },
+  "forge:crops/kiwi": {
+    "replace": false,
+    "values": [
+      "croptopia:kiwi"
+    ]
+  },
+  "forge:crops/kumquat": {
+    "replace": false,
+    "values": [
+      "croptopia:kumquat"
+    ]
+  },
+  "forge:crops/leek": {
+    "replace": false,
+    "values": [
+      "croptopia:leek"
+    ]
+  },
+  "forge:crops/lemon": {
+    "replace": false,
+    "values": [
+      "croptopia:lemon"
+    ]
+  },
+  "forge:crops/lettuce": {
+    "replace": false,
+    "values": [
+      "croptopia:lettuce"
+    ]
+  },
+  "forge:crops/lime": {
+    "replace": false,
+    "values": [
+      "croptopia:lime"
+    ]
+  },
+  "forge:crops/mango": {
+    "replace": false,
+    "values": [
+      "croptopia:mango"
+    ]
+  },
+  "forge:crops/mustard": {
+    "replace": false,
+    "values": [
+      "croptopia:mustard"
+    ]
+  },
+  "forge:crops/nectarine": {
+    "replace": false,
+    "values": [
+      "croptopia:nectarine"
+    ]
+  },
+  "forge:crops/nutmeg": {
+    "replace": false,
+    "values": [
+      "croptopia:nutmeg"
+    ]
+  },
+  "forge:crops/oat": {
+    "replace": false,
+    "values": [
+      "croptopia:oat"
+    ]
+  },
+  "forge:crops/oats": {
+    "replace": false,
+    "values": [
+      "croptopia:oat"
+    ]
+  },
+  "forge:crops/olive": {
+    "replace": false,
+    "values": [
+      "croptopia:olive"
+    ]
+  },
+  "forge:crops/onion": {
+    "replace": false,
+    "values": [
+      "croptopia:onion"
+    ]
+  },
+  "forge:crops/orange": {
+    "replace": false,
+    "values": [
+      "croptopia:orange"
+    ]
+  },
+  "forge:crops/peach": {
+    "replace": false,
+    "values": [
+      "croptopia:peach"
+    ]
+  },
+  "forge:crops/peanut": {
+    "replace": false,
+    "values": [
+      "croptopia:peanut"
+    ]
+  },
+  "forge:crops/pear": {
+    "replace": false,
+    "values": [
+      "croptopia:pear"
+    ]
+  },
+  "forge:crops/pecan": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan"
+    ]
+  },
+  "forge:crops/pepper": {
+    "replace": false,
+    "values": [
+      "croptopia:pepper"
+    ]
+  },
+  "forge:crops/persimmon": {
+    "replace": false,
+    "values": [
+      "croptopia:persimmon"
+    ]
+  },
+  "forge:crops/pineapple": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple"
+    ]
+  },
+  "forge:crops/plum": {
+    "replace": false,
+    "values": [
+      "croptopia:plum"
+    ]
+  },
+  "forge:crops/radish": {
+    "replace": false,
+    "values": [
+      "croptopia:radish"
+    ]
+  },
+  "forge:crops/raspberry": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry"
+    ]
+  },
+  "forge:crops/rhubarb": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb"
+    ]
+  },
+  "forge:crops/rice": {
+    "replace": false,
+    "values": [
+      "croptopia:rice"
+    ]
+  },
+  "forge:crops/rutabaga": {
+    "replace": false,
+    "values": [
+      "croptopia:rutabaga"
+    ]
+  },
+  "forge:crops/saguaro": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro"
+    ]
+  },
+  "forge:crops/soybean": {
+    "replace": false,
+    "values": [
+      "croptopia:soybean"
+    ]
+  },
+  "forge:crops/spinach": {
+    "replace": false,
+    "values": [
+      "croptopia:spinach"
+    ]
+  },
+  "forge:crops/squash": {
+    "replace": false,
+    "values": [
+      "croptopia:squash"
+    ]
+  },
+  "forge:crops/starfruit": {
+    "replace": false,
+    "values": [
+      "croptopia:starfruit"
+    ]
+  },
+  "forge:crops/strawberry": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry"
+    ]
+  },
+  "forge:crops/sweetpotato": {
+    "replace": false,
+    "values": [
+      "croptopia:sweetpotato"
+    ]
+  },
+  "forge:crops/tea_leaves": {
+    "replace": false,
+    "values": [
+      "croptopia:tea_leaves"
+    ]
+  },
+  "forge:crops/tomatillo": {
+    "replace": false,
+    "values": [
+      "croptopia:tomatillo"
+    ]
+  },
+  "forge:crops/tomato": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato"
+    ]
+  },
+  "forge:crops/turmeric": {
+    "replace": false,
+    "values": [
+      "croptopia:turmeric"
+    ]
+  },
+  "forge:crops/turnip": {
+    "replace": false,
+    "values": [
+      "croptopia:turnip"
+    ]
+  },
+  "forge:crops/vanilla": {
+    "replace": false,
+    "values": [
+      "croptopia:vanilla"
+    ]
+  },
+  "forge:crops/walnut": {
+    "replace": false,
+    "values": [
+      "croptopia:walnut"
+    ]
+  },
+  "forge:crops/yam": {
+    "replace": false,
+    "values": [
+      "croptopia:yam"
+    ]
+  },
+  "forge:crops/zucchini": {
+    "replace": false,
+    "values": [
+      "croptopia:zucchini"
+    ]
+  },
+  "forge:croque_madame": {
+    "replace": false,
+    "values": [
+      "croptopia:croque_madame"
+    ]
+  },
+  "forge:croque_monsieur": {
+    "replace": false,
+    "values": [
+      "croptopia:croque_monsieur"
+    ]
+  },
+  "forge:cucumber_salads": {
+    "replace": false,
+    "values": [
+      "croptopia:cucumber_salad"
+    ]
+  },
+  "forge:cucumber_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:cucumber_seed",
+      "#forge:seeds/cucumber"
+    ]
+  },
+  "forge:cucumbers": {
+    "replace": false,
+    "values": [
+      "croptopia:cucumber",
+      "#forge:vegetables/cucumber",
+      "croptopia:cucumber",
+      "#forge:crops/cucumber"
+    ]
+  },
+  "forge:currant_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:currant_seed",
+      "#forge:seeds/currant"
+    ]
+  },
+  "forge:currants": {
+    "replace": false,
+    "values": [
+      "croptopia:currant",
+      "#forge:fruits/currant",
+      "croptopia:currant",
+      "#forge:crops/currant"
+    ]
+  },
+  "forge:date_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:date_sapling",
+      "#forge:saplings/date"
+    ]
+  },
+  "forge:dates": {
+    "replace": false,
+    "values": [
+      "croptopia:date",
+      "#forge:fruits/date",
+      "croptopia:date",
+      "#forge:crops/date"
+    ]
+  },
+  "forge:dauphine_potatoes": {
+    "replace": false,
+    "values": [
+      "croptopia:dauphine_potatoes"
+    ]
+  },
+  "forge:deep_fried_shrimp": {
+    "replace": false,
+    "values": [
+      "croptopia:deep_fried_shrimp"
+    ]
+  },
+  "forge:dough": {
+    "replace": false,
+    "values": [
+      "croptopia:dough"
+    ]
+  },
+  "forge:doughnuts": {
+    "replace": false,
+    "values": [
+      "croptopia:doughnut"
+    ]
+  },
+  "forge:doughs": {
+    "replace": false,
+    "values": [
+      "croptopia:dough",
+      {
+        "required": false,
+        "id": "#forge:dough"
+      }
+    ]
+  },
+  "forge:dragon_egg_omelette": {
+    "replace": false,
+    "values": [
+      "croptopia:dragon_egg_omelette"
+    ]
+  },
+  "forge:dragonfruit_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:dragonfruit_sapling",
+      "#forge:saplings/dragonfruit"
+    ]
+  },
+  "forge:dragonfruits": {
+    "replace": false,
+    "values": [
+      "croptopia:dragonfruit",
+      "#forge:fruits/dragonfruit",
+      "croptopia:dragonfruit",
+      "#forge:crops/dragonfruit"
+    ]
+  },
+  "forge:egg_rolls": {
+    "replace": false,
+    "values": [
+      "croptopia:egg_roll"
+    ]
+  },
+  "forge:eggplant_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:eggplant_seed",
+      "#forge:seeds/eggplant"
+    ]
+  },
+  "forge:eggplants": {
+    "replace": false,
+    "values": [
+      "croptopia:eggplant",
+      "#forge:vegetables/eggplant",
+      "croptopia:eggplant",
+      "#forge:crops/eggplant"
+    ]
+  },
+  "forge:elderberries": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry",
+      "#forge:fruits/elderberry",
+      "croptopia:elderberry",
+      "#forge:crops/elderberry"
+    ]
+  },
+  "forge:elderberry_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry_jam",
+      "#forge:jams/elderberry_jam"
+    ]
+  },
+  "forge:elderberry_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry_seed",
+      "#forge:seeds/elderberry"
+    ]
+  },
+  "forge:eton_mess": {
+    "replace": false,
+    "values": [
+      "croptopia:eton_mess"
+    ]
+  },
+  "forge:fig_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:fig_sapling",
+      "#forge:saplings/fig"
+    ]
+  },
+  "forge:figgy_pudding": {
+    "replace": false,
+    "values": [
+      "croptopia:figgy_pudding"
+    ]
+  },
+  "forge:figs": {
+    "replace": false,
+    "values": [
+      "croptopia:fig",
+      "#forge:fruits/fig",
+      "croptopia:fig",
+      "#forge:crops/fig"
+    ]
+  },
+  "forge:fish_and_chips": {
+    "replace": false,
+    "values": [
+      "croptopia:fish_and_chips"
+    ]
+  },
+  "forge:flour": {
+    "replace": false,
+    "values": [
+      "croptopia:flour"
+    ]
+  },
+  "forge:food_press": {
+    "replace": false,
+    "values": [
+      "croptopia:food_press"
+    ]
+  },
+  "forge:french_fries": {
+    "replace": false,
+    "values": [
+      "croptopia:french_fries"
+    ]
+  },
+  "forge:fried_calamari": {
+    "replace": false,
+    "values": [
+      "croptopia:fried_calamari"
+    ]
+  },
+  "forge:fried_chickens": {
+    "replace": false,
+    "values": [
+      "croptopia:fried_chicken"
+    ]
+  },
+  "forge:fried_frog_legs": {
+    "replace": false,
+    "values": [
+      "croptopia:fried_frog_legs"
+    ]
+  },
+  "forge:frog_legs": {
+    "replace": false,
+    "values": [
+      "croptopia:frog_legs"
+    ]
+  },
+  "forge:fruit_salads": {
+    "replace": false,
+    "values": [
+      "croptopia:fruit_salad"
+    ]
+  },
+  "forge:fruit_smoothies": {
+    "replace": false,
+    "values": [
+      "croptopia:fruit_smoothie"
+    ]
+  },
+  "forge:fruits": {
+    "replace": false,
+    "values": [
+      "#forge:bellpeppers",
+      "#forge:blackberries",
+      "#forge:blueberries",
+      "#forge:cantaloupes",
+      "#forge:cranberries",
+      "#forge:currants",
+      "#forge:elderberries",
+      "#forge:grapes",
+      "#forge:honeydew",
+      "#forge:kiwis",
+      "#forge:olives",
+      "#forge:pineapples",
+      "#forge:raspberries",
+      "#forge:saguaros",
+      "#forge:strawberries",
+      "#forge:almonds",
+      "#forge:apples",
+      "#forge:apricots",
+      "#forge:avocados",
+      "#forge:bananas",
+      "#forge:cherries",
+      "#forge:coconuts",
+      "#forge:dates",
+      "#forge:dragonfruits",
+      "#forge:figs",
+      "#forge:grapefruits",
+      "#forge:kumquats",
+      "#forge:lemons",
+      "#forge:limes",
+      "#forge:mangos",
+      "#forge:nectarines",
+      "#forge:oranges",
+      "#forge:peaches",
+      "#forge:pears",
+      "#forge:pecans",
+      "#forge:persimmons",
+      "#forge:plums",
+      "#forge:starfruits",
+      "#forge:walnuts"
+    ]
+  },
+  "forge:fruits/almond": {
+    "replace": false,
+    "values": [
+      "croptopia:almond"
+    ]
+  },
+  "forge:fruits/apple": {
+    "replace": false,
+    "values": [
+      "minecraft:apple"
+    ]
+  },
+  "forge:fruits/apricot": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot"
+    ]
+  },
+  "forge:fruits/avocado": {
+    "replace": false,
+    "values": [
+      "croptopia:avocado"
+    ]
+  },
+  "forge:fruits/banana": {
+    "replace": false,
+    "values": [
+      "croptopia:banana"
+    ]
+  },
+  "forge:fruits/bellpepper": {
+    "replace": false,
+    "values": [
+      "croptopia:bellpepper"
+    ]
+  },
+  "forge:fruits/blackberry": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry"
+    ]
+  },
+  "forge:fruits/blueberry": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry"
+    ]
+  },
+  "forge:fruits/cantaloupe": {
+    "replace": false,
+    "values": [
+      "croptopia:cantaloupe"
+    ]
+  },
+  "forge:fruits/cherry": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry"
+    ]
+  },
+  "forge:fruits/coconut": {
+    "replace": false,
+    "values": [
+      "croptopia:coconut"
+    ]
+  },
+  "forge:fruits/cranberry": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry"
+    ]
+  },
+  "forge:fruits/currant": {
+    "replace": false,
+    "values": [
+      "croptopia:currant"
+    ]
+  },
+  "forge:fruits/date": {
+    "replace": false,
+    "values": [
+      "croptopia:date"
+    ]
+  },
+  "forge:fruits/dragonfruit": {
+    "replace": false,
+    "values": [
+      "croptopia:dragonfruit"
+    ]
+  },
+  "forge:fruits/elderberry": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry"
+    ]
+  },
+  "forge:fruits/fig": {
+    "replace": false,
+    "values": [
+      "croptopia:fig"
+    ]
+  },
+  "forge:fruits/grape": {
+    "replace": false,
+    "values": [
+      "croptopia:grape"
+    ]
+  },
+  "forge:fruits/grapefruit": {
+    "replace": false,
+    "values": [
+      "croptopia:grapefruit"
+    ]
+  },
+  "forge:fruits/honeydew": {
+    "replace": false,
+    "values": [
+      "croptopia:honeydew"
+    ]
+  },
+  "forge:fruits/kiwi": {
+    "replace": false,
+    "values": [
+      "croptopia:kiwi"
+    ]
+  },
+  "forge:fruits/kumquat": {
+    "replace": false,
+    "values": [
+      "croptopia:kumquat"
+    ]
+  },
+  "forge:fruits/lemon": {
+    "replace": false,
+    "values": [
+      "croptopia:lemon"
+    ]
+  },
+  "forge:fruits/lime": {
+    "replace": false,
+    "values": [
+      "croptopia:lime"
+    ]
+  },
+  "forge:fruits/mango": {
+    "replace": false,
+    "values": [
+      "croptopia:mango"
+    ]
+  },
+  "forge:fruits/nectarine": {
+    "replace": false,
+    "values": [
+      "croptopia:nectarine"
+    ]
+  },
+  "forge:fruits/olive": {
+    "replace": false,
+    "values": [
+      "croptopia:olive"
+    ]
+  },
+  "forge:fruits/orange": {
+    "replace": false,
+    "values": [
+      "croptopia:orange"
+    ]
+  },
+  "forge:fruits/peach": {
+    "replace": false,
+    "values": [
+      "croptopia:peach"
+    ]
+  },
+  "forge:fruits/pear": {
+    "replace": false,
+    "values": [
+      "croptopia:pear"
+    ]
+  },
+  "forge:fruits/pecan": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan"
+    ]
+  },
+  "forge:fruits/persimmon": {
+    "replace": false,
+    "values": [
+      "croptopia:persimmon"
+    ]
+  },
+  "forge:fruits/pineapple": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple"
+    ]
+  },
+  "forge:fruits/plum": {
+    "replace": false,
+    "values": [
+      "croptopia:plum"
+    ]
+  },
+  "forge:fruits/raspberry": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry"
+    ]
+  },
+  "forge:fruits/saguaro": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro"
+    ]
+  },
+  "forge:fruits/starfruit": {
+    "replace": false,
+    "values": [
+      "croptopia:starfruit"
+    ]
+  },
+  "forge:fruits/strawberry": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry"
+    ]
+  },
+  "forge:fruits/walnut": {
+    "replace": false,
+    "values": [
+      "croptopia:walnut"
+    ]
+  },
+  "forge:frying_pans": {
+    "replace": false,
+    "values": [
+      "croptopia:frying_pan"
+    ]
+  },
+  "forge:garlic": {
+    "replace": false,
+    "values": [
+      "croptopia:garlic",
+      "#forge:vegetables/garlic",
+      "croptopia:garlic",
+      "#forge:crops/garlic"
+    ]
+  },
+  "forge:garlic_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:garlic_seed",
+      "#forge:seeds/garlic"
+    ]
+  },
+  "forge:ginger_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:ginger_seed",
+      "#forge:seeds/ginger"
+    ]
+  },
+  "forge:gingers": {
+    "replace": false,
+    "values": [
+      "croptopia:ginger",
+      "#forge:vegetables/ginger",
+      "croptopia:ginger",
+      "#forge:crops/ginger"
+    ]
+  },
+  "forge:glowing_calamari": {
+    "replace": false,
+    "values": [
+      "croptopia:glowing_calamari"
+    ]
+  },
+  "forge:goulashes": {
+    "replace": false,
+    "values": [
+      "croptopia:goulash"
+    ]
+  },
+  "forge:grain": {
+    "replace": false,
+    "values": [
+      "#forge:barley",
+      "#forge:corn",
+      "#forge:oat",
+      "#forge:rice"
+    ]
+  },
+  "forge:grain/barley": {
+    "replace": false,
+    "values": [
+      "croptopia:barley"
+    ]
+  },
+  "forge:grain/corn": {
+    "replace": false,
+    "values": [
+      "croptopia:corn"
+    ]
+  },
+  "forge:grain/oat": {
+    "replace": false,
+    "values": [
+      "croptopia:oat"
+    ]
+  },
+  "forge:grain/oats": {
+    "replace": false,
+    "values": [
+      "croptopia:oat"
+    ]
+  },
+  "forge:grain/rice": {
+    "replace": false,
+    "values": [
+      "croptopia:rice"
+    ]
+  },
+  "forge:grape_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_jam",
+      "#forge:jams/grape_jam"
+    ]
+  },
+  "forge:grape_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_juice",
+      "#forge:juices/grape_juice"
+    ]
+  },
+  "forge:grape_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_seed",
+      "#forge:seeds/grape"
+    ]
+  },
+  "forge:grapefruit_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:grapefruit_sapling",
+      "#forge:saplings/grapefruit"
+    ]
+  },
+  "forge:grapefruits": {
+    "replace": false,
+    "values": [
+      "croptopia:grapefruit",
+      "#forge:fruits/grapefruit",
+      "croptopia:grapefruit",
+      "#forge:crops/grapefruit"
+    ]
+  },
+  "forge:grapes": {
+    "replace": false,
+    "values": [
+      "croptopia:grape",
+      "#forge:fruits/grape",
+      "croptopia:grape",
+      "#forge:crops/grape"
+    ]
+  },
+  "forge:greenbean_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:greenbean_seed",
+      "#forge:seeds/greenbean"
+    ]
+  },
+  "forge:greenbeans": {
+    "replace": false,
+    "values": [
+      "croptopia:greenbean",
+      "#forge:vegetables/greenbean",
+      "croptopia:greenbean",
+      "#forge:crops/greenbean"
+    ]
+  },
+  "forge:greenonion_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:greenonion_seed",
+      "#forge:seeds/greenonion"
+    ]
+  },
+  "forge:greenonions": {
+    "replace": false,
+    "values": [
+      "croptopia:greenonion",
+      "#forge:vegetables/greenonion",
+      "croptopia:greenonion",
+      "#forge:crops/greenonion"
+    ]
+  },
+  "forge:grilled_cheeses": {
+    "replace": false,
+    "values": [
+      "croptopia:grilled_cheese"
+    ]
+  },
+  "forge:grilled_oysters": {
+    "replace": false,
+    "values": [
+      "croptopia:grilled_oysters"
+    ]
+  },
+  "forge:ground_pork": {
+    "replace": false,
+    "values": [
+      "croptopia:ground_pork"
+    ]
+  },
+  "forge:ham_sandwiches": {
+    "replace": false,
+    "values": [
+      "croptopia:ham_sandwich"
+    ]
+  },
+  "forge:hamburgers": {
+    "replace": false,
+    "values": [
+      "croptopia:hamburger"
+    ]
+  },
+  "forge:hashed_brown": {
+    "replace": false,
+    "values": [
+      "croptopia:hashed_brown"
+    ]
+  },
+  "forge:honeydew": {
+    "replace": false,
+    "values": [
+      "croptopia:honeydew",
+      "#forge:fruits/honeydew",
+      "croptopia:honeydew",
+      "#forge:crops/honeydew"
+    ]
+  },
+  "forge:honeydew_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:honeydew_seed",
+      "#forge:seeds/honeydew"
+    ]
+  },
+  "forge:hops": {
+    "replace": false,
+    "values": [
+      "croptopia:hops",
+      "#forge:crops/hops"
+    ]
+  },
+  "forge:hops_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:hops_seed",
+      "#forge:seeds/hops"
+    ]
+  },
+  "forge:jams": {
+    "replace": false,
+    "values": [
+      "#forge:apricot_jams",
+      "#forge:blackberry_jams",
+      "#forge:blueberry_jams",
+      "#forge:cherry_jams",
+      "#forge:elderberry_jams",
+      "#forge:grape_jams",
+      "#forge:peach_jams",
+      "#forge:raspberry_jams",
+      "#forge:strawberry_jams"
+    ]
+  },
+  "forge:jams/apricot_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot_jam"
+    ]
+  },
+  "forge:jams/blackberry_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry_jam"
+    ]
+  },
+  "forge:jams/blueberry_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry_jam"
+    ]
+  },
+  "forge:jams/cherry_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry_jam"
+    ]
+  },
+  "forge:jams/elderberry_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry_jam"
+    ]
+  },
+  "forge:jams/grape_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_jam"
+    ]
+  },
+  "forge:jams/peach_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:peach_jam"
+    ]
+  },
+  "forge:jams/raspberry_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry_jam"
+    ]
+  },
+  "forge:jams/strawberry_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry_jam"
+    ]
+  },
+  "forge:juices": {
+    "replace": false,
+    "values": [
+      "#forge:apple_juices",
+      "#forge:cranberry_juices",
+      "#forge:grape_juices",
+      "#forge:melon_juices",
+      "#forge:orange_juices",
+      "#forge:pineapple_juices",
+      "#forge:saguaro_juices",
+      "#forge:tomato_juices"
+    ]
+  },
+  "forge:juices/apple_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:apple_juice"
+    ]
+  },
+  "forge:juices/cranberry_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry_juice"
+    ]
+  },
+  "forge:juices/grape_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_juice"
+    ]
+  },
+  "forge:juices/melon_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:melon_juice"
+    ]
+  },
+  "forge:juices/orange_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:orange_juice"
+    ]
+  },
+  "forge:juices/pineapple_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple_juice"
+    ]
+  },
+  "forge:juices/saguaro_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro_juice"
+    ]
+  },
+  "forge:juices/tomato_juice": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato_juice"
+    ]
+  },
+  "forge:kale": {
+    "replace": false,
+    "values": [
+      "croptopia:kale",
+      "#forge:vegetables/kale",
+      "croptopia:kale",
+      "#forge:crops/kale"
+    ]
+  },
+  "forge:kale_chips": {
+    "replace": false,
+    "values": [
+      "croptopia:kale_chips"
+    ]
+  },
+  "forge:kale_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:kale_seed",
+      "#forge:seeds/kale"
+    ]
+  },
+  "forge:kale_smoothies": {
+    "replace": false,
+    "values": [
+      "croptopia:kale_smoothie"
+    ]
+  },
+  "forge:kiwi_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:kiwi_seed",
+      "#forge:seeds/kiwi"
+    ]
+  },
+  "forge:kiwis": {
+    "replace": false,
+    "values": [
+      "croptopia:kiwi",
+      "#forge:fruits/kiwi",
+      "croptopia:kiwi",
+      "#forge:crops/kiwi"
+    ]
+  },
+  "forge:knives": {
+    "replace": false,
+    "values": [
+      "croptopia:knife"
+    ]
+  },
+  "forge:kumquat_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:kumquat_sapling",
+      "#forge:saplings/kumquat"
+    ]
+  },
+  "forge:kumquats": {
+    "replace": false,
+    "values": [
+      "croptopia:kumquat",
+      "#forge:fruits/kumquat",
+      "croptopia:kumquat",
+      "#forge:crops/kumquat"
+    ]
+  },
+  "forge:leafy_salads": {
+    "replace": false,
+    "values": [
+      "croptopia:leafy_salad"
+    ]
+  },
+  "forge:leek": {
+    "replace": false,
+    "values": [
+      "croptopia:leek",
+      "#forge:vegetables/leek",
+      "croptopia:leek",
+      "#forge:crops/leek"
+    ]
+  },
+  "forge:leek_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:leek_seed",
+      "#forge:seeds/leek"
+    ]
+  },
+  "forge:leek_soups": {
+    "replace": false,
+    "values": [
+      "croptopia:leek_soup"
+    ]
+  },
+  "forge:lemon_chickens": {
+    "replace": false,
+    "values": [
+      "croptopia:lemon_chicken"
+    ]
+  },
+  "forge:lemon_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:lemon_sapling",
+      "#forge:saplings/lemon"
+    ]
+  },
+  "forge:lemonades": {
+    "replace": false,
+    "values": [
+      "croptopia:lemonade"
+    ]
+  },
+  "forge:lemons": {
+    "replace": false,
+    "values": [
+      "croptopia:lemon",
+      "#forge:fruits/lemon",
+      "croptopia:lemon",
+      "#forge:crops/lemon"
+    ]
+  },
+  "forge:lettuce": {
+    "replace": false,
+    "values": [
+      "croptopia:lettuce",
+      "#forge:vegetables/lettuce",
+      "croptopia:lettuce",
+      "#forge:crops/lettuce"
+    ]
+  },
+  "forge:lettuce_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:lettuce_seed",
+      "#forge:seeds/lettuce"
+    ]
+  },
+  "forge:lime_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:lime_sapling",
+      "#forge:saplings/lime"
+    ]
+  },
+  "forge:limeades": {
+    "replace": false,
+    "values": [
+      "croptopia:limeade"
+    ]
+  },
+  "forge:limes": {
+    "replace": false,
+    "values": [
+      "croptopia:lime",
+      "#forge:fruits/lime",
+      "croptopia:lime",
+      "#forge:crops/lime"
+    ]
+  },
+  "forge:macaron": {
+    "replace": false,
+    "values": [
+      "croptopia:macaron"
+    ]
+  },
+  "forge:mango_ice_creams": {
+    "replace": false,
+    "values": [
+      "croptopia:mango_ice_cream"
+    ]
+  },
+  "forge:mango_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:mango_sapling",
+      "#forge:saplings/mango"
+    ]
+  },
+  "forge:mangos": {
+    "replace": false,
+    "values": [
+      "croptopia:mango",
+      "#forge:fruits/mango",
+      "croptopia:mango",
+      "#forge:crops/mango"
+    ]
+  },
+  "forge:mashed_potatoes": {
+    "replace": false,
+    "values": [
+      "croptopia:mashed_potatoes"
+    ]
+  },
+  "forge:meads": {
+    "replace": false,
+    "values": [
+      "croptopia:mead"
+    ]
+  },
+  "forge:melon_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:melon_juice",
+      "#forge:juices/melon_juice"
+    ]
+  },
+  "forge:melons": {
+    "replace": false,
+    "values": [
+      "minecraft:melon_slice",
+      "croptopia:honeydew",
+      "croptopia:cantaloupe"
+    ]
+  },
+  "forge:meringue": {
+    "replace": false,
+    "values": [
+      "croptopia:meringue"
+    ]
+  },
+  "forge:milk": {
+    "replace": false,
+    "values": [
+      "croptopia:milk_bottle",
+      "croptopia:soy_milk"
+    ]
+  },
+  "forge:milk_bottles": {
+    "replace": false,
+    "values": [
+      "croptopia:milk_bottle"
+    ]
+  },
+  "forge:milks": {
+    "replace": false,
+    "values": [
+      "croptopia:milk_bottle",
+      "croptopia:soy_milk",
+      "minecraft:milk_bucket",
+      {
+        "id": "#forge:milk_buckets",
+        "required": false
+      }
+    ]
+  },
+  "forge:molasses": {
+    "replace": false,
+    "values": [
+      "croptopia:molasses"
+    ]
+  },
+  "forge:mortar_and_pestles": {
+    "replace": false,
+    "values": [
+      "croptopia:mortar_and_pestle"
+    ]
+  },
+  "forge:mountain_salt": {
+    "replace": false,
+    "values": [
+      "croptopia:mountain_salt"
+    ]
+  },
+  "forge:mustard": {
+    "replace": false,
+    "values": [
+      "croptopia:mustard",
+      "#forge:vegetables/mustard",
+      "croptopia:mustard",
+      "#forge:crops/mustard"
+    ]
+  },
+  "forge:mustard_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:mustard_seed",
+      "#forge:seeds/mustard"
+    ]
+  },
+  "forge:nectarine_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:nectarine_sapling",
+      "#forge:saplings/nectarine"
+    ]
+  },
+  "forge:nectarines": {
+    "replace": false,
+    "values": [
+      "croptopia:nectarine",
+      "#forge:fruits/nectarine",
+      "croptopia:nectarine",
+      "#forge:crops/nectarine"
+    ]
+  },
+  "forge:nether_star_cake": {
+    "replace": false,
+    "values": [
+      "croptopia:nether_star_cake"
+    ]
+  },
+  "forge:noodles": {
+    "replace": false,
+    "values": [
+      "croptopia:noodle"
+    ]
+  },
+  "forge:nougats": {
+    "replace": false,
+    "values": [
+      "croptopia:nougat"
+    ]
+  },
+  "forge:nutmeg_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:nutmeg_sapling",
+      "#forge:saplings/nutmeg"
+    ]
+  },
+  "forge:nutmegs": {
+    "replace": false,
+    "values": [
+      "croptopia:nutmeg",
+      "#forge:crops/nutmeg"
+    ]
+  },
+  "forge:nuts": {
+    "replace": false,
+    "values": [
+      "#forge:almonds",
+      "#forge:pecans",
+      "#forge:walnuts"
+    ]
+  },
+  "forge:nuts/almond": {
+    "replace": false,
+    "values": [
+      "croptopia:almond"
+    ]
+  },
+  "forge:nuts/pecan": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan"
+    ]
+  },
+  "forge:nuts/walnut": {
+    "replace": false,
+    "values": [
+      "croptopia:walnut"
+    ]
+  },
+  "forge:nutty_cookies": {
+    "replace": false,
+    "values": [
+      "croptopia:nutty_cookie"
+    ]
+  },
+  "forge:oat": {
+    "replace": false,
+    "values": [
+      "croptopia:oat",
+      "#forge:grain/oat",
+      "croptopia:oat",
+      "#forge:crops/oat"
+    ]
+  },
+  "forge:oat_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:oat_seed",
+      "#forge:seeds/oat"
+    ]
+  },
+  "forge:oatmeals": {
+    "replace": false,
+    "values": [
+      "croptopia:oatmeal"
+    ]
+  },
+  "forge:oats": {
+    "replace": false,
+    "values": [
+      "croptopia:oat",
+      "#forge:crops/oats",
+      "#forge:grain/oats"
+    ]
+  },
+  "forge:olive_oils": {
+    "replace": false,
+    "values": [
+      "croptopia:olive_oil"
+    ]
+  },
+  "forge:olive_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:olive_seed",
+      "#forge:seeds/olive"
+    ]
+  },
+  "forge:olives": {
+    "replace": false,
+    "values": [
+      "croptopia:olive",
+      "#forge:fruits/olive",
+      "croptopia:olive",
+      "#forge:crops/olive"
+    ]
+  },
+  "forge:onion_rings": {
+    "replace": false,
+    "values": [
+      "croptopia:onion_rings"
+    ]
+  },
+  "forge:onion_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:onion_seed",
+      "#forge:seeds/onion"
+    ]
+  },
+  "forge:onions": {
+    "replace": false,
+    "values": [
+      "croptopia:onion",
+      "#forge:vegetables/onion",
+      "croptopia:onion",
+      "#forge:crops/onion"
+    ]
+  },
+  "forge:orange_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:orange_juice",
+      "#forge:juices/orange_juice"
+    ]
+  },
+  "forge:orange_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:orange_sapling",
+      "#forge:saplings/orange"
+    ]
+  },
+  "forge:oranges": {
+    "replace": false,
+    "values": [
+      "croptopia:orange",
+      "#forge:fruits/orange",
+      "croptopia:orange",
+      "#forge:crops/orange"
+    ]
+  },
+  "forge:oysters": {
+    "replace": false,
+    "values": [
+      "croptopia:oyster"
+    ]
+  },
+  "forge:paprika": {
+    "replace": false,
+    "values": [
+      "croptopia:paprika"
+    ]
+  },
+  "forge:peach_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:peach_jam",
+      "#forge:jams/peach_jam"
+    ]
+  },
+  "forge:peach_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:peach_sapling",
+      "#forge:saplings/peach"
+    ]
+  },
+  "forge:peaches": {
+    "replace": false,
+    "values": [
+      "croptopia:peach",
+      "#forge:fruits/peach",
+      "croptopia:peach",
+      "#forge:crops/peach"
+    ]
+  },
+  "forge:peanut_butter_and_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:peanut_butter_and_jam"
+    ]
+  },
+  "forge:peanut_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:peanut_seed",
+      "#forge:seeds/peanut"
+    ]
+  },
+  "forge:peanuts": {
+    "replace": false,
+    "values": [
+      "croptopia:peanut",
+      "#forge:crops/peanut"
+    ]
+  },
+  "forge:pear_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:pear_sapling",
+      "#forge:saplings/pear"
+    ]
+  },
+  "forge:pears": {
+    "replace": false,
+    "values": [
+      "croptopia:pear",
+      "#forge:fruits/pear",
+      "croptopia:pear",
+      "#forge:crops/pear"
+    ]
+  },
+  "forge:pecan_ice_creams": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan_ice_cream"
+    ]
+  },
+  "forge:pecan_pies": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan_pie"
+    ]
+  },
+  "forge:pecan_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan_sapling",
+      "#forge:saplings/pecan"
+    ]
+  },
+  "forge:pecans": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan",
+      "#forge:nuts/pecan",
+      "croptopia:pecan",
+      "#forge:crops/pecan",
+      "croptopia:pecan",
+      "#forge:fruits/pecan"
+    ]
+  },
+  "forge:pepper": {
+    "replace": false,
+    "values": [
+      "croptopia:pepper",
+      "#forge:crops/pepper"
+    ]
+  },
+  "forge:pepper_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:pepper_seed",
+      "#forge:seeds/pepper"
+    ]
+  },
+  "forge:pepperoni": {
+    "replace": false,
+    "values": [
+      "croptopia:pepperoni"
+    ]
+  },
+  "forge:persimmon_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:persimmon_sapling",
+      "#forge:saplings/persimmon"
+    ]
+  },
+  "forge:persimmons": {
+    "replace": false,
+    "values": [
+      "croptopia:persimmon",
+      "#forge:fruits/persimmon",
+      "croptopia:persimmon",
+      "#forge:crops/persimmon"
+    ]
+  },
+  "forge:pineapple_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple_juice",
+      "#forge:juices/pineapple_juice"
+    ]
+  },
+  "forge:pineapple_pepperoni_pizzas": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple_pepperoni_pizza"
+    ]
+  },
+  "forge:pineapple_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple_seed",
+      "#forge:seeds/pineapple"
+    ]
+  },
+  "forge:pineapples": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple",
+      "#forge:fruits/pineapple",
+      "croptopia:pineapple",
+      "#forge:crops/pineapple"
+    ]
+  },
+  "forge:pizzas": {
+    "replace": false,
+    "values": [
+      "croptopia:pizza"
+    ]
+  },
+  "forge:plum_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:plum_sapling",
+      "#forge:saplings/plum"
+    ]
+  },
+  "forge:plums": {
+    "replace": false,
+    "values": [
+      "croptopia:plum",
+      "#forge:fruits/plum",
+      "croptopia:plum",
+      "#forge:crops/plum"
+    ]
+  },
+  "forge:popcorn": {
+    "replace": false,
+    "values": [
+      "croptopia:popcorn"
+    ]
+  },
+  "forge:pork_and_beanss": {
+    "replace": false,
+    "values": [
+      "croptopia:pork_and_beans"
+    ]
+  },
+  "forge:pork_jerkies": {
+    "replace": false,
+    "values": [
+      "croptopia:pork_jerky"
+    ]
+  },
+  "forge:potato_chips": {
+    "replace": false,
+    "values": [
+      "croptopia:potato_chips"
+    ]
+  },
+  "forge:potatoes": {
+    "replace": false,
+    "values": [
+      "minecraft:potato",
+      "croptopia:sweetpotato"
+    ]
+  },
+  "forge:protein_bars": {
+    "replace": false,
+    "values": [
+      "croptopia:protein_bar"
+    ]
+  },
+  "forge:pumpkin_bars": {
+    "replace": false,
+    "values": [
+      "croptopia:pumpkin_bars"
+    ]
+  },
+  "forge:pumpkin_soups": {
+    "replace": false,
+    "values": [
+      "croptopia:pumpkin_soup"
+    ]
+  },
+  "forge:pumpkin_spice_lattes": {
+    "replace": false,
+    "values": [
+      "croptopia:pumpkin_spice_latte"
+    ]
+  },
+  "forge:quiche": {
+    "replace": false,
+    "values": [
+      "croptopia:quiche"
+    ]
+  },
+  "forge:radish_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:radish_seed",
+      "#forge:seeds/radish"
+    ]
+  },
+  "forge:radishes": {
+    "replace": false,
+    "values": [
+      "croptopia:radish",
+      "#forge:vegetables/radish",
+      "croptopia:radish",
+      "#forge:crops/radish"
+    ]
+  },
+  "forge:raisin_oatmeal_cookies": {
+    "replace": false,
+    "values": [
+      "croptopia:raisin_oatmeal_cookie"
+    ]
+  },
+  "forge:raisins": {
+    "replace": false,
+    "values": [
+      "croptopia:raisins"
+    ]
+  },
+  "forge:raspberries": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry",
+      "#forge:fruits/raspberry",
+      "croptopia:raspberry",
+      "#forge:crops/raspberry"
+    ]
+  },
+  "forge:raspberry_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry_jam",
+      "#forge:jams/raspberry_jam"
+    ]
+  },
+  "forge:raspberry_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry_seed",
+      "#forge:seeds/raspberry"
+    ]
+  },
+  "forge:ravioli": {
+    "replace": false,
+    "values": [
+      "croptopia:ravioli"
+    ]
+  },
+  "forge:raw_ravager_meat": {
+    "replace": false,
+    "values": [
+      "croptopia:raw_ravager_meat"
+    ]
+  },
+  "forge:rhubarb": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb",
+      "#forge:vegetables/rhubarb",
+      "croptopia:rhubarb",
+      "#forge:crops/rhubarb"
+    ]
+  },
+  "forge:rhubarb_pies": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb_pie"
+    ]
+  },
+  "forge:rhubarb_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb_seed",
+      "#forge:seeds/rhubarb"
+    ]
+  },
+  "forge:rice": {
+    "replace": false,
+    "values": [
+      "croptopia:rice",
+      "#forge:grain/rice",
+      "croptopia:rice",
+      "#forge:crops/rice"
+    ]
+  },
+  "forge:rice_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:rice_seed",
+      "#forge:seeds/rice"
+    ]
+  },
+  "forge:roasted_nuts": {
+    "replace": false,
+    "values": [
+      "croptopia:roasted_nuts"
+    ]
+  },
+  "forge:roasted_pumpkin_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:roasted_pumpkin_seeds"
+    ]
+  },
+  "forge:roasted_sunflower_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:roasted_sunflower_seeds"
+    ]
+  },
+  "forge:roe": {
+    "replace": false,
+    "values": [
+      "croptopia:roe"
+    ]
+  },
+  "forge:rum_raisin_ice_creams": {
+    "replace": false,
+    "values": [
+      "croptopia:rum_raisin_ice_cream"
+    ]
+  },
+  "forge:rums": {
+    "replace": false,
+    "values": [
+      "croptopia:rum"
+    ]
+  },
+  "forge:rutabaga_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:rutabaga_seed",
+      "#forge:seeds/rutabaga"
+    ]
+  },
+  "forge:rutabagas": {
+    "replace": false,
+    "values": [
+      "croptopia:rutabaga",
+      "#forge:vegetables/rutabaga",
+      "croptopia:rutabaga",
+      "#forge:crops/rutabaga"
+    ]
+  },
+  "forge:saguaro_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro_juice",
+      "#forge:juices/saguaro_juice"
+    ]
+  },
+  "forge:saguaro_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro_seed",
+      "#forge:seeds/saguaro"
+    ]
+  },
+  "forge:saguaros": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro",
+      "#forge:fruits/saguaro",
+      "croptopia:saguaro",
+      "#forge:crops/saguaro"
+    ]
+  },
+  "forge:salsas": {
+    "replace": false,
+    "values": [
+      "croptopia:salsa"
+    ]
+  },
+  "forge:salt": {
+    "replace": false,
+    "values": [
+      "croptopia:salt"
+    ]
+  },
+  "forge:salt_ores": {
+    "replace": false,
+    "values": [
+      "croptopia:salt_ore"
+    ]
+  },
+  "forge:salts": {
+    "replace": false,
+    "values": [
+      "#forge:salt",
+      "croptopia:salt"
+    ]
+  },
+  "forge:saplings": {
+    "replace": false,
+    "values": [
+      "#forge:saplings/almond",
+      "#forge:saplings/apple",
+      "#forge:saplings/apricot",
+      "#forge:saplings/avocado",
+      "#forge:saplings/banana",
+      "#forge:saplings/cashew",
+      "#forge:saplings/cherry",
+      "#forge:saplings/coconut",
+      "#forge:saplings/date",
+      "#forge:saplings/dragonfruit",
+      "#forge:saplings/fig",
+      "#forge:saplings/grapefruit",
+      "#forge:saplings/kumquat",
+      "#forge:saplings/lemon",
+      "#forge:saplings/lime",
+      "#forge:saplings/mango",
+      "#forge:saplings/nectarine",
+      "#forge:saplings/nutmeg",
+      "#forge:saplings/orange",
+      "#forge:saplings/peach",
+      "#forge:saplings/pear",
+      "#forge:saplings/pecan",
+      "#forge:saplings/persimmon",
+      "#forge:saplings/plum",
+      "#forge:saplings/starfruit",
+      "#forge:saplings/walnut",
+      "#forge:saplings/cinnamon"
+    ]
+  },
+  "forge:saplings/almond": {
+    "replace": false,
+    "values": [
+      "croptopia:almond_sapling"
+    ]
+  },
+  "forge:saplings/apple": {
+    "replace": false,
+    "values": [
+      "croptopia:apple_sapling"
+    ]
+  },
+  "forge:saplings/apricot": {
+    "replace": false,
+    "values": [
+      "croptopia:apricot_sapling"
+    ]
+  },
+  "forge:saplings/avocado": {
+    "replace": false,
+    "values": [
+      "croptopia:avocado_sapling"
+    ]
+  },
+  "forge:saplings/banana": {
+    "replace": false,
+    "values": [
+      "croptopia:banana_sapling"
+    ]
+  },
+  "forge:saplings/cashew": {
+    "replace": false,
+    "values": [
+      "croptopia:cashew_sapling"
+    ]
+  },
+  "forge:saplings/cherry": {
+    "replace": false,
+    "values": [
+      "croptopia:cherry_sapling"
+    ]
+  },
+  "forge:saplings/cinnamon": {
+    "replace": false,
+    "values": [
+      "croptopia:cinnamon_sapling"
+    ]
+  },
+  "forge:saplings/coconut": {
+    "replace": false,
+    "values": [
+      "croptopia:coconut_sapling"
+    ]
+  },
+  "forge:saplings/date": {
+    "replace": false,
+    "values": [
+      "croptopia:date_sapling"
+    ]
+  },
+  "forge:saplings/dragonfruit": {
+    "replace": false,
+    "values": [
+      "croptopia:dragonfruit_sapling"
+    ]
+  },
+  "forge:saplings/fig": {
+    "replace": false,
+    "values": [
+      "croptopia:fig_sapling"
+    ]
+  },
+  "forge:saplings/grapefruit": {
+    "replace": false,
+    "values": [
+      "croptopia:grapefruit_sapling"
+    ]
+  },
+  "forge:saplings/kumquat": {
+    "replace": false,
+    "values": [
+      "croptopia:kumquat_sapling"
+    ]
+  },
+  "forge:saplings/lemon": {
+    "replace": false,
+    "values": [
+      "croptopia:lemon_sapling"
+    ]
+  },
+  "forge:saplings/lime": {
+    "replace": false,
+    "values": [
+      "croptopia:lime_sapling"
+    ]
+  },
+  "forge:saplings/mango": {
+    "replace": false,
+    "values": [
+      "croptopia:mango_sapling"
+    ]
+  },
+  "forge:saplings/nectarine": {
+    "replace": false,
+    "values": [
+      "croptopia:nectarine_sapling"
+    ]
+  },
+  "forge:saplings/nutmeg": {
+    "replace": false,
+    "values": [
+      "croptopia:nutmeg_sapling"
+    ]
+  },
+  "forge:saplings/orange": {
+    "replace": false,
+    "values": [
+      "croptopia:orange_sapling"
+    ]
+  },
+  "forge:saplings/peach": {
+    "replace": false,
+    "values": [
+      "croptopia:peach_sapling"
+    ]
+  },
+  "forge:saplings/pear": {
+    "replace": false,
+    "values": [
+      "croptopia:pear_sapling"
+    ]
+  },
+  "forge:saplings/pecan": {
+    "replace": false,
+    "values": [
+      "croptopia:pecan_sapling"
+    ]
+  },
+  "forge:saplings/persimmon": {
+    "replace": false,
+    "values": [
+      "croptopia:persimmon_sapling"
+    ]
+  },
+  "forge:saplings/plum": {
+    "replace": false,
+    "values": [
+      "croptopia:plum_sapling"
+    ]
+  },
+  "forge:saplings/starfruit": {
+    "replace": false,
+    "values": [
+      "croptopia:starfruit_sapling"
+    ]
+  },
+  "forge:saplings/walnut": {
+    "replace": false,
+    "values": [
+      "croptopia:walnut_sapling"
+    ]
+  },
+  "forge:saucy_chips": {
+    "replace": false,
+    "values": [
+      "croptopia:saucy_chips"
+    ]
+  },
+  "forge:sausages": {
+    "replace": false,
+    "values": [
+      "croptopia:sausage"
+    ]
+  },
+  "forge:scones": {
+    "replace": false,
+    "values": [
+      "croptopia:scones"
+    ]
+  },
+  "forge:scrambled_eggs": {
+    "replace": false,
+    "values": [
+      "croptopia:scrambled_eggs"
+    ]
+  },
+  "forge:sea_lettuce": {
+    "replace": false,
+    "values": [
+      "croptopia:sea_lettuce"
+    ]
+  },
+  "forge:seeds": {
+    "replace": false,
+    "values": [
+      "#forge:seeds/artichoke",
+      "#forge:seeds/asparagus",
+      "#forge:seeds/barley",
+      "#forge:seeds/basil",
+      "#forge:seeds/bellpepper",
+      "#forge:seeds/blackbean",
+      "#forge:seeds/blackberry",
+      "#forge:seeds/blueberry",
+      "#forge:seeds/broccoli",
+      "#forge:seeds/cabbage",
+      "#forge:seeds/cantaloupe",
+      "#forge:seeds/cauliflower",
+      "#forge:seeds/celery",
+      "#forge:seeds/chilepepper",
+      "#forge:seeds/coffee_beans",
+      "#forge:seeds/corn",
+      "#forge:seeds/cranberry",
+      "#forge:seeds/cucumber",
+      "#forge:seeds/currant",
+      "#forge:seeds/eggplant",
+      "#forge:seeds/elderberry",
+      "#forge:seeds/garlic",
+      "#forge:seeds/ginger",
+      "#forge:seeds/grape",
+      "#forge:seeds/greenbean",
+      "#forge:seeds/greenonion",
+      "#forge:seeds/honeydew",
+      "#forge:seeds/hops",
+      "#forge:seeds/kale",
+      "#forge:seeds/kiwi",
+      "#forge:seeds/leek",
+      "#forge:seeds/lettuce",
+      "#forge:seeds/mustard",
+      "#forge:seeds/oat",
+      "#forge:seeds/olive",
+      "#forge:seeds/onion",
+      "#forge:seeds/peanut",
+      "#forge:seeds/pepper",
+      "#forge:seeds/pineapple",
+      "#forge:seeds/radish",
+      "#forge:seeds/raspberry",
+      "#forge:seeds/rhubarb",
+      "#forge:seeds/rice",
+      "#forge:seeds/rutabaga",
+      "#forge:seeds/saguaro",
+      "#forge:seeds/soybean",
+      "#forge:seeds/spinach",
+      "#forge:seeds/squash",
+      "#forge:seeds/strawberry",
+      "#forge:seeds/sweetpotato",
+      "#forge:seeds/tea_leaves",
+      "#forge:seeds/tomatillo",
+      "#forge:seeds/tomato",
+      "#forge:seeds/turmeric",
+      "#forge:seeds/turnip",
+      "#forge:seeds/vanilla",
+      "#forge:seeds/yam",
+      "#forge:seeds/zucchini"
+    ]
+  },
+  "forge:seeds/artichoke": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_seed"
+    ]
+  },
+  "forge:seeds/asparagus": {
+    "replace": false,
+    "values": [
+      "croptopia:asparagus_seed"
+    ]
+  },
+  "forge:seeds/barley": {
+    "replace": false,
+    "values": [
+      "croptopia:barley_seed"
+    ]
+  },
+  "forge:seeds/basil": {
+    "replace": false,
+    "values": [
+      "croptopia:basil_seed"
+    ]
+  },
+  "forge:seeds/bellpepper": {
+    "replace": false,
+    "values": [
+      "croptopia:bellpepper_seed"
+    ]
+  },
+  "forge:seeds/blackbean": {
+    "replace": false,
+    "values": [
+      "croptopia:blackbean_seed"
+    ]
+  },
+  "forge:seeds/blackberry": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry_seed"
+    ]
+  },
+  "forge:seeds/blueberry": {
+    "replace": false,
+    "values": [
+      "croptopia:blueberry_seed"
+    ]
+  },
+  "forge:seeds/broccoli": {
+    "replace": false,
+    "values": [
+      "croptopia:broccoli_seed"
+    ]
+  },
+  "forge:seeds/cabbage": {
+    "replace": false,
+    "values": [
+      "croptopia:cabbage_seed"
+    ]
+  },
+  "forge:seeds/cantaloupe": {
+    "replace": false,
+    "values": [
+      "croptopia:cantaloupe_seed"
+    ]
+  },
+  "forge:seeds/cauliflower": {
+    "replace": false,
+    "values": [
+      "croptopia:cauliflower_seed"
+    ]
+  },
+  "forge:seeds/celery": {
+    "replace": false,
+    "values": [
+      "croptopia:celery_seed"
+    ]
+  },
+  "forge:seeds/chilepepper": {
+    "replace": false,
+    "values": [
+      "croptopia:chile_pepper_seed"
+    ]
+  },
+  "forge:seeds/coffee_beans": {
+    "replace": false,
+    "values": [
+      "croptopia:coffee_seed"
+    ]
+  },
+  "forge:seeds/corn": {
+    "replace": false,
+    "values": [
+      "croptopia:corn_seed"
+    ]
+  },
+  "forge:seeds/cranberry": {
+    "replace": false,
+    "values": [
+      "croptopia:cranberry_seed"
+    ]
+  },
+  "forge:seeds/cucumber": {
+    "replace": false,
+    "values": [
+      "croptopia:cucumber_seed"
+    ]
+  },
+  "forge:seeds/currant": {
+    "replace": false,
+    "values": [
+      "croptopia:currant_seed"
+    ]
+  },
+  "forge:seeds/eggplant": {
+    "replace": false,
+    "values": [
+      "croptopia:eggplant_seed"
+    ]
+  },
+  "forge:seeds/elderberry": {
+    "replace": false,
+    "values": [
+      "croptopia:elderberry_seed"
+    ]
+  },
+  "forge:seeds/garlic": {
+    "replace": false,
+    "values": [
+      "croptopia:garlic_seed"
+    ]
+  },
+  "forge:seeds/ginger": {
+    "replace": false,
+    "values": [
+      "croptopia:ginger_seed"
+    ]
+  },
+  "forge:seeds/grape": {
+    "replace": false,
+    "values": [
+      "croptopia:grape_seed"
+    ]
+  },
+  "forge:seeds/greenbean": {
+    "replace": false,
+    "values": [
+      "croptopia:greenbean_seed"
+    ]
+  },
+  "forge:seeds/greenonion": {
+    "replace": false,
+    "values": [
+      "croptopia:greenonion_seed"
+    ]
+  },
+  "forge:seeds/honeydew": {
+    "replace": false,
+    "values": [
+      "croptopia:honeydew_seed"
+    ]
+  },
+  "forge:seeds/hops": {
+    "replace": false,
+    "values": [
+      "croptopia:hops_seed"
+    ]
+  },
+  "forge:seeds/kale": {
+    "replace": false,
+    "values": [
+      "croptopia:kale_seed"
+    ]
+  },
+  "forge:seeds/kiwi": {
+    "replace": false,
+    "values": [
+      "croptopia:kiwi_seed"
+    ]
+  },
+  "forge:seeds/leek": {
+    "replace": false,
+    "values": [
+      "croptopia:leek_seed"
+    ]
+  },
+  "forge:seeds/lettuce": {
+    "replace": false,
+    "values": [
+      "croptopia:lettuce_seed"
+    ]
+  },
+  "forge:seeds/mustard": {
+    "replace": false,
+    "values": [
+      "croptopia:mustard_seed"
+    ]
+  },
+  "forge:seeds/oat": {
+    "replace": false,
+    "values": [
+      "croptopia:oat_seed"
+    ]
+  },
+  "forge:seeds/olive": {
+    "replace": false,
+    "values": [
+      "croptopia:olive_seed"
+    ]
+  },
+  "forge:seeds/onion": {
+    "replace": false,
+    "values": [
+      "croptopia:onion_seed"
+    ]
+  },
+  "forge:seeds/peanut": {
+    "replace": false,
+    "values": [
+      "croptopia:peanut_seed"
+    ]
+  },
+  "forge:seeds/pepper": {
+    "replace": false,
+    "values": [
+      "croptopia:pepper_seed"
+    ]
+  },
+  "forge:seeds/pineapple": {
+    "replace": false,
+    "values": [
+      "croptopia:pineapple_seed"
+    ]
+  },
+  "forge:seeds/radish": {
+    "replace": false,
+    "values": [
+      "croptopia:radish_seed"
+    ]
+  },
+  "forge:seeds/raspberry": {
+    "replace": false,
+    "values": [
+      "croptopia:raspberry_seed"
+    ]
+  },
+  "forge:seeds/rhubarb": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb_seed"
+    ]
+  },
+  "forge:seeds/rice": {
+    "replace": false,
+    "values": [
+      "croptopia:rice_seed"
+    ]
+  },
+  "forge:seeds/rutabaga": {
+    "replace": false,
+    "values": [
+      "croptopia:rutabaga_seed"
+    ]
+  },
+  "forge:seeds/saguaro": {
+    "replace": false,
+    "values": [
+      "croptopia:saguaro_seed"
+    ]
+  },
+  "forge:seeds/soybean": {
+    "replace": false,
+    "values": [
+      "croptopia:soybean_seed"
+    ]
+  },
+  "forge:seeds/spinach": {
+    "replace": false,
+    "values": [
+      "croptopia:spinach_seed"
+    ]
+  },
+  "forge:seeds/squash": {
+    "replace": false,
+    "values": [
+      "croptopia:squash_seed"
+    ]
+  },
+  "forge:seeds/strawberry": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry_seed"
+    ]
+  },
+  "forge:seeds/sweetpotato": {
+    "replace": false,
+    "values": [
+      "croptopia:sweetpotato_seed"
+    ]
+  },
+  "forge:seeds/tea_leaves": {
+    "replace": false,
+    "values": [
+      "croptopia:tea_seed"
+    ]
+  },
+  "forge:seeds/tomatillo": {
+    "replace": false,
+    "values": [
+      "croptopia:tomatillo_seed"
+    ]
+  },
+  "forge:seeds/tomato": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato_seed"
+    ]
+  },
+  "forge:seeds/turmeric": {
+    "replace": false,
+    "values": [
+      "croptopia:turmeric_seed"
+    ]
+  },
+  "forge:seeds/turnip": {
+    "replace": false,
+    "values": [
+      "croptopia:turnip_seed"
+    ]
+  },
+  "forge:seeds/vanilla": {
+    "replace": false,
+    "values": [
+      "croptopia:vanilla_seeds"
+    ]
+  },
+  "forge:seeds/yam": {
+    "replace": false,
+    "values": [
+      "croptopia:yam_seed"
+    ]
+  },
+  "forge:seeds/zucchini": {
+    "replace": false,
+    "values": [
+      "croptopia:zucchini_seed"
+    ]
+  },
+  "forge:shepherds_pie": {
+    "replace": false,
+    "values": [
+      "croptopia:shepherds_pie"
+    ]
+  },
+  "forge:shrimp": {
+    "replace": false,
+    "values": [
+      "croptopia:shrimp"
+    ]
+  },
+  "forge:snicker_doodles": {
+    "replace": false,
+    "values": [
+      "croptopia:snicker_doodle"
+    ]
+  },
+  "forge:soy_milks": {
+    "replace": false,
+    "values": [
+      "croptopia:soy_milk"
+    ]
+  },
+  "forge:soy_sauces": {
+    "replace": false,
+    "values": [
+      "croptopia:soy_sauce"
+    ]
+  },
+  "forge:soybean_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:soybean_seed",
+      "#forge:seeds/soybean"
+    ]
+  },
+  "forge:soybeans": {
+    "replace": false,
+    "values": [
+      "croptopia:soybean",
+      "#forge:vegetables/soybean",
+      "croptopia:soybean",
+      "#forge:crops/soybean"
+    ]
+  },
+  "forge:spaghetti_squashs": {
+    "replace": false,
+    "values": [
+      "croptopia:spaghetti_squash"
+    ]
+  },
+  "forge:spinach": {
+    "replace": false,
+    "values": [
+      "croptopia:spinach",
+      "#forge:vegetables/spinach",
+      "croptopia:spinach",
+      "#forge:crops/spinach"
+    ]
+  },
+  "forge:spinach_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:spinach_seed",
+      "#forge:seeds/spinach"
+    ]
+  },
+  "forge:squash_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:squash_seed",
+      "#forge:seeds/squash"
+    ]
+  },
+  "forge:squashes": {
+    "replace": false,
+    "values": [
+      "croptopia:squash",
+      "#forge:vegetables/squash",
+      "croptopia:squash",
+      "#forge:crops/squash"
+    ]
+  },
+  "forge:starfruit_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:starfruit_sapling",
+      "#forge:saplings/starfruit"
+    ]
+  },
+  "forge:starfruits": {
+    "replace": false,
+    "values": [
+      "croptopia:starfruit",
+      "#forge:fruits/starfruit",
+      "croptopia:starfruit",
+      "#forge:crops/starfruit"
+    ]
+  },
+  "forge:steamed_clams": {
+    "replace": false,
+    "values": [
+      "croptopia:steamed_clams"
+    ]
+  },
+  "forge:steamed_crabs": {
+    "replace": false,
+    "values": [
+      "croptopia:steamed_crab"
+    ]
+  },
+  "forge:steamed_rices": {
+    "replace": false,
+    "values": [
+      "croptopia:steamed_rice"
+    ]
+  },
+  "forge:sticky_toffee_pudding": {
+    "replace": false,
+    "values": [
+      "croptopia:sticky_toffee_pudding"
+    ]
+  },
+  "forge:strawberries": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry",
+      "#forge:fruits/strawberry",
+      "croptopia:strawberry",
+      "#forge:crops/strawberry"
+    ]
+  },
+  "forge:strawberry_ice_creams": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry_ice_cream"
+    ]
+  },
+  "forge:strawberry_jams": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry_jam",
+      "#forge:jams/strawberry_jam"
+    ]
+  },
+  "forge:strawberry_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry_seed",
+      "#forge:seeds/strawberry"
+    ]
+  },
+  "forge:strawberry_smoothies": {
+    "replace": false,
+    "values": [
+      "croptopia:strawberry_smoothie"
+    ]
+  },
+  "forge:sunny_side_eggs": {
+    "replace": false,
+    "values": [
+      "croptopia:sunny_side_eggs"
+    ]
+  },
+  "forge:supreme_pizzas": {
+    "replace": false,
+    "values": [
+      "croptopia:supreme_pizza"
+    ]
+  },
+  "forge:sushis": {
+    "replace": false,
+    "values": [
+      "croptopia:sushi"
+    ]
+  },
+  "forge:sweet_crepes": {
+    "replace": false,
+    "values": [
+      "croptopia:sweet_crepes"
+    ]
+  },
+  "forge:sweet_potato_friess": {
+    "replace": false,
+    "values": [
+      "croptopia:sweet_potato_fries"
+    ]
+  },
+  "forge:sweetpotato_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:sweetpotato_seed",
+      "#forge:seeds/sweetpotato"
+    ]
+  },
+  "forge:sweetpotatos": {
+    "replace": false,
+    "values": [
+      "croptopia:sweetpotato",
+      "#forge:vegetables/sweetpotato",
+      "croptopia:sweetpotato",
+      "#forge:crops/sweetpotato"
+    ]
+  },
+  "forge:tacos": {
+    "replace": false,
+    "values": [
+      "croptopia:taco"
+    ]
+  },
+  "forge:tea": {
+    "replace": false,
+    "values": [
+      "croptopia:tea"
+    ]
+  },
+  "forge:tea_leaves": {
+    "replace": false,
+    "values": [
+      "croptopia:tea_leaves",
+      "#forge:crops/tea_leaves"
+    ]
+  },
+  "forge:tea_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:tea_seed",
+      "#forge:seeds/tea_leaves"
+    ]
+  },
+  "forge:the_big_breakfast": {
+    "replace": false,
+    "values": [
+      "croptopia:the_big_breakfast"
+    ]
+  },
+  "forge:toast_with_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:toast_with_jam"
+    ]
+  },
+  "forge:toasts": {
+    "replace": false,
+    "values": [
+      "croptopia:toast"
+    ]
+  },
+  "forge:tofu": {
+    "replace": false,
+    "values": [
+      "croptopia:tofu"
+    ]
+  },
+  "forge:tofu_and_dumplings": {
+    "replace": false,
+    "values": [
+      "croptopia:tofu_and_dumplings"
+    ]
+  },
+  "forge:tofuburgers": {
+    "replace": false,
+    "values": [
+      "croptopia:tofuburger"
+    ]
+  },
+  "forge:tomatillo_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:tomatillo_seed",
+      "#forge:seeds/tomatillo"
+    ]
+  },
+  "forge:tomatillos": {
+    "replace": false,
+    "values": [
+      "croptopia:tomatillo",
+      "#forge:vegetables/tomatillo",
+      "croptopia:tomatillo",
+      "#forge:crops/tomatillo"
+    ]
+  },
+  "forge:tomato_juices": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato_juice",
+      "#forge:juices/tomato_juice"
+    ]
+  },
+  "forge:tomato_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato_seed",
+      "#forge:seeds/tomato"
+    ]
+  },
+  "forge:tomatoes": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato",
+      "#forge:vegetables/tomato",
+      "croptopia:tomato",
+      "#forge:crops/tomato"
+    ]
+  },
+  "forge:tools/knives": {
+    "replace": false,
+    "values": [
+      "croptopia:knife"
+    ]
+  },
+  "forge:tortillas": {
+    "replace": false,
+    "values": [
+      "croptopia:tortilla"
+    ]
+  },
+  "forge:trail_mixes": {
+    "replace": false,
+    "values": [
+      "croptopia:trail_mix"
+    ]
+  },
+  "forge:transcendental_breakfast": {
+    "replace": false,
+    "values": [
+      "croptopia:transcendental_breakfast"
+    ]
+  },
+  "forge:treacle_tarts": {
+    "replace": false,
+    "values": [
+      "croptopia:treacle_tart"
+    ]
+  },
+  "forge:trifle": {
+    "replace": false,
+    "values": [
+      "croptopia:trifle"
+    ]
+  },
+  "forge:tuna": {
+    "replace": false,
+    "values": [
+      "croptopia:tuna"
+    ]
+  },
+  "forge:tuna_rolls": {
+    "replace": false,
+    "values": [
+      "croptopia:tuna_roll"
+    ]
+  },
+  "forge:tuna_sandwiches": {
+    "replace": false,
+    "values": [
+      "croptopia:tuna_sandwich"
+    ]
+  },
+  "forge:turmeric": {
+    "replace": false,
+    "values": [
+      "croptopia:turmeric",
+      "#forge:crops/turmeric"
+    ]
+  },
+  "forge:turmeric_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:turmeric_seed",
+      "#forge:seeds/turmeric"
+    ]
+  },
+  "forge:turnip_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:turnip_seed",
+      "#forge:seeds/turnip"
+    ]
+  },
+  "forge:turnips": {
+    "replace": false,
+    "values": [
+      "croptopia:turnip",
+      "#forge:vegetables/turnip",
+      "croptopia:turnip",
+      "#forge:crops/turnip"
+    ]
+  },
+  "forge:vanilla": {
+    "replace": false,
+    "values": [
+      "croptopia:vanilla",
+      "#forge:crops/vanilla"
+    ]
+  },
+  "forge:vanilla_ice_creams": {
+    "replace": false,
+    "values": [
+      "croptopia:vanilla_ice_cream"
+    ]
+  },
+  "forge:vanilla_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:vanilla_seeds",
+      "#forge:seeds/vanilla"
+    ]
+  },
+  "forge:vegetables": {
+    "replace": false,
+    "values": [
+      "#forge:artichokes",
+      "#forge:asparagus",
+      "#forge:broccoli",
+      "#forge:cabbage",
+      "#forge:cauliflower",
+      "#forge:celery",
+      "#forge:cucumbers",
+      "#forge:eggplants",
+      "#forge:garlic",
+      "#forge:gingers",
+      "#forge:greenbeans",
+      "#forge:greenonions",
+      "#forge:kale",
+      "#forge:leek",
+      "#forge:lettuce",
+      "#forge:mustard",
+      "#forge:onions",
+      "#forge:radishes",
+      "#forge:rhubarb",
+      "#forge:rutabagas",
+      "#forge:soybeans",
+      "#forge:spinach",
+      "#forge:squashes",
+      "#forge:sweetpotatos",
+      "#forge:tomatillos",
+      "#forge:tomatoes",
+      "#forge:turnips",
+      "#forge:yams",
+      "#forge:zucchini"
+    ]
+  },
+  "forge:vegetables/artichoke": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke"
+    ]
+  },
+  "forge:vegetables/asparagus": {
+    "replace": false,
+    "values": [
+      "croptopia:asparagus"
+    ]
+  },
+  "forge:vegetables/broccoli": {
+    "replace": false,
+    "values": [
+      "croptopia:broccoli"
+    ]
+  },
+  "forge:vegetables/cabbage": {
+    "replace": false,
+    "values": [
+      "croptopia:cabbage"
+    ]
+  },
+  "forge:vegetables/cauliflower": {
+    "replace": false,
+    "values": [
+      "croptopia:cauliflower"
+    ]
+  },
+  "forge:vegetables/celery": {
+    "replace": false,
+    "values": [
+      "croptopia:celery"
+    ]
+  },
+  "forge:vegetables/cucumber": {
+    "replace": false,
+    "values": [
+      "croptopia:cucumber"
+    ]
+  },
+  "forge:vegetables/eggplant": {
+    "replace": false,
+    "values": [
+      "croptopia:eggplant"
+    ]
+  },
+  "forge:vegetables/garlic": {
+    "replace": false,
+    "values": [
+      "croptopia:garlic"
+    ]
+  },
+  "forge:vegetables/ginger": {
+    "replace": false,
+    "values": [
+      "croptopia:ginger"
+    ]
+  },
+  "forge:vegetables/greenbean": {
+    "replace": false,
+    "values": [
+      "croptopia:greenbean"
+    ]
+  },
+  "forge:vegetables/greenonion": {
+    "replace": false,
+    "values": [
+      "croptopia:greenonion"
+    ]
+  },
+  "forge:vegetables/kale": {
+    "replace": false,
+    "values": [
+      "croptopia:kale"
+    ]
+  },
+  "forge:vegetables/leek": {
+    "replace": false,
+    "values": [
+      "croptopia:leek"
+    ]
+  },
+  "forge:vegetables/lettuce": {
+    "replace": false,
+    "values": [
+      "croptopia:lettuce"
+    ]
+  },
+  "forge:vegetables/mustard": {
+    "replace": false,
+    "values": [
+      "croptopia:mustard"
+    ]
+  },
+  "forge:vegetables/onion": {
+    "replace": false,
+    "values": [
+      "croptopia:onion"
+    ]
+  },
+  "forge:vegetables/radish": {
+    "replace": false,
+    "values": [
+      "croptopia:radish"
+    ]
+  },
+  "forge:vegetables/rhubarb": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb"
+    ]
+  },
+  "forge:vegetables/rutabaga": {
+    "replace": false,
+    "values": [
+      "croptopia:rutabaga"
+    ]
+  },
+  "forge:vegetables/soybean": {
+    "replace": false,
+    "values": [
+      "croptopia:soybean"
+    ]
+  },
+  "forge:vegetables/spinach": {
+    "replace": false,
+    "values": [
+      "croptopia:spinach"
+    ]
+  },
+  "forge:vegetables/squash": {
+    "replace": false,
+    "values": [
+      "croptopia:squash"
+    ]
+  },
+  "forge:vegetables/sweetpotato": {
+    "replace": false,
+    "values": [
+      "croptopia:sweetpotato"
+    ]
+  },
+  "forge:vegetables/tomatillo": {
+    "replace": false,
+    "values": [
+      "croptopia:tomatillo"
+    ]
+  },
+  "forge:vegetables/tomato": {
+    "replace": false,
+    "values": [
+      "croptopia:tomato"
+    ]
+  },
+  "forge:vegetables/turnip": {
+    "replace": false,
+    "values": [
+      "croptopia:turnip"
+    ]
+  },
+  "forge:vegetables/yam": {
+    "replace": false,
+    "values": [
+      "croptopia:yam"
+    ]
+  },
+  "forge:vegetables/zucchini": {
+    "replace": false,
+    "values": [
+      "croptopia:zucchini"
+    ]
+  },
+  "forge:veggie_salads": {
+    "replace": false,
+    "values": [
+      "croptopia:veggie_salad"
+    ]
+  },
+  "forge:walnut_saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:walnut_sapling",
+      "#forge:saplings/walnut"
+    ]
+  },
+  "forge:walnuts": {
+    "replace": false,
+    "values": [
+      "croptopia:walnut",
+      "#forge:nuts/walnut",
+      "croptopia:walnut",
+      "#forge:crops/walnut",
+      "croptopia:walnut",
+      "#forge:fruits/walnut"
+    ]
+  },
+  "forge:water_bottles": {
+    "replace": false,
+    "values": [
+      "croptopia:water_bottle",
+      "minecraft:water_bucket",
+      {
+        "id": "early_buckets:wooden_water_bucket",
+        "required": false
+      }
+    ]
+  },
+  "forge:wines": {
+    "replace": false,
+    "values": [
+      "croptopia:wine"
+    ]
+  },
+  "forge:yam_jam": {
+    "replace": false,
+    "values": [
+      "croptopia:yam_jam"
+    ]
+  },
+  "forge:yam_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:yam_seed",
+      "#forge:seeds/yam"
+    ]
+  },
+  "forge:yams": {
+    "replace": false,
+    "values": [
+      "croptopia:yam",
+      "#forge:vegetables/yam",
+      "croptopia:yam",
+      "#forge:crops/yam"
+    ]
+  },
+  "forge:yoghurts": {
+    "replace": false,
+    "values": [
+      "croptopia:yoghurt"
+    ]
+  },
+  "forge:zucchini": {
+    "replace": false,
+    "values": [
+      "croptopia:zucchini",
+      "#forge:vegetables/zucchini",
+      "croptopia:zucchini",
+      "#forge:crops/zucchini"
+    ]
+  },
+  "forge:zucchini_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:zucchini_seed",
+      "#forge:seeds/zucchini"
+    ]
+  },
+  "minecraft:fishes": {
+    "replace": false,
+    "values": [
+      "croptopia:anchovy",
+      "croptopia:calamari",
+      "croptopia:glowing_calamari",
+      "croptopia:clam",
+      "croptopia:crab",
+      "croptopia:oyster",
+      "croptopia:roe",
+      "croptopia:shrimp",
+      "croptopia:tuna"
+    ]
+  },
+  "minecraft:fox_food": {
+    "replace": false,
+    "values": [
+      "croptopia:blackberry",
+      "croptopia:blueberry",
+      "croptopia:cranberry",
+      "croptopia:elderberry",
+      "croptopia:raspberry",
+      "croptopia:strawberry"
+    ]
+  },
+  "minecraft:logs_that_burn": {
+    "replace": false,
+    "values": [
+      "#croptopia:cinnamon_logs"
+    ]
+  },
+  "minecraft:piglin_food": {
+    "replace": false,
+    "values": [
+      "croptopia:ham_sandwich",
+      "croptopia:pepperoni",
+      "croptopia:pork_and_beans",
+      "croptopia:pork_jerky",
+      "croptopia:bacon",
+      "croptopia:cooked_bacon"
+    ]
+  },
+  "minecraft:saplings": {
+    "replace": false,
+    "values": [
+      "croptopia:almond_sapling",
+      "croptopia:apple_sapling",
+      "croptopia:apricot_sapling",
+      "croptopia:avocado_sapling",
+      "croptopia:banana_sapling",
+      "croptopia:cashew_sapling",
+      "croptopia:cherry_sapling",
+      "croptopia:coconut_sapling",
+      "croptopia:date_sapling",
+      "croptopia:dragonfruit_sapling",
+      "croptopia:fig_sapling",
+      "croptopia:grapefruit_sapling",
+      "croptopia:kumquat_sapling",
+      "croptopia:lemon_sapling",
+      "croptopia:lime_sapling",
+      "croptopia:mango_sapling",
+      "croptopia:nectarine_sapling",
+      "croptopia:nutmeg_sapling",
+      "croptopia:orange_sapling",
+      "croptopia:peach_sapling",
+      "croptopia:pear_sapling",
+      "croptopia:pecan_sapling",
+      "croptopia:persimmon_sapling",
+      "croptopia:plum_sapling",
+      "croptopia:starfruit_sapling",
+      "croptopia:walnut_sapling",
+      "croptopia:cinnamon_sapling"
+    ]
+  },
+  "minecraft:villager_plantable_seeds": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_seed",
+      "croptopia:asparagus_seed",
+      "croptopia:barley_seed",
+      "croptopia:basil_seed",
+      "croptopia:bellpepper_seed",
+      "croptopia:blackbean_seed",
+      "croptopia:blackberry_seed",
+      "croptopia:blueberry_seed",
+      "croptopia:broccoli_seed",
+      "croptopia:cabbage_seed",
+      "croptopia:cantaloupe_seed",
+      "croptopia:cauliflower_seed",
+      "croptopia:celery_seed",
+      "croptopia:chile_pepper_seed",
+      "croptopia:coffee_seed",
+      "croptopia:corn_seed",
+      "croptopia:cranberry_seed",
+      "croptopia:cucumber_seed",
+      "croptopia:currant_seed",
+      "croptopia:eggplant_seed",
+      "croptopia:elderberry_seed",
+      "croptopia:garlic_seed",
+      "croptopia:ginger_seed",
+      "croptopia:grape_seed",
+      "croptopia:greenbean_seed",
+      "croptopia:greenonion_seed",
+      "croptopia:honeydew_seed",
+      "croptopia:hops_seed",
+      "croptopia:kale_seed",
+      "croptopia:kiwi_seed",
+      "croptopia:leek_seed",
+      "croptopia:lettuce_seed",
+      "croptopia:mustard_seed",
+      "croptopia:oat_seed",
+      "croptopia:olive_seed",
+      "croptopia:onion_seed",
+      "croptopia:peanut_seed",
+      "croptopia:pepper_seed",
+      "croptopia:pineapple_seed",
+      "croptopia:radish_seed",
+      "croptopia:raspberry_seed",
+      "croptopia:rhubarb_seed",
+      "croptopia:rice_seed",
+      "croptopia:rutabaga_seed",
+      "croptopia:saguaro_seed",
+      "croptopia:soybean_seed",
+      "croptopia:spinach_seed",
+      "croptopia:squash_seed",
+      "croptopia:strawberry_seed",
+      "croptopia:sweetpotato_seed",
+      "croptopia:tea_seed",
+      "croptopia:tomatillo_seed",
+      "croptopia:tomato_seed",
+      "croptopia:turmeric_seed",
+      "croptopia:turnip_seed",
+      "croptopia:vanilla_seeds",
+      "croptopia:yam_seed",
+      "croptopia:zucchini_seed"
+    ]
+  },
+  "nourish:carbohydrates": {
+    "values": [
+      "croptopia:barley",
+      "croptopia:corn",
+      "croptopia:hops",
+      "croptopia:oat",
+      "croptopia:rice",
+      "croptopia:sweetpotato",
+      "croptopia:yam",
+      "croptopia:tortilla",
+      "croptopia:beer",
+      "croptopia:potato_chips",
+      "croptopia:steamed_rice",
+      "croptopia:french_fries",
+      "croptopia:sweet_potato_fries",
+      "croptopia:doughnut",
+      "croptopia:popcorn",
+      "croptopia:toast",
+      "croptopia:oatmeal",
+      "croptopia:saucy_chips",
+      "croptopia:buttered_toast",
+      "croptopia:toast_with_jam",
+      "croptopia:ham_sandwich",
+      "croptopia:peanut_butter_and_jam",
+      "croptopia:blt",
+      "croptopia:grilled_cheese",
+      "croptopia:tuna_sandwich",
+      "croptopia:cheeseburger",
+      "croptopia:hamburger",
+      "croptopia:tofuburger",
+      "croptopia:pizza",
+      "croptopia:supreme_pizza",
+      "croptopia:cheese_pizza",
+      "croptopia:pineapple_pepperoni_pizza",
+      "croptopia:chicken_and_noodles",
+      "croptopia:chicken_and_dumplings",
+      "croptopia:tofu_and_dumplings",
+      "croptopia:spaghetti_squash",
+      "croptopia:chicken_and_rice",
+      "croptopia:taco",
+      "croptopia:egg_roll",
+      "croptopia:apple_pie",
+      "croptopia:yam_jam",
+      "croptopia:banana_cream_pie",
+      "croptopia:cherry_pie",
+      "croptopia:brownies",
+      "croptopia:snicker_doodle",
+      "croptopia:banana_nut_bread",
+      "croptopia:burrito",
+      "croptopia:tostada",
+      "croptopia:horchata",
+      "croptopia:carnitas",
+      "croptopia:fajitas",
+      "croptopia:enchilada",
+      "croptopia:churros",
+      "croptopia:tres_leche_cake",
+      "croptopia:refried_beans",
+      "croptopia:chimichanga",
+      "croptopia:quesadilla",
+      "croptopia:shepherds_pie",
+      "croptopia:fish_and_chips",
+      "croptopia:cornish_pasty",
+      "croptopia:scones",
+      "croptopia:treacle_tart",
+      "croptopia:trifle",
+      "croptopia:avocado_toast",
+      "croptopia:baked_sweet_potato",
+      "croptopia:baked_yam",
+      "croptopia:eggplant_parmesan",
+      "croptopia:potato_soup",
+      "croptopia:toast_sandwich"
+    ]
+  },
+  "nourish:fats": {
+    "values": [
+      "croptopia:olive",
+      "croptopia:peanut",
+      "croptopia:soybean",
+      "croptopia:avocado",
+      "croptopia:cheese",
+      "croptopia:butter",
+      "croptopia:tofu",
+      "croptopia:chocolate",
+      "croptopia:pepperoni",
+      "croptopia:soy_milk",
+      "croptopia:chocolate_milkshake",
+      "croptopia:yoghurt",
+      "croptopia:scrambled_eggs",
+      "croptopia:peanut_butter_and_jam",
+      "croptopia:grilled_cheese",
+      "croptopia:tuna_sandwich",
+      "croptopia:cheeseburger",
+      "croptopia:tofuburger",
+      "croptopia:pizza",
+      "croptopia:supreme_pizza",
+      "croptopia:cheese_pizza",
+      "croptopia:tofu_and_dumplings",
+      "croptopia:sushi",
+      "croptopia:egg_roll",
+      "croptopia:apple_pie",
+      "croptopia:candy_corn",
+      "croptopia:cherry_pie",
+      "croptopia:cheese_cake",
+      "croptopia:brownies",
+      "croptopia:snicker_doodle",
+      "croptopia:banana_nut_bread",
+      "croptopia:horchata",
+      "croptopia:churros",
+      "croptopia:tres_leche_cake",
+      "croptopia:eton_mess",
+      "croptopia:scones",
+      "croptopia:figgy_pudding",
+      "croptopia:sticky_toffee_pudding",
+      "croptopia:trifle",
+      "croptopia:buttered_green_beans",
+      "croptopia:chocolate_ice_cream"
+    ]
+  },
+  "nourish:fruit": {
+    "values": [
+      "croptopia:blackberry",
+      "croptopia:blueberry",
+      "croptopia:cantaloupe",
+      "croptopia:cranberry",
+      "croptopia:currant",
+      "croptopia:elderberry",
+      "croptopia:grape",
+      "croptopia:honeydew",
+      "croptopia:kiwi",
+      "croptopia:pineapple",
+      "croptopia:raspberry",
+      "croptopia:saguaro",
+      "croptopia:strawberry",
+      "croptopia:orange",
+      "croptopia:banana",
+      "croptopia:persimmon",
+      "croptopia:plum",
+      "croptopia:cherry",
+      "croptopia:lemon",
+      "croptopia:grapefruit",
+      "croptopia:kumquat",
+      "croptopia:peach",
+      "croptopia:coconut",
+      "croptopia:nutmeg",
+      "croptopia:fig",
+      "croptopia:nectarine",
+      "croptopia:mango",
+      "croptopia:dragonfruit",
+      "croptopia:starfruit",
+      "croptopia:avocado",
+      "croptopia:apricot",
+      "croptopia:pear",
+      "croptopia:lime",
+      "croptopia:date",
+      "croptopia:grape_juice",
+      "croptopia:orange_juice",
+      "croptopia:apple_juice",
+      "croptopia:cranberry_juice",
+      "croptopia:saguaro_juice",
+      "croptopia:melon_juice",
+      "croptopia:pineapple_juice",
+      "croptopia:lemonade",
+      "croptopia:limeade",
+      "croptopia:strawberry_smoothie",
+      "croptopia:banana_smoothie",
+      "croptopia:fruit_smoothie",
+      "croptopia:grape_jam",
+      "croptopia:strawberry_jam",
+      "croptopia:peach_jam",
+      "croptopia:apricot_jam",
+      "croptopia:blackberry_jam",
+      "croptopia:blueberry_jam",
+      "croptopia:cherry_jam",
+      "croptopia:elderberry_jam",
+      "croptopia:raspberry_jam",
+      "croptopia:raisins",
+      "croptopia:fruit_salad",
+      "croptopia:toast_with_jam",
+      "croptopia:peanut_butter_and_jam",
+      "croptopia:pineapple_pepperoni_pizza",
+      "croptopia:apple_pie",
+      "croptopia:banana_cream_pie",
+      "croptopia:strawberry_ice_cream",
+      "croptopia:mango_ice_cream",
+      "croptopia:rum_raisin_ice_cream",
+      "croptopia:cherry_pie",
+      "croptopia:banana_nut_bread",
+      "croptopia:almond",
+      "croptopia:cashew",
+      "croptopia:pecan",
+      "croptopia:walnut",
+      "croptopia:quesadilla",
+      "croptopia:eton_mess",
+      "croptopia:scones",
+      "croptopia:figgy_pudding",
+      "croptopia:treacle_tart",
+      "croptopia:avocado_toast",
+      "croptopia:fruit_cake",
+      "croptopia:kiwi_sorbet",
+      "croptopia:lemon_coconut_bar"
+    ]
+  },
+  "nourish:protein": {
+    "values": [
+      "croptopia:asparagus",
+      "croptopia:blackbean",
+      "croptopia:broccoli",
+      "croptopia:peanut",
+      "croptopia:soybean",
+      "croptopia:cheese",
+      "croptopia:tofu",
+      "croptopia:pepperoni",
+      "croptopia:soy_milk",
+      "croptopia:beef_jerky",
+      "croptopia:pork_jerky",
+      "croptopia:baked_beans",
+      "croptopia:pork_and_beans",
+      "croptopia:yoghurt",
+      "croptopia:scrambled_eggs",
+      "croptopia:ham_sandwich",
+      "croptopia:blt",
+      "croptopia:tuna_sandwich",
+      "croptopia:cheeseburger",
+      "croptopia:hamburger",
+      "croptopia:tofuburger",
+      "croptopia:pizza",
+      "croptopia:supreme_pizza",
+      "croptopia:cheese_pizza",
+      "croptopia:pineapple_pepperoni_pizza",
+      "croptopia:lemon_chicken",
+      "croptopia:fried_chicken",
+      "croptopia:chicken_and_noodles",
+      "croptopia:chicken_and_dumplings",
+      "croptopia:tofu_and_dumplings",
+      "croptopia:chicken_and_rice",
+      "croptopia:taco",
+      "croptopia:sushi",
+      "croptopia:almond",
+      "croptopia:cashew",
+      "croptopia:pecan",
+      "croptopia:walnut",
+      "croptopia:carnitas",
+      "croptopia:fajitas",
+      "croptopia:enchilada",
+      "croptopia:tamales",
+      "croptopia:stuffed_poblanos",
+      "croptopia:quesadilla",
+      "croptopia:shepherds_pie",
+      "croptopia:beef_wellington",
+      "croptopia:fish_and_chips",
+      "croptopia:cooked_bacon",
+      "croptopia:beef_stew",
+      "croptopia:beef_stir_fry",
+      "croptopia:eggplant_parmesan",
+      "croptopia:fruit_cake",
+      "croptopia:peanut_butter",
+      "croptopia:bacon"
+    ]
+  },
+  "nourish:sweets": {
+    "values": [
+      "croptopia:chocolate",
+      "croptopia:grape_juice",
+      "croptopia:orange_juice",
+      "croptopia:apple_juice",
+      "croptopia:cranberry_juice",
+      "croptopia:saguaro_juice",
+      "croptopia:melon_juice",
+      "croptopia:pineapple_juice",
+      "croptopia:lemonade",
+      "croptopia:limeade",
+      "croptopia:strawberry_smoothie",
+      "croptopia:banana_smoothie",
+      "croptopia:kale_smoothie",
+      "croptopia:fruit_smoothie",
+      "croptopia:chocolate_milkshake",
+      "croptopia:pumpkin_spice_latte",
+      "croptopia:grape_jam",
+      "croptopia:strawberry_jam",
+      "croptopia:peach_jam",
+      "croptopia:apricot_jam",
+      "croptopia:blackberry_jam",
+      "croptopia:blueberry_jam",
+      "croptopia:cherry_jam",
+      "croptopia:elderberry_jam",
+      "croptopia:raspberry_jam",
+      "croptopia:apple_pie",
+      "croptopia:yam_jam",
+      "croptopia:banana_cream_pie",
+      "croptopia:candy_corn",
+      "croptopia:vanilla_ice_cream",
+      "croptopia:strawberry_ice_cream",
+      "croptopia:mango_ice_cream",
+      "croptopia:rum_raisin_ice_cream",
+      "croptopia:cherry_pie",
+      "croptopia:cheese_cake",
+      "croptopia:brownies",
+      "croptopia:snicker_doodle",
+      "croptopia:banana_nut_bread",
+      "croptopia:horchata",
+      "croptopia:churros",
+      "croptopia:tres_leche_cake",
+      "croptopia:eton_mess",
+      "croptopia:scones",
+      "croptopia:figgy_pudding",
+      "croptopia:treacle_tart",
+      "croptopia:sticky_toffee_pudding",
+      "croptopia:trifle",
+      "croptopia:chocolate_ice_cream",
+      "croptopia:fruit_cake",
+      "croptopia:kiwi_sorbet",
+      "croptopia:lemon_coconut_bar",
+      "croptopia:rhubarb_crisp"
+    ]
+  },
+  "nourish:vegetables": {
+    "values": [
+      "croptopia:artichoke",
+      "croptopia:asparagus",
+      "croptopia:bellpepper",
+      "croptopia:broccoli",
+      "croptopia:cabbage",
+      "croptopia:cauliflower",
+      "croptopia:celery",
+      "croptopia:corn",
+      "croptopia:cucumber",
+      "croptopia:eggplant",
+      "croptopia:garlic",
+      "croptopia:greenbean",
+      "croptopia:greenonion",
+      "croptopia:kale",
+      "croptopia:leek",
+      "croptopia:lettuce",
+      "croptopia:olive",
+      "croptopia:onion",
+      "croptopia:radish",
+      "croptopia:rhubarb",
+      "croptopia:rutabaga",
+      "croptopia:soybean",
+      "croptopia:spinach",
+      "croptopia:squash",
+      "croptopia:sweetpotato",
+      "croptopia:tomatillo",
+      "croptopia:tomato",
+      "croptopia:turnip",
+      "croptopia:yam",
+      "croptopia:zucchini",
+      "croptopia:tofu",
+      "croptopia:salsa",
+      "croptopia:artichoke_dip",
+      "croptopia:tomato_juice",
+      "croptopia:kale_smoothie",
+      "croptopia:kale_chips",
+      "croptopia:potato_chips",
+      "croptopia:french_fries",
+      "croptopia:sweet_potato_fries",
+      "croptopia:onion_rings",
+      "croptopia:cucumber_salad",
+      "croptopia:caesar_salad",
+      "croptopia:leafy_salad",
+      "croptopia:veggie_salad",
+      "croptopia:leek_soup",
+      "croptopia:blt",
+      "croptopia:tofuburger",
+      "croptopia:spaghetti_squash",
+      "croptopia:taco",
+      "croptopia:burrito",
+      "croptopia:tostada",
+      "croptopia:carnitas",
+      "croptopia:fajitas",
+      "croptopia:enchilada",
+      "croptopia:tamales",
+      "croptopia:stuffed_poblanos",
+      "croptopia:chili_relleno",
+      "croptopia:refried_beans",
+      "croptopia:shepherds_pie",
+      "croptopia:cornish_pasty",
+      "croptopia:ajvar",
+      "croptopia:ajvar_toast",
+      "croptopia:beef_stew",
+      "croptopia:beef_stir_fry",
+      "croptopia:buttered_green_beans",
+      "croptopia:cheesy_asparagus",
+      "croptopia:eggplant_parmesan",
+      "croptopia:grilled_eggplant",
+      "croptopia:nether_wart_stew",
+      "croptopia:peanut_butter",
+      "croptopia:peanut_butter_with_celery",
+      "croptopia:potato_soup",
+      "croptopia:ratatouille",
+      "croptopia:rhubarb_crisp",
+      "croptopia:roasted_asparagus",
+      "croptopia:roasted_radishes",
+      "croptopia:roasted_squash",
+      "croptopia:roasted_turnips",
+      "croptopia:steamed_broccoli",
+      "croptopia:steamed_green_beans",
+      "croptopia:stir_fry",
+      "croptopia:stuffed_artichoke"
+    ]
+  },
+  "origins:ignore_diet": {
+    "replace": false,
+    "values": [
+      "croptopia:egg_roll",
+      "croptopia:supreme_pizza",
+      "croptopia:apple_pie",
+      "croptopia:taco",
+      "croptopia:fajitas",
+      "croptopia:enchilada",
+      "croptopia:tamales",
+      "croptopia:stuffed_poblanos",
+      "croptopia:quesadilla",
+      "croptopia:croque_madame",
+      "croptopia:croque_monsieur",
+      "croptopia:grape_juice",
+      "croptopia:orange_juice",
+      "croptopia:apple_juice",
+      "croptopia:cranberry_juice",
+      "croptopia:saguaro_juice",
+      "croptopia:tomato_juice",
+      "croptopia:melon_juice",
+      "croptopia:pineapple_juice",
+      "croptopia:coffee",
+      "croptopia:lemonade",
+      "croptopia:limeade",
+      "croptopia:beer",
+      "croptopia:wine",
+      "croptopia:mead",
+      "croptopia:rum",
+      "croptopia:pumpkin_spice_latte"
+    ]
+  },
+  "origins:meat": {
+    "replace": false,
+    "values": [
+      "croptopia:pepperoni",
+      "croptopia:beef_jerky",
+      "croptopia:pork_jerky",
+      "croptopia:tuna_sandwich",
+      "croptopia:ham_sandwich",
+      "croptopia:cheeseburger",
+      "croptopia:hamburger",
+      "croptopia:pork_and_beans",
+      "croptopia:blt",
+      "croptopia:scrambled_eggs",
+      "croptopia:pineapple_pepperoni_pizza",
+      "croptopia:lemon_chicken",
+      "croptopia:fried_chicken",
+      "croptopia:chicken_and_noodles",
+      "croptopia:chicken_and_dumplings",
+      "croptopia:chicken_and_rice",
+      "croptopia:sushi",
+      "croptopia:carnitas",
+      "croptopia:bacon",
+      "croptopia:goulash",
+      "croptopia:shrimp",
+      "croptopia:tuna",
+      "croptopia:calamari",
+      "croptopia:crab",
+      "croptopia:roe",
+      "croptopia:clam",
+      "croptopia:oyster",
+      "croptopia:cooked_shrimp",
+      "croptopia:cooked_tuna",
+      "croptopia:cooked_calamari",
+      "croptopia:steamed_crab",
+      "croptopia:glowing_calamari",
+      "croptopia:deep_fried_shrimp",
+      "croptopia:tuna_roll",
+      "croptopia:fried_calamari",
+      "croptopia:crab_legs",
+      "croptopia:steamed_clams",
+      "croptopia:grilled_oysters",
+      "croptopia:anchovy",
+      "croptopia:cooked_anchovy",
+      "croptopia:anchovy_pizza",
+      "croptopia:sausage",
+      "croptopia:sunny_side_eggs",
+      "croptopia:the_big_breakfast",
+      "croptopia:shepherds_pie",
+      "croptopia:beef_wellington",
+      "croptopia:fish_and_chips",
+      "croptopia:beef_stew",
+      "croptopia:beef_stir_fry",
+      "croptopia:cooked_bacon",
+      "croptopia:fried_frog_legs",
+      "croptopia:frog_legs",
+      "croptopia:ground_pork"
+    ]
+  },
+  "sereneseasons:autumn_crops": {
+    "replace": false,
+    "values": [
+      "croptopia:cauliflower_seed",
+      "croptopia:broccoli_seed",
+      "croptopia:corn_seed",
+      "croptopia:cucumber_seed",
+      "croptopia:currant_seed",
+      "croptopia:eggplant_seed",
+      "croptopia:grape_seed",
+      "croptopia:hops_seed",
+      "croptopia:kale_seed",
+      "croptopia:olive_seed",
+      "croptopia:peanut_seed",
+      "croptopia:sweetpotato_seed",
+      "croptopia:chile_pepper_seed",
+      "croptopia:apple_sapling",
+      "croptopia:banana_sapling",
+      "croptopia:orange_sapling",
+      "croptopia:persimmon_sapling",
+      "croptopia:plum_sapling",
+      "croptopia:cherry_sapling",
+      "croptopia:lemon_sapling",
+      "croptopia:grapefruit_sapling",
+      "croptopia:kumquat_sapling",
+      "croptopia:peach_sapling",
+      "croptopia:coconut_sapling",
+      "croptopia:nutmeg_sapling",
+      "croptopia:fig_sapling",
+      "croptopia:nectarine_sapling",
+      "croptopia:mango_sapling",
+      "croptopia:dragonfruit_sapling",
+      "croptopia:starfruit_sapling",
+      "croptopia:avocado_sapling",
+      "croptopia:apricot_sapling",
+      "croptopia:pear_sapling",
+      "croptopia:lime_sapling",
+      "croptopia:date_sapling",
+      "croptopia:almond_sapling",
+      "croptopia:cashew_sapling",
+      "croptopia:pecan_sapling",
+      "croptopia:walnut_sapling"
+    ]
+  },
+  "sereneseasons:spring_crops": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_seed",
+      "croptopia:asparagus_seed",
+      "croptopia:artichoke_seed",
+      "croptopia:asparagus_seed",
+      "croptopia:bellpepper_seed",
+      "croptopia:cabbage_seed",
+      "croptopia:celery_seed",
+      "croptopia:garlic_seed",
+      "croptopia:leek_seed",
+      "croptopia:lettuce_seed",
+      "croptopia:radish_seed",
+      "croptopia:spinach_seed",
+      "croptopia:tomato_seed",
+      "croptopia:chile_pepper_seed",
+      "croptopia:turnip_seed",
+      "croptopia:zucchini_seed",
+      "croptopia:oat_seed",
+      "croptopia:barley_seed",
+      "croptopia:soybean_seed",
+      "croptopia:mustard_seed",
+      "croptopia:turmeric_seed",
+      "croptopia:ginger_seed",
+      "croptopia:basil_seed",
+      "croptopia:blackberry_seed",
+      "croptopia:blueberry_seed",
+      "croptopia:cranberry_seed",
+      "croptopia:cantaloupe_seed",
+      "croptopia:elderberry_seed"
+    ]
+  },
+  "sereneseasons:summer_crops": {
+    "replace": false,
+    "values": [
+      "croptopia:artichoke_seed",
+      "croptopia:asparagus_seed",
+      "croptopia:artichoke_seed",
+      "croptopia:asparagus_seed",
+      "croptopia:bellpepper_seed",
+      "croptopia:saguaro_seed",
+      "croptopia:blackbean_seed",
+      "croptopia:blackberry_seed",
+      "croptopia:blueberry_seed",
+      "croptopia:cranberry_seed",
+      "croptopia:cantaloupe_seed",
+      "croptopia:elderberry_seed",
+      "croptopia:coffee_seed",
+      "croptopia:greenbean_seed",
+      "croptopia:greenonion_seed",
+      "croptopia:honeydew_seed",
+      "croptopia:kiwi_seed",
+      "croptopia:onion_seed",
+      "croptopia:pineapple_seed",
+      "croptopia:raspberry_seed",
+      "croptopia:rice_seed",
+      "croptopia:strawberry_seed",
+      "croptopia:tomatillo_seed",
+      "croptopia:tomato_seed",
+      "croptopia:zucchini_seed",
+      "croptopia:oat_seed",
+      "croptopia:barley_seed",
+      "croptopia:soybean_seed",
+      "croptopia:mustard_seed",
+      "croptopia:turmeric_seed",
+      "croptopia:ginger_seed",
+      "croptopia:basil_seed",
+      "croptopia:apple_sapling",
+      "croptopia:banana_sapling",
+      "croptopia:orange_sapling",
+      "croptopia:persimmon_sapling",
+      "croptopia:plum_sapling",
+      "croptopia:cherry_sapling",
+      "croptopia:lemon_sapling",
+      "croptopia:grapefruit_sapling",
+      "croptopia:kumquat_sapling",
+      "croptopia:peach_sapling",
+      "croptopia:coconut_sapling",
+      "croptopia:nutmeg_sapling",
+      "croptopia:fig_sapling",
+      "croptopia:nectarine_sapling",
+      "croptopia:mango_sapling",
+      "croptopia:dragonfruit_sapling",
+      "croptopia:starfruit_sapling",
+      "croptopia:avocado_sapling",
+      "croptopia:apricot_sapling",
+      "croptopia:pear_sapling",
+      "croptopia:lime_sapling",
+      "croptopia:date_sapling",
+      "croptopia:almond_sapling",
+      "croptopia:cashew_sapling",
+      "croptopia:pecan_sapling",
+      "croptopia:walnut_sapling"
+    ]
+  },
+  "sereneseasons:winter_crops": {
+    "replace": false,
+    "values": [
+      "croptopia:rhubarb_seed",
+      "croptopia:rutabaga_seed",
+      "croptopia:squash_seed",
+      "croptopia:yam_seed",
+      "croptopia:turnip_seed"
+    ]
+  }
+}

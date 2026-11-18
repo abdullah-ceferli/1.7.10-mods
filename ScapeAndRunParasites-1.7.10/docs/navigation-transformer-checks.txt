@@ -1,0 +1,3 @@
+PASS: Exact native constructor replacement is idempotent, opt-in and stores the selected navigator before senses/AI initialization
+PASS: Missing constructor, changed allocation and incompatible existing hook fail explicitly
+Failed: 0

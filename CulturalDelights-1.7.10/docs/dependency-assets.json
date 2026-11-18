@@ -1,0 +1,9 @@
+{
+  "platter.png": {
+    "repository": "https://github.com/vectorwing/FarmersDelight",
+    "commit": "e854d56d4eea8dc120650d43da0d1472711797ad",
+    "path": "src/main/resources/assets/farmersdelight/textures/block/platter.png",
+    "sha256": "d90bdd58700aea73fe7e2fafe5302108008b1ff547ddfe8078c7f97c5efa34bc",
+    "license": "MIT"
+  }
+}

@@ -1,0 +1,6 @@
+PASS: Actual native entity spawning synchronizes all five tracked types to a distinct client-side entity
+PASS: Real Forge server-to-client deltas update animation, skin, float, boolean and signed target coordinates
+PASS: A real client resync request passes server tracking validation and restores the complete snapshot
+PASS: Leaving native entity tracking range removes the client entity and releases its sync binding
+PASS: Re-entering tracking range spawns a fresh client entity with changes made while it was untracked
+Failed: 0

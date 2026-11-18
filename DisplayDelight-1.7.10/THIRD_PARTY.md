@@ -1,0 +1,1 @@
+Display Delight by jkvin114; derived from the pinned source in upstream/. License: LGPLv3, with the included MIT notice for Farmers 3D models by Pder. Original credits include MB-3D Items. Native 1.7.10 adaptation: Zahin. Full original license is retained in LICENSE.txt. No external food-mod code or JAR is included in the runtime artifact.

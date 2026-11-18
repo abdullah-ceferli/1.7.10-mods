@@ -1,0 +1,18 @@
+{
+  "net/minecraft/network/datasync/EntityDataManager": {
+    "func_187214_a (Lnet/minecraft/network/datasync/DataParameter;Ljava/lang/Object;)V": 81,
+    "func_187227_b (Lnet/minecraft/network/datasync/DataParameter;Ljava/lang/Object;)V": 82,
+    "func_187225_a (Lnet/minecraft/network/datasync/DataParameter;)Ljava/lang/Object;": 81,
+    "func_187226_a (Ljava/lang/Class;Lnet/minecraft/network/datasync/DataSerializer;)Lnet/minecraft/network/datasync/DataParameter;": 81
+  },
+  "net/minecraft/network/datasync/DataSerializers": {
+    "field_187198_h Lnet/minecraft/network/datasync/DataSerializer;": 34,
+    "field_187191_a Lnet/minecraft/network/datasync/DataSerializer;": 46,
+    "field_187192_b Lnet/minecraft/network/datasync/DataSerializer;": 22,
+    "field_187193_c Lnet/minecraft/network/datasync/DataSerializer;": 15,
+    "field_187200_j Lnet/minecraft/network/datasync/DataSerializer;": 1
+  },
+  "net/minecraft/network/datasync/DataParameter": {
+    "equals (Ljava/lang/Object;)Z": 10
+  }
+}

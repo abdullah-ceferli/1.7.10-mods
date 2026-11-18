@@ -1,0 +1,17 @@
+{
+  "sourceUnitsChanged": 7,
+  "importsChanged": 7,
+  "constructorCallsRebound": 7,
+  "constructorArgumentsAndPrioritiesPreserved": true,
+  "originalLogicPreserved": true,
+  "usesSyntaxTree": true,
+  "files": [
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/EntityWave.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/EntityWaveShock.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/crude/EntityLesh.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/deterrent/EntityUnvo.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityGothol.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/inborn/EntityRathol.java",
+    "src/main/java/com/dhanantry/scapeandrunparasites/entity/monster/primitive/EntityBano.java"
+  ]
+}

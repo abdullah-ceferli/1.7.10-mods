@@ -1,0 +1,622 @@
+{
+  "textureWidth": 128,
+  "textureHeight": 128,
+  "parts": [
+    {
+      "name": "body",
+      "size": [
+        8,
+        4,
+        12
+      ],
+      "pivot": [
+        0,
+        15,
+        1
+      ],
+      "origin": [
+        -4.0,
+        0,
+        -6.0
+      ],
+      "material": "hide",
+      "role": "torso",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 0,
+      "v": 0
+    },
+    {
+      "name": "head",
+      "size": [
+        6,
+        4,
+        7
+      ],
+      "pivot": [
+        0,
+        16,
+        -5
+      ],
+      "origin": [
+        -3,
+        -2,
+        -6
+      ],
+      "material": "skin",
+      "role": "head",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 41,
+      "v": 0
+    },
+    {
+      "name": "jaw",
+      "size": [
+        6,
+        2,
+        5
+      ],
+      "pivot": [
+        0,
+        1,
+        -4
+      ],
+      "origin": [
+        -3,
+        0,
+        -2.5
+      ],
+      "material": "jaw",
+      "role": "jaw",
+      "parent": "head",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 68,
+      "v": 0
+    },
+    {
+      "name": "armL",
+      "size": [
+        2,
+        7,
+        2
+      ],
+      "pivot": [
+        -5,
+        16,
+        -3
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "armL",
+      "parent": "",
+      "rotation": [
+        0.2,
+        0,
+        0.65
+      ],
+      "u": 91,
+      "v": 0
+    },
+    {
+      "name": "foreL",
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "pivot": [
+        0,
+        7,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "skin",
+      "role": "foreL",
+      "parent": "armL",
+      "rotation": [
+        -0.85,
+        0,
+        0
+      ],
+      "u": 100,
+      "v": 0
+    },
+    {
+      "name": "foreL_finger0",
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "pivot": [
+        -1,
+        5.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreL_finger0",
+      "parent": "foreL",
+      "rotation": [
+        -0.12,
+        0,
+        0
+      ],
+      "u": 109,
+      "v": 0
+    },
+    {
+      "name": "foreL_finger1",
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "pivot": [
+        0,
+        5.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreL_finger1",
+      "parent": "foreL",
+      "rotation": [
+        -0.039999999999999994,
+        0,
+        0
+      ],
+      "u": 114,
+      "v": 0
+    },
+    {
+      "name": "foreL_finger2",
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "pivot": [
+        1,
+        5.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreL_finger2",
+      "parent": "foreL",
+      "rotation": [
+        0.04000000000000001,
+        0,
+        0
+      ],
+      "u": 119,
+      "v": 0
+    },
+    {
+      "name": "legL",
+      "size": [
+        3,
+        6,
+        3
+      ],
+      "pivot": [
+        -5,
+        17,
+        6
+      ],
+      "origin": [
+        -1.5,
+        0,
+        -1.5
+      ],
+      "material": "hide",
+      "role": "legL",
+      "parent": "",
+      "rotation": [
+        -0.9,
+        0,
+        0.5
+      ],
+      "u": 0,
+      "v": 17
+    },
+    {
+      "name": "shinL",
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "pivot": [
+        0,
+        6,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "skin",
+      "role": "shinL",
+      "parent": "legL",
+      "rotation": [
+        1.2,
+        0,
+        0
+      ],
+      "u": 13,
+      "v": 17
+    },
+    {
+      "name": "armR",
+      "size": [
+        2,
+        7,
+        2
+      ],
+      "pivot": [
+        5,
+        16,
+        -3
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "hide",
+      "role": "armR",
+      "parent": "",
+      "rotation": [
+        0.2,
+        0,
+        -0.65
+      ],
+      "u": 22,
+      "v": 17
+    },
+    {
+      "name": "foreR",
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "pivot": [
+        0,
+        7,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "skin",
+      "role": "foreR",
+      "parent": "armR",
+      "rotation": [
+        -0.85,
+        0,
+        0
+      ],
+      "u": 31,
+      "v": 17
+    },
+    {
+      "name": "foreR_finger0",
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "pivot": [
+        -1,
+        5.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreR_finger0",
+      "parent": "foreR",
+      "rotation": [
+        -0.12,
+        0,
+        0
+      ],
+      "u": 40,
+      "v": 17
+    },
+    {
+      "name": "foreR_finger1",
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "pivot": [
+        0,
+        5.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreR_finger1",
+      "parent": "foreR",
+      "rotation": [
+        -0.039999999999999994,
+        0,
+        0
+      ],
+      "u": 45,
+      "v": 17
+    },
+    {
+      "name": "foreR_finger2",
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "pivot": [
+        1,
+        5.5,
+        -1
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "material": "claw",
+      "role": "foreR_finger2",
+      "parent": "foreR",
+      "rotation": [
+        0.04000000000000001,
+        0,
+        0
+      ],
+      "u": 50,
+      "v": 17
+    },
+    {
+      "name": "legR",
+      "size": [
+        3,
+        6,
+        3
+      ],
+      "pivot": [
+        5,
+        17,
+        6
+      ],
+      "origin": [
+        -1.5,
+        0,
+        -1.5
+      ],
+      "material": "hide",
+      "role": "legR",
+      "parent": "",
+      "rotation": [
+        -0.9,
+        0,
+        -0.5
+      ],
+      "u": 55,
+      "v": 17
+    },
+    {
+      "name": "shinR",
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "pivot": [
+        0,
+        6,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "skin",
+      "role": "shinR",
+      "parent": "legR",
+      "rotation": [
+        1.2,
+        0,
+        0
+      ],
+      "u": 68,
+      "v": 17
+    },
+    {
+      "name": "spine0",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "pivot": [
+        0,
+        13,
+        -2
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "claw",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 77,
+      "v": 17
+    },
+    {
+      "name": "spine1",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "pivot": [
+        0,
+        13,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "claw",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 86,
+      "v": 17
+    },
+    {
+      "name": "spine2",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "pivot": [
+        0,
+        13,
+        2
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "claw",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 95,
+      "v": 17
+    },
+    {
+      "name": "spine3",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "pivot": [
+        0,
+        13,
+        4
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "claw",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 104,
+      "v": 17
+    },
+    {
+      "name": "spine4",
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "pivot": [
+        0,
+        13,
+        6
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "material": "claw",
+      "role": "",
+      "parent": "",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "u": 113,
+      "v": 17
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+PASS: Original bytecode and port: Null/dead targets reject activation; a valid path is queried on every activation attempt
+PASS: Original bytecode and port: Targets already within reach remain attackable without a path
+PASS: Original bytecode and port: Short memory follows path state; long memory follows home bounds with direct floor-Y positions
+PASS: Original bytecode and port: Native creative or damage-immune players stop long-memory pursuit and clear on reset
+PASS: Original bytecode and port: Start uses the selected path and configured speed, and reset clears native navigation
+PASS: Original bytecode and port: Attacks and unarmed swings repeat at exact twenty-update intervals
+PASS: Original bytecode and port: Rejected damage still consumes the attack cooldown, and out-of-reach updates clamp it at zero
+PASS: Original bytecode and port: Sight gates short-memory repathing but does not add a new close-range attack veto
+PASS: Original bytecode and port: Reach distance and recorded target Y use bounding-box minY rather than the entity origin
+PASS: Original bytecode and port: Ten thousand randomized reach calculations preserve the original float evaluation order
+PASS: Original bytecode and port: Forty thousand original/port updates agree on retry timing, movement thresholds, sight and failed paths
+PASS: Constructor-registered goal executes through native living updates and inflicts real native damage
+PASS: Real native pathfinding, movement helpers and collision travel reach a distant target and attack it
+Paired scenario executions: 22
+Failed: 0

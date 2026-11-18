@@ -1,0 +1,2 @@
+10a6a311f4bec8c07d9e1302262935f69383e23eca8d312c0d21a2aa01b408d2  BlockLineCounter-1.7.10-1.0.0.jar
+a2737cb077e96a4c8a1ec33a69bf137f1e911d2c1eb84f05748f0f973228909f  BlockLineCounter-1.7.10-1.0.0-sources.jar

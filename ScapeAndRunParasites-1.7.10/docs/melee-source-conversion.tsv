@@ -1,0 +1,7 @@
+com\dhanantry\scapeandrunparasites\entity\monster\crude\EntityLesh.java	63	import
+com\dhanantry\scapeandrunparasites\entity\monster\deterrent\EntityUnvo.java	35	import
+com\dhanantry\scapeandrunparasites\entity\monster\EntityWave.java	41	import
+com\dhanantry\scapeandrunparasites\entity\monster\EntityWaveShock.java	58	import
+com\dhanantry\scapeandrunparasites\entity\monster\inborn\EntityGothol.java	65	import
+com\dhanantry\scapeandrunparasites\entity\monster\inborn\EntityRathol.java	65	import
+com\dhanantry\scapeandrunparasites\entity\monster\primitive\EntityBano.java	49	import

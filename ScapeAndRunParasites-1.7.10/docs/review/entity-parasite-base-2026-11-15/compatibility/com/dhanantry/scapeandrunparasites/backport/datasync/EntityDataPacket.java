@@ -1,0 +1,11 @@
+package com.dhanantry.scapeandrunparasites.backport.datasync;
+import java.io.IOException;import java.util.*;import io.netty.buffer.ByteBuf;import io.netty.handler.codec.*;
+import cpw.mods.fml.common.network.simpleimpl.IMessage;import net.minecraft.entity.Entity;import net.minecraft.network.PacketBuffer;
+public final class EntityDataPacket implements IMessage {
+    public static final int FULL=0,DELTA=1,REMOVE=2;
+    public int kind,dimension,entityId;public UUID identity;public String entityClass;public long revision;public List<EntityDataManager.DataEntry<?>> values;
+    public EntityDataPacket(){}
+    public EntityDataPacket(Entity entity,EntityDataManager manager,int kind,List<EntityDataManager.DataEntry<?>> values){this.kind=kind;dimension=entity.worldObj.provider.dimensionId;entityId=entity.getEntityId();identity=entity.getUniqueID();entityClass=entity.getClass().getName();revision=manager.revision();this.values=values;}
+    public void toBytes(ByteBuf raw){try{PacketBuffer b=new PacketBuffer(raw);b.writeShort(0x5352);b.writeByte(1);b.writeByte(kind);b.writeInt(dimension);b.writeVarIntToBuffer(entityId);b.writeLong(identity.getMostSignificantBits());b.writeLong(identity.getLeastSignificantBits());b.writeStringToBuffer(entityClass);b.writeLong(revision);EntityDataManager.writeEntries(values,b);}catch(IOException e){throw new EncoderException(e);}}
+    public void fromBytes(ByteBuf raw){try{PacketBuffer b=new PacketBuffer(raw);if(b.readUnsignedShort()!=0x5352||b.readUnsignedByte()!=1)throw new IOException("Unsupported tracked-data protocol");kind=b.readUnsignedByte();if(kind>REMOVE)throw new IOException("Invalid tracked-data packet kind");dimension=b.readInt();entityId=b.readVarIntFromBuffer();if(entityId<0)throw new IOException("Negative entity ID");identity=new UUID(b.readLong(),b.readLong());entityClass=b.readStringFromBuffer(256);revision=b.readLong();if(revision<0)throw new IOException("Negative tracked-data revision");values=EntityDataManager.readEntries(b);if(raw.isReadable())throw new IOException("Trailing tracked-data bytes");if(kind==REMOVE&&values!=null)throw new IOException("Removal message has tracked values");}catch(IOException|IndexOutOfBoundsException e){throw new DecoderException(e);}}
+}

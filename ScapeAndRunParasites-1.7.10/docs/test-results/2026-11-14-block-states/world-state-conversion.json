@@ -1,0 +1,16 @@
+{
+  "javaParser": "JDK 8 javac parse-only syntax tree",
+  "convertedCalls": 1740,
+  "sourceUnits": 222,
+  "counts": {
+    "getDefaultState": 625,
+    "setBlockState": 307,
+    "getBlockState": 684,
+    "getMetaFromState": 70,
+    "getStateFromMeta": 33,
+    "getStateId": 20,
+    "getStateById": 1
+  },
+  "checkpointSha256": "92a54a95ac288796892eb0d142e1f2fe803b51b11c92688df71d66f3020465b4",
+  "fullModCompiles": false
+}

@@ -1,0 +1,20 @@
+{
+  "minecraft": "1.7.10",
+  "forge": "10.13.4.1614",
+  "java": "8",
+  "requiredCatalogApi": [
+    "SourceRecipes.addCatalog(String, Class, String)",
+    "SourceTags.addCatalog(Class, String)"
+  ],
+  "testedDependencies": [
+    {
+      "file": "farmersdelight-1.1.1-mc1.7.10.jar",
+      "sha256": "032fc9e94b05cf80ff8b6a2a3c3995701f84454385466d3a1b1953f85acb4dbb"
+    },
+    {
+      "file": "+unimixins-all-1.7.10-0.3.1.jar",
+      "sha256": "ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318"
+    }
+  ],
+  "note": "Use the provided tested Farmer's Delight build; the version number alone does not prove addon API compatibility."
+}

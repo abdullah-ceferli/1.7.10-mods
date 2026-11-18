@@ -1,0 +1,4 @@
+PASS: Original world radius/corner/block-loaded results and exact chunk query sequences across 1600 signed/vertical/reversed cases
+PASS: Original explosion density and exact sample coordinates across 350 random boxes, including horizontal centering and NaN
+Assertions: 10301
+Failed: 0

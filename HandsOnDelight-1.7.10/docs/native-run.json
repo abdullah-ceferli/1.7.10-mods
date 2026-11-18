@@ -1,0 +1,11 @@
+{
+  "runDirectory": "D:\\IndustrialTechnology\\HandsOnDelight-1.7.10\\.toolchain\\tests\\20261117-234003-928572\\run",
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "userWorldOpened": false,
+  "fullUserModpackTested": false,
+  "configuration": "fresh disposable defaults",
+  "testedJarSha256": "4c5ddacc2aa5c4415995c09dc13b8adda1642c7394b11a2e8bf4a08aa44ea32f"
+}

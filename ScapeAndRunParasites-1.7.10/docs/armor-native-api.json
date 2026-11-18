@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "compileApiJar": "D:\\IndustrialTechnology\\ScapeAndRunParasites-1.7.10\\.toolchain\\compile-access\\forgeSrc-access.jar",
+  "compileApiSha256": "38b0888f3404f3c438299abfb166040d423cb1c615cda19f0184d883245bd973",
+  "rangedAttributeFourArgumentConstructor": true,
+  "setShouldWatchAvailable": true,
+  "totalArmorOverridable": true,
+  "armorCalculationOverridable": true,
+  "nativeLivingDamageCallsArmorCalculation": true,
+  "playerDamageUsesISpecialArmorInstead": true,
+  "nativeGenericDamageBypassesArmor": true,
+  "nativeZombieIntrinsicArmor": 2,
+  "nativeWitherIntrinsicArmor": 4,
+  "scope": "API and bytecode facts; gameplay verification is recorded separately"
+}

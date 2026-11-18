@@ -1,0 +1,12 @@
+{
+  "sourceUnits": 35,
+  "parsedEdits": 140,
+  "editsByKind": {
+    "atan2": 65,
+    "flight-parent": 25,
+    "flight-action": 50
+  },
+  "controllerBodiesRetained": 25,
+  "groundControllerReplaced": false,
+  "globalNativeMathReplaced": false
+}

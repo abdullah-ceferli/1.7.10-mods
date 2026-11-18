@@ -1,0 +1,15 @@
+{
+  "excludedBinaryDependencies": [
+    {
+      "path": "vendor/food-mods/+unimixins-all-1.7.10-0.3.1.jar",
+      "bytes": 5519796,
+      "sha256": "ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318"
+    },
+    {
+      "path": "vendor/food-mods/farmersdelight-1.1.1-mc1.7.10.jar",
+      "bytes": 1945321,
+      "sha256": "032fc9e94b05cf80ff8b6a2a3c3995701f84454385466d3a1b1953f85acb4dbb"
+    }
+  ],
+  "note": "Restore these local dependency artifacts from the documented upstream sources; they are not source files."
+}

@@ -1,0 +1,18 @@
+PASS: Native Minecraft right-click dispatch opens the pot through Forge interaction and the real server packet
+PASS: 4 explicit texture/alpha/exception and native font-hotbar pixel invariants hold without texture attribute-stack restoration
+PASS: 6 original liquid, camera easing, particle lifetime and tool-pose invariants hold under the shaded math library
+PASS: Native server opens the camera cooking screen through the actual client network channel
+PASS: Client renders synchronized pot ingredients and recipe book; forged session tokens cannot take food
+PASS: Original compact drawer filters unrelated items; native cursor pickup, 3D placement and skillet handle click cook and synchronize two items
+PASS: Leaving the kitchen starts the original returning camera flight
+PASS: Perspective 3D page picking sends the selected recipe and assembles its real result over the network
+PASS: Original cookbook paper, mesh, grid, tabs and live search render without OpenGL errors
+PASS: All 17 assembly recipes appear in NEI and their crafting representations are hidden; slice reassembly and ordinary tool recipes stay
+PASS: Actual NEI recipe viewing returns to the 3D kitchen with camera and server session intact
+PASS: Original stove food hit areas turn the correct piece, and closing a station safely returns the native cursor stack
+PASS: Native Minecraft right-click opens the cutting board from the world without a direct session call
+PASS: Original cutting marks and inventory knife send an authoritative cut and synchronize the visible tool stroke
+PASS: Original neighbouring-station controls reject invalid offsets and fly from board to skillet with a fresh authorized session
+PASS: Animated station exit restores the player's real camera, perspective and field of view
+PASS: Native world HUD and main-menu text render after station exit without OpenGL errors
+Failed: 0

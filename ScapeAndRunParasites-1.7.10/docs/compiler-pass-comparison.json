@@ -1,0 +1,27 @@
+{
+  "previousCapturedDiagnostics": 5535,
+  "previousCompilerExitCode": 4,
+  "currentCapturedDiagnostics": 8132,
+  "currentCompilerExitCode": 1,
+  "previousRecordsResolvedOrReplaced": 10,
+  "additionalRecordsCaptured": 2607,
+  "netAdditionalRecords": 2597,
+  "recordIdentity": [
+    "source path",
+    "unchanged line number",
+    "message",
+    "named symbol"
+  ],
+  "additionalRecordsByArea": {
+    "world": 862,
+    "util": 804,
+    "item": 513,
+    "network": 177,
+    "potion": 99,
+    "proxy": 84,
+    "tileentity": 52,
+    "recipes": 14,
+    "mixins": 1,
+    "SRPMain.java": 1
+  }
+}

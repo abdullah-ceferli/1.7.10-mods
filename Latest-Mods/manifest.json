@@ -1,0 +1,203 @@
+{
+  "created": "2026-11-18T14:18:37.641129+04:00",
+  "minecraft": "1.7.10",
+  "forge": "10.13.4.1614",
+  "selection": "Highest existing production version from each project; excludes source, dev and test harness JARs. No mod was rebuilt.",
+  "mods": [
+    {
+      "project": "Croptopia-1.7.10",
+      "name": "Croptopia",
+      "modid": "croptopia",
+      "version": "4.0.1-backport.1",
+      "source": "Croptopia-1.7.10/build/libs/croptopia-1.7.10-4.0.1-backport.1.jar",
+      "filename": "croptopia-1.7.10-4.0.1-backport.1.jar",
+      "bytes": 1991998,
+      "sha256": "f82917caf6bb3bcc42bbc2f3a3aa1efe04921f7aede9f08e626de8bea12d0e9a",
+      "status": "initial test build",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/croptopia-1.7.10-4.0.1-backport.1.jar"
+    },
+    {
+      "project": "CulturalDelights-1.7.10",
+      "name": "Cultural Delights",
+      "modid": "culturaldelights",
+      "version": "0.16.7-backport.1",
+      "source": "CulturalDelights-1.7.10/build/libs/culturaldelights-1.7.10-0.16.7-backport.1.jar",
+      "filename": "culturaldelights-1.7.10-0.16.7-backport.1.jar",
+      "bytes": 301376,
+      "sha256": "2d4428d5b5399fe0c8ecc6b5e9ff3717479d220d40fc43292ece6f8ea15f32cf",
+      "status": "initial test build",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/culturaldelights-1.7.10-0.16.7-backport.1.jar"
+    },
+    {
+      "project": "DisplayDelight-1.7.10",
+      "name": "Display Delight",
+      "modid": "displaydelight",
+      "version": "1.7.0-backport.1",
+      "source": "DisplayDelight-1.7.10/build/libs/displaydelight-1.7.10-1.7.0-backport.1.jar",
+      "filename": "displaydelight-1.7.10-1.7.0-backport.1.jar",
+      "bytes": 1794795,
+      "sha256": "fee72fbc383b4b4cc1a90579f1074c2f532485de1dfeadf98e97b186049d2f05",
+      "status": "built backport",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/displaydelight-1.7.10-1.7.0-backport.1.jar"
+    },
+    {
+      "project": "HandsOnDelight-1.7.10",
+      "name": "Hands-On Delight",
+      "modid": "handson_delight",
+      "version": "1.5.1-backport.4",
+      "source": "HandsOnDelight-1.7.10/build/libs/handson-delight-1.7.10-1.5.1-backport.4.jar",
+      "filename": "handson-delight-1.7.10-1.5.1-backport.4.jar",
+      "bytes": 1167828,
+      "sha256": "16bfbeeda8438d6e4f35df55596ea7a058e5dac3c5f7f3295a58109e8bcba6b7",
+      "status": "built backport",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/handson-delight-1.7.10-1.5.1-backport.4.jar"
+    },
+    {
+      "project": "industrialMOD",
+      "name": "Industrial Technology",
+      "modid": "industrialtech",
+      "version": "2.10.1",
+      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.10.1.jar",
+      "filename": "IndustrialTechnology-1.7.10-2.10.1.jar",
+      "bytes": 17566605,
+      "sha256": "96d716a42f54f6fcc8386faac6c06669525479d2bb19d116a49fb5d38d6c2262",
+      "status": "built",
+      "embeddedMods": [
+        {
+          "modid": "OpenComputers",
+          "version": "1.8.10"
+        }
+      ],
+      "alternative": false,
+      "path": "mods/IndustrialTechnology-1.7.10-2.10.1.jar"
+    },
+    {
+      "project": "industrialMOD/block line counter mod",
+      "name": "Block Line Counter",
+      "modid": "blocklinecounter",
+      "version": "1.0.0",
+      "source": "industrialMOD/block line counter mod/build/libs/BlockLineCounter-1.7.10-1.0.0.jar",
+      "filename": "BlockLineCounter-1.7.10-1.0.0.jar",
+      "bytes": 9845,
+      "sha256": "10a6a311f4bec8c07d9e1302262935f69383e23eca8d312c0d21a2aa01b408d2",
+      "status": "standalone alternative",
+      "embeddedMods": [],
+      "alternative": true,
+      "path": "alternatives/BlockLineCounter-1.7.10-1.0.0.jar"
+    },
+    {
+      "project": "industrialMOD/control presets mod",
+      "name": "Control Presets",
+      "modid": "controlpresets",
+      "version": "1.0.0",
+      "source": "industrialMOD/control presets mod/build/libs/ControlPresets-1.7.10-1.0.0.jar",
+      "filename": "ControlPresets-1.7.10-1.0.0.jar",
+      "bytes": 16943,
+      "sha256": "cb036ebfb473f3b878573c584c756fe00d955e873e9d667ab1400e269571739c",
+      "status": "standalone alternative",
+      "embeddedMods": [],
+      "alternative": true,
+      "path": "alternatives/ControlPresets-1.7.10-1.0.0.jar"
+    },
+    {
+      "project": "industrialMOD/offline skin mod",
+      "name": "Offline Skins",
+      "modid": "offlineskins",
+      "version": "1.2.0",
+      "source": "industrialMOD/offline skin mod/build/libs/OfflineSkins-1.7.10-1.2.0.jar",
+      "filename": "OfflineSkins-1.7.10-1.2.0.jar",
+      "bytes": 58504,
+      "sha256": "12e7f70f1f6319380d1a9b501cdc74e3242bd01e456ffe5f82fa3cb87977de6b",
+      "status": "built",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/OfflineSkins-1.7.10-1.2.0.jar"
+    },
+    {
+      "project": "industrialMOD/personal client tools mod",
+      "name": "Personal Client Tools",
+      "modid": "personalclienttools",
+      "version": "1.1.0",
+      "source": "industrialMOD/personal client tools mod/build/libs/PersonalClientTools-1.7.10-1.1.0.jar",
+      "filename": "PersonalClientTools-1.7.10-1.1.0.jar",
+      "bytes": 24863,
+      "sha256": "47a9f029ad6b511b34134fc50bea536e74aa68dc5d9930a65bb09f33ceb21523",
+      "status": "combined client tools",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/PersonalClientTools-1.7.10-1.1.0.jar"
+    },
+    {
+      "project": "industrialMOD/true horror mod",
+      "name": "True Horror",
+      "modid": "truehorror",
+      "version": "1.0.0",
+      "source": "industrialMOD/true horror mod/build/libs/TrueHorror-1.7.10-1.0.0.jar",
+      "filename": "TrueHorror-1.7.10-1.0.0.jar",
+      "bytes": 886406,
+      "sha256": "46d8cc407e735a72a7784848e01f4a6cce4381864726313a8e1e03bf7e55d4a9",
+      "status": "built",
+      "embeddedMods": [],
+      "alternative": false,
+      "path": "mods/TrueHorror-1.7.10-1.0.0.jar"
+    }
+  ],
+  "dependenciesAndTools": [
+    {
+      "path": "dependencies/farmersdelight-1.1.1-mc1.7.10.jar",
+      "source": "HandsOnDelight-1.7.10/vendor/farmersdelight-1.1.1-mc1.7.10.jar",
+      "sha256": "032fc9e94b05cf80ff8b6a2a3c3995701f84454385466d3a1b1953f85acb4dbb",
+      "bytes": 1945321,
+      "category": "dependencies"
+    },
+    {
+      "path": "dependencies/+unimixins-all-1.7.10-0.3.1.jar",
+      "source": "HandsOnDelight-1.7.10/vendor/+unimixins-all-1.7.10-0.3.1.jar",
+      "sha256": "ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318",
+      "bytes": 5519796,
+      "category": "dependencies"
+    },
+    {
+      "path": "dependencies/Baubles-1.7.10-1.0.1.10.jar",
+      "source": "industrialMOD/vendor/baubles/Baubles-1.7.10-1.0.1.10.jar",
+      "sha256": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+      "bytes": 95415,
+      "category": "dependencies"
+    },
+    {
+      "path": "optional-nei/codechickencore-1.4.10.jar",
+      "source": "HandsOnDelight-1.7.10/vendor/codechickencore-1.4.10.jar",
+      "sha256": "eb55946d997ba92e4533ef2b88e6f633fd5aee862bcbcaa3a030ea53aeb20398",
+      "bytes": 446154,
+      "category": "optional-nei"
+    },
+    {
+      "path": "optional-nei/notenoughitems-2.3.54-gtnh.jar",
+      "source": "HandsOnDelight-1.7.10/vendor/notenoughitems-2.3.54-gtnh.jar",
+      "sha256": "81d700d02f87c8ebdb92ed4a4c6f18960f7dd1ad173e211d6201150b723450d6",
+      "bytes": 756653,
+      "category": "optional-nei"
+    },
+    {
+      "path": "tools/offline-skins-friends-service/OfflineSkins-Friends-Service-1.2.0.jar",
+      "source": "industrialMOD/offline skin mod/friends-service/OfflineSkins-Friends-Service-1.2.0.jar",
+      "sha256": "d0c49c892aa570a9277c3809d75c090245fcc04244632531c06d239036d67463",
+      "bytes": 29688,
+      "category": "companion tool; not a Minecraft mod"
+    }
+  ],
+  "unavailable": [
+    {
+      "project": "ScapeAndRunParasites-1.7.10",
+      "reason": "The port is unfinished and has no complete playable production JAR."
+    }
+  ]
+}

@@ -18,4 +18,4 @@ Maintained by Zahin. Original authors, licenses and third-party notices are reta
 
 Each mod has its own source, README and build tooling. Follow `GITHUB.md` inside each project for source-upload and build prerequisites. The complete collection includes restricted upstream source; use a private repository for the collection unless the required redistribution permissions are obtained. Projects keep separate licenses; no single blanket license applies to this workspace.
 
-This folder is the GitHub repository root. `Latest-Mods/` contains the latest existing built mod JARs, dependencies and version list. Build outputs, local toolchains and caches are excluded through the repository and project ignore rules.
+This folder is the GitHub repository root. [Latest-Mods](Latest-Mods/README.md) contains the latest existing built mod JARs, dependencies and version list and is included in Git. Other build outputs, local toolchains and caches are excluded through the repository and project ignore rules.

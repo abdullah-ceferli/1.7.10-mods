@@ -1,4 +1,3 @@
-Latest-Mods/
 
 # GitHub upload exclusions
 /.toolchain/
@@ -44,3 +43,7 @@ local.properties
 /skins/*.png
 /config/
 /saves/
+
+# Track the curated latest mod builds
+!/Latest-Mods/**/*.jar
+/Latest-Mods/tools/offline-skins-friends-service/data/

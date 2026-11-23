@@ -17,7 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import cpw.mods.fml.common.FMLCommonHandler;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = IndustrialTechnology.MODID, name = "Industrial Technology", version = "2.10.1",
+@Mod(modid = IndustrialTechnology.MODID, name = "Industrial Technology", version = "2.13.0",
      acceptedMinecraftVersions = "[1.7.10]", dependencies = "required-after:Forge@[10.13.4.1614,);required-after:Baubles;after:ProjectE;after:baublelicious;after:hbm;required-after:OpenComputers@[1.8.10,)")
 public final class IndustrialTechnology {
     public static final String MODID = "industrialtech";
@@ -36,6 +36,7 @@ public final class IndustrialTechnology {
         FMLCommonHandler.instance().bus().register(recovery);
         ModRegistry.register();
         network = NetworkRegistry.INSTANCE.newSimpleChannel(MODID);
+        network.registerMessage(dev.industrialtechnology.builder.BuildCommand.Handler.class,dev.industrialtechnology.builder.BuildCommand.class,14,Side.SERVER);
         network.registerMessage(dev.industrialtechnology.accessories.AccessoryCommand.Handler.class,dev.industrialtechnology.accessories.AccessoryCommand.class,13,Side.SERVER);
         network.registerMessage(ControlPacket.Handler.class, ControlPacket.class, 0, Side.SERVER);
         // The common handler delegates to the client proxy: no client class is linked on a server.
@@ -55,6 +56,8 @@ public final class IndustrialTechnology {
     }
     @Mod.EventHandler public void init(FMLInitializationEvent event) {
         ModRegistry.recipes();
+        dev.industrialtechnology.builder.BuilderService builder=new dev.industrialtechnology.builder.BuilderService();
+        FMLCommonHandler.instance().bus().register(builder);MinecraftForge.EVENT_BUS.register(builder);
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, proxy);
         FMLCommonHandler.instance().bus().register(new ServerWork());
         FMLCommonHandler.instance().bus().register(new MiningScheduler());
@@ -71,9 +74,11 @@ public final class IndustrialTechnology {
         MinecraftForge.EVENT_BUS.register(new dev.industrialtechnology.railway.RailwayWorld());
         FMLCommonHandler.instance().bus().register(new dev.industrialtechnology.console.ConsoleService());
         dev.industrialtechnology.integration.FactoryComputerDriver.register();
+        dev.industrialtechnology.fluid.FluidMachineScheduler fluids=new dev.industrialtechnology.fluid.FluidMachineScheduler();
+        MinecraftForge.EVENT_BUS.register(fluids);FMLCommonHandler.instance().bus().register(fluids);
         proxy.init();
     }
-    @Mod.EventHandler public void serverStopped(cpw.mods.fml.common.event.FMLServerStoppedEvent event){dev.industrialtechnology.console.ConsoleService.clear();dev.industrialtechnology.capacitor.BankManager.clear();dev.industrialtechnology.solar.SolarArrays.clear();dev.industrialtechnology.railway.TrackWorld.clear();dev.industrialtechnology.railway.RailwayWorld.clear();}
+    @Mod.EventHandler public void serverStopped(cpw.mods.fml.common.event.FMLServerStoppedEvent event){dev.industrialtechnology.builder.BuilderService.clear();dev.industrialtechnology.fluid.FluidMachineScheduler.clear();dev.industrialtechnology.console.ConsoleService.clear();dev.industrialtechnology.capacitor.BankManager.clear();dev.industrialtechnology.solar.SolarArrays.clear();dev.industrialtechnology.railway.TrackWorld.clear();dev.industrialtechnology.railway.RailwayWorld.clear();}
     @Mod.EventHandler public void missingMappings(cpw.mods.fml.common.event.FMLMissingMappingsEvent event) {
         ContentMigration.ignoreRetired(event);
     }

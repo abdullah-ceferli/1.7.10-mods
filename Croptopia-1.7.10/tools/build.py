@@ -1,6 +1,7 @@
 """Compile against Java 8 / Forge 1614 and reobfuscate native release classes."""
 from pathlib import Path
 import argparse,hashlib,json,shutil,subprocess,zipfile
+from texture_compat import legacy_png
 R=Path(__file__).resolve().parents[1]
 def main():
  p=argparse.ArgumentParser();p.add_argument('--tests',action='store_true');a=p.parse_args()
@@ -16,16 +17,20 @@ def main():
  args=['-encoding','UTF-8','-proc:none','-source','8','-target','8','-Xlint:unchecked','-cp',cp,'-d',str(classes)]+list(map(str,sources))
  f=R/'.toolchain/javac.args';f.write_text('\n'.join('"'+v.replace('\\','/')+'"' for v in args)+'\n')
  subprocess.run([c['javac'],'@'+str(f)],cwd=R,check=True)
- dev=R/'build/dev.jar';mod=meta['mod'];pkg='com.epherical.croptopia.legacy' if mod=='croptopia' else 'com.baisylia.culturaldelights.legacy'
+ dev=R/'build/dev.jar';mod=meta['mod'];version=json.loads((R/'src/main/resources/mcmod.info').read_text())[0]['version'];converted=[];pkg='com.epherical.croptopia.legacy' if mod=='croptopia' else 'com.baisylia.culturaldelights.legacy'
  with zipfile.ZipFile(dev,'w',zipfile.ZIP_DEFLATED) as z:
-  manifest='Manifest-Version: 1.0\nImplementation-Version: '+meta['version']+'-backport.1\n'
+  manifest='Manifest-Version: 1.0\nImplementation-Version: '+version+'\n'
   if mod=='croptopia':manifest+='FMLCorePlugin: '+pkg+'.LoadingPlugin\nFMLCorePluginContainsFMLMod: true\n'
   z.writestr('META-INF/MANIFEST.MF',manifest+'\n')
   for root in [classes,R/'src/main/resources']:
    for source in sorted(root.rglob('*')):
-    if source.is_file():z.write(source,source.relative_to(root).as_posix())
+    if source.is_file():
+     name=source.relative_to(root).as_posix();raw=source.read_bytes();packed=legacy_png(raw) if root.name=='resources' and source.suffix=='.png' else raw
+     if packed!=raw:converted.append({'path':name,'sourceSha256':hashlib.sha256(raw).hexdigest(),'packagedSha256':hashlib.sha256(packed).hexdigest()})
+     z.writestr(name,packed)
   for file in (R/'licenses').glob('*'):z.write(file,'META-INF/'+file.name)
- out=R/'build/libs'/(mod+('-tests' if a.tests else '-1.7.10-'+meta['version']+'-backport.1')+'.jar');out.parent.mkdir(exist_ok=True)
+ out=R/'build/libs'/(mod+('-tests' if a.tests else '-1.7.10-'+version)+'.jar');out.parent.mkdir(exist_ok=True)
  subprocess.run([c['java'],'-cp',ss+';'+str(classes)+';'+cp,'net.md_5.specialsource.SpecialSource','--live','--stable','--in-jar',str(dev),'--out-jar',str(out),'--srg-in',str(Path(c['srgToMcp']).with_name('mcp-srg.srg'))],cwd=R,check=True)
- record={'jar':str(out),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'javaUnits':len(sources),'tests':a.tests,'nativeApi':c['forgeJar']};(R/'docs'/('test-build.json' if a.tests else 'build.json')).write_text(json.dumps(record,indent=2)+'\n');print(json.dumps(record,indent=2))
+ (R/'docs/texture-compat.json').write_text(json.dumps({'reason':'Java 8 ImageIO ignores RGB/grayscale PNG color-key transparency','originalAssetsModified':False,'converted':converted},indent=2)+'\n')
+ record={'version':version,'normalizedTextures':len(converted),'jar':str(out),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'javaUnits':len(sources),'tests':a.tests,'nativeApi':c['forgeJar']};(R/'docs'/('test-build.json' if a.tests else 'build.json')).write_text(json.dumps(record,indent=2)+'\n');print(json.dumps(record,indent=2))
 if __name__=='__main__':main()

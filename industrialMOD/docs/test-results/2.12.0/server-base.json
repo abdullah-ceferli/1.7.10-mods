@@ -1,0 +1,10 @@
+{
+  "mode": "server-base",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\builder-tests\\20261121-000201-087562\\run",
+  "sha256": "af9cf1631599cdaaddd11d3d2bf6c32e8b792d945a8f2ae348305a1d4ccc2441",
+  "harnessSha256": "60507738d5eec68ea31878a3655ff805c393c04bc577afc0aa4922db46b0a2a1",
+  "userWorldOpened": false,
+  "androidTested": false,
+  "excluded": [],
+  "failed": 0
+}

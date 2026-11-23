@@ -42,3 +42,10 @@ Original sprites for Baublelicious Flight Ring, Nightvision Amulet, base ring/am
 NovaExplosion is adapted from the installed original ProjectE PE1.10.1 implementation (ray/resistance collection with no entity damage), with names/helper calls changed for independence and added loaded-block/break protection. Original ProjectE MC17 README/credits remain packaged under META-INF/notices/ProjectE-MC17-README.md. Original code/asset ownership remains with the respective authors; this section does not relicense it. Primary sources: https://github.com/sinkillerj/ProjectE , https://www.curseforge.com/minecraft/mc-mods/baublelicious .
 
 Baubles by Azanor is an external required dependency supplying its original API, UI, networking and saved equipment. Its verified original JAR under vendor/baubles is used for compilation/development only and is not embedded. Source: https://github.com/Azanor/Baubles . ProjectE and Baublelicious are not runtime dependencies of the new items, and their installed JARs are left untouched.
+
+
+## Effortless Building radial-menu icons
+
+The Building Stick uses the unmodified original `icons.png` atlas from Effortless Building by Requios and contributors, commit `5e38603322cf30b120283a06e796b36dc43c1509`, under LGPL-3.0. Source: https://github.com/Requios/effortless-building-multi ; project: https://www.curseforge.com/minecraft/mc-mods/effortless-building .
+
+The native integration `builder/client/GuiBuildWheel.java` is licensed under LGPL-3.0-or-later, with its source included in the corresponding sources JAR. The original atlas bytes are unchanged. The 1.7.10 rendering/menu integration and the separate shape/placement engine are new; this is not a complete port of Effortless Building. The original license is retained at `META-INF/effortless-building/LICENSE`. Atlas hashes, source location and per-mode cells are in `development-assets/builder/effortless-assets.json`. Other project components retain their existing licenses.

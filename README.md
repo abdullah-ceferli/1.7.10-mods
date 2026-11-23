@@ -10,11 +10,13 @@ Factory automation, hands-on cooking, farming, 3D food displays, client tools an
 
 | Mod | Current build | What it adds | Status | Download |
 | --- | --- | --- | --- | --- |
-| [Industrial Technology](<industrialMOD/README.md>) | 2.10.1 | Quarries, energy storage, railways, automation, HBM integration and bundled OpenComputers. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/IndustrialTechnology-1.7.10-2.10.1.jar) |
-| [Hands-On Delight](<HandsOnDelight-1.7.10/README.md>) | 1.5.1-backport.4 | Stir cooking pots, turn food in skillets and use the cutting board through the original 3D station interface. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/handson-delight-1.7.10-1.5.1-backport.4.jar) |
+| [Industrial Technology](<industrialMOD/README.md>) | 2.13.0 | Sliding hatches, liquid Building Stick, HBM integration and bundled OpenComputers. | Built | [Download JAR](Latest-Mods/mods/IndustrialTechnology-1.7.10-2.13.0.jar) |
+| [Hands-On Delight](<HandsOnDelight-1.7.10/README.md>) | 1.5.1-backport.7 | Stir cooking pots, turn food in skillets and use the cutting board through the original 3D station interface. | Built | [Download JAR](Latest-Mods/mods/handson-delight-1.7.10-1.5.1-backport.7.jar) |
 | [Display Delight](<DisplayDelight-1.7.10/README.md>) | 1.7.0-backport.1 | Place 3D food displays and plates linked to supported food items. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/displaydelight-1.7.10-1.7.0-backport.1.jar) |
-| [Croptopia](<Croptopia-1.7.10/README.md>) | 4.0.1-backport.1 | An experimental backport with 300 foods, 58 crops and 27 fruit-tree families. | Experimental | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/croptopia-1.7.10-4.0.1-backport.1.jar) |
+| [Croptopia](<Croptopia-1.7.10/README.md>) | 4.0.1-backport.2 | An experimental backport with 300 foods, 58 crops and 27 fruit-tree families. | Experimental | [Download JAR](Latest-Mods/mods/croptopia-1.7.10-4.0.1-backport.2.jar) |
 | [Offline Skins](<industrialMOD/offline skin mod/README.md>) | 1.2.0 | Local skin selection, LAN sharing and optional accepted-friends sharing. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/OfflineSkins-1.7.10-1.2.0.jar) |
+| [Mobile Performance](MobilePerformance-1.7.10/README.md) | 1.0.0 | Client rendering budgets and a reversible phone graphics preset. | Android test build | [Download JAR](Latest-Mods/mods/MobilePerformance-1.7.10-1.0.0.jar) |
+| [ZalithRender](ZalithRender-1.7.10/README.md) | 0.2.0 | Chunk vertex-buffer cache, 60/70 FPS frame pacing and bounded extra upload work for Zalith 1 and 2. | Experimental; Android untested | [Download JAR](ZalithRender-1.7.10/releases/ZalithRender-1.7.10-0.2.0.jar) |
 | [Personal Client Tools](<industrialMOD/personal client tools mod/README.md>) | 1.1.0 | Block Line Counter and saved control presets together in one client mod. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/PersonalClientTools-1.7.10-1.1.0.jar) |
 | [True Horror](<industrialMOD/true horror mod/README.md>) | 1.0.0 | A horror director, Herobrine and six other creatures with gradual encounter progression. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/TrueHorror-1.7.10-1.0.0.jar) |
 | [Block Line Counter](<industrialMOD/block line counter mod/README.md>) | 1.0.0 | Standalone straight-row block counting; an alternative to the combined client tools. | Standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/BlockLineCounter-1.7.10-1.0.0.jar) |
@@ -30,6 +32,8 @@ The collection is marked as a prerelease because it includes an experimental Cro
 4. Install matching gameplay-mod versions on the client and server. Follow each project's README for client-only tools and optional server features.
 
 ### Dependencies and combinations
+
+- **Mobile Performance:** client only. Use `/mobileperf preset` for the optional low graphics profile and `/mobileperf restore` to undo it. Server installation is unnecessary.
 
 - **Hands-On Delight and Croptopia:** use the tested **Farmer's Delight Classic 1.1.1** build and **UniMixins 0.3.1**. Keep the leading `+` on the UniMixins filename. The tested Farmer's Delight JAR contains the addon catalog API these builds require.
 - **Industrial Technology:** use **Baubles 1.0.1.10** for the accessories. HBM and the rest of your modpack are separate downloads. Industrial Technology already includes **OpenComputers 1.8.10**; keep a separate OpenComputers JAR out of the same instance.

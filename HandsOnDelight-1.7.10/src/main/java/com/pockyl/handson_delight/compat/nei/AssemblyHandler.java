@@ -20,7 +20,7 @@ public final class AssemblyHandler extends TemplateRecipeHandler {
     public String getGuiTexture(){return "handson_delight:textures/gui/assembly.png";}
     @Override public void loadTransferRects(){transferRects.add(new RecipeTransferRect(new Rectangle(109,19,22,16),UID));}
     @Override public void drawBackground(int index){
-        GL11.glColor4f(1,1,1,1);Gui.drawRect(0,0,154,54,0xffc6c6c6);Minecraft.getMinecraft().getTextureManager().bindTexture(new ResourceLocation(getGuiTexture()));
+        Gui.drawRect(0,0,154,54,0xffc6c6c6);GL11.glColor4f(1,1,1,1);Minecraft.getMinecraft().getTextureManager().bindTexture(new ResourceLocation(getGuiTexture()));
         Gui g=new Gui();g.drawTexturedModalRect(4,29,4,29,40,22);g.drawTexturedModalRect(109,19,48,21,22,16);g.drawTexturedModalRect(136,18,0,58,18,18);
         Cached e=(Cached)arecipes.get(index);int n=e.inputs.size()-1,rows=(n+2)/3;
         for(int i=0;i<n;i++)g.drawTexturedModalRect(50+i%3*18,(54-rows*18)/2+i/3*18,0,58,18,18);

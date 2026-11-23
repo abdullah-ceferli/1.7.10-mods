@@ -1,0 +1,19 @@
+{
+  "version": "2.11.0",
+  "sha256": "5bee61fa9bca1459ae74ee9c5fb2172a17d274097db04ca6b2add2d988c175f1",
+  "bytes": 17589396,
+  "unitTests": 133,
+  "unitFailures": 0,
+  "unitErrors": 0,
+  "nativeModes": [
+    "standalone",
+    "hbm",
+    "modpack"
+  ],
+  "preservedOriginalOcEntries": 6507,
+  "testClassesInRuntime": false,
+  "latestCollectionMatches": true,
+  "gameJarsReplaced": false,
+  "userWorldOpened": false,
+  "androidTested": false
+}

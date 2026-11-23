@@ -1,0 +1,56 @@
+package dev.industrialtechnology.builder.client;
+
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.TickEvent;
+import dev.industrialtechnology.builder.*;
+import java.util.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.nio.file.*;
+import java.nio.charset.StandardCharsets;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.*;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.network.play.client.C0BPacketEntityAction;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.*;
+import net.minecraft.world.*;
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.opengl.GL11;
+
+public final class BuilderClientChecks {
+    private final ArrayList<String> report=new ArrayList<String>();private final ConcurrentLinkedQueue<Runnable> work=new ConcurrentLinkedQueue<Runnable>();
+    private int phase,wait=25,failed,tries;private boolean done;private volatile boolean ready;private volatile Throwable problem;
+    public static final class TestWheel extends GuiBuildWheel {boolean down=true;public TestWheel(){super(true);}@Override protected boolean keyDown(){return down;}public void clickHollow(){mouseClicked(12,height-22,0);}public void release(BuildMode mode){double a=WheelLayout.angle(mode.ordinal(),BuildMode.values().length);drawScreen(centerX()+(int)(Math.cos(a)*(radius()+38)/2),centerY()+(int)(Math.sin(a)*(radius()+38)/2),0);down=false;updateScreen();}public void escape(){keyTyped(' ',Keyboard.KEY_ESCAPE);}}
+    public static void install(){FMLCommonHandler.instance().bus().register(new BuilderClientChecks());}
+    private void check(boolean value,String text){if(!value)throw new AssertionError(text);}
+    private void test(String text,Runnable action){try{action.run();report.add("PASS: "+text);}catch(Throwable t){failed++;report.add("FAIL: "+text+" :: "+t);t.printStackTrace();}}
+    private void server(Runnable action){ready=false;work.add(()->{try{action.run();}catch(Throwable t){problem=t;}finally{ready=true;}});}
+    @SubscribeEvent public void serverTick(TickEvent.ServerTickEvent e){if(e.phase==TickEvent.Phase.END){Runnable task;while((task=work.poll())!=null)task.run();}}
+    private EntityPlayerMP player(){return (EntityPlayerMP)MinecraftServer.getServer().getConfigurationManager().playerEntityList.get(0);}
+    private void click(Minecraft mc,int x,int y,int z){check(mc.playerController.onPlayerRightClick(mc.thePlayer,mc.theWorld,mc.thePlayer.getHeldItem(),x,y,z,1,Vec3.createVectorHelper(x+.5,y+1,z+.5)),"Native client block click failed");}
+    private void shot(Minecraft mc,String name){check(GL11.glGetError()==0,"OpenGL error");ScreenShotHelper.saveScreenshot(mc.mcDataDir,name,mc.displayWidth,mc.displayHeight,mc.getFramebuffer());}
+    private void look(Minecraft mc,double x,double y,double z){double dx=x-mc.thePlayer.posX,dz=z-mc.thePlayer.posZ,dy=y-mc.thePlayer.posY-mc.thePlayer.getEyeHeight();mc.thePlayer.rotationYaw=(float)Math.toDegrees(Math.atan2(-dx,dz));mc.thePlayer.rotationPitch=(float)-Math.toDegrees(Math.atan2(dy,Math.sqrt(dx*dx+dz*dz)));}
+    private void finish(Minecraft mc){done=true;report.add("Failed: "+failed);try{Files.write(mc.mcDataDir.toPath().resolve("builder-client.txt"),report,StandardCharsets.UTF_8);}catch(Exception e){throw new RuntimeException(e);}mc.shutdown();}
+    @SubscribeEvent public void tick(TickEvent.ClientTickEvent event){if(done||event.phase!=TickEvent.Phase.END||--wait>0)return;Minecraft mc=Minecraft.getMinecraft();try{
+        if(problem!=null)throw new AssertionError("Server fixture",problem);
+        if(phase==0){if(!(mc.currentScreen instanceof GuiMainMenu)){wait=10;return;}mc.gameSettings.guiScale=2;mc.gameSettings.pauseOnLostFocus=false;mc.gameSettings.renderDistanceChunks=4;mc.gameSettings.mipmapLevels=0;mc.gameSettings.limitFramerate=60;mc.gameSettings.showInventoryAchievementHint=false;WorldSettings settings=new WorldSettings(212,WorldSettings.GameType.CREATIVE,false,false,WorldType.FLAT);settings.func_82750_a("2;7;1;");mc.launchIntegratedServer("builder-checks","Disposable building-stick checks",settings);phase=1;wait=45;return;}
+        if(mc.theWorld==null||mc.thePlayer==null){check(++tries<100,"Join timeout");wait=10;return;}
+        if(phase==1){mc.displayGuiScreen(null);server(()->{WorldServer w=MinecraftServer.getServer().worldServerForDimension(0);for(int x=24;x<=44;x++)for(int z=24;z<=44;z++)w.setBlock(x,64,z,Blocks.stone,0,2);EntityPlayerMP p=player();ItemStack tool=new ItemStack(BuilderRegistry.stick);BuilderData.material(tool,new ItemStack(Blocks.stone));p.inventory.mainInventory[0]=tool;p.inventory.mainInventory[1]=new ItemStack(Blocks.stone,64);p.inventory.currentItem=0;p.setPositionAndUpdate(34.5,65,29.5);p.sendContainerToPlayer(p.inventoryContainer);});phase=2;wait=40;return;}
+        if(phase==2){if(!ready){wait=10;return;}test("The Building Stick has a native icon, English name and rebindable Left Alt control",()->{check(BuilderData.held(mc.thePlayer),"Held stick did not sync");check(mc.thePlayer.getHeldItem().getDisplayName().equals("Building Stick"),"Item name missing");check(mc.thePlayer.getHeldItem().getIconIndex()!=null,"Stick texture missing");check(BuilderClient.menuKey.getKeyCode()==Keyboard.KEY_LMENU,"Alt is not the default");});test("Real item-use opens the radial menu without requiring a desktop-only mouse shortcut",()->{mc.playerController.sendUseItem(mc.thePlayer,mc.theWorld,mc.thePlayer.getHeldItem());check(mc.currentScreen instanceof GuiBuildWheel&&!mc.currentScreen.doesGuiPauseGame(),"Touch/air wheel did not open");});mc.displayGuiScreen(new TestWheel());phase=3;wait=10;return;}
+        if(phase==3){shot(mc,"builder-radial.png");test("Hollow toggling and release-to-select use the real multiplayer packet channel",()->{TestWheel wheel=(TestWheel)mc.currentScreen;wheel.clickHollow();wheel.release(BuildMode.BOX);check(mc.currentScreen==null,"Alt release did not close menu");});phase=4;wait=12;return;}
+        if(phase==4){test("The server synchronizes the chosen mode and hollow flag back to the held stick",()->{check(BuilderData.mode(mc.thePlayer.getHeldItem())==BuildMode.BOX&&BuilderData.hollow(mc.thePlayer.getHeldItem()),"Mode packet/NBT synchronization failed");});mc.displayGuiScreen(new TestWheel());phase=5;wait=6;return;}
+        if(phase==5){test("Escape closes the wheel without changing the selected mode",()->{((TestWheel)mc.currentScreen).escape();check(mc.currentScreen==null&&BuilderData.mode(mc.thePlayer.getHeldItem())==BuildMode.BOX,"Escape changed mode");});click(mc,32,64,32);look(mc,34.5,64.5,34.5);phase=6;wait=12;return;}
+        if(phase==6){test("Escape stays closed until a new menu-key press",()->check(mc.currentScreen==null,"Held Alt reopened the wheel after Escape"));test("A real native block click stores and synchronizes the first shape point",()->check(BuilderData.anchor(mc.thePlayer,mc.thePlayer.getHeldItem())!=null,"Anchor not synchronized"));shot(mc,"builder-preview.png");click(mc,34,64,34);phase=7;wait=18;return;}
+        if(phase==7){test("The second client click builds the actual selected box on the server and client",()->{for(int x=32;x<=34;x++)for(int z=32;z<=34;z++)check(mc.theWorld.getBlock(x,65,z)==Blocks.stone,"Missing synchronized box cell "+x+","+z);check(BuilderData.anchor(mc.thePlayer,mc.thePlayer.getHeldItem())==null,"Completed anchor retained");});shot(mc,"builder-built.png");BuilderClient.send(BuildCommand.CONFIGURE,BuildMode.LINE,false,null);phase=8;wait=8;return;}
+        if(phase==8){click(mc,38,64,28);mc.thePlayer.rotationYaw=0;mc.thePlayer.rotationPitch=-45;phase=9;wait=10;return;}
+        if(phase==9){test("Air use with an anchor sends a reach-checked virtual endpoint rather than reopening the wheel",()->{check(BuilderData.anchor(mc.thePlayer,mc.thePlayer.getHeldItem())!=null,"Air fixture anchor missing");mc.playerController.sendUseItem(mc.thePlayer,mc.theWorld,mc.thePlayer.getHeldItem());check(mc.currentScreen==null,"Anchor air use opened menu");});phase=10;wait=18;return;}
+        if(phase==10){test("The virtual endpoint produces real vertical-line blocks without a background support wall",()->{for(int y=65;y<=70;y++)check(mc.theWorld.getBlock(38,y,28)==Blocks.stone,"Missing virtual line cell y="+y);});click(mc,30,64,30);mc.thePlayer.movementInput.sneak=true;mc.getNetHandler().addToSendQueue(new C0BPacketEntityAction(mc.thePlayer,1));mc.playerController.sendUseItem(mc.thePlayer,mc.theWorld,mc.thePlayer.getHeldItem());mc.thePlayer.movementInput.sneak=false;mc.getNetHandler().addToSendQueue(new C0BPacketEntityAction(mc.thePlayer,2));phase=11;wait=12;return;}
+        if(phase==11){test("Sneak-air cancellation clears selection and leaving the wheel/preview preserves GL rendering",()->{check(BuilderData.anchor(mc.thePlayer,mc.thePlayer.getHeldItem())==null,"Cancel did not synchronize");check(GL11.glGetError()==0,"Post-menu GL error");});shot(mc,"builder-after-menu.png");server(()->{WorldServer w=MinecraftServer.getServer().worldServerForDimension(0);EntityPlayerMP p=player();p.rotationYaw=0;p.setPositionAndUpdate(32.5,68,35.5);for(int v=0;v<3;v++){int x=28+v*4;for(int dx=0;dx<2;dx++)for(int dz=0;dz<2;dz++)w.setBlockToAir(x+dx,65,40+dz);ItemStack hatch=new ItemStack(dev.industrialtechnology.hatch.HatchRegistry.block,1,v);p.inventory.mainInventory[0]=hatch;check(hatch.tryPlaceItemIntoWorld(p,w,x,64,40,1,.5F,1,.5F),"Client hatch fixture placement");for(int dx=0;dx<=(v>0?1:0);dx++)for(int dz=0;dz<=(v>1?1:0);dz++)w.setBlockToAir(x+dx,64,40+dz);}p.inventory.mainInventory[0]=new ItemStack(net.minecraft.init.Items.stick);p.capabilities.isFlying=true;p.sendPlayerAbilities();p.sendContainerToPlayer(p.inventoryContainer);w.setWorldTime(6000);});phase=12;wait=40;}
+        if(phase==12){if(!ready){wait=5;return;}mc.thePlayer.capabilities.isFlying=true;look(mc,32.5,65.1,40.5);test("All three hatch placement variants synchronize their native tile geometry to the client",()->{for(int v=0;v<3;v++){dev.industrialtechnology.hatch.TileSlidingHatch h=dev.industrialtechnology.hatch.BlockSlidingHatch.tile(mc.theWorld,28+v*4,65,40);check(h!=null&&h.variant==v&&!h.open,"Hatch description packet missing");}});phase=13;wait=20;return;}
+        if(phase==13){shot(mc,"builder-hatches-closed.png");test("Native client right-click sends the hatch opening action",()->{check(mc.playerController.onPlayerRightClick(mc.thePlayer,mc.theWorld,mc.thePlayer.getHeldItem(),32,65,40,1,Vec3.createVectorHelper(32.8,65.1875,40.5)),"Hatch click failed");});phase=14;wait=20;return;}
+        if(phase==14){test("Opening updates both edge-centered parts without an OpenGL error",()->{check(dev.industrialtechnology.hatch.BlockSlidingHatch.tile(mc.theWorld,32,65,40).open&&dev.industrialtechnology.hatch.BlockSlidingHatch.tile(mc.theWorld,33,65,40).open,"Hatch open state did not synchronize");check(GL11.glGetError()==0,"Hatch rendering GL error");});shot(mc,"builder-hatches-open.png");finish(mc);}
+    }catch(Throwable t){failed++;report.add("FAIL: client fixture :: "+t);t.printStackTrace();finish(mc);}}
+}

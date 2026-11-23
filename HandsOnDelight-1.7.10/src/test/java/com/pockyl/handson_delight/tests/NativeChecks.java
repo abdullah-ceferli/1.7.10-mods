@@ -42,6 +42,8 @@ public final class NativeChecks {
     private void clear(){for(int i=0;i<36;i++)p.inventory.setInventorySlotContents(i,null);}
     private int count(ItemStack item){int n=0;for(int i=0;i<36;i++)if(Stacks.same(p.inventory.getStackInSlot(i),item))n+=p.inventory.getStackInSlot(i).stackSize;return n;}
     private void run(){
+        FoodCompatibilityChecks.run(w,p);pass("Distinct knife recipes, native sheep drops, mutton cooking and restored food/board recipes pass");
+        StoveCraftingChecks.run(w,p);pass("Stove crafts once through a real player workbench/output slot, consumes the correct materials, rejects invalid ingredients and does not duplicate its recipe");
         StirSkill skill=new StirSkill();for(int i=0;i<240;i++)skill.move(i,i,(float)Math.cos(i*.3),(float)Math.sin(i*.3),true,3);check(skill.grade(239)==3,"Good stirring should fill three stars");check(skill.grade(400)==0,"Idle stars must drain");
         StirSkill flood=new StirSkill();for(int i=0;i<2000;i++)flood.move(1,i,(float)Math.cos(i*.3),(float)Math.sin(i*.3),true,3);check(flood.stars(1)<1,"Packet flood raised stars");pass("Upstream stirring quality rewards steady circles, decays while idle, and bounds packet floods");
         CookingPotTile pot=tile(0,Content.cookingPot,CookingPotTile.class);

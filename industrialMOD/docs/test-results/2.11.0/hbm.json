@@ -1,0 +1,13 @@
+{
+  "mode": "hbm",
+  "directory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\fluid-tests\\2.11.0-hbm-20261119-163708-659717\\run",
+  "runtimeSha256": "5bee61fa9bca1459ae74ee9c5fb2172a17d274097db04ca6b2add2d988c175f1",
+  "harnessSha256": "283370e77db56caa5142d1b3ee69ad2b07e8a23c8f1fa808bad2dfa4cb02b6cb",
+  "userWorldOpened": false,
+  "excludedClientMods": [],
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "failed": 0
+}

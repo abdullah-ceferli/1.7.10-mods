@@ -26,7 +26,7 @@ def main():
     call([c['javac'],'@'+str(argfile)])
     dev=R/'build/dev.jar'
     with zipfile.ZipFile(dev,'w',zipfile.ZIP_DEFLATED) as z:
-        z.writestr('META-INF/MANIFEST.MF','Manifest-Version: 1.0\nFMLCorePlugin: com.pockyl.handson_delight.launch.LoadingPlugin\nFMLCorePluginContainsFMLMod: true\nImplementation-Version: 1.5.1-backport.4\n\n')
+        z.writestr('META-INF/MANIFEST.MF','Manifest-Version: 1.0\nFMLCorePlugin: com.pockyl.handson_delight.launch.LoadingPlugin\nFMLCorePluginContainsFMLMod: true\nImplementation-Version: 1.5.1-backport.7\n\n')
         for root in [classes,R/'src/main/resources']:
             for p in sorted(root.rglob('*')):
                 if p.is_file():z.write(p,p.relative_to(root).as_posix())
@@ -36,7 +36,7 @@ def main():
                 if 'LICENSE' in name.upper():z.writestr('META-INF/LICENSE-JOML',library.read(name))
         z.write(R/'vendor/DIEGESIS-LICENSE','META-INF/LICENSE-Diegesis');z.write(R/'LICENSE','META-INF/LICENSE-HandsOnDelight');z.write(R/'vendor/FARMERS-DELIGHT-LICENSE','META-INF/LICENSE-FarmersDelight')
         z.write(R/'vendor/FARMERS-DELIGHT-ORIGINAL-LICENSE','META-INF/LICENSE-FarmersDelight-original')
-    out=R/'build/libs'/('handson-delight-tests.jar' if opt.tests else 'handson-delight-1.7.10-1.5.1-backport.4.jar');out.parent.mkdir(exist_ok=True)
+    out=R/'build/libs'/('handson-delight-tests.jar' if opt.tests else 'handson-delight-1.7.10-1.5.1-backport.7.jar');out.parent.mkdir(exist_ok=True)
     mapping=R/'.toolchain/release.srg';mapping.write_text(Path(c['srgToMcp']).with_name('mcp-srg.srg').read_text()+'\nPK: org/joml com/pockyl/handson_delight/math/joml\n')
     call([c['java'],'-cp',ss+';'+str(classes)+';'+cp,'net.md_5.specialsource.SpecialSource','--live','--stable','--in-jar',dev,'--out-jar',out,'--srg-in',mapping])
     record={'jar':str(out),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'javaUnits':len(sources),'nativeCompilerApi':c['forgeJar'],'tests':opt.tests}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "angelica",
+    "path": "upstream/angelica-2.2.46.jar",
+    "url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.46/angelica-2.2.46.jar",
+    "sha256": "4561602f0594ec84dd76fcfe7606d2ea47bb12fffd7f02a9a411ecd187b06f7a"
+  },
+  {
+    "id": "angelica-source-zip",
+    "path": "upstream/angelica-2.2.46-source.zip",
+    "url": "https://codeload.github.com/GTNewHorizons/Angelica/zip/refs/tags/2.2.46",
+    "sha256": "c1172950844d6ebbec401997c55344dfaed95d79a7d36612e468dcb2af984fe7"
+  },
+  {
+    "id": "zalith1-lwjgl",
+    "path": "upstream/zalith1-lwjgl/lwjgl.jar",
+    "url": "https://raw.githubusercontent.com/ZalithLauncher/ZalithLauncher/ed8a5c873b25f19d08aef5bdfc1084fd9aff836c/jre_lwjgl3glfw/libs/lwjgl.jar",
+    "sha256": "a0689a6f23460babe9bf6411eec078caa3812bc8e07e3689f92391de13ccb13c"
+  },
+  {
+    "id": "zalith1-lwjgl-opengl",
+    "path": "upstream/zalith1-lwjgl/lwjgl-opengl.jar",
+    "url": "https://raw.githubusercontent.com/ZalithLauncher/ZalithLauncher/ed8a5c873b25f19d08aef5bdfc1084fd9aff836c/jre_lwjgl3glfw/libs/lwjgl-opengl.jar",
+    "sha256": "02fa31f9d4e2aa981c0dc88a5d6ae6aa722ce65d61056ebd81dd17e9d6513d07"
+  },
+  {
+    "id": "zalith2-lwjgl",
+    "path": "upstream/zalith-lwjgl/lwjgl.jar",
+    "url": "https://raw.githubusercontent.com/ZalithLauncher/ZalithLauncher2/dbf5a414504cdeb584d9e8fb437078b77b512ba4/LWJGL/3.3.3/libs/3.3.3/lwjgl.jar",
+    "sha256": "4210729d04c0f0218c053fffd2a95845937135484f6b4cb0ae25a6eceb4e83a3"
+  },
+  {
+    "id": "zalith2-lwjgl-opengl",
+    "path": "upstream/zalith-lwjgl/lwjgl-opengl.jar",
+    "url": "https://raw.githubusercontent.com/ZalithLauncher/ZalithLauncher2/dbf5a414504cdeb584d9e8fb437078b77b512ba4/LWJGL/3.3.3/libs/3.3.3/lwjgl-opengl.jar",
+    "sha256": "1cf0f56f9cf8f6e8175771031a8df92f8f49f9776086786d05064939e1bad3b5"
+  },
+  {
+    "id": "native-3.3.3-lwjgl",
+    "path": "upstream/native-test-3.3.3/lwjgl-3.3.3-natives-windows.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows.jar",
+    "sha256": "5ee63a19187efe5bb8747fd24f7b13257db348df5ad641113a3695e43f213959"
+  },
+  {
+    "id": "native-3.3.3-lwjgl-opengl",
+    "path": "upstream/native-test-3.3.3/lwjgl-opengl-3.3.3-natives-windows.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows.jar",
+    "sha256": "f45e5f60596b03b2e3d8b98a123c855ebd0b5154c8155dc2a56b890ccc907477"
+  },
+  {
+    "id": "native-3.3.3-lwjgl-glfw",
+    "path": "upstream/native-test-3.3.3/lwjgl-glfw-3.3.3-natives-windows.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3-natives-windows.jar",
+    "sha256": "98155b451dfc6f585089dec77a12f9c05789c4dceb8da472f9d308160101a70d"
+  },
+  {
+    "id": "glfw-3.3.3",
+    "path": "upstream/native-test-3.3.3/lwjgl-glfw-3.3.3.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar",
+    "sha256": "bedc757fd2b1b255146db26b74b9cbd1fcf5644b89b47b104fa721c741604259"
+  },
+  {
+    "id": "native-3.3.6-lwjgl",
+    "path": "upstream/native-test-3.3.6/lwjgl-3.3.6-natives-windows.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows.jar",
+    "sha256": "a8d8edda34718bf70f68d14de1295b5bfc0f477a9607a3a9705d9e2d88538a8c"
+  },
+  {
+    "id": "native-3.3.6-lwjgl-opengl",
+    "path": "upstream/native-test-3.3.6/lwjgl-opengl-3.3.6-natives-windows.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows.jar",
+    "sha256": "b54a9d98686284947270e11e94c02aa15c30522119e7b80fcf0c98da6fa3c83c"
+  },
+  {
+    "id": "native-3.3.6-lwjgl-glfw",
+    "path": "upstream/native-test-3.3.6/lwjgl-glfw-3.3.6-natives-windows.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows.jar",
+    "sha256": "7492d3f62a868f857173d85360bb58716cd3fe8563da18419dde858aed2deb41"
+  },
+  {
+    "id": "glfw-3.3.6",
+    "path": "upstream/native-test-3.3.6/lwjgl-glfw-3.3.6.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6.jar",
+    "sha256": "b29c938ecc4997ce256a831aeca2033dab9829b5c21e72ebeb64aecd9e08450c"
+  },
+  {
+    "id": "asm",
+    "path": "upstream/build-tools/asm-9.5.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar",
+    "sha256": "b62e84b5980729751b0458c534cf1366f727542bb8d158621335682a460f0353"
+  },
+  {
+    "id": "asm-tree",
+    "path": "upstream/build-tools/asm-tree-9.5.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar",
+    "sha256": "3c33a648191079aeaeaeb7c19a49b153952f9e40fe86fbac5205554ddd9acd94"
+  }
+]

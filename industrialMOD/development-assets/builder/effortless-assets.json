@@ -1,0 +1,68 @@
+{
+  "project": "Effortless Building",
+  "author": "Requios and contributors",
+  "source": "https://github.com/Requios/effortless-building-multi",
+  "modPage": "https://www.curseforge.com/minecraft/mc-mods/effortless-building",
+  "commit": "5e38603322cf30b120283a06e796b36dc43c1509",
+  "license": "LGPL-3.0",
+  "sourcePath": "common/src/main/resources/assets/effortlessbuilding/textures/gui/icons.png",
+  "destination": "assets/industrialtech/textures/gui/effortless_building_icons.png",
+  "sha256": "6719b8ebf8cf9b32eab67931e0b77da06ede722b77b87e0f011233a316ad81e1",
+  "originalBytesPreserved": true,
+  "atlasSize": [
+    256,
+    256
+  ],
+  "cellSize": 16,
+  "modeCells": {
+    "SINGLE": [
+      1,
+      1
+    ],
+    "LINE": [
+      2,
+      1
+    ],
+    "DIAGONAL_LINE": [
+      6,
+      1
+    ],
+    "WALL": [
+      3,
+      1
+    ],
+    "FLOOR": [
+      4,
+      1
+    ],
+    "BOX": [
+      5,
+      1
+    ],
+    "FRAME": [
+      6,
+      2
+    ],
+    "DIAGONAL_WALL": [
+      7,
+      1
+    ],
+    "SLOPE_FLOOR": [
+      8,
+      1
+    ],
+    "CIRCLE": [
+      9,
+      1
+    ],
+    "CYLINDER": [
+      10,
+      1
+    ],
+    "SPHERE": [
+      11,
+      1
+    ]
+  },
+  "changes": "Unmodified original icon atlas used by the native 1.7.10 Building Stick radial GUI. Gameplay and shape engine implemented separately."
+}

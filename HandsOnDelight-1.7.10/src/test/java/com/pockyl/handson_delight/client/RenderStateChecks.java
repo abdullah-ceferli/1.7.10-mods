@@ -18,6 +18,7 @@ import org.lwjgl.opengl.GL14;
 /** Native checks that do not rely on texture attributes being saved by glPushAttrib. */
 public final class RenderStateChecks {
     private static void require(boolean value,String text){if(!value)throw new AssertionError(text);}
+    private static void noError(String step){int error=GL11.glGetError();require(error==GL11.GL_NO_ERROR,step+": OpenGL error "+error);}
     private static int env(int name){return GL11.glGetTexEnvi(GL11.GL_TEXTURE_ENV,name);}
     private static float[] matrix(){FloatBuffer b=BufferUtils.createFloatBuffer(16);GL11.glGetFloat(GL11.GL_TEXTURE_MATRIX,b);float[] out=new float[16];b.get(out);return out;}
     private static void near(float[] a,float[] b,String message){for(int i=0;i<a.length;i++)require(Math.abs(a[i]-b[i])<.0001F,message);}
@@ -51,9 +52,10 @@ public final class RenderStateChecks {
             try{try(RenderState scope=RenderState.capture()){try(RenderState.Texture fade=RenderState.fade()){throw new IllegalStateException("fixture");}}}catch(IllegalStateException expected){}
             require(env(GL13.GL_SOURCE1_ALPHA)==before,"Exception cleanup leaked opacity");
         }finally{enclosing.close();}
-        pixelCheck(mc);return 4;
+        pixelCheck(mc);return 4+FoodTextureChecks.run(mc);
     }
     private static void pixelCheck(Minecraft mc){
+        int originalFramebuffer=GL11.glGetInteger(org.lwjgl.opengl.GL30.GL_FRAMEBUFFER_BINDING);
         RenderState enclosing=RenderState.capture();Framebuffer target=null;
         GL11.glMatrixMode(GL11.GL_PROJECTION);GL11.glPushMatrix();GL11.glLoadIdentity();GL11.glOrtho(0,192,64,0,-100,100);
         GL11.glMatrixMode(GL11.GL_MODELVIEW);GL11.glPushMatrix();GL11.glLoadIdentity();
@@ -70,8 +72,8 @@ public final class RenderStateChecks {
             byte[] after=draw(mc);require(Arrays.equals(reference,after),"Cookbook rendering changed subsequent native font/hotbar pixels");
             require(GL11.glGetError()==GL11.GL_NO_ERROR,"Render-state checks raised an OpenGL error");
         }finally{
-            if(target!=null)target.deleteFramebuffer();mc.getFramebuffer().bindFramebuffer(true);
-            GL11.glMatrixMode(GL11.GL_MODELVIEW);GL11.glPopMatrix();GL11.glMatrixMode(GL11.GL_PROJECTION);GL11.glPopMatrix();enclosing.close();
+            if(target!=null)target.deleteFramebuffer();noError("Deleting font-check framebuffer");OpenGlHelper.func_153171_g(OpenGlHelper.field_153198_e,originalFramebuffer);noError("Restoring original framebuffer");
+            GL11.glMatrixMode(GL11.GL_MODELVIEW);GL11.glPopMatrix();noError("Restoring font-check model matrix");GL11.glMatrixMode(GL11.GL_PROJECTION);GL11.glPopMatrix();noError("Restoring font-check projection matrix");enclosing.close();noError("Closing font-check render scope");
         }
     }
     private static byte[] draw(Minecraft mc){

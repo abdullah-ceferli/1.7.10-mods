@@ -1,0 +1,26 @@
+PASS: Both blocks are registered, inactive by default and expose no GUI to an empty hand
+PASS: Vanilla NBT clamps corrupt amounts and preserves valid fluid/amount/owner without HBM IDs
+PASS: Real HBM Fluid Identifier selects water/lava, rejects other fluids and never opens a container
+PASS: Sucker drains a real source into exactly 1000 mB of the selected HBM fluid
+PASS: Full buffers, unconfigured machines, other liquids and flowing blocks cannot generate fluid
+PASS: Connected source cells drain incrementally and the per-machine scan budget is enforced
+PASS: The connected search cannot reach a source outside the 16-block radius
+PASS: Puller consumes one bucket only for a source placed at its outlet; solid blocks and other liquids are retained
+PASS: Forge protection can cancel collection and placement without consuming/creating fluid
+PASS: An event-side tank change is rechecked before consuming the world source
+PASS: Water does not get placed or consumed in a Nether-like dimension
+PASS: HBM demand and remainder semantics reject wrong types/pressure and bound enormous offers
+PASS: Native HBM tank edits share the saved buffer, remain bounded and cannot retune a machine
+PASS: Breaking drops exactly one machine stack retaining the selected fluid and partial buffer
+PASS: Boundary searches, pipe checks and liquid-neighbor notifications never force the adjacent chunk
+PASS: One hundred machines share the fixed budgets and client unload events leave the server queue intact
+PASS: One ordinary identifier click configures face-connected None pullers for water and lava, without a GUI
+PASS: Already selected fluids, suckers, air gaps and diagonal neighbors are preserved
+PASS: Unsupported identifiers, None clearing and a nonempty clicked tank do not start bulk conversion
+PASS: A newer click replaces that player's pending batch and captures its chosen identifier fluid
+PASS: Forge right-click protection stops a bulk edit and traversal beyond the protected puller
+PASS: A large connected group shares 128 cell visits per tick and completes over multiple batches
+PASS: Selection is limited to 64 face steps and never loads an adjacent unloaded chunk
+PASS: Client interactions do not mutate selections, and server world unload clears pending batches
+PASS: Actual HBM pipes carry both collected water and lava into pullers which place real source blocks
+Failed: 0

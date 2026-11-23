@@ -1,4 +1,12 @@
+Current update: **2.13.0** adds the reference-style Sliding Hatch, centered placement variants and water/lava sheets through the Building Stick. See [the hatch and liquid guide](HATCH_GUIDE.md).
+
 # Industrial Technology Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р РЋРЎв„ў Minecraft 1.7.10
+
+Version **2.12.1** lets one normal HBM Fluid Identifier click configure connected unconfigured [Pullers](FLUID_MACHINES_GUIDE.md) as water or lava, using a bounded server queue. Existing fluid selections and stored contents are preserved.
+
+Version **2.12.0** adds the [Building Stick](BUILDING_STICK_GUIDE.md), a Left Alt radial menu with original Effortless Building mode icons, twelve shapes, hollow options and bounded previews/placement. Survival consumes actual inventory blocks and respects placement protection.
+
+Version **2.11.0** adds the [Sucker and Puller](FLUID_MACHINES_GUIDE.md): water/lava collection and output through native HBM fluid pipes. Right-click with HBM's configured Fluid Identifier to activate them; both machines have no GUI. Their bounded search shares a server-wide work budget. See the [performance mod shortlist](docs/PERFORMANCE_MODS-1.7.10.md) for separate 1.7.10 optimization candidates.
 
 Version **2.10.1** fixes a Survival right-click crash when equipping our amulet or ring and scopes Java proxy injection correctly in the combined OpenComputers JAR. Version **2.10.0** adds [standalone flight/nightvision accessories and the pictured ProjectE catalysts/lenses](ACCESSORIES_GUIDE.md), original art, alternative survival recipes and strictly coal-family fuel, including HBM Petroleum Coke. Keep Baubles for its equipment slots. ProjectE and Baublelicious are optional; Baubles supplies the required equipment slots.
 
@@ -40,7 +48,7 @@ precise chunk loader. Both share an extensible machine and ticket framework.
 ## Install
 
 Use **Minecraft 1.7.10, Forge 10.13.4.1614, and Java 8**. Put
-`IndustrialTechnology-1.7.10-2.10.1.jar` from `build/libs` into `mods` on both
+`IndustrialTechnology-1.7.10-2.12.0.jar` from `build/libs` into `mods` on both
 the client and dedicated server. Replace the older Industrial Technology JAR; keep only one version in `mods`. The sources JAR is for developers.
 No Thermal Expansion, HBM, BuildCraft, or CoFHCore installation is required.
 The small official CoFH RF API is bundled with its version annotation.

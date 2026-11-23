@@ -46,6 +46,7 @@ local.properties
 
 # Track the curated latest mod builds
 !/Latest-Mods/**/*.jar
+!/Latest-Mods/sources/handson-delight-*.zip
 /Latest-Mods/tools/offline-skins-friends-service/data/
 
 # Local-only projects; keep these files on the PC and out of public uploads

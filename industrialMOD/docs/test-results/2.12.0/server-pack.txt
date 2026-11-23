@@ -1,0 +1,15 @@
+PASS: The Building Stick has an ordinary Survival crafting recipe
+PASS: Material selection uses native right-click and survives NBT with namespaced material IDs
+PASS: Real Survival placements consume exactly one inventory block per placed position
+PASS: Forge protection rolls back world edits and refunds reserved materials
+PASS: Exhausted inventories stop safely without creating free blocks
+PASS: Creative builds do not need or manufacture inventory stacks
+PASS: Machines/containers are excluded and clicking one never opens its GUI
+PASS: Oversized shapes are rejected before any world block is placed
+PASS: Server work respects fixed scan/placement limits and cancellation keeps already paid blocks
+PASS: Air endpoints reject coordinates beyond the player's reach
+PASS: Special block items cannot redirect placement to a cell outside the requested shape
+PASS: Boundary placement never loads a neighboring chunk
+PASS: A changed held slot cannot change the Building Stick configuration
+PASS: Logging out cancels active and queued actions
+Failed: 0

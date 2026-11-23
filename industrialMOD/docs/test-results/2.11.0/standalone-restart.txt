@@ -1,0 +1,2 @@
+PASS: A fresh JVM preserves the configured machine type, owner and partial bucket buffer
+Failed: 0

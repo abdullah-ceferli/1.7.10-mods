@@ -10,6 +10,7 @@ import net.minecraft.nbt.NBTTagCompound;
 
 public class CommonProxy implements IGuiHandler {
     public void init() {}
+    public void builderAir() {}
     public void acceptConsole(int x,int y,int z,int window,NBTTagCompound state){}
     public void acceptExpansion(int window,NBTTagCompound state){}
     public void acceptBankSnapshot(int x,int y,int z,int window,NBTTagCompound state) {}

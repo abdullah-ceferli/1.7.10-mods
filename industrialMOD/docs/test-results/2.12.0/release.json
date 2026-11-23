@@ -1,0 +1,20 @@
+{
+  "version": "2.12.0",
+  "jar": "IndustrialTechnology-1.7.10-2.12.0.jar",
+  "sha256": "af9cf1631599cdaaddd11d3d2bf6c32e8b792d945a8f2ae348305a1d4ccc2441",
+  "bytes": 17645516,
+  "sourceArchive": "IndustrialTechnology-1.7.10-2.12.0-sources.jar",
+  "sourceSha256": "d07b3f48965cb4763462881fd469cea97f2105ba60cc834664bb6673a7474f2c",
+  "unitTestsPassed": 141,
+  "nativeModesPassed": [
+    "server-base",
+    "server-pack",
+    "client-base",
+    "client-pack"
+  ],
+  "originalOpenComputersEntriesPreserved": 6507,
+  "originalAtlasSha256": "6719b8ebf8cf9b32eab67931e0b77da06ede722b77b87e0f011233a316ad81e1",
+  "androidTested": false,
+  "installedInGame": false,
+  "published": false
+}

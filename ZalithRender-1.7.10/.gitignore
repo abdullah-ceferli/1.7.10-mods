@@ -1,0 +1,15 @@
+/build/
+/dist/
+/upstream/
+/.gradle/
+/.gradle-user/
+/run/
+__pycache__/
+*.pyc
+*.class
+*.log
+
+# Intentionally publish the small build tool and reviewed release artifacts.
+!/gradle/wrapper/gradle-wrapper.jar
+!/releases/*.jar
+!/releases/*.zip

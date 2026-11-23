@@ -1,6 +1,6 @@
-# Hands-On Delight — Minecraft 1.7.10
+# Hands-On Delight вЂ” Minecraft 1.7.10
 
-A native adaptation of Pocky's Hands-On Delight 1.5.1 for Farmer's Delight Classic. Version **1.5.1-backport.4**. Small 1.7.10 maintenance credit: Zahin. Original authors and MIT notices are retained.
+A native adaptation of Pocky's Hands-On Delight 1.5.1 for Farmer's Delight Classic. Version **1.5.1-backport.7**. Small 1.7.10 maintenance credit: Zahin. Original authors and MIT notices are retained.
 
 Requires Java 8, Forge 10.13.4.1614, Farmer's Delight Classic **1.1.1**, and **UniMixins 0.3.1**. NEI integration is tested with NotEnoughItems **2.3.54-GTNH** and CodeChickenCore **1.4.10**. Install the production Hands-On JAR on the client and server. Keep the leading `+` on the UniMixins filename.
 
@@ -29,13 +29,17 @@ Station data is stored inside native tiles under `handson_delight`, retaining th
 
 ## Source and building
 
-- Hands-On Delight: https://github.com/Pocky-l/handson-delight — MIT, Pocky.
-- Diegesis: https://github.com/Pocky-l/diegesis — MIT, Pocky.
-- Farmer's Delight: https://github.com/vectorwing/FarmersDelight — MIT, vectorwing.
-- Farmer's Delight Classic: https://github.com/GlowingFederal/FarmersDelight-Legacy — MIT, original and legacy maintainers.
+- Hands-On Delight: https://github.com/Pocky-l/handson-delight вЂ” MIT, Pocky.
+- Diegesis: https://github.com/Pocky-l/diegesis вЂ” MIT, Pocky.
+- Farmer's Delight: https://github.com/vectorwing/FarmersDelight вЂ” MIT, vectorwing.
+- Farmer's Delight Classic: https://github.com/GlowingFederal/FarmersDelight-Legacy вЂ” MIT, original and legacy maintainers.
 
 Pinned revisions, artwork hashes and UI provenance are in the adjacent source documents. Game dependencies remain separate JARs. JOML 1.10.5 is included under a private package to isolate it from other mods; its MIT notice and pinned hash are included in the source archive.
 
 `tools/build.py` uses Java 8 and a native Forge 1.7.10 SDK, configured through `.toolchain/toolchain.json`. Required keys are `javac`, `java`, `forgeJar`, `srgToMcp`, `runtimeClasspathFile` and `existingGradleCache`. The existing cache supplies SpecialSource 1.11.1 and its ASM/Guava dependencies. Put unmodified Farmer's Delight Classic, UniMixins, NEI and CodeChickenCore dependencies in `vendor`. The source archive includes `vendor/joml-1.10.5.jar`; the build verifies its pinned SHA-256 before bundling and shading it. The build creates a separate deobfuscated compile dependency, then reobfuscates the release.
 
 Use `python tools/build.py --tests` and `python tools/verify.py` for the dedicated-server fixture and fresh-process reload. `python tools/verify.py --client --modpack` runs the real client with disposable default configuration and copies of the local modpack JARs. Production builds use `python tools/build.py`. The test JAR creates and closes fixture sessions; use only the production JAR in the game.
+
+For the native stove recipe and its required brick blocks, see [stove crafting](STOVE_CRAFTING.md).
+
+For knife conflicts, restored sushi/roll recipes and sheep mutton, see [food compatibility](FOOD_COMPATIBILITY.md).

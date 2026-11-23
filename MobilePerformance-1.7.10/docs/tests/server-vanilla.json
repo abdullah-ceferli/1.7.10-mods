@@ -1,0 +1,10 @@
+{
+  "mode": "server-vanilla",
+  "runDirectory": "D:\\1.7.10-mods\\MobilePerformance-1.7.10\\.toolchain\\native\\20261120-154006-324622\\run",
+  "sha256": "fc6f913f35aede1f44618197e0f6d298c06cbb40b421303f47601b7816220834",
+  "harnessSha256": "62105bd6a5d04af1273c28aeb1d8aeb753837ea1a7cc4935ba287825394847a7",
+  "userWorldOpened": false,
+  "androidTested": false,
+  "excluded": [],
+  "failed": 0
+}

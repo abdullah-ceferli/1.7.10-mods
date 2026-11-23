@@ -9,6 +9,11 @@ public final class StationTransformer implements IClassTransformer, Opcodes {
     private static final String P="vectorwing.farmersdelight.legacy.", H="com/pockyl/handson_delight/StationHooks";
     public byte[] transform(String name,String mapped,byte[] bytes){
         if(bytes==null)return bytes;
+        if(mapped.equals(P+"Stacks")){
+            ClassNode c=new ClassNode();new ClassReader(bytes).accept(c,0);int changes=0;
+            for(Object o:c.methods){MethodNode m=(MethodNode)o;if(m.name.equals("resolve")&&m.desc.equals("(Ljava/lang/String;)Lnet/minecraft/item/ItemStack;"))for(AbstractInsnNode n=m.instructions.getFirst();n!=null;n=n.getNext())if(n.getOpcode()==ARETURN){InsnList i=new InsnList();i.add(new VarInsnNode(ALOAD,0));i.add(new MethodInsnNode(INVOKESTATIC,"com/pockyl/handson_delight/FoodCompatibility","resolved","(Lnet/minecraft/item/ItemStack;Ljava/lang/String;)Lnet/minecraft/item/ItemStack;",false));m.instructions.insertBefore(n,i);changes++;}}
+            if(changes==0)throw new IllegalStateException("Missing native ingredient resolver");ClassWriter w=new ClassWriter(ClassWriter.COMPUTE_MAXS);c.accept(w);return w.toByteArray();
+        }
         boolean nei=mapped.equals("codechicken.nei.recipe.ShapedRecipeHandler")||mapped.equals("codechicken.nei.recipe.ShapelessRecipeHandler")||mapped.equals(P+"integration.nei.FoundationHandler");
         if(nei){ClassNode c=new ClassNode();new ClassReader(bytes).accept(c,0);for(Object o:c.methods){MethodNode m=(MethodNode)o;if(m.name.equals("loadCraftingRecipes")||m.name.equals("loadUsageRecipes"))for(AbstractInsnNode n=m.instructions.getFirst();n!=null;n=n.getNext())if(n.getOpcode()==RETURN){InsnList ins=new InsnList();ins.add(new VarInsnNode(ALOAD,0));ins.add(new MethodInsnNode(INVOKESTATIC,"com/pockyl/handson_delight/compat/nei/NEIHooks","filter","(Ljava/lang/Object;)V",false));m.instructions.insertBefore(n,ins);}}ClassWriter w=new ClassWriter(ClassWriter.COMPUTE_MAXS);c.accept(w);return w.toByteArray();}
         if(mapped.equals(P+"client.NativeModels")){

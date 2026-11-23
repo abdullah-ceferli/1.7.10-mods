@@ -19,7 +19,11 @@ public final class ClientProxy extends CommonProxy {
     public static WorldBoundaries boundaries;
     @Override public void openAutomationGuide(){net.minecraft.client.Minecraft.getMinecraft().displayGuiScreen(new GuiAutomationGuide(null));}
     @Override public void acceptExpansion(final int window,final NBTTagCompound state){queue.add(()->{Minecraft mc=Minecraft.getMinecraft();if(mc.currentScreen instanceof GuiExpansion){GuiExpansion g=(GuiExpansion)mc.currentScreen;if(g.expansion.windowId==window)g.receive(state);}});}
+    @Override public void builderAir(){dev.industrialtechnology.builder.client.BuilderClient.air();}
     @Override public void init() {
+        dev.industrialtechnology.builder.client.BuilderClient.install();
+        dev.industrialtechnology.hatch.BlockSlidingHatch.renderId=cpw.mods.fml.client.registry.RenderingRegistry.getNextAvailableRenderId();
+        cpw.mods.fml.client.registry.RenderingRegistry.registerBlockHandler(new dev.industrialtechnology.hatch.client.SlidingHatchRenderer());
         FMLCommonHandler.instance().bus().register(new AccessoryInput());
         ((net.minecraft.client.resources.IReloadableResourceManager)Minecraft.getMinecraft().getResourceManager()).registerReloadListener(new RestoredStorageNames());
         ((net.minecraft.client.resources.IReloadableResourceManager)Minecraft.getMinecraft().getResourceManager()).registerReloadListener(new RailResources());

@@ -1,0 +1,446 @@
+{
+  "reason": "Java 8 ImageIO ignores RGB/grayscale PNG color-key transparency",
+  "originalAssetsModified": false,
+  "converted": [
+    {
+      "path": "assets/croptopia/textures/block/cherry_ripe.png",
+      "sourceSha256": "f537522ccef6c402e0895eed2f0b29b1728d34ceb3ba84fa8f8c177b1796fde8",
+      "packagedSha256": "975400789f489b7a52962df19fbc03917621b88141f22bdfb7ea9a5ba73a79c9"
+    },
+    {
+      "path": "assets/croptopia/textures/block/cucumber_crop_stage2.png",
+      "sourceSha256": "899afcd3b4dc5bbc91e35e9551272b3a2a9aa0973661e1e717e18d30c799dd24",
+      "packagedSha256": "9ca104640675c006e24ddaaadca552a62fff73b210d73298eaf4921e1b4ced04"
+    },
+    {
+      "path": "assets/croptopia/textures/block/eggplant_crop_stage2.png",
+      "sourceSha256": "7ab0b4c9c6ff95354c54e4655dfedb1017f399adefba6d44c0d005eaa26cf15b",
+      "packagedSha256": "adab883d7ffcee856def2ce43b01ab2f6f632823393498dafa380d9ce8ccb4a0"
+    },
+    {
+      "path": "assets/croptopia/textures/block/eggplant_crop_stage3.png",
+      "sourceSha256": "0b6020fd49e02e5679ca94385e52c2150ad4c32600559e2f96debf8c2ea51285",
+      "packagedSha256": "f880248b21b22643cd96221e426c08300c2ef3136bb0374ed616f53676ea4832"
+    },
+    {
+      "path": "assets/croptopia/textures/block/lemon_ripe.png",
+      "sourceSha256": "7bd31b8397f21f761f849c66adce17140de87d3b44f9d3398645dbc92249bd1a",
+      "packagedSha256": "a379208d1d7bfb1f38916fcd81802ab73624f96e3c50405c9dc9e6ffec82a75c"
+    },
+    {
+      "path": "assets/croptopia/textures/block/lime_ripe.png",
+      "sourceSha256": "b08f7952ed9272c8f905312b026af8de88d4b05f74147c9eb0bff10e2f0aaa99",
+      "packagedSha256": "dc7dc1674c5c0ed369961170b7b865b89ac1815f1dfd5b355f2635a9ff2e568b"
+    },
+    {
+      "path": "assets/croptopia/textures/block/lime_unripe.png",
+      "sourceSha256": "f1e39ce62fe7bab4a9ea37cbe9c3e41daf3901dcaba4356eca1a9a9fb411e606",
+      "packagedSha256": "1a857b97132ce22a27d748e4bfc158c86e1fd1e7951efc47f151e179489f50be"
+    },
+    {
+      "path": "assets/croptopia/textures/block/nutmeg_ripe.png",
+      "sourceSha256": "70bb32729f27ddb0d123b397085c3368390a0ea75fd79fc8dac709a46b20d901",
+      "packagedSha256": "e7399cbe4305cfc381f06e1cb205f9686a472f7cf15f1763af920ccf27a9c68a"
+    },
+    {
+      "path": "assets/croptopia/textures/block/nutmeg_unripe.png",
+      "sourceSha256": "3b895185cc65f4544701b1d8ae5f8ed9f95a5417e06d4382400fb1ba75709c8a",
+      "packagedSha256": "b22794bedc98d85ccccb0d5bfa3811a90eb2211ca9bdc3091f2f7b4765ef90be"
+    },
+    {
+      "path": "assets/croptopia/textures/block/pink_tree_bud.png",
+      "sourceSha256": "7acc3b686c89cc3bb2dbdb1738a64e379d1197a64515183ce0fa878ec8b32f6b",
+      "packagedSha256": "8d7d7af4f215045d927834f3dbafe769c3d3e43cd6c199c113e5f9868461b7ea"
+    },
+    {
+      "path": "assets/croptopia/textures/block/plum_ripe.png",
+      "sourceSha256": "d494efc699e8b72be51cafd50bef32640c605597fa630c52d7d957e63b49aeb0",
+      "packagedSha256": "a317c0943d746823e5448e5a2f723ee73a71dab317b95ffa4a88e2455ae2cad2"
+    },
+    {
+      "path": "assets/croptopia/textures/block/saguaro_crop_stage1.png",
+      "sourceSha256": "46381271552fa852e0e8c872e6fab309edbc31799c2588edad15762685454596",
+      "packagedSha256": "5b704ca0a457c4a9a79bfc8f163f9501b2b044ed12584841d64fe33a36d58e36"
+    },
+    {
+      "path": "assets/croptopia/textures/block/white_tree_bud.png",
+      "sourceSha256": "07b38c637c8f04b8df61ffbd4f5c7deacaa44e3c49b9b95bad092c81e4997095",
+      "packagedSha256": "f0f0fb7fffa89b45ab8008e20eb0ec3e5c2d1c0da8fc866060f3066e86de6d54"
+    },
+    {
+      "path": "assets/croptopia/textures/block/yellow_tree_bud.png",
+      "sourceSha256": "ec8270edeb04a3338d748b2f15a28df175dc56c6d084bf70ba2e7eb1ad458d33",
+      "packagedSha256": "6a8fe7eaf4e1ff2666fa3bcef268622f5b42b1f1658b01b2f99cb9bc6c3ecad2"
+    },
+    {
+      "path": "assets/croptopia/textures/block/zucchini_crop_stage2.png",
+      "sourceSha256": "53341e938efe8c834d363e1982300b8df13e62cb8c467c28fea16fdb596be0d7",
+      "packagedSha256": "e033040bb6378732831819ce2f8fbe57456d3fc13216f63ab9db1b57e1151e0a"
+    },
+    {
+      "path": "assets/croptopia/textures/block/zucchini_crop_stage3.png",
+      "sourceSha256": "8d3f472ed153c68954bed52103fee3509627b47906ccd66e0e8f446f3600a2c4",
+      "packagedSha256": "80b847a37489cfe0882c48cc5d8eb7988c7d5e76b62ca779e1b20fd503381df5"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/cherry_ripe.png",
+      "sourceSha256": "f537522ccef6c402e0895eed2f0b29b1728d34ceb3ba84fa8f8c177b1796fde8",
+      "packagedSha256": "975400789f489b7a52962df19fbc03917621b88141f22bdfb7ea9a5ba73a79c9"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/cucumber_crop_stage2.png",
+      "sourceSha256": "899afcd3b4dc5bbc91e35e9551272b3a2a9aa0973661e1e717e18d30c799dd24",
+      "packagedSha256": "9ca104640675c006e24ddaaadca552a62fff73b210d73298eaf4921e1b4ced04"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/eggplant_crop_stage2.png",
+      "sourceSha256": "7ab0b4c9c6ff95354c54e4655dfedb1017f399adefba6d44c0d005eaa26cf15b",
+      "packagedSha256": "adab883d7ffcee856def2ce43b01ab2f6f632823393498dafa380d9ce8ccb4a0"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/eggplant_crop_stage3.png",
+      "sourceSha256": "0b6020fd49e02e5679ca94385e52c2150ad4c32600559e2f96debf8c2ea51285",
+      "packagedSha256": "f880248b21b22643cd96221e426c08300c2ef3136bb0374ed616f53676ea4832"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/lemon_ripe.png",
+      "sourceSha256": "7bd31b8397f21f761f849c66adce17140de87d3b44f9d3398645dbc92249bd1a",
+      "packagedSha256": "a379208d1d7bfb1f38916fcd81802ab73624f96e3c50405c9dc9e6ffec82a75c"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/lime_ripe.png",
+      "sourceSha256": "b08f7952ed9272c8f905312b026af8de88d4b05f74147c9eb0bff10e2f0aaa99",
+      "packagedSha256": "dc7dc1674c5c0ed369961170b7b865b89ac1815f1dfd5b355f2635a9ff2e568b"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/lime_unripe.png",
+      "sourceSha256": "f1e39ce62fe7bab4a9ea37cbe9c3e41daf3901dcaba4356eca1a9a9fb411e606",
+      "packagedSha256": "1a857b97132ce22a27d748e4bfc158c86e1fd1e7951efc47f151e179489f50be"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/nutmeg_ripe.png",
+      "sourceSha256": "70bb32729f27ddb0d123b397085c3368390a0ea75fd79fc8dac709a46b20d901",
+      "packagedSha256": "e7399cbe4305cfc381f06e1cb205f9686a472f7cf15f1763af920ccf27a9c68a"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/nutmeg_unripe.png",
+      "sourceSha256": "3b895185cc65f4544701b1d8ae5f8ed9f95a5417e06d4382400fb1ba75709c8a",
+      "packagedSha256": "b22794bedc98d85ccccb0d5bfa3811a90eb2211ca9bdc3091f2f7b4765ef90be"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/pink_tree_bud.png",
+      "sourceSha256": "7acc3b686c89cc3bb2dbdb1738a64e379d1197a64515183ce0fa878ec8b32f6b",
+      "packagedSha256": "8d7d7af4f215045d927834f3dbafe769c3d3e43cd6c199c113e5f9868461b7ea"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/plum_ripe.png",
+      "sourceSha256": "d494efc699e8b72be51cafd50bef32640c605597fa630c52d7d957e63b49aeb0",
+      "packagedSha256": "a317c0943d746823e5448e5a2f723ee73a71dab317b95ffa4a88e2455ae2cad2"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/saguaro_crop_stage1.png",
+      "sourceSha256": "46381271552fa852e0e8c872e6fab309edbc31799c2588edad15762685454596",
+      "packagedSha256": "5b704ca0a457c4a9a79bfc8f163f9501b2b044ed12584841d64fe33a36d58e36"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/white_tree_bud.png",
+      "sourceSha256": "07b38c637c8f04b8df61ffbd4f5c7deacaa44e3c49b9b95bad092c81e4997095",
+      "packagedSha256": "f0f0fb7fffa89b45ab8008e20eb0ec3e5c2d1c0da8fc866060f3066e86de6d54"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/yellow_tree_bud.png",
+      "sourceSha256": "ec8270edeb04a3338d748b2f15a28df175dc56c6d084bf70ba2e7eb1ad458d33",
+      "packagedSha256": "6a8fe7eaf4e1ff2666fa3bcef268622f5b42b1f1658b01b2f99cb9bc6c3ecad2"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/zucchini_crop_stage2.png",
+      "sourceSha256": "53341e938efe8c834d363e1982300b8df13e62cb8c467c28fea16fdb596be0d7",
+      "packagedSha256": "e033040bb6378732831819ce2f8fbe57456d3fc13216f63ab9db1b57e1151e0a"
+    },
+    {
+      "path": "assets/croptopia/textures/blocks/zucchini_crop_stage3.png",
+      "sourceSha256": "8d3f472ed153c68954bed52103fee3509627b47906ccd66e0e8f446f3600a2c4",
+      "packagedSha256": "80b847a37489cfe0882c48cc5d8eb7988c7d5e76b62ca779e1b20fd503381df5"
+    },
+    {
+      "path": "assets/croptopia/textures/item/ajvar.png",
+      "sourceSha256": "772fec089ec3241e490b81d7a6ec04055cc117094b60d7e12cdc3fed1dc956c0",
+      "packagedSha256": "6a8487bfb3c6ca245d2276ce8a87f12d73b137103b28fc0d9490fcc149510c24"
+    },
+    {
+      "path": "assets/croptopia/textures/item/artichoke_seed.png",
+      "sourceSha256": "2b557e66010754697513c8610b91a819a14d28f159bd5594730df972717ad30e",
+      "packagedSha256": "b6ae36be773e05d2734c93d68e49f84e45014732abc3d80bbc9529c50beb31d3"
+    },
+    {
+      "path": "assets/croptopia/textures/item/asparagus_seed.png",
+      "sourceSha256": "346148cbae4199d6524fff6f89a2a1e3adfb999411180ad7586d8bbcf5b36d50",
+      "packagedSha256": "2577189fdbdf86098f16677ca1a1143fc1b6a5960282074c7c00b1692b4960f2"
+    },
+    {
+      "path": "assets/croptopia/textures/item/basil_seed.png",
+      "sourceSha256": "c929f1246d7a9894b1944783fa574f7564de4dcbb7832ec7fa438ca18552ba9b",
+      "packagedSha256": "30fdbc6945e5ce30b991f7524fa4376f8b7522877f42f8ae9b73854ee729884d"
+    },
+    {
+      "path": "assets/croptopia/textures/item/blackbean_seed.png",
+      "sourceSha256": "90fd3e696bf8578f0b8f9cfa57c48bb8a47e578326e8d4d8741bdd2d61782fe2",
+      "packagedSha256": "19562a8227027da54a7d81ba6a355d6e230d6d74da6cc2865001072a01810dc8"
+    },
+    {
+      "path": "assets/croptopia/textures/item/cauliflower_seed.png",
+      "sourceSha256": "50fb92f1fef424565d0c8015527b27c8779ab46e118e6c4dd538751ce9ddb7cb",
+      "packagedSha256": "bc1d9b1d9325a8f2100a5a8f40262d8bf48cca72e7ba0b40677a6f8b68b2e698"
+    },
+    {
+      "path": "assets/croptopia/textures/item/chocolate.png",
+      "sourceSha256": "3faab2117fa0e1cc95b26019b99416f59ea599b4427f2eaaa7fe3cf74c462fe7",
+      "packagedSha256": "81fcb67a158fb945c1c211c3127889ae92337212b52ef98952165c073200a0eb"
+    },
+    {
+      "path": "assets/croptopia/textures/item/chocolate_ice_cream.png",
+      "sourceSha256": "d1300c46e32436fb1fd9379dd2872bdfe50ac7c71f827852e92fe0e195b064c2",
+      "packagedSha256": "b242a4f52528c7e75d61cc49a8f431e87a02b55f1ec7bc5ccbd20cb09cfdbac5"
+    },
+    {
+      "path": "assets/croptopia/textures/item/churros.png",
+      "sourceSha256": "a277f975f1db8fc4fdb02741c70c792fef6e7b5d6f5c4908d23f413154153754",
+      "packagedSha256": "fe52f3588d1dbf45d731c12c295d81310427d6f3f98994a36f4a3de84613908d"
+    },
+    {
+      "path": "assets/croptopia/textures/item/coffee_seed.png",
+      "sourceSha256": "3015afbdd590c358d268be7736d155ec082f200f2462087c745c69d4b4bd029a",
+      "packagedSha256": "1a112f646a991d6a40fecce5dd0653ac50565b01fe14295079cb82647dfdfcb1"
+    },
+    {
+      "path": "assets/croptopia/textures/item/corn_seed.png",
+      "sourceSha256": "ee189493c0f445de58b83d93901b5b986d27dfc4d6a738f4841a6eecc60cbfb3",
+      "packagedSha256": "bdd9dc2578685bc87021a388993f3dc267b2fadd3e9801f954cfccc89b1d3bec"
+    },
+    {
+      "path": "assets/croptopia/textures/item/cranberry_seed.png",
+      "sourceSha256": "34f97d960a374f5421014a1be069418e8a9168238880c11016944765f5ff184c",
+      "packagedSha256": "7d53d29fc9f6674197bb1b27c185f7f925424a018c38dc786b792288d878871b"
+    },
+    {
+      "path": "assets/croptopia/textures/item/cucumber.png",
+      "sourceSha256": "b547b1a5cc5d459193c46fc76d75698a4a29f6bf53dfd94e3d85c34da3d72872",
+      "packagedSha256": "560bbb2678ffa72c6ff6caf6f05d4ba518a9047dc87154b029b08663245145a7"
+    },
+    {
+      "path": "assets/croptopia/textures/item/greenonion_seed.png",
+      "sourceSha256": "f360c748b14b36472318f61272cd0294a8552e6a694425d8274191383255d5c5",
+      "packagedSha256": "55b3cfa97f79348f9881ef0b56f0eedbcc31d4739e2a87455ff1123a74b52041"
+    },
+    {
+      "path": "assets/croptopia/textures/item/kiwi_seed.png",
+      "sourceSha256": "01bf95226da4904bbf257d110a741461361ee317da0d2fd3d799cca93e517578",
+      "packagedSha256": "c03174160f5e6a0ea7539e696d5e902dde906ccbc816cd3321f94405a4490c19"
+    },
+    {
+      "path": "assets/croptopia/textures/item/knife.png",
+      "sourceSha256": "4c66ecbd2866d3084547a0d4a7e11b720504a98484c7a1498e0dcacc3ff57bca",
+      "packagedSha256": "ea11a10fa65d110fcb2acc02993127d2db649e119892de833e55425c86699701"
+    },
+    {
+      "path": "assets/croptopia/textures/item/nether_wart_stew.png",
+      "sourceSha256": "35cd25245db1a7eb32cfc2dc35860097d05f8130eab93726b14bc5a4b6430cb1",
+      "packagedSha256": "b2a5a6ede641c181df28e1468d9cfc7228901e2df1794b6536ffe386fa480206"
+    },
+    {
+      "path": "assets/croptopia/textures/item/peanut_butter_with_celery.png",
+      "sourceSha256": "95a01bac095706626cdc2cb9c0d56180326e6ec72c08228334936eab6d27a8d0",
+      "packagedSha256": "1de1316fbf92dc7f4b6c237c011faf2636be88003a6378b699da5676515a976e"
+    },
+    {
+      "path": "assets/croptopia/textures/item/potato_soup.png",
+      "sourceSha256": "85252b195705d0182f29a2928e208cbe85f190c3668b1692129da46ead99d9b6",
+      "packagedSha256": "d8e48e529bfa3f0eeaafbb94ecde48221a540479f2a456a5a90b8e836886b00a"
+    },
+    {
+      "path": "assets/croptopia/textures/item/ratatouille.png",
+      "sourceSha256": "6b3b14df4875bd5b8c1c181ba3525f548da97e679a2fb39140c118743e1297e1",
+      "packagedSha256": "880c799d7b299b96c9a3da260494687305a4bfe5eb8b90103ac6d0c4282bc53a"
+    },
+    {
+      "path": "assets/croptopia/textures/item/ravioli.png",
+      "sourceSha256": "cd736332b79a1da3f7f7f07cf8184c5ecdff5f3c18c9004be32c8acd4b13e00d",
+      "packagedSha256": "606bee0f4a83d94d2fb0960011c62c22d4e19ee5b7d6f435c9a106afb1b4b53f"
+    },
+    {
+      "path": "assets/croptopia/textures/item/rhubarb.png",
+      "sourceSha256": "a313d50acbc636d95fec38d1bf0f55c235403298c1b3adf7587b37ad26259c6d",
+      "packagedSha256": "838ae651c64db517a1f90e324032496c41514d50953d03e0e99da1d8851032e3"
+    },
+    {
+      "path": "assets/croptopia/textures/item/rice.png",
+      "sourceSha256": "2e169cea54539fcdc77f62c6da1fd3026c9719052ee927e6fbe6d05b02aae652",
+      "packagedSha256": "2f6d6d84e8cb893217a9764f708febe1dd66995eb22fe474de0e8692bd49bab3"
+    },
+    {
+      "path": "assets/croptopia/textures/item/rice_seed.png",
+      "sourceSha256": "e529c4c64731111bba73499c39df14c59b8d593e3e3840edbe3655fc7471f228",
+      "packagedSha256": "4256f7b05a5100d36d5348b371e7da88479bce6371feedf4a4c4a84e4e5d4fe1"
+    },
+    {
+      "path": "assets/croptopia/textures/item/saguaro_seed.png",
+      "sourceSha256": "5d1680b7970dd329fc7ab56cd3002017c83ee8f802dde3142a14510fbb6b99ef",
+      "packagedSha256": "9b1bda39c2889a23ccee9bad61949bb958ef42b7e4e69eb4201a2f7613bbde42"
+    },
+    {
+      "path": "assets/croptopia/textures/item/strawberry_seed.png",
+      "sourceSha256": "7a42054525cd917f0a3954e8575e3fb7589d7676f9dc1131abafb157eaac2d3e",
+      "packagedSha256": "868131cee2223f0198424417809f552a8281d3590b4b941e80cb4a6a7d3056c4"
+    },
+    {
+      "path": "assets/croptopia/textures/item/sushi.png",
+      "sourceSha256": "c71d8e52adc75e1af813f384c8451db4f2f31e0cd6636cd105008ff1f6a70a5c",
+      "packagedSha256": "1022c70336025727049dff5f3182c23f791829c7bfc69e494973d3384d1c0e88"
+    },
+    {
+      "path": "assets/croptopia/textures/item/zucchini.png",
+      "sourceSha256": "f76c78557adf08046fc2b88421744e1631f52ca7567c65b59015722f0e31f405",
+      "packagedSha256": "246ebac2eed8e8251cb9ee6373ac06fcf768316905bdcec999b2a58e58772679"
+    },
+    {
+      "path": "assets/croptopia/textures/items/ajvar.png",
+      "sourceSha256": "772fec089ec3241e490b81d7a6ec04055cc117094b60d7e12cdc3fed1dc956c0",
+      "packagedSha256": "6a8487bfb3c6ca245d2276ce8a87f12d73b137103b28fc0d9490fcc149510c24"
+    },
+    {
+      "path": "assets/croptopia/textures/items/artichoke_seed.png",
+      "sourceSha256": "2b557e66010754697513c8610b91a819a14d28f159bd5594730df972717ad30e",
+      "packagedSha256": "b6ae36be773e05d2734c93d68e49f84e45014732abc3d80bbc9529c50beb31d3"
+    },
+    {
+      "path": "assets/croptopia/textures/items/asparagus_seed.png",
+      "sourceSha256": "346148cbae4199d6524fff6f89a2a1e3adfb999411180ad7586d8bbcf5b36d50",
+      "packagedSha256": "2577189fdbdf86098f16677ca1a1143fc1b6a5960282074c7c00b1692b4960f2"
+    },
+    {
+      "path": "assets/croptopia/textures/items/basil_seed.png",
+      "sourceSha256": "c929f1246d7a9894b1944783fa574f7564de4dcbb7832ec7fa438ca18552ba9b",
+      "packagedSha256": "30fdbc6945e5ce30b991f7524fa4376f8b7522877f42f8ae9b73854ee729884d"
+    },
+    {
+      "path": "assets/croptopia/textures/items/blackbean_seed.png",
+      "sourceSha256": "90fd3e696bf8578f0b8f9cfa57c48bb8a47e578326e8d4d8741bdd2d61782fe2",
+      "packagedSha256": "19562a8227027da54a7d81ba6a355d6e230d6d74da6cc2865001072a01810dc8"
+    },
+    {
+      "path": "assets/croptopia/textures/items/cauliflower_seed.png",
+      "sourceSha256": "50fb92f1fef424565d0c8015527b27c8779ab46e118e6c4dd538751ce9ddb7cb",
+      "packagedSha256": "bc1d9b1d9325a8f2100a5a8f40262d8bf48cca72e7ba0b40677a6f8b68b2e698"
+    },
+    {
+      "path": "assets/croptopia/textures/items/chocolate.png",
+      "sourceSha256": "3faab2117fa0e1cc95b26019b99416f59ea599b4427f2eaaa7fe3cf74c462fe7",
+      "packagedSha256": "81fcb67a158fb945c1c211c3127889ae92337212b52ef98952165c073200a0eb"
+    },
+    {
+      "path": "assets/croptopia/textures/items/chocolate_ice_cream.png",
+      "sourceSha256": "d1300c46e32436fb1fd9379dd2872bdfe50ac7c71f827852e92fe0e195b064c2",
+      "packagedSha256": "b242a4f52528c7e75d61cc49a8f431e87a02b55f1ec7bc5ccbd20cb09cfdbac5"
+    },
+    {
+      "path": "assets/croptopia/textures/items/churros.png",
+      "sourceSha256": "a277f975f1db8fc4fdb02741c70c792fef6e7b5d6f5c4908d23f413154153754",
+      "packagedSha256": "fe52f3588d1dbf45d731c12c295d81310427d6f3f98994a36f4a3de84613908d"
+    },
+    {
+      "path": "assets/croptopia/textures/items/coffee_seed.png",
+      "sourceSha256": "3015afbdd590c358d268be7736d155ec082f200f2462087c745c69d4b4bd029a",
+      "packagedSha256": "1a112f646a991d6a40fecce5dd0653ac50565b01fe14295079cb82647dfdfcb1"
+    },
+    {
+      "path": "assets/croptopia/textures/items/corn_seed.png",
+      "sourceSha256": "ee189493c0f445de58b83d93901b5b986d27dfc4d6a738f4841a6eecc60cbfb3",
+      "packagedSha256": "bdd9dc2578685bc87021a388993f3dc267b2fadd3e9801f954cfccc89b1d3bec"
+    },
+    {
+      "path": "assets/croptopia/textures/items/cranberry_seed.png",
+      "sourceSha256": "34f97d960a374f5421014a1be069418e8a9168238880c11016944765f5ff184c",
+      "packagedSha256": "7d53d29fc9f6674197bb1b27c185f7f925424a018c38dc786b792288d878871b"
+    },
+    {
+      "path": "assets/croptopia/textures/items/cucumber.png",
+      "sourceSha256": "b547b1a5cc5d459193c46fc76d75698a4a29f6bf53dfd94e3d85c34da3d72872",
+      "packagedSha256": "560bbb2678ffa72c6ff6caf6f05d4ba518a9047dc87154b029b08663245145a7"
+    },
+    {
+      "path": "assets/croptopia/textures/items/greenonion_seed.png",
+      "sourceSha256": "f360c748b14b36472318f61272cd0294a8552e6a694425d8274191383255d5c5",
+      "packagedSha256": "55b3cfa97f79348f9881ef0b56f0eedbcc31d4739e2a87455ff1123a74b52041"
+    },
+    {
+      "path": "assets/croptopia/textures/items/kiwi_seed.png",
+      "sourceSha256": "01bf95226da4904bbf257d110a741461361ee317da0d2fd3d799cca93e517578",
+      "packagedSha256": "c03174160f5e6a0ea7539e696d5e902dde906ccbc816cd3321f94405a4490c19"
+    },
+    {
+      "path": "assets/croptopia/textures/items/knife.png",
+      "sourceSha256": "4c66ecbd2866d3084547a0d4a7e11b720504a98484c7a1498e0dcacc3ff57bca",
+      "packagedSha256": "ea11a10fa65d110fcb2acc02993127d2db649e119892de833e55425c86699701"
+    },
+    {
+      "path": "assets/croptopia/textures/items/nether_wart_stew.png",
+      "sourceSha256": "35cd25245db1a7eb32cfc2dc35860097d05f8130eab93726b14bc5a4b6430cb1",
+      "packagedSha256": "b2a5a6ede641c181df28e1468d9cfc7228901e2df1794b6536ffe386fa480206"
+    },
+    {
+      "path": "assets/croptopia/textures/items/peanut_butter_with_celery.png",
+      "sourceSha256": "95a01bac095706626cdc2cb9c0d56180326e6ec72c08228334936eab6d27a8d0",
+      "packagedSha256": "1de1316fbf92dc7f4b6c237c011faf2636be88003a6378b699da5676515a976e"
+    },
+    {
+      "path": "assets/croptopia/textures/items/potato_soup.png",
+      "sourceSha256": "85252b195705d0182f29a2928e208cbe85f190c3668b1692129da46ead99d9b6",
+      "packagedSha256": "d8e48e529bfa3f0eeaafbb94ecde48221a540479f2a456a5a90b8e836886b00a"
+    },
+    {
+      "path": "assets/croptopia/textures/items/ratatouille.png",
+      "sourceSha256": "6b3b14df4875bd5b8c1c181ba3525f548da97e679a2fb39140c118743e1297e1",
+      "packagedSha256": "880c799d7b299b96c9a3da260494687305a4bfe5eb8b90103ac6d0c4282bc53a"
+    },
+    {
+      "path": "assets/croptopia/textures/items/ravioli.png",
+      "sourceSha256": "cd736332b79a1da3f7f7f07cf8184c5ecdff5f3c18c9004be32c8acd4b13e00d",
+      "packagedSha256": "606bee0f4a83d94d2fb0960011c62c22d4e19ee5b7d6f435c9a106afb1b4b53f"
+    },
+    {
+      "path": "assets/croptopia/textures/items/rhubarb.png",
+      "sourceSha256": "a313d50acbc636d95fec38d1bf0f55c235403298c1b3adf7587b37ad26259c6d",
+      "packagedSha256": "838ae651c64db517a1f90e324032496c41514d50953d03e0e99da1d8851032e3"
+    },
+    {
+      "path": "assets/croptopia/textures/items/rice.png",
+      "sourceSha256": "2e169cea54539fcdc77f62c6da1fd3026c9719052ee927e6fbe6d05b02aae652",
+      "packagedSha256": "2f6d6d84e8cb893217a9764f708febe1dd66995eb22fe474de0e8692bd49bab3"
+    },
+    {
+      "path": "assets/croptopia/textures/items/rice_seed.png",
+      "sourceSha256": "e529c4c64731111bba73499c39df14c59b8d593e3e3840edbe3655fc7471f228",
+      "packagedSha256": "4256f7b05a5100d36d5348b371e7da88479bce6371feedf4a4c4a84e4e5d4fe1"
+    },
+    {
+      "path": "assets/croptopia/textures/items/saguaro_seed.png",
+      "sourceSha256": "5d1680b7970dd329fc7ab56cd3002017c83ee8f802dde3142a14510fbb6b99ef",
+      "packagedSha256": "9b1bda39c2889a23ccee9bad61949bb958ef42b7e4e69eb4201a2f7613bbde42"
+    },
+    {
+      "path": "assets/croptopia/textures/items/strawberry_seed.png",
+      "sourceSha256": "7a42054525cd917f0a3954e8575e3fb7589d7676f9dc1131abafb157eaac2d3e",
+      "packagedSha256": "868131cee2223f0198424417809f552a8281d3590b4b941e80cb4a6a7d3056c4"
+    },
+    {
+      "path": "assets/croptopia/textures/items/sushi.png",
+      "sourceSha256": "c71d8e52adc75e1af813f384c8451db4f2f31e0cd6636cd105008ff1f6a70a5c",
+      "packagedSha256": "1022c70336025727049dff5f3182c23f791829c7bfc69e494973d3384d1c0e88"
+    },
+    {
+      "path": "assets/croptopia/textures/items/zucchini.png",
+      "sourceSha256": "f76c78557adf08046fc2b88421744e1631f52ca7567c65b59015722f0e31f405",
+      "packagedSha256": "246ebac2eed8e8251cb9ee6373ac06fcf768316905bdcec999b2a58e58772679"
+    }
+  ]
+}

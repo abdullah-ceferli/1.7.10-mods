@@ -14,13 +14,13 @@
   {
     "project": "HandsOnDelight-1.7.10",
     "name": "Hands-On Delight",
-    "status": "built backport",
+    "status": "1.5.1-backport.7 built; knife conflicts, restored food recipes and sheep mutton verified",
     "license": "MIT and dependency notices"
   },
   {
     "project": "industrialMOD",
     "name": "Industrial Technology",
-    "status": "built",
+    "status": "2.13.0 built; native sliding hatch, liquid building and save/restart checks passed",
     "license": "project MIT; separate third-party notices"
   },
   {
@@ -52,5 +52,17 @@
     "name": "True Horror",
     "status": "built",
     "license": "project LICENSE"
+  },
+  {
+    "project": "MobilePerformance-1.7.10",
+    "name": "Mobile Performance",
+    "status": "initial Android test build; desktop checks passed",
+    "license": "MIT"
+  },
+  {
+    "project": "ZalithRender-1.7.10",
+    "name": "ZalithRender",
+    "status": "0.2.0 experimental chunk renderer and frame pacing; native desktop checks passed; Android untested",
+    "license": "MIT"
   }
 ]

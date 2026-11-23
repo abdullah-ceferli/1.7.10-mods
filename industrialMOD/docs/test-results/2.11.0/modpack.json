@@ -1,0 +1,19 @@
+{
+  "mode": "modpack",
+  "directory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\fluid-tests\\2.11.0-modpack-20261119-163709-352431\\run",
+  "runtimeSha256": "5bee61fa9bca1459ae74ee9c5fb2172a17d274097db04ca6b2add2d988c175f1",
+  "harnessSha256": "283370e77db56caa5142d1b3ee69ad2b07e8a23c8f1fa808bad2dfa4cb02b6cb",
+  "userWorldOpened": false,
+  "excludedClientMods": [
+    "EasyLAN-v1.5-[1.7.10].jar",
+    "IndustrialTechnology-1.7.10-2.10.1.jar",
+    "OfflineSkins-1.7.10-1.2.0.jar",
+    "OptiFine_1.7.10_HD_U_E7_MOD.jar",
+    "PersonalClientTools-1.7.10-1.1.0.jar"
+  ],
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "failed": 0
+}

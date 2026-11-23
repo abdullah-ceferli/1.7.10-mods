@@ -1,7 +1,9 @@
 {
-  "jar": "D:\\IndustrialTechnology\\Croptopia-1.7.10\\build\\libs\\croptopia-1.7.10-4.0.1-backport.1.jar",
-  "sha256": "f82917caf6bb3bcc42bbc2f3a3aa1efe04921f7aede9f08e626de8bea12d0e9a",
+  "version": "4.0.1-backport.2",
+  "normalizedTextures": 88,
+  "jar": "D:\\1.7.10-mods\\Croptopia-1.7.10\\build\\libs\\croptopia-1.7.10-4.0.1-backport.2.jar",
+  "sha256": "90fd2ed493e51fbc2a58b0e09f2c63cc98eb7ed368b4dd2159af7ceb4155b308",
   "javaUnits": 17,
   "tests": false,
-  "nativeApi": "D:\\IndustrialTechnology\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar"
+  "nativeApi": "D:\\1.7.10-mods\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar"
 }

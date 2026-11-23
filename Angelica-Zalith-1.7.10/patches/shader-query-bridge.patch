@@ -1,0 +1,20 @@
+--- a/glsm/src/main/java/com/gtnewhorizons/angelica/glsm/backend/Lwjgl2GLRenderBackend.java
++++ b/glsm/src/main/java/com/gtnewhorizons/angelica/glsm/backend/Lwjgl2GLRenderBackend.java
+@@ -792,7 +792,7 @@
+ 
+     @Override
+     public String getActiveUniform(int program, int index, int maxLength, IntBuffer sizeType) {
+-        return GL20.glGetActiveUniform(program, index, maxLength, sizeType);
++        return ZalithShaderQueries.getActiveUniform(program, index, maxLength, sizeType);
+     }
+ 
+     @Override
+@@ -1741,7 +1741,7 @@
+ 
+     @Override
+     public String getActiveAttrib(int program, int index, int maxLength, IntBuffer sizeType) {
+-        return GL20.glGetActiveAttrib(program, index, maxLength, sizeType);
++        return ZalithShaderQueries.getActiveAttrib(program, index, maxLength, sizeType);
+     }
+ 
+     @Override

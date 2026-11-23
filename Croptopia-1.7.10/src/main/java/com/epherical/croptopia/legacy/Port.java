@@ -6,7 +6,7 @@ import cpw.mods.fml.common.event.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid="croptopia",name="Croptopia",version="4.0.1-backport.1",acceptedMinecraftVersions="[1.7.10]",dependencies="required-after:farmersdelight@[1.1.1,)")
+@Mod(modid="croptopia",name="Croptopia",version="4.0.1-backport.2",acceptedMinecraftVersions="[1.7.10]",dependencies="required-after:farmersdelight@[1.1.1,)")
 public final class Port {
     @SidedProxy(clientSide="com.epherical.croptopia.legacy.client.ClientProxy",serverSide="com.epherical.croptopia.legacy.Proxy") public static Proxy proxy;
     public static final Catalog CONTENT=new Catalog();

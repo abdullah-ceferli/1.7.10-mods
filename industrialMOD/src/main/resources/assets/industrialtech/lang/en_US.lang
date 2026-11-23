@@ -86,3 +86,21 @@ item.industrialtech.loot_ball.name=Loot Ball
 key.industrialtech.accessory_charge=Charge Catalyst / Lens
 key.industrialtech.accessory_fire=Fire Lens Projectile
 key.categories.industrialtech=Industrial Technology
+
+tile.industrialtech.fluid_sucker.name=Sucker
+tile.industrialtech.fluid_puller.name=Puller
+industrialtech.fluid.water_lava_only=Only water and lava are supported.
+industrialtech.fluid.empty_first=Empty the machine before changing its fluid.
+industrialtech.fluid.configured=Fluid machine: %s
+industrialtech.fluid.selection_busy=This puller was configured. Connected selection is busy; right-click again shortly.
+industrialtech.fluid.kind.0=Not configured
+industrialtech.fluid.kind.1=Water
+industrialtech.fluid.kind.2=Lava
+
+item.industrialtech.building_stick.name=Building Stick
+key.industrialtech.builder_menu=Building Stick modes
+
+tile.industrialtech.sliding_hatch.name=Sliding Hatch
+tile.industrialtech.sliding_hatch.0.name=Sliding Hatch
+tile.industrialtech.sliding_hatch.1.name=Sliding Hatch (Edge Centered)
+tile.industrialtech.sliding_hatch.2.name=Sliding Hatch (Corner Centered)

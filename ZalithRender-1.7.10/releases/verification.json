@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "origin": "original renderer implementation; no Angelica or Beddium runtime code bundled",
+  "unit_checks": "[ZalithRender] Prepared WorldRenderer\n[ZalithRender] Prepared Tessellator\n[ZalithRender] Prepared RenderBlocks\n[ZalithRender] Prepared RenderList\n[ZalithRender] Prepared Minecraft\n[ZalithRender] Retaining original Minecraft: java.lang.IllegalStateException: Frame-loop control flow differs\n[ZalithRender] Prepared WorldRenderer\n[ZalithRender] Prepared Tessellator\n[ZalithRender] Prepared RenderBlocks\n[ZalithRender] Prepared RenderList\n[ZalithRender] Prepared Minecraft\n[ZalithRender] Retaining original Minecraft: java.lang.IllegalStateException: Frame-loop control flow differs\n[ZalithRender] Retaining original Tessellator: java.lang.IllegalStateException: Field layout differs: rawBuffer\nPASS: 84723 pacing/budget/statistics/table/mapping/transformer checks",
+  "native_checks": [
+    {
+      "library": "zalith1",
+      "lwjgl": "3.3.6",
+      "result": "[ZalithRender] Prepared WorldRenderer\n[ZalithRender] Prepared Tessellator\n[ZalithRender] Prepared RenderBlocks\n[ZalithRender] Prepared RenderList\n[ZalithRender] Prepared Minecraft\n[ZalithRender] Retaining original Minecraft: java.lang.IllegalStateException: Frame-loop control flow differs\nLWJGLX: GL caps init\nLibrary: zalith1; GL: 4.6.0 NVIDIA 621.24\n[ZalithRender] Vertex-buffer cache enabled; 4.6.0 NVIDIA 621.24\n[ZalithRender] Prepared Tessellator\nComplete-frame pacing smoke: target 60, frames 8, elapsed 165.6928 ms\nComplete-frame pacing smoke: target 70, frames 8, elapsed 132.0162 ms\nPASS: 156 native pixel, fallback, sorting, memory and state checks"
+    },
+    {
+      "library": "zalith2",
+      "lwjgl": "3.3.3",
+      "result": "[ZalithRender] Prepared WorldRenderer\n[ZalithRender] Prepared Tessellator\n[ZalithRender] Prepared RenderBlocks\n[ZalithRender] Prepared RenderList\n[ZalithRender] Prepared Minecraft\n[ZalithRender] Retaining original Minecraft: java.lang.IllegalStateException: Frame-loop control flow differs\nLWJGLX: GL caps init\nLibrary: zalith2; GL: 4.6.0 NVIDIA 621.24\n[ZalithRender] Vertex-buffer cache enabled; 4.6.0 NVIDIA 621.24\n[ZalithRender] Prepared Tessellator\nComplete-frame pacing smoke: target 60, frames 8, elapsed 164.4053 ms\nComplete-frame pacing smoke: target 70, frames 8, elapsed 133.0115 ms\nPASS: 156 native pixel, fallback, sorting, memory and state checks"
+    }
+  ],
+  "physical_android_tested": false,
+  "gameplay_fps_measured": false,
+  "artifacts": [
+    {
+      "file": "ZalithRender-1.7.10-0.2.0.jar",
+      "bytes": 33372,
+      "sha256": "8ff04f45ac9557d8a76168e0ea9ac94922c0339163c4704728cf8c0fccffdf32"
+    },
+    {
+      "file": "ZalithRender-1.7.10-0.2.0-sources.zip",
+      "bytes": 103439,
+      "sha256": "859b1e63abdb1ce549601189d4ab59597f085698184758bf8ec8a9120a60535d"
+    }
+  ]
+}

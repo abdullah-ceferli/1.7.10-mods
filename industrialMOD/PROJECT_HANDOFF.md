@@ -1,4 +1,36 @@
-# Industrial Technology handoff - 2.10.1
+# Industrial Technology handoff - 2.13.0
+
+## Current update: Sliding Hatch and liquid Building Stick (2.13.0)
+
+See HATCH_GUIDE.md. hatch/ adds an appended registry identity, three ItemBlock variants and non-ticking description-synchronized parts. Geometry is clipped per native cell and statically rendered by ISBRH; no TESR, shaders or tick loop. Normal/edge/corner conversion uses a one-item shapeless recipe. Offset models remain one block wide and require empty cell footprints; they do not carve solid native blocks. Native ItemStack placement supplies Forge MultiPlaceEvent rollback. Group removal/interaction validates all loaded parts before mutation. The open state retracts horizontally without interpolated animation.
+
+BuilderLiquids handles only water/lava buckets after the usual chunk margin and job validation. Payment happens after an accepted Forge event and returns an empty bucket. Native flowing blocks are scheduled normally; there is no separate fluid simulator. Sneak picking uses a stop-on-liquid native ray in both right-click paths. Keep the original budgets and block material rules unchanged.
+
+tools/verify_hatch.py runs production server/restart checks. tools/verify_builder.py now uses 2.13.0 and the hatch-tests/build-run harness, retaining the existing builder controls and adding actual client hatch clicks/screenshots. The general test harness must exclude industrialtech.hatchTest. Test cancellation listeners are explicitly disabled before unregistering because Forge can retain inherited-event listener caches. No temporary diagnostic code belongs in production. Delivery remains manual; the user has separately authorized a final Git commit/push, without GitHub release creation.
+
+## Current update: connected puller selection (2.12.1)
+
+PullerSelection starts after a successful normal identifier click on a puller. It visits face-connected pullers whose selection is NONE or the chosen fluid, and changes only NONE. Different selections, suckers, protection and unloaded chunks stop traversal. HBM pipes are not rewritten. A captured item copy preserves the fluid choice; a new click replaces the same player's pending job. None clearing and nonempty-tank rejection retain their original single-block behavior.
+
+The shared configuration queue has 128 cell visits/tick, 8,192 visited cells/job, 64 face steps and 16 jobs. FluidMachineScheduler services it and clears it on server-world unload. Every additional edit checks native permissions plus Forge RIGHT_CLICK_BLOCK cancellation and rechecks the tile after listeners. The production water/lava and no-HBM tests are run by tools/verify_fluid_machines.py; the separate test harness must be rebuilt/reobfuscated for 2.12.1. No game instance is automatically updated. TileFluidMachine.markDirty now persists metadata and chunk dirty state first, then only runs vanilla neighbour callbacks when their two-block chunk margin is already loaded. Native tests cover this identifier boundary path and fresh-JVM persistence.
+
+## Current update: Building Stick (2.12.0)
+
+See BUILDING_STICK_GUIDE.md. New item registration appends `building_stick`; packet 14 is BuildCommand. Server mutations stay in builder/BuilderService, with bounded network queue, geometry validation, inventory reservation/refund and real Forge placement. OnItemUseFirst must return false on the client so vanilla sends C08; client onItemUse claims the interaction, while server onItemUseFirst handles it before container activation. Do not restore a true client first-use return without also supplying a block-use packet.
+
+The Alt-hold wheel and right-click-air touch wheel live in builder/client. Their original Effortless Building icon atlas is byte-identical to commit 5e38603322cf30b120283a06e796b36dc43c1509; the atlas and GUI integration have LGPL notices, with provenance and source included. Keep attribution, license and the corresponding source archive together when distributing. The placement engine remains separately implemented.
+
+Shared scan/placement limits are 2048/64 per server tick, per-job limits 1024/32, 16 jobs, 4096 accepted blocks and 33 cells per axis. Preview emits at most 128 ghost cells. Blocks with tile state/NBT are excluded; placement-event guards cancel changed cells outside the intended target. No user-world testing or automatic game installation is authorized. Native tests use tools/verify_builder.py with --pack/--client and separate disposable worlds.
+
+## Current update: water/lava machines (2.11.0)
+
+See FLUID_MACHINES_GUIDE.md and docs/CHANGES-2.11.0.md. The two new blocks use real HBM MK2 standard provider/receiver interfaces and a single native tank backing saved amounts. No GUI; initial NONE; HBM multi-fluid identifier primary selection controls water/lava only. Full/nonempty buffers cannot be retuned. No energy requirement was requested.
+
+FluidMachineScheduler shares 64 visits, 256 probes and 4 action attempts per server tick; each machine scans at most 32 cells per visit and attempts one source change per 20 ticks. Flood radius is 16 in each coordinate, deduplicated and incremental. Full buffers pause; empty searches retry after 100 ticks. No chunk tickets or forced loads. Owner-backed FakePlayer edits respect protection and Forge cancellation.
+
+`tools/verify_fluid_machines.py` runs the reobfuscated production JAR plus a separate test-only mod in fresh disposable dedicated servers, then restarts each JVM to check saved contents. Use `--hbm` for actual HBM X5771 pipe/identifier checks or `--pack` for the installed server-compatible mod set (client-only mods excluded). Build the harness with `testModJar build -PproductionTest -PtestRunDir=.toolchain/fluid-tests/build-run` so it is reobfuscated. Reports include the production SHA-256. Android/Zalith and large installation benchmarks are not covered by the server checks.
+
+The current delivery is local only. The user prefers to install manually; do not replace game JARs or publish GitHub assets without a new request.
 
 ## Current fix: wearable right-click crash (2.10.1)
 

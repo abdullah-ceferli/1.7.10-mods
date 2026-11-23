@@ -1,0 +1,33 @@
+{
+  "mode": "client-vanilla",
+  "runDirectory": "D:\\1.7.10-mods\\MobilePerformance-1.7.10\\.toolchain\\native\\20261120-154216-533829\\run",
+  "sha256": "fc6f913f35aede1f44618197e0f6d298c06cbb40b421303f47601b7816220834",
+  "harnessSha256": "62105bd6a5d04af1273c28aeb1d8aeb753837ea1a7cc4935ba287825394847a7",
+  "userWorldOpened": false,
+  "androidTested": false,
+  "excluded": [],
+  "failed": 0,
+  "desktopBenchmark": {
+    "disabled": {
+      "frames": 600,
+      "fps": 195.6508064840373,
+      "averageFrameMs": 5.111146833333333,
+      "p95FrameMs": 7.372,
+      "entityCalls": 47320,
+      "tileCalls": 149028,
+      "entityRendersSkipped": 0,
+      "tileRendersSkipped": 0
+    },
+    "enabled": {
+      "frames": 600,
+      "fps": 430.72347689179315,
+      "averageFrameMs": 2.3216751666666666,
+      "p95FrameMs": 3.4401,
+      "entityCalls": 111580,
+      "tileCalls": 352274,
+      "entityRendersSkipped": 55790,
+      "tileRendersSkipped": 239100
+    },
+    "device": "Windows desktop test client; not an Android FPS prediction"
+  }
+}

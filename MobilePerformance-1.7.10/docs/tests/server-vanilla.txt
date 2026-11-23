@@ -1,0 +1,2 @@
+PASS: Client-only mod loads on a dedicated server without initializing client rendering
+Failed: 0

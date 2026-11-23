@@ -1,0 +1,2 @@
+PASS: Fresh server reload preserves offset hatch parts and open collision
+Failed: 0

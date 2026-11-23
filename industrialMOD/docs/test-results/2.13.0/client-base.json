@@ -1,0 +1,10 @@
+{
+  "mode": "client-base",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\builder-tests\\20261123-181729-278183\\run",
+  "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
+  "harnessSha256": "c3915dac7347b17616b32dd08327fe9749a6d0430503ddd677cf63c8328e3153",
+  "userWorldOpened": false,
+  "androidTested": false,
+  "excluded": [],
+  "failed": 0
+}

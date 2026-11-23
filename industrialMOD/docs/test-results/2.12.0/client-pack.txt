@@ -1,0 +1,12 @@
+PASS: The Building Stick has a native icon, English name and rebindable Left Alt control
+PASS: Real item-use opens the radial menu without requiring a desktop-only mouse shortcut
+PASS: Hollow toggling and release-to-select use the real multiplayer packet channel
+PASS: The server synchronizes the chosen mode and hollow flag back to the held stick
+PASS: Escape closes the wheel without changing the selected mode
+PASS: Escape stays closed until a new menu-key press
+PASS: A real native block click stores and synchronizes the first shape point
+PASS: The second client click builds the actual selected box on the server and client
+PASS: Air use with an anchor sends a reach-checked virtual endpoint rather than reopening the wheel
+PASS: The virtual endpoint produces real vertical-line blocks without a background support wall
+PASS: Sneak-air cancellation clears selection and leaving the wheel/preview preserves GL rendering
+Failed: 0

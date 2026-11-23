@@ -1,0 +1,4 @@
+PASS: Both blocks are registered, inactive by default and expose no GUI to an empty hand
+PASS: Vanilla NBT clamps corrupt amounts and preserves valid fluid/amount/owner without HBM IDs
+PASS: No-HBM runtime links safely and cannot activate from water/lava buckets
+Failed: 0

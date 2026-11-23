@@ -1,0 +1,17 @@
+{
+  "mode": "server-pack",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\builder-tests\\20261121-000025-188609\\run",
+  "sha256": "af9cf1631599cdaaddd11d3d2bf6c32e8b792d945a8f2ae348305a1d4ccc2441",
+  "harnessSha256": "60507738d5eec68ea31878a3655ff805c393c04bc577afc0aa4922db46b0a2a1",
+  "userWorldOpened": false,
+  "androidTested": false,
+  "excluded": [
+    "EasyLAN-v1.5-[1.7.10].jar",
+    "IndustrialTechnology-1.7.10-2.11.0.jar",
+    "OfflineSkins-1.7.10-1.2.0.jar",
+    "OptiFine_1.7.10_HD_U_E7_MOD.jar",
+    "PersonalClientTools-1.7.10-1.1.0.jar",
+    "XaerosWorldMap_1.14.1.26_Forge_1.7.10.jar"
+  ],
+  "failed": 0
+}

@@ -34,3 +34,7 @@ tag.item.handson_delight.arranged=Arranged Dishes
 tag.item.handson_delight.assembled=Dishes Made on the Board
 tag.item.handson_delight.not_assembled=Dishes Not Made on the Board
 tag.item.handson_delight.workshop=Workshop Materials
+
+item.handson_delight.raw_mutton.name=Raw Mutton
+item.handson_delight.cooked_mutton.name=Cooked Mutton
+item.handson_delight.dried_seaweed.name=Dried Sea Lettuce

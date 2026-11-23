@@ -1,5 +1,5 @@
 {
-  "created": "2026-11-18T14:18:37.641129+04:00",
+  "created": "2026-11-18T17:56:45.970483+04:00",
   "minecraft": "1.7.10",
   "forge": "10.13.4.1614",
   "selection": "Public mod builds and dependencies; local-only projects are excluded.",
@@ -8,15 +8,15 @@
       "project": "Croptopia-1.7.10",
       "name": "Croptopia",
       "modid": "croptopia",
-      "version": "4.0.1-backport.1",
-      "source": "Croptopia-1.7.10/build/libs/croptopia-1.7.10-4.0.1-backport.1.jar",
-      "filename": "croptopia-1.7.10-4.0.1-backport.1.jar",
-      "bytes": 1991998,
-      "sha256": "f82917caf6bb3bcc42bbc2f3a3aa1efe04921f7aede9f08e626de8bea12d0e9a",
+      "version": "4.0.1-backport.2",
+      "source": "Croptopia-1.7.10/build/libs/croptopia-1.7.10-4.0.1-backport.2.jar",
+      "filename": "croptopia-1.7.10-4.0.1-backport.2.jar",
+      "bytes": 1992029,
+      "sha256": "90fd2ed493e51fbc2a58b0e09f2c63cc98eb7ed368b4dd2159af7ceb4155b308",
       "status": "initial test build",
       "embeddedMods": [],
       "alternative": false,
-      "path": "mods/croptopia-1.7.10-4.0.1-backport.1.jar"
+      "path": "mods/croptopia-1.7.10-4.0.1-backport.2.jar"
     },
     {
       "project": "DisplayDelight-1.7.10",
@@ -36,26 +36,31 @@
       "project": "HandsOnDelight-1.7.10",
       "name": "Hands-On Delight",
       "modid": "handson_delight",
-      "version": "1.5.1-backport.4",
-      "source": "HandsOnDelight-1.7.10/build/libs/handson-delight-1.7.10-1.5.1-backport.4.jar",
-      "filename": "handson-delight-1.7.10-1.5.1-backport.4.jar",
-      "bytes": 1167828,
-      "sha256": "16bfbeeda8438d6e4f35df55596ea7a058e5dac3c5f7f3295a58109e8bcba6b7",
-      "status": "built backport",
+      "version": "1.5.1-backport.7",
+      "source": "HandsOnDelight-1.7.10/dist/handson-delight-1.7.10-1.5.1-backport.7.jar",
+      "filename": "handson-delight-1.7.10-1.5.1-backport.7.jar",
+      "bytes": 1173520,
+      "sha256": "7bbd688ad83ba174112e5b1627fd2f9bd51fa037607ba498b2b9e07e09250f95",
+      "status": "built; native client/server and reload checks passed",
       "embeddedMods": [],
       "alternative": false,
-      "path": "mods/handson-delight-1.7.10-1.5.1-backport.4.jar"
+      "path": "mods/handson-delight-1.7.10-1.5.1-backport.7.jar",
+      "sourceArchive": {
+        "path": "sources/handson-delight-1.7.10-1.5.1-backport.7-sources.zip",
+        "sha256": "750729eabbd39eeb38ab699de35f22d69e11bd2db0a658fb58ae18252a47bea4",
+        "bytes": 2039378
+      }
     },
     {
       "project": "industrialMOD",
       "name": "Industrial Technology",
       "modid": "industrialtech",
-      "version": "2.10.1",
-      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.10.1.jar",
-      "filename": "IndustrialTechnology-1.7.10-2.10.1.jar",
-      "bytes": 17566605,
-      "sha256": "96d716a42f54f6fcc8386faac6c06669525479d2bb19d116a49fb5d38d6c2262",
-      "status": "built",
+      "version": "2.13.0",
+      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.13.0.jar",
+      "filename": "IndustrialTechnology-1.7.10-2.13.0.jar",
+      "bytes": 17670645,
+      "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
+      "status": "built; native client/server and reload checks passed",
       "embeddedMods": [
         {
           "modid": "OpenComputers",
@@ -63,7 +68,12 @@
         }
       ],
       "alternative": false,
-      "path": "mods/IndustrialTechnology-1.7.10-2.10.1.jar"
+      "path": "mods/IndustrialTechnology-1.7.10-2.13.0.jar",
+      "sourceArchive": {
+        "path": "sources/IndustrialTechnology-1.7.10-2.13.0-sources.jar",
+        "sha256": "766a9bb8dea016038813f08811d777ba8e366b2d7b688e3e150a7021ffb81b12",
+        "bytes": 11032602
+      }
     },
     {
       "project": "industrialMOD/block line counter mod",
@@ -134,6 +144,21 @@
       "embeddedMods": [],
       "alternative": false,
       "path": "mods/TrueHorror-1.7.10-1.0.0.jar"
+    },
+    {
+      "project": "MobilePerformance-1.7.10",
+      "name": "Mobile Performance",
+      "modid": "mobileperformance",
+      "version": "1.0.0",
+      "source": "MobilePerformance-1.7.10/build/libs/MobilePerformance-1.7.10-1.0.0.jar",
+      "filename": "MobilePerformance-1.7.10-1.0.0.jar",
+      "bytes": 22201,
+      "sha256": "fc6f913f35aede1f44618197e0f6d298c06cbb40b421303f47601b7816220834",
+      "status": "initial Android test build; desktop checks passed",
+      "embeddedMods": [],
+      "alternative": false,
+      "clientOnly": true,
+      "path": "mods/MobilePerformance-1.7.10-1.0.0.jar"
     }
   ],
   "dependenciesAndTools": [
@@ -180,5 +205,6 @@
       "category": "companion tool; not a Minecraft mod"
     }
   ],
-  "unavailable": []
+  "unavailable": [],
+  "updated": "2026-11-23T18:20:36.896502+04:00"
 }

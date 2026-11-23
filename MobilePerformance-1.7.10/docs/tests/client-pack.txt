@@ -1,0 +1,9 @@
+PASS: Installed core hooks execute in real vanilla renderer, particle and animation methods
+PASS: Nearby objects, players, GUI previews and unknown mod tiles retain native rendering
+PASS: Cosmetic spawn budget is bounded while close particles and combat feedback are retained
+PASS: Preset backs up once, restores actual graphics values and retains malformed backups
+PASS: Client command works without server permissions and disabling bypasses render budgets
+PASS: Actual scene rendering skips distant objects while native frame sampling remains active
+PASS: Texture updates keep full native behavior inside menus
+PASS: Closing the inventory returns to world rendering without a GL error
+Failed: 0

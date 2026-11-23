@@ -1,0 +1,10 @@
+PASS: Normal, edge and corner hatches use one item and exactly 1, 2 and 4 synchronized non-ticking parts
+PASS: The one-item crafting grid cycles normal, edge, corner and back without losing the item
+PASS: Closed hatch blocks passage and opening removes center collision from every part
+PASS: Native Forge multi-place cancellation restores all hatch parts and the inventory item
+PASS: Breaking a centered part removes its group and drops one hatch
+PASS: Water sheet pays three filled buckets and returns exactly three empty buckets
+PASS: Canceled liquid placements consume no bucket and leave no source
+PASS: Out-of-stock liquid build stops without free sources
+PASS: Placed sources use native gravity and flow below the selected sheet
+Failed: 0

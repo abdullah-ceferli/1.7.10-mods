@@ -1,7 +1,7 @@
 {
-  "jar": "D:\\IndustrialTechnology\\HandsOnDelight-1.7.10\\build\\libs\\handson-delight-1.7.10-1.5.1-backport.4.jar",
-  "sha256": "16bfbeeda8438d6e4f35df55596ea7a058e5dac3c5f7f3295a58109e8bcba6b7",
-  "javaUnits": 43,
-  "nativeCompilerApi": "D:\\IndustrialTechnology\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar",
+  "jar": "D:\\1.7.10-mods\\HandsOnDelight-1.7.10\\build\\libs\\handson-delight-1.7.10-1.5.1-backport.7.jar",
+  "sha256": "7bbd688ad83ba174112e5b1627fd2f9bd51fa037607ba498b2b9e07e09250f95",
+  "javaUnits": 45,
+  "nativeCompilerApi": "D:\\1.7.10-mods\\industrialMOD\\.gradle-user\\caches\\minecraft\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10\\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar",
   "tests": false
 }

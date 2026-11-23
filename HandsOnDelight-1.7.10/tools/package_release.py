@@ -4,7 +4,7 @@ import hashlib,json,shutil,zipfile
 
 R=Path(__file__).resolve().parents[1]
 DIST=R/'dist'
-NAME='handson-delight-1.7.10-1.5.1-backport.4'
+NAME='handson-delight-1.7.10-1.5.1-backport.7'
 
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -14,7 +14,7 @@ def main():
     for report in ['checks-client.txt','checks-initial.txt','checks-restart.txt']:
         if (R/'docs'/report).read_text().splitlines()[-1]!='Failed: 0':raise RuntimeError('Unsuccessful checks: '+report)
     runs={}
-    for name in ['native-run.json','modpack-run.json']:
+    for name in ['food-compat-run.json','client-run.json']:
         run=json.loads((R/'docs'/name).read_text())
         if run.get('testedJarSha256')!=sha(tested):raise RuntimeError('Checks do not describe the current fixture: '+name)
         runs[name]=run
@@ -35,7 +35,7 @@ def main():
     shutil.copy2(release,DIST/release.name)
     for name in ['README.md','TESTING.md','UI-SOURCES.md']:
         shutil.copy2(R/'docs'/name,DIST/name)
-    shutil.copy2(R/'docs/README.md',R/'README.md')
+    (R/'README.md').write_text((R/'docs/README.md').read_text().replace('(FOOD_COMPATIBILITY.md)','(docs/FOOD_COMPATIBILITY.md)'))
     with zipfile.ZipFile(DIST/(NAME+'-sources.zip'),'w',zipfile.ZIP_DEFLATED) as archive:
         for folder in ['src','tools','docs']:
             for path in sorted((R/folder).rglob('*')):
@@ -48,7 +48,7 @@ def main():
         with zipfile.ZipFile(R/'vendor/joml-1.10.5.jar') as library:
             archive.writestr('licenses/JOML-LICENSE',library.read('META-INF/LICENSE'))
     groups={name:sum(line.startswith('PASS:') for line in (R/'docs'/('checks-'+name+'.txt')).read_text().splitlines()) for name in ['initial','restart','client']}
-    proofs={'version':'1.5.1-backport.4','status':'native four-station release','jar':release.name,'sha256':sha(release),'mainEntriesMatchTestedFixture':len(main_entries),'testJarSha256':sha(tested),'originalSceneAndModelFilesVerified':len(assets),'checkGroups':groups,'runs':runs,'userWorldOpened':False,'androidRendererTested':False,'androidConfirmation':'pending affected-device confirmation'}
+    proofs={'version':'1.5.1-backport.7','status':'native food compatibility and four-station release','jar':release.name,'sha256':sha(release),'mainEntriesMatchTestedFixture':len(main_entries),'testJarSha256':sha(tested),'originalSceneAndModelFilesVerified':len(assets),'checkGroups':groups,'runs':runs,'userWorldOpened':False,'androidRendererTested':False,'androidConfirmation':'pending affected-device confirmation'}
     (DIST/'verification.json').write_text(json.dumps(proofs,indent=2)+'\n')
     (DIST/'SHA256SUMS.txt').write_text(''.join(sha(path)+'  '+path.name+'\n' for path in sorted(DIST.iterdir()) if path.is_file() and path.name!='SHA256SUMS.txt'))
     print(json.dumps({key:value for key,value in proofs.items() if key!='runs'},indent=2))

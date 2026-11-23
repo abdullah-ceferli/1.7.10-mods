@@ -1,0 +1,13 @@
+{
+  "mode": "standalone",
+  "directory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\fluid-tests\\2.12.1-standalone-20261122-143324-048305\\run",
+  "runtimeSha256": "e124cf3898bcf709e626f5807e4ece6c5dd20acdd1020dac58485ad273cd9717",
+  "harnessSha256": "5a74b74c4fef1a39e7f68d29674b95e7038027acd6815f72b3950dd3e5940a66",
+  "userWorldOpened": false,
+  "excludedClientMods": [],
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "failed": 0
+}

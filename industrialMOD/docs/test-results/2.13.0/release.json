@@ -1,0 +1,45 @@
+{
+  "version": "2.13.0",
+  "jar": "IndustrialTechnology-1.7.10-2.13.0.jar",
+  "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
+  "sourcesJar": "IndustrialTechnology-1.7.10-2.13.0-sources.jar",
+  "sourcesSha256": "766a9bb8dea016038813f08811d777ba8e366b2d7b688e3e150a7021ffb81b12",
+  "unitTests": 141,
+  "runs": {
+    "hatch-server-base": {
+      "mode": "hatch-server-base",
+      "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\hatch-tests\\20261123-181716-781880\\run",
+      "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
+      "harnessSha256": "c3915dac7347b17616b32dd08327fe9749a6d0430503ddd677cf63c8328e3153",
+      "userWorldOpened": false,
+      "androidTested": false,
+      "excluded": [],
+      "failed": 0
+    },
+    "server-base": {
+      "mode": "server-base",
+      "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\builder-tests\\20261123-181742-082667\\run",
+      "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
+      "harnessSha256": "c3915dac7347b17616b32dd08327fe9749a6d0430503ddd677cf63c8328e3153",
+      "userWorldOpened": false,
+      "androidTested": false,
+      "excluded": [],
+      "failed": 0
+    },
+    "client-base": {
+      "mode": "client-base",
+      "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\builder-tests\\20261123-181729-278183\\run",
+      "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
+      "harnessSha256": "c3915dac7347b17616b32dd08327fe9749a6d0430503ddd677cf63c8328e3153",
+      "userWorldOpened": false,
+      "androidTested": false,
+      "excluded": [],
+      "failed": 0
+    }
+  },
+  "freshServerReloadPassed": true,
+  "photoReference": "Dark square frame, recessed gray metal cover, narrow safety strips on both sides",
+  "userWorldOpened": false,
+  "installedIntoGame": false,
+  "androidTested": false
+}

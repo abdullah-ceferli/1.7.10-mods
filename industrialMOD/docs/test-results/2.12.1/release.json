@@ -1,0 +1,42 @@
+{
+  "version": "2.12.1",
+  "unitTests": 141,
+  "unitFailures": 0,
+  "nativeHbmScenarios": 25,
+  "nativeStandaloneScenarios": 3,
+  "freshJvmRestarts": 2,
+  "failed": 0,
+  "userWorldOpened": false,
+  "installedInGame": false,
+  "changedRuntimeEntries": [
+    "META-INF/MANIFEST.MF",
+    "assets/industrialtech/lang/en_US.lang",
+    "dev/industrialtechnology/core/IndustrialTechnology.class",
+    "dev/industrialtechnology/fluid/BlockFluidMachine.class",
+    "dev/industrialtechnology/fluid/FluidMachineScheduler.class",
+    "dev/industrialtechnology/fluid/TileFluidMachine.class",
+    "mcmod.info"
+  ],
+  "addedRuntimeEntries": [
+    "dev/industrialtechnology/fluid/PullerSelection$Cell.class",
+    "dev/industrialtechnology/fluid/PullerSelection$Job.class",
+    "dev/industrialtechnology/fluid/PullerSelection.class"
+  ],
+  "artifacts": [
+    {
+      "file": "IndustrialTechnology-1.7.10-2.12.1.jar",
+      "bytes": 17650774,
+      "sha256": "e124cf3898bcf709e626f5807e4ece6c5dd20acdd1020dac58485ad273cd9717"
+    },
+    {
+      "file": "IndustrialTechnology-1.7.10-2.12.1-sources.jar",
+      "bytes": 11019881,
+      "sha256": "0c250b32feb3ff81609088ce958f7d0e0696ca786d403a8eb3064e9cd975d950"
+    }
+  ],
+  "collectionPaths": [
+    "mods/IndustrialTechnology-1.7.10-2.12.1.jar",
+    "sources/IndustrialTechnology-1.7.10-2.12.1-sources.jar"
+  ],
+  "previousCollectionCopies": "D:\\1.7.10-mods\\industrialMOD\\backups\\puller-selection-2.12.1"
+}

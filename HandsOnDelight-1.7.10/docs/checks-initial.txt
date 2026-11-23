@@ -1,3 +1,5 @@
+PASS: Distinct knife recipes, native sheep drops, mutton cooking and restored food/board recipes pass
+PASS: Stove crafts once through a real player workbench/output slot, consumes the correct materials, rejects invalid ingredients and does not duplicate its recipe
 PASS: Upstream stirring quality rewards steady circles, decays while idle, and bounds packet floods
 PASS: World opening preserves claim denials, canceled interactions and the native sneak-use bypass
 PASS: Native pot transformer gates attended cooking on stirring and consumes a complete two-serving batch once
@@ -11,7 +13,7 @@ PASS: Breaking a layered board returns each native and extra ingredient exactly 
 PASS: Blocked stoves return food and clear the manual frying state
 PASS: Session validation rejects distance changes and replaced tile entities
 PASS: Native tile NBT hooks preserve fractional frying progress and board layers
-PASS: All 17 eligible native assembly recipes produce their exact outputs, reject personal crafting and retain automation matching
+PASS: All 239 eligible native assembly recipes produce their exact outputs, reject personal crafting and retain automation matching
 PASS: Shift-book assembly preserves full output batches and consumes nonstacking containers once per batch, returning their native remainder
 PASS: Manual assembly accepts a late base below batch filling and retrieves only the upper layer without loss
 PASS: Bulk stove placement fills all six available positions and retains the remaining ingredients

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "sha256": "fc6f913f35aede1f44618197e0f6d298c06cbb40b421303f47601b7816220834",
+  "bytes": 22201,
+  "runtimeClasses": 12,
+  "unitTests": 9,
+  "unitFailures": 0,
+  "unitErrors": 0,
+  "nativeModes": [
+    "client-vanilla",
+    "client-pack",
+    "server-vanilla"
+  ],
+  "androidTested": false,
+  "userWorldOpened": false,
+  "installedInGame": false,
+  "testCodeInRuntime": false,
+  "latestCollectionMatches": true
+}

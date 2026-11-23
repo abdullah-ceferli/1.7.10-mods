@@ -20,7 +20,7 @@
   {
     "project": "industrialMOD",
     "name": "Industrial Technology",
-    "status": "2.13.0 built; native sliding hatch, liquid building and save/restart checks passed",
+    "status": "2.14.0 built; 32 colored lamps, native HBM power/light/reload and client/NEI checks passed",
     "license": "project MIT; separate third-party notices"
   },
   {

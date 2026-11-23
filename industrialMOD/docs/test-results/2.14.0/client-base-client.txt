@@ -1,0 +1,6 @@
+PASS: All 32 native lamp inventory variants have names, icons and distinct on/off color appearances
+PASS: Native chunk rendering displays every always-on/off color in a real night-time world without GL errors
+PASS: All 16 redstone colors switch and synchronize native block light to the client
+PASS: Native NEI handlers expose crafting recipes for all 32 lamp variants
+PASS: Lamp hotbar/inventory rendering preserves the normal game UI and GL state
+Failed: 0

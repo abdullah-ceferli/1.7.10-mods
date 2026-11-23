@@ -1,0 +1,8 @@
+PASS: All 64 lamp crafting/conversion/recolor recipes resolve through the real player workbench and consume exact ingredients
+PASS: Every always-on color places in Survival with exact metadata and full native light, without a tile entity
+PASS: All 16 redstone colors start dark, support an attached Survival lever, and keep their color when switched on
+PASS: Always-on lamps remain lit when redstone power is added or removed
+PASS: Every lamp state retains full-cube collision and solid attachment faces
+PASS: Breaking/picking lit lamps yields the unpowered item in the exact same color; hidden powered state has no item
+PASS: Native delayed switch-off extinguishes all 16 colors without detaching levers; a renewed pulse stays on
+Failed: 0

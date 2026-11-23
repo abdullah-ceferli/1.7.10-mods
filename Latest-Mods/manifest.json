@@ -55,12 +55,12 @@
       "project": "industrialMOD",
       "name": "Industrial Technology",
       "modid": "industrialtech",
-      "version": "2.13.0",
-      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.13.0.jar",
-      "filename": "IndustrialTechnology-1.7.10-2.13.0.jar",
-      "bytes": 17670645,
-      "sha256": "c53395563cc4ed95bd60d819512e78f7f4fcd7fce08a78d375c5cc17fc43981b",
-      "status": "built; native client/server and reload checks passed",
+      "version": "2.14.0",
+      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.14.0.jar",
+      "filename": "IndustrialTechnology-1.7.10-2.14.0.jar",
+      "bytes": 17677237,
+      "sha256": "3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c",
+      "status": "built; colored lamps, native HBM/reload/client/NEI checks passed",
       "embeddedMods": [
         {
           "modid": "OpenComputers",
@@ -68,11 +68,11 @@
         }
       ],
       "alternative": false,
-      "path": "mods/IndustrialTechnology-1.7.10-2.13.0.jar",
+      "path": "mods/IndustrialTechnology-1.7.10-2.14.0.jar",
       "sourceArchive": {
-        "path": "sources/IndustrialTechnology-1.7.10-2.13.0-sources.jar",
-        "sha256": "766a9bb8dea016038813f08811d777ba8e366b2d7b688e3e150a7021ffb81b12",
-        "bytes": 11032602
+        "path": "sources/IndustrialTechnology-1.7.10-2.14.0-sources.jar",
+        "sha256": "5f152c25de206a419bd816238c677bf6e06c25446e18bb0a86e5a75722d138a1",
+        "bytes": 11038900
       }
     },
     {
@@ -206,5 +206,5 @@
     }
   ],
   "unavailable": [],
-  "updated": "2026-11-23T18:20:36.896502+04:00"
+  "updated": "2026-11-23T21:16:16.407316+04:00"
 }

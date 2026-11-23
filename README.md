@@ -10,7 +10,7 @@ Factory automation, hands-on cooking, farming, 3D food displays, client tools an
 
 | Mod | Current build | What it adds | Status | Download |
 | --- | --- | --- | --- | --- |
-| [Industrial Technology](<industrialMOD/README.md>) | 2.13.0 | Sliding hatches, liquid Building Stick, HBM integration and bundled OpenComputers. | Built | [Download JAR](Latest-Mods/mods/IndustrialTechnology-1.7.10-2.13.0.jar) |
+| [Industrial Technology](<industrialMOD/README.md>) | 2.14.0 | Colored lamps, sliding hatches, liquid building, HBM integration and bundled OpenComputers. | Built | [Download JAR](Latest-Mods/mods/IndustrialTechnology-1.7.10-2.14.0.jar) |
 | [Hands-On Delight](<HandsOnDelight-1.7.10/README.md>) | 1.5.1-backport.7 | Stir cooking pots, turn food in skillets and use the cutting board through the original 3D station interface. | Built | [Download JAR](Latest-Mods/mods/handson-delight-1.7.10-1.5.1-backport.7.jar) |
 | [Display Delight](<DisplayDelight-1.7.10/README.md>) | 1.7.0-backport.1 | Place 3D food displays and plates linked to supported food items. | Built | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/displaydelight-1.7.10-1.7.0-backport.1.jar) |
 | [Croptopia](<Croptopia-1.7.10/README.md>) | 4.0.1-backport.2 | An experimental backport with 300 foods, 58 crops and 27 fruit-tree families. | Experimental | [Download JAR](Latest-Mods/mods/croptopia-1.7.10-4.0.1-backport.2.jar) |

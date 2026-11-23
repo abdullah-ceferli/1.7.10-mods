@@ -1,0 +1,19 @@
+{
+  "mode": "server-hbm",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\colored-lamp-tests\\20261123-211157-514759\\run",
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "sha256": "3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c",
+  "harnessSha256": "6da6a1c02684e8b7e1654dd15dc4b999ea3b7c8155981bc583d061e191897ab5",
+  "failed": 0,
+  "userWorldOpened": false,
+  "androidTested": false,
+  "mods": {
+    "Baubles-1.7.10-1.0.1.10.jar": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+    "HBM-NTM-.1.0.27_X5771.jar": "5c17ab050042c6e9dd22d281de2cebef5dbe0fa495a8b34bbfee05c5d64168a4",
+    "industrialtech-test-harness-2.14.0.jar": "6da6a1c02684e8b7e1654dd15dc4b999ea3b7c8155981bc583d061e191897ab5",
+    "IndustrialTechnology-1.7.10-2.14.0.jar": "3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c"
+  }
+}

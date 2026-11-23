@@ -1,4 +1,6 @@
-Current update: **2.13.0** adds the reference-style Sliding Hatch, centered placement variants and water/lava sheets through the Building Stick. See [the hatch and liquid guide](HATCH_GUIDE.md).
+Current update: **2.14.0** adds 16 always-on colored lamps and 16 redstone-controlled variants. See [the colored lamp guide](COLORED_LAMPS_GUIDE.md).
+
+Previous update: **2.13.0** adds the reference-style Sliding Hatch, centered placement variants and water/lava sheets through the Building Stick. See [the hatch and liquid guide](HATCH_GUIDE.md).
 
 # Industrial Technology Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р РЋРЎв„ў Minecraft 1.7.10
 

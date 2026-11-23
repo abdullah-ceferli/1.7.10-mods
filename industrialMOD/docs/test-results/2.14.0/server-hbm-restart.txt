@@ -1,0 +1,2 @@
+PASS: Fresh JVM retains all 16 always-on colors and all redstone colors with their powered/off states
+Failed: 0

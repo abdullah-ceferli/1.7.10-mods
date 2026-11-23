@@ -1,4 +1,12 @@
-# Industrial Technology handoff - 2.13.0
+# Industrial Technology handoff - 2.14.0
+
+## Current update: colored lamps (2.14.0)
+
+See COLORED_LAMPS_GUIDE.md. lighting/ adds LampColors, BlockColoredLamp, ItemBlockColoredLamp and ColoredLampRegistry. Registration is appended after hatches; old green_redstone_lamp and its original class/recipe/assets are untouched. Two obtainable blocks each use all 16 metadata colors. The redstone ON state is a third block registered without an ItemBlock. All drops, Silk Touch and pick-block paths map ON back to the OFF item while retaining color. Color order matches native wool; dye damage is 15 minus the metadata.
+
+Rendering stays in the native full-cube renderer with a quartz top icon and block/item color multipliers. No custom textures, GL state, TESR, tile entity, packet or continuously serviced tick list is introduced. Native block-light level 15 is uncolored. Redstone state swaps preserve metadata and schedule only a four-tick off check; a repowered lamp stays lit. Full solid faces retain attached levers through swaps.
+
+tools/verify_colored_lamps.py derives the current build version. Build its separate reobfuscated test harness with testModJar build -PproductionTest -PtestRunDir=.toolchain/colored-lamp-tests/build-run. Run --hbm for native recipes/power/light/restart and --client for inventory/world/NEI checks. The general integration suite excludes industrialtech.colorLampTest. Native proof and screenshots are in docs/test-results/2.14.0. Keep delivery manual; Git commit/push follows the user's existing instruction, without creating a GitHub release.
 
 ## Current update: Sliding Hatch and liquid Building Stick (2.13.0)
 

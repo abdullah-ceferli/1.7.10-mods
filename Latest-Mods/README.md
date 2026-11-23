@@ -11,7 +11,7 @@ These are the latest existing built artifacts from the workspace. SHA-256 hashes
 | Croptopia | 4.0.1-backport.2 | initial test build | [Download JAR](mods/croptopia-1.7.10-4.0.1-backport.2.jar) | [croptopia-1.7.10-4.0.1-backport.2.jar](<mods/croptopia-1.7.10-4.0.1-backport.2.jar>) |
 | Display Delight | 1.7.0-backport.1 | built backport | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/displaydelight-1.7.10-1.7.0-backport.1.jar) | [displaydelight-1.7.10-1.7.0-backport.1.jar](<mods/displaydelight-1.7.10-1.7.0-backport.1.jar>) |
 | Hands-On Delight | 1.5.1-backport.7 | built backport | [Download JAR](mods/handson-delight-1.7.10-1.5.1-backport.7.jar) | [handson-delight-1.7.10-1.5.1-backport.7.jar](<mods/handson-delight-1.7.10-1.5.1-backport.7.jar>) |
-| Industrial Technology | 2.13.0 | built; sliding hatch and liquid building verified | [Download JAR](mods/IndustrialTechnology-1.7.10-2.13.0.jar) | [IndustrialTechnology-1.7.10-2.13.0.jar](<mods/IndustrialTechnology-1.7.10-2.13.0.jar>) |
+| Industrial Technology | 2.14.0 | built; colored lamps and native lighting verified | [Download JAR](mods/IndustrialTechnology-1.7.10-2.14.0.jar) | [IndustrialTechnology-1.7.10-2.14.0.jar](<mods/IndustrialTechnology-1.7.10-2.14.0.jar>) |
 | Mobile Performance | 1.0.0 | client only; Android test build | [Download JAR](mods/MobilePerformance-1.7.10-1.0.0.jar) | [MobilePerformance-1.7.10-1.0.0.jar](<mods/MobilePerformance-1.7.10-1.0.0.jar>) |
 | Block Line Counter | 1.0.0 | standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/BlockLineCounter-1.7.10-1.0.0.jar) | [BlockLineCounter-1.7.10-1.0.0.jar](<alternatives/BlockLineCounter-1.7.10-1.0.0.jar>) |
 | Control Presets | 1.0.0 | standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/ControlPresets-1.7.10-1.0.0.jar) | [ControlPresets-1.7.10-1.0.0.jar](<alternatives/ControlPresets-1.7.10-1.0.0.jar>) |
@@ -32,7 +32,7 @@ These are the latest existing built artifacts from the workspace. SHA-256 hashes
 
 ## Installation notes
 
-Industrial Technology 2.13.0 includes the original Effortless Building menu icons and LGPL notices. Its [corresponding source archive](sources/IndustrialTechnology-1.7.10-2.13.0-sources.jar) is included; keep it with the binary when redistributing. See the [Building Stick guide](../industrialMOD/BUILDING_STICK_GUIDE.md) for controls and limits.
+Industrial Technology 2.14.0 includes the original Effortless Building menu icons and LGPL notices. Its [corresponding source archive](sources/IndustrialTechnology-1.7.10-2.14.0-sources.jar) is included; keep it with the binary when redistributing. See the [Building Stick guide](../industrialMOD/BUILDING_STICK_GUIDE.md) for controls and limits.
 
 - **Mobile Performance is client-only.** Its optional phone preset lowers visual settings and can be restored. See [the guide](../MobilePerformance-1.7.10/README.md). Android FPS gains have not been measured.
 
@@ -46,3 +46,5 @@ Industrial Technology 2.13.0 includes the original Effortless Building menu icon
 Croptopia remains an experimental backport. Cultural Delights and SRP are excluded from the current public source tree and release downloads. HBM itself and the rest of a player's modpack are separate downloads. Original licenses and third-party notices remain applicable.
 
 New in these builds: [Sliding Hatch and liquid building](../industrialMOD/HATCH_GUIDE.md), plus [knife recipes, sushi/roll ingredients and sheep mutton](../HandsOnDelight-1.7.10/docs/FOOD_COMPATIBILITY.md). Both client and server need matching versions.
+
+Industrial Technology 2.14.0 also adds 16 always-on and 16 redstone-colored lamp variants. [Lamp recipes and controls](../industrialMOD/COLORED_LAMPS_GUIDE.md).

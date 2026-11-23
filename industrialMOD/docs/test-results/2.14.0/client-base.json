@@ -1,0 +1,19 @@
+{
+  "mode": "client-base",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\colored-lamp-tests\\20261123-211153-681599\\run",
+  "phases": [
+    "client"
+  ],
+  "sha256": "3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c",
+  "harnessSha256": "6da6a1c02684e8b7e1654dd15dc4b999ea3b7c8155981bc583d061e191897ab5",
+  "failed": 0,
+  "userWorldOpened": false,
+  "androidTested": false,
+  "mods": {
+    "Baubles-1.7.10-1.0.1.10.jar": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+    "codechickencore-1.4.10.jar": "eb55946d997ba92e4533ef2b88e6f633fd5aee862bcbcaa3a030ea53aeb20398",
+    "industrialtech-test-harness-2.14.0.jar": "6da6a1c02684e8b7e1654dd15dc4b999ea3b7c8155981bc583d061e191897ab5",
+    "IndustrialTechnology-1.7.10-2.14.0.jar": "3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c",
+    "notenoughitems-2.3.54-gtnh.jar": "81d700d02f87c8ebdb92ed4a4c6f18960f7dd1ad173e211d6201150b723450d6"
+  }
+}

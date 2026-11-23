@@ -24,6 +24,7 @@ public final class ClientProxy extends CommonProxy {
         dev.industrialtechnology.builder.client.BuilderClient.install();
         dev.industrialtechnology.hatch.BlockSlidingHatch.renderId=cpw.mods.fml.client.registry.RenderingRegistry.getNextAvailableRenderId();
         cpw.mods.fml.client.registry.RenderingRegistry.registerBlockHandler(new dev.industrialtechnology.hatch.client.SlidingHatchRenderer());
+        cpw.mods.fml.client.registry.ClientRegistry.bindTileEntitySpecialRenderer(dev.industrialtechnology.hatch.TileSlidingHatch.class,new dev.industrialtechnology.hatch.client.SlidingHatchLidRenderer());
         FMLCommonHandler.instance().bus().register(new AccessoryInput());
         ((net.minecraft.client.resources.IReloadableResourceManager)Minecraft.getMinecraft().getResourceManager()).registerReloadListener(new RestoredStorageNames());
         ((net.minecraft.client.resources.IReloadableResourceManager)Minecraft.getMinecraft().getResourceManager()).registerReloadListener(new RailResources());

@@ -1,0 +1,5 @@
+PASS: S35 packets preserve all offsets and exact real Chisel floor variants on every part
+PASS: Real client right-click packets open all three covers with observed intermediate animation and synchronized endpoints
+PASS: All three variants close smoothly over the same multiplayer path without GL errors
+PASS: Original hatch inventory models and normal GUI rendering survive opening and closing
+Failed: 0

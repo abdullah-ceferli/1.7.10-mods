@@ -1,4 +1,13 @@
-# Industrial Technology handoff - 2.14.0
+# Industrial Technology handoff - 2.15.0
+
+## Current update: embedded animated hatches (2.15.0)
+
+Top-click on inert opaque full floor cubes insets the hatch at the same Y. Edge placement selects the nearest clicked seam (including negative X/Z); corner selects the nearest shared corner. TileSlidingHatch stores each part's original backing Block/metadata. HatchGeometry.floor subtracts the one-block opening from each host cell; static frame/floor rendering uses a read-only floor context so real Chisel icons/metadata remain intact. Legacy air parts accept paid floor infill. Ordinary held ItemBlocks on filled parts fall through to native adjacent placement. Player removal restores floors; external replacement returns the replaced cell's saved floor item while preserving the replacement. Never carve tile entities, bedrock or active/falling/random-ticking blocks.
+
+Two lid panels animate using persisted/synchronized world-clock motionFrom/motionStart and open target. All variants share the 12-tick smooth transition; reversals are continuous. Lid TESR uses the native block atlas, one draw, and restores GL state. Only the anchor renders the whole lid; unloaded-anchor fallback clips locally without loading chunks. Frame/floor remains cached chunk geometry. Non-ticking tiles schedule only short transition safety checks. Living/collidable entities prevent/reverse closing. Old NBT defaults to empty backing and a settled endpoint.
+
+Build the separate reobfuscated native harness with testModJar build -PproductionTest -PtestRunDir=.toolchain/embedded-hatch-tests/build-run. tools/verify_embedded_hatch.py --hbm runs server + fresh-process reload; --client --hbm verifies native click packets, intermediate animation, Chisel textures and UI with NEI. General test suite excludes industrialtech.embeddedHatchTest. Proof/screenshots are in docs/test-results/2.15.0. Keep delivery manual, then commit/push per user instruction; no GitHub release. All unrelated runtime entries, including colored lamps and bundled OpenComputers, must match 2.14.0 exactly.
+
 
 ## Current update: colored lamps (2.14.0)
 

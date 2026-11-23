@@ -1,0 +1,24 @@
+{
+  "changedExistingEntries": [
+    "META-INF/MANIFEST.MF",
+    "dev/industrialtechnology/client/ClientProxy$1.class",
+    "dev/industrialtechnology/client/ClientProxy.class",
+    "dev/industrialtechnology/core/IndustrialTechnology.class",
+    "dev/industrialtechnology/hatch/BlockSlidingHatch.class",
+    "dev/industrialtechnology/hatch/HatchGeometry$Box.class",
+    "dev/industrialtechnology/hatch/HatchGeometry.class",
+    "dev/industrialtechnology/hatch/ItemSlidingHatch.class",
+    "dev/industrialtechnology/hatch/TileSlidingHatch.class",
+    "dev/industrialtechnology/hatch/client/SlidingHatchRenderer.class",
+    "mcmod.info"
+  ],
+  "addedRuntimeEntries": [
+    "dev/industrialtechnology/hatch/HatchFloor.class",
+    "dev/industrialtechnology/hatch/client/HatchFloorAccess.class",
+    "dev/industrialtechnology/hatch/client/SlidingHatchLidRenderer.class"
+  ],
+  "removedRuntimeEntries": [],
+  "allUnrelatedRuntimeBehaviorUnchanged": true,
+  "clientProxyAnonymousClassOnlyDebugLineNumbersChanged": true,
+  "unitTests": 144
+}

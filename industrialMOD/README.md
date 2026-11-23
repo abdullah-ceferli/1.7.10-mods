@@ -1,4 +1,6 @@
-Current update: **2.14.0** adds 16 always-on colored lamps and 16 redstone-controlled variants. See [the colored lamp guide](COLORED_LAMPS_GUIDE.md).
+Current update: **2.15.0** embeds centered hatches in existing floors and animates opening/closing on all variants. See [the hatch guide](HATCH_GUIDE.md).
+
+Previous update: **2.14.0** adds 16 always-on colored lamps and 16 redstone-controlled variants. See [the colored lamp guide](COLORED_LAMPS_GUIDE.md).
 
 Previous update: **2.13.0** adds the reference-style Sliding Hatch, centered placement variants and water/lava sheets through the Building Stick. See [the hatch and liquid guide](HATCH_GUIDE.md).
 

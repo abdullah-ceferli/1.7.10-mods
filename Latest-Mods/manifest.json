@@ -55,12 +55,12 @@
       "project": "industrialMOD",
       "name": "Industrial Technology",
       "modid": "industrialtech",
-      "version": "2.14.0",
-      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.14.0.jar",
-      "filename": "IndustrialTechnology-1.7.10-2.14.0.jar",
-      "bytes": 17677237,
-      "sha256": "3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c",
-      "status": "built; colored lamps, native HBM/reload/client/NEI checks passed",
+      "version": "2.15.0",
+      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.15.0.jar",
+      "filename": "IndustrialTechnology-1.7.10-2.15.0.jar",
+      "bytes": 17688358,
+      "sha256": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
+      "status": "built; centered embedded hatches and opening/closing animations verified with HBM, Chisel and NEI",
       "embeddedMods": [
         {
           "modid": "OpenComputers",
@@ -68,11 +68,11 @@
         }
       ],
       "alternative": false,
-      "path": "mods/IndustrialTechnology-1.7.10-2.14.0.jar",
+      "path": "mods/IndustrialTechnology-1.7.10-2.15.0.jar",
       "sourceArchive": {
-        "path": "sources/IndustrialTechnology-1.7.10-2.14.0-sources.jar",
-        "sha256": "5f152c25de206a419bd816238c677bf6e06c25446e18bb0a86e5a75722d138a1",
-        "bytes": 11038900
+        "path": "sources/IndustrialTechnology-1.7.10-2.15.0-sources.jar",
+        "sha256": "451772e898aa02ab9a256216f4bfd5448328d2534acb24b1c66aa413f708130d",
+        "bytes": 11046615
       }
     },
     {

@@ -20,7 +20,7 @@
   {
     "project": "industrialMOD",
     "name": "Industrial Technology",
-    "status": "2.14.0 built; 32 colored lamps, native HBM power/light/reload and client/NEI checks passed",
+    "status": "2.15.0 built; embedded centered hatches and opening/closing animations, HBM/Chisel/reload/native client checks passed",
     "license": "project MIT; separate third-party notices"
   },
   {

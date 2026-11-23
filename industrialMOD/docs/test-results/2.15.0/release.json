@@ -1,0 +1,76 @@
+{
+  "version": "2.15.0",
+  "jar": "IndustrialTechnology-1.7.10-2.15.0.jar",
+  "sha256": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
+  "sources": "IndustrialTechnology-1.7.10-2.15.0-sources.jar",
+  "sourcesSha256": "451772e898aa02ab9a256216f4bfd5448328d2534acb24b1c66aa413f708130d",
+  "unitTests": 144,
+  "nativeChecks": 20,
+  "runs": {
+    "server-hbm": {
+      "mode": "server-hbm",
+      "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\embedded-hatch-tests\\20261123-220322-737383\\run",
+      "phases": [
+        "initial",
+        "restart"
+      ],
+      "sha256": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
+      "harnessSha256": "3274bf60bb751d2c1a2dbf9c0b720fcc2f42f2d74b5286f149e8f83465f8113b",
+      "failed": 0,
+      "userWorldOpened": false,
+      "androidTested": false,
+      "mods": {
+        "Baubles-1.7.10-1.0.1.10.jar": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+        "Chisel-2.9.5.11.jar": "68c8a4f4c7785f939d8fa2e7df56c76afa37dfd2574f738a07d3dfd80d6257a6",
+        "HBM-NTM-.1.0.27_X5771.jar": "5c17ab050042c6e9dd22d281de2cebef5dbe0fa495a8b34bbfee05c5d64168a4",
+        "industrialtech-test-harness-2.15.0.jar": "3274bf60bb751d2c1a2dbf9c0b720fcc2f42f2d74b5286f149e8f83465f8113b",
+        "IndustrialTechnology-1.7.10-2.15.0.jar": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f"
+      }
+    },
+    "client-hbm": {
+      "mode": "client-hbm",
+      "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\embedded-hatch-tests\\20261123-220638-816274\\run",
+      "phases": [
+        "client"
+      ],
+      "sha256": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
+      "harnessSha256": "4f34da4a96863d00b49af2e29fe1fe67e50bd06578f60c663f1cbb8e56f84210",
+      "failed": 0,
+      "userWorldOpened": false,
+      "androidTested": false,
+      "mods": {
+        "Baubles-1.7.10-1.0.1.10.jar": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+        "Chisel-2.9.5.11.jar": "68c8a4f4c7785f939d8fa2e7df56c76afa37dfd2574f738a07d3dfd80d6257a6",
+        "codechickencore-1.4.10.jar": "eb55946d997ba92e4533ef2b88e6f633fd5aee862bcbcaa3a030ea53aeb20398",
+        "HBM-NTM-.1.0.27_X5771.jar": "5c17ab050042c6e9dd22d281de2cebef5dbe0fa495a8b34bbfee05c5d64168a4",
+        "industrialtech-test-harness-2.15.0.jar": "4f34da4a96863d00b49af2e29fe1fe67e50bd06578f60c663f1cbb8e56f84210",
+        "IndustrialTechnology-1.7.10-2.15.0.jar": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
+        "notenoughitems-2.3.54-gtnh.jar": "81d700d02f87c8ebdb92ed4a4c6f18960f7dd1ad173e211d6201150b723450d6"
+      }
+    }
+  },
+  "changedExistingEntries": [
+    "META-INF/MANIFEST.MF",
+    "dev/industrialtechnology/client/ClientProxy$1.class",
+    "dev/industrialtechnology/client/ClientProxy.class",
+    "dev/industrialtechnology/core/IndustrialTechnology.class",
+    "dev/industrialtechnology/hatch/BlockSlidingHatch.class",
+    "dev/industrialtechnology/hatch/HatchGeometry$Box.class",
+    "dev/industrialtechnology/hatch/HatchGeometry.class",
+    "dev/industrialtechnology/hatch/ItemSlidingHatch.class",
+    "dev/industrialtechnology/hatch/TileSlidingHatch.class",
+    "dev/industrialtechnology/hatch/client/SlidingHatchRenderer.class",
+    "mcmod.info"
+  ],
+  "addedRuntimeEntries": [
+    "dev/industrialtechnology/hatch/HatchFloor.class",
+    "dev/industrialtechnology/hatch/client/HatchFloorAccess.class",
+    "dev/industrialtechnology/hatch/client/SlidingHatchLidRenderer.class"
+  ],
+  "removedRuntimeEntries": [],
+  "allUnrelatedRuntimeBehaviorUnchanged": true,
+  "clientProxyAnonymousClassOnlyDebugLineNumbersChanged": true,
+  "userWorldOpened": false,
+  "installedIntoGame": false,
+  "androidTested": false
+}

@@ -1,0 +1,16 @@
+PASS: Native Survival placement insets all variants into existing Chisel floors, centered on selected edges/corners
+PASS: Clicking the opposite X or Z edge centers across that exact join
+PASS: Canceled native multi-place restores all four original floors and the unconsumed hatch
+PASS: Canceled floor-carving BreakEvent prevents placement without modifying source blocks
+PASS: Removing any inset part restores exact floor blocks and drops exactly one hatch
+PASS: Legacy empty offset parts accept paid floor infill and leave adjacent block placement available
+PASS: Canceled floor infill keeps the inventory block and leaves the empty offset part unchanged
+PASS: Canceled group removal preserves all inset parts and their original floor state
+PASS: Old NBT opens at its saved endpoint and never invents backing floor
+PASS: Bedrock and inventory-bearing blocks are rejected as inset floors
+PASS: Exploded and externally replaced groups do not leave orphan parts or duplicate saved floor
+PASS: All three covers have intermediate server motion and retain solid surrounding Chisel floor
+PASS: Every fully opened cover permits passage through its centered aperture
+PASS: All variants animate closed; mid-motion reversal starts at the current position
+PASS: A living entity entering during closing reopens the cover; idle parts never tick
+Failed: 0

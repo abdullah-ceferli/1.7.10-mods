@@ -1,0 +1,20 @@
+{
+  "mode": "server-hbm",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\embedded-hatch-tests\\20261123-220322-737383\\run",
+  "phases": [
+    "initial",
+    "restart"
+  ],
+  "sha256": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
+  "harnessSha256": "3274bf60bb751d2c1a2dbf9c0b720fcc2f42f2d74b5286f149e8f83465f8113b",
+  "failed": 0,
+  "userWorldOpened": false,
+  "androidTested": false,
+  "mods": {
+    "Baubles-1.7.10-1.0.1.10.jar": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+    "Chisel-2.9.5.11.jar": "68c8a4f4c7785f939d8fa2e7df56c76afa37dfd2574f738a07d3dfd80d6257a6",
+    "HBM-NTM-.1.0.27_X5771.jar": "5c17ab050042c6e9dd22d281de2cebef5dbe0fa495a8b34bbfee05c5d64168a4",
+    "industrialtech-test-harness-2.15.0.jar": "3274bf60bb751d2c1a2dbf9c0b720fcc2f42f2d74b5286f149e8f83465f8113b",
+    "IndustrialTechnology-1.7.10-2.15.0.jar": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f"
+  }
+}

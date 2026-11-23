@@ -6,7 +6,7 @@ ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318  dependencies/+
 90fd2ed493e51fbc2a58b0e09f2c63cc98eb7ed368b4dd2159af7ceb4155b308  mods/croptopia-1.7.10-4.0.1-backport.2.jar
 fee72fbc383b4b4cc1a90579f1074c2f532485de1dfeadf98e97b186049d2f05  mods/displaydelight-1.7.10-1.7.0-backport.1.jar
 7bbd688ad83ba174112e5b1627fd2f9bd51fa037607ba498b2b9e07e09250f95  mods/handson-delight-1.7.10-1.5.1-backport.7.jar
-3b6e67cbcbaa4617ebac10e8f0c58b3eb98794bb5425c886edc4c86990f2d97c  mods/IndustrialTechnology-1.7.10-2.14.0.jar
+aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f  mods/IndustrialTechnology-1.7.10-2.15.0.jar
 fc6f913f35aede1f44618197e0f6d298c06cbb40b421303f47601b7816220834  mods/MobilePerformance-1.7.10-1.0.0.jar
 12e7f70f1f6319380d1a9b501cdc74e3242bd01e456ffe5f82fa3cb87977de6b  mods/OfflineSkins-1.7.10-1.2.0.jar
 47a9f029ad6b511b34134fc50bea536e74aa68dc5d9930a65bb09f33ceb21523  mods/PersonalClientTools-1.7.10-1.1.0.jar
@@ -14,5 +14,5 @@ fc6f913f35aede1f44618197e0f6d298c06cbb40b421303f47601b7816220834  mods/MobilePer
 eb55946d997ba92e4533ef2b88e6f633fd5aee862bcbcaa3a030ea53aeb20398  optional-nei/codechickencore-1.4.10.jar
 81d700d02f87c8ebdb92ed4a4c6f18960f7dd1ad173e211d6201150b723450d6  optional-nei/notenoughitems-2.3.54-gtnh.jar
 750729eabbd39eeb38ab699de35f22d69e11bd2db0a658fb58ae18252a47bea4  sources/handson-delight-1.7.10-1.5.1-backport.7-sources.zip
-5f152c25de206a419bd816238c677bf6e06c25446e18bb0a86e5a75722d138a1  sources/IndustrialTechnology-1.7.10-2.14.0-sources.jar
+451772e898aa02ab9a256216f4bfd5448328d2534acb24b1c66aa413f708130d  sources/IndustrialTechnology-1.7.10-2.15.0-sources.jar
 d0c49c892aa570a9277c3809d75c090245fcc04244632531c06d239036d67463  tools/offline-skins-friends-service/OfflineSkins-Friends-Service-1.2.0.jar

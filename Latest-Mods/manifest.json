@@ -55,12 +55,12 @@
       "project": "industrialMOD",
       "name": "Industrial Technology",
       "modid": "industrialtech",
-      "version": "2.15.0",
-      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.15.0.jar",
-      "filename": "IndustrialTechnology-1.7.10-2.15.0.jar",
-      "bytes": 17688358,
-      "sha256": "aae0951f2c3b4ec034a614ebefda26d892fe410ff13894d877b20a56abef5e8f",
-      "status": "built; centered embedded hatches and opening/closing animations verified with HBM, Chisel and NEI",
+      "version": "2.16.0",
+      "source": "industrialMOD/build/libs/IndustrialTechnology-1.7.10-2.16.0.jar",
+      "filename": "IndustrialTechnology-1.7.10-2.16.0.jar",
+      "bytes": 17701378,
+      "sha256": "8b8acf828fa7766a09d47966ab6ca127de5364f0eaef8ff657b4f133db49045c",
+      "status": "built; Carpenter/Chisel copying, Survival costs, native client/reload and ordinary-building regression verified",
       "embeddedMods": [
         {
           "modid": "OpenComputers",
@@ -68,11 +68,11 @@
         }
       ],
       "alternative": false,
-      "path": "mods/IndustrialTechnology-1.7.10-2.15.0.jar",
+      "path": "mods/IndustrialTechnology-1.7.10-2.16.0.jar",
       "sourceArchive": {
-        "path": "sources/IndustrialTechnology-1.7.10-2.15.0-sources.jar",
-        "sha256": "451772e898aa02ab9a256216f4bfd5448328d2534acb24b1c66aa413f708130d",
-        "bytes": 11046615
+        "path": "sources/IndustrialTechnology-1.7.10-2.16.0-sources.jar",
+        "sha256": "4b5a069e0f0a500c3591be612041f7ce64b4b057e47c4454d645afa898c5e340",
+        "bytes": 11054075
       }
     },
     {

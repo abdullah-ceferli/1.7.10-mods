@@ -20,7 +20,7 @@
   {
     "project": "industrialMOD",
     "name": "Industrial Technology",
-    "status": "2.15.0 built; embedded centered hatches and opening/closing animations, HBM/Chisel/reload/native client checks passed",
+    "status": "2.16.0 built; Building Stick Carpenter/Chisel copies preserve shapes/covers; native server/client/reload and ordinary building verified",
     "license": "project MIT; separate third-party notices"
   },
   {

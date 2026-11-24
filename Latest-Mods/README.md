@@ -11,7 +11,7 @@ These are the latest existing built artifacts from the workspace. SHA-256 hashes
 | Croptopia | 4.0.1-backport.2 | initial test build | [Download JAR](mods/croptopia-1.7.10-4.0.1-backport.2.jar) | [croptopia-1.7.10-4.0.1-backport.2.jar](<mods/croptopia-1.7.10-4.0.1-backport.2.jar>) |
 | Display Delight | 1.7.0-backport.1 | built backport | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/displaydelight-1.7.10-1.7.0-backport.1.jar) | [displaydelight-1.7.10-1.7.0-backport.1.jar](<mods/displaydelight-1.7.10-1.7.0-backport.1.jar>) |
 | Hands-On Delight | 1.5.1-backport.7 | built backport | [Download JAR](mods/handson-delight-1.7.10-1.5.1-backport.7.jar) | [handson-delight-1.7.10-1.5.1-backport.7.jar](<mods/handson-delight-1.7.10-1.5.1-backport.7.jar>) |
-| Industrial Technology | 2.15.0 | built; embedded hatches and animations verified | [Download JAR](mods/IndustrialTechnology-1.7.10-2.15.0.jar) | [IndustrialTechnology-1.7.10-2.15.0.jar](<mods/IndustrialTechnology-1.7.10-2.15.0.jar>) |
+| Industrial Technology | 2.16.0 | built; Carpenter/Chisel Building Stick copying verified | [Download JAR](mods/IndustrialTechnology-1.7.10-2.16.0.jar) | [IndustrialTechnology-1.7.10-2.16.0.jar](<mods/IndustrialTechnology-1.7.10-2.16.0.jar>) |
 | Mobile Performance | 1.0.0 | client only; Android test build | [Download JAR](mods/MobilePerformance-1.7.10-1.0.0.jar) | [MobilePerformance-1.7.10-1.0.0.jar](<mods/MobilePerformance-1.7.10-1.0.0.jar>) |
 | Block Line Counter | 1.0.0 | standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/BlockLineCounter-1.7.10-1.0.0.jar) | [BlockLineCounter-1.7.10-1.0.0.jar](<alternatives/BlockLineCounter-1.7.10-1.0.0.jar>) |
 | Control Presets | 1.0.0 | standalone alternative | [Download JAR](https://github.com/abdullah-ceferli/1.7.10-mods/releases/download/builds-2026-11-18/ControlPresets-1.7.10-1.0.0.jar) | [ControlPresets-1.7.10-1.0.0.jar](<alternatives/ControlPresets-1.7.10-1.0.0.jar>) |
@@ -32,7 +32,7 @@ These are the latest existing built artifacts from the workspace. SHA-256 hashes
 
 ## Installation notes
 
-Industrial Technology 2.15.0 includes the original Effortless Building menu icons and LGPL notices. Its [corresponding source archive](sources/IndustrialTechnology-1.7.10-2.15.0-sources.jar) is included; keep it with the binary when redistributing. See the [Building Stick guide](../industrialMOD/BUILDING_STICK_GUIDE.md) for controls and limits.
+Industrial Technology 2.16.0 includes the original Effortless Building menu icons and LGPL notices. Its [corresponding source archive](sources/IndustrialTechnology-1.7.10-2.16.0-sources.jar) is included; keep it with the binary when redistributing. See the [Building Stick guide](../industrialMOD/BUILDING_STICK_GUIDE.md) for controls and limits.
 
 - **Mobile Performance is client-only.** Its optional phone preset lowers visual settings and can be restored. See [the guide](../MobilePerformance-1.7.10/README.md). Android FPS gains have not been measured.
 
@@ -47,6 +47,8 @@ Croptopia remains an experimental backport. Cultural Delights and SRP are exclud
 
 New in these builds: [Sliding Hatch and liquid building](../industrialMOD/HATCH_GUIDE.md), plus [knife recipes, sushi/roll ingredients and sheep mutton](../HandsOnDelight-1.7.10/docs/FOOD_COMPATIBILITY.md). Both client and server need matching versions.
 
-Industrial Technology 2.15.0 also includes 16 always-on and 16 redstone-colored lamp variants. [Lamp recipes and controls](../industrialMOD/COLORED_LAMPS_GUIDE.md).
+Industrial Technology 2.16.0 also includes 16 always-on and 16 redstone-colored lamp variants. [Lamp recipes and controls](../industrialMOD/COLORED_LAMPS_GUIDE.md).
 
-Industrial Technology 2.15.0 insets hatches across floor joins while retaining surrounding material, with smooth opening and closing on all variants. [Placement and animation guide](../industrialMOD/HATCH_GUIDE.md).
+Industrial Technology 2.16.0 insets hatches across floor joins while retaining surrounding material, with smooth opening and closing on all variants. [Placement and animation guide](../industrialMOD/HATCH_GUIDE.md).
+
+Industrial Technology 2.16.0 copies configured Carpenter shapes and Chisel covers with the Building Stick, preserving the original. Survival requires matching base/cover/decorations. [Copying controls and supported blocks](../industrialMOD/BUILDING_STICK_GUIDE.md#carpenters-blocks-with-chisel-covers-2160).

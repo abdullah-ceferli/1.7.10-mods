@@ -1,0 +1,17 @@
+{
+  "mode": "ordinary-server-base",
+  "runDirectory": "D:\\1.7.10-mods\\industrialMOD\\.toolchain\\carpenter-builder-tests\\20261124-194737-714836\\run",
+  "phases": [
+    "initial"
+  ],
+  "sha256": "8b8acf828fa7766a09d47966ab6ca127de5364f0eaef8ff657b4f133db49045c",
+  "harnessSha256": "6820160e26b6a9af515b033dfb2ce2953ac9c9f97e40002f7921fe7190f26a32",
+  "failed": 0,
+  "userWorldOpened": false,
+  "androidTested": false,
+  "mods": {
+    "Baubles-1.7.10-1.0.1.10.jar": "05ae8f11b8f9012ebebbf179227b010829739c6284e30da5dd3db220ee682f8a",
+    "industrialtech-test-harness-2.16.0.jar": "6820160e26b6a9af515b033dfb2ce2953ac9c9f97e40002f7921fe7190f26a32",
+    "IndustrialTechnology-1.7.10-2.16.0.jar": "8b8acf828fa7766a09d47966ab6ca127de5364f0eaef8ff657b4f133db49045c"
+  }
+}

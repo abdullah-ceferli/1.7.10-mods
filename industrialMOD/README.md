@@ -1,4 +1,6 @@
-Current update: **2.15.0** embeds centered hatches in existing floors and animates opening/closing on all variants. See [the hatch guide](HATCH_GUIDE.md).
+Current update: **2.16.0** lets the Building Stick copy Carpenter's shapes and Chisel covers without changing the original. See [the Building Stick guide](BUILDING_STICK_GUIDE.md).
+
+Previous update: **2.15.0** embeds centered hatches in existing floors and animates opening/closing on all variants. See [the hatch guide](HATCH_GUIDE.md).
 
 Previous update: **2.14.0** adds 16 always-on colored lamps and 16 redstone-controlled variants. See [the colored lamp guide](COLORED_LAMPS_GUIDE.md).
 

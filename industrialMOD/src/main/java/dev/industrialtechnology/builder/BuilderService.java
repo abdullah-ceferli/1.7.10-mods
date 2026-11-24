@@ -23,9 +23,9 @@ public final class BuilderService {
     public static int lastScans,lastAttempts;
     private static final class Pending{final EntityPlayerMP player;final BuildCommand command;Pending(EntityPlayerMP p,BuildCommand c){player=p;command=c;}}
     private static final class Job{
-        final EntityPlayerMP player;final World world;final String token;final BuildShape shape;final ItemStack material;final int side;
+        final EntityPlayerMP player;final World world;final String token;final BuildShape shape;final ItemStack material;final int side;final BuilderCarpenters.Template carp;
         final ArrayList<BuildPos> points=new ArrayList<BuildPos>();int index,placed,skipped;boolean prepared;
-        Job(EntityPlayerMP p,ItemStack tool,BuildShape shape,ItemStack material,int side){player=p;world=p.worldObj;token=BuilderData.token(tool);this.shape=shape;this.material=material;this.side=side;}
+        Job(EntityPlayerMP p,ItemStack tool,BuildShape shape,ItemStack material,int side){player=p;world=p.worldObj;token=BuilderData.token(tool);this.shape=shape;this.material=material;this.side=side;carp=BuilderCarpenters.read(tool,world);if(BuilderCarpenters.supported(Block.getBlockFromItem(material.getItem()))&&carp==null)throw new IllegalArgumentException("Select the Carpenter's block again to save its shape and covers.");}
     }
     public static void enqueue(EntityPlayerMP p,BuildCommand command){if(p!=null&&!loggedOut.contains(p))commands.offer(new Pending(p,command));}
     public static boolean active(EntityPlayer p){return jobs.containsKey(p.getUniqueID());}
@@ -41,8 +41,9 @@ public final class BuilderService {
         if(p.isSneaking()){
             Block block=p.worldObj.getBlock(x,y,z);Item item=Item.getItemFromBlock(block);ItemStack selected=item==null?null:new ItemStack(item,1,block.damageDropped(p.worldObj.getBlockMetadata(x,y,z)));
             ItemStack liquid=BuilderLiquids.pick(block);if(liquid!=null)selected=liquid;
-            if(!BuilderData.ordinary(selected)&&!BuilderLiquids.is(selected)){message(p,"Choose a building block, water or lava; machines and containers are not supported.");return;}
-            cancel(p,false);BuilderData.token(tool);BuilderData.material(tool,selected);sync(p);message(p,"Material: "+selected.getDisplayName());return;
+            net.minecraft.nbt.NBTTagCompound carpenter=BuilderCarpenters.capture(p.worldObj,x,y,z);
+            if(!BuilderData.ordinary(selected)&&!BuilderLiquids.is(selected)&&carpenter==null){message(p,"Choose a building block, water or lava; decorative Carpenter's Blocks are supported; containers are excluded.");return;}
+            cancel(p,false);BuilderData.token(tool);BuilderData.material(tool,selected);if(carpenter!=null)BuilderData.tag(tool).setTag(BuilderCarpenters.TAG,carpenter);sync(p);message(p,"Material: "+BuilderCarpenters.label(tool,selected));return;
         }
         Block hit=p.worldObj.getBlock(x,y,z);ForgeDirection face=ForgeDirection.getOrientation(side);BuildPos point=hit.isReplaceable(p.worldObj,x,y,z)?new BuildPos(x,y,z):new BuildPos(x+face.offsetX,y+face.offsetY,z+face.offsetZ);
         point(p,tool,point,side);
@@ -69,7 +70,7 @@ public final class BuilderService {
     private static void refund(EntityPlayer p,ItemStack material){ItemStack back=material.copy();back.stackSize=1;if(!p.inventory.addItemStackToInventory(back))p.entityDropItem(back,0);}
     /** -1 = out of stock, 0 = skipped, 1 = paid placement. */
     private static int place(Job j,BuildPos pos){
-        EntityPlayerMP p=j.player;World w=j.world;if(!margin(w,pos))return 0;if(BuilderLiquids.is(j.material)){placing.set(new Guard(j,pos));try{return BuilderLiquids.place(p,j.material,pos,j.side);}finally{placing.remove();}}Block before=w.getBlock(pos.x,pos.y,pos.z);int meta=w.getBlockMetadata(pos.x,pos.y,pos.z);
+        EntityPlayerMP p=j.player;World w=j.world;if(!margin(w,pos))return 0;if(j.carp!=null){placing.set(new Guard(j,pos));try{return j.carp.place(p,pos,j.side);}finally{placing.remove();}}if(BuilderLiquids.is(j.material)){placing.set(new Guard(j,pos));try{return BuilderLiquids.place(p,j.material,pos,j.side);}finally{placing.remove();}}Block before=w.getBlock(pos.x,pos.y,pos.z);int meta=w.getBlockMetadata(pos.x,pos.y,pos.z);
         if(w.getTileEntity(pos.x,pos.y,pos.z)!=null||!before.isReplaceable(w,pos.x,pos.y,pos.z)||!w.canMineBlock(p,pos.x,pos.y,pos.z)||MinecraftServer.getServer().isBlockProtected(w,pos.x,pos.y,pos.z,p)||!p.canPlayerEdit(pos.x,pos.y,pos.z,j.side,j.material))return 0;
         boolean creative=p.capabilities.isCreativeMode;int materialSlot=creative?-1:slot(p,j.material);if(!creative&&materialSlot<0)return -1;
         ItemStack use=j.material.copy();use.stackSize=1;if(!creative)p.inventory.decrStackSize(materialSlot,1);
@@ -84,7 +85,7 @@ public final class BuilderService {
         for(UUID id:order){Job j=jobs.remove(id);if(j==null)continue;if(!current(j))continue;boolean finish=false;
             try{
                 if(!j.prepared){int budget=Math.min(PER_JOB_SCAN,GLOBAL_SCAN-lastScans);while(budget-->0&&j.shape.hasNext()){BuildPos pos=j.shape.next();lastScans++;if(pos!=null)j.points.add(pos);if(j.points.size()>BuildShape.MAX_BLOCKS){message(j.player,"Shape exceeds the 4,096-block limit. No blocks were placed.");finish=true;break;}}if(!finish&&!j.shape.hasNext()){j.prepared=true;message(j.player,"Placing "+j.points.size()+" blocks...");}}
-                if(j.prepared&&!finish){int budget=Math.min(PER_JOB_ATTEMPTS,GLOBAL_ATTEMPTS-lastAttempts);while(budget-->0&&j.index<j.points.size()){if(!current(j)){finish=true;break;}lastAttempts++;int result=place(j,j.points.get(j.index++));if(result<0){message(j.player,"Out of "+j.material.getDisplayName()+". Placed "+j.placed+" blocks.");finish=true;break;}if(result>0)j.placed++;else j.skipped++;}sync(j.player);if(j.index==j.points.size()){message(j.player,"Placed "+j.placed+" blocks; skipped "+j.skipped+" occupied, protected or unloaded positions.");finish=true;}}
+                if(j.prepared&&!finish){int budget=Math.min(PER_JOB_ATTEMPTS,GLOBAL_ATTEMPTS-lastAttempts);while(budget-->0&&j.index<j.points.size()){if(!current(j)){finish=true;break;}lastAttempts++;int result=place(j,j.points.get(j.index++));if(result<0){message(j.player,"Out of "+(j.carp==null?j.material.getDisplayName():"matching Carpenter block/cover materials")+". Placed "+j.placed+" blocks.");finish=true;break;}if(result>0)j.placed++;else j.skipped++;}sync(j.player);if(j.index==j.points.size()){message(j.player,"Placed "+j.placed+" blocks; skipped "+j.skipped+" occupied, protected or unloaded positions.");finish=true;}}
             }catch(RuntimeException e){dev.industrialtechnology.core.IndustrialTechnology.log.error("Building Stick operation stopped",e);message(j.player,"Build stopped because a block rejected placement.");finish=true;}
             if(!finish)jobs.put(id,j);
         }
@@ -93,7 +94,12 @@ public final class BuilderService {
     @SubscribeEvent(priority=cpw.mods.fml.common.eventhandler.EventPriority.HIGHEST) public void guard(net.minecraftforge.event.world.BlockEvent.PlaceEvent event){
         Guard g=placing.get();if(g==null||event.world!=g.job.world||event.player!=g.job.player)return;
         java.util.List<net.minecraftforge.common.util.BlockSnapshot> snapshots=event instanceof net.minecraftforge.event.world.BlockEvent.MultiPlaceEvent?((net.minecraftforge.event.world.BlockEvent.MultiPlaceEvent)event).getReplacedBlockSnapshots():Collections.singletonList(event.blockSnapshot);
-        for(net.minecraftforge.common.util.BlockSnapshot s:snapshots)if(s.x!=g.pos.x||s.y!=g.pos.y||s.z!=g.pos.z||s.world.getTileEntity(s.x,s.y,s.z)!=null){event.setCanceled(true);return;}
+        for(net.minecraftforge.common.util.BlockSnapshot s:snapshots)if(s.x!=g.pos.x||s.y!=g.pos.y||s.z!=g.pos.z||s.world.getTileEntity(s.x,s.y,s.z)!=null&&(g.job.carp==null||!g.job.carp.matches(s.world,g.pos))){event.setCanceled(true);return;}
+    }
+    /** Carpenter's otherwise captures sneak-use and sends its own activation packet. Selection is read-only. */
+    @SubscribeEvent(priority=cpw.mods.fml.common.eventhandler.EventPriority.HIGHEST) public void carpenterPick(net.minecraftforge.event.entity.player.PlayerInteractEvent event){
+        if(event.world.isRemote||event.action!=net.minecraftforge.event.entity.player.PlayerInteractEvent.Action.RIGHT_CLICK_BLOCK||event.useItem==cpw.mods.fml.common.eventhandler.Event.Result.DENY||!BuilderData.held(event.entityPlayer)||!event.entityPlayer.isSneaking()||!(event.entityPlayer instanceof EntityPlayerMP)||!loaded(event.world,event.x,event.y,event.z)||!BuilderCarpenters.supported(event.world.getBlock(event.x,event.y,event.z)))return;
+        click((EntityPlayerMP)event.entityPlayer,event.entityPlayer.getHeldItem(),event.x,event.y,event.z,event.face);event.setCanceled(true);
     }
     @SubscribeEvent public void logout(PlayerEvent.PlayerLoggedOutEvent event){if(event.player.worldObj.isRemote)return;jobs.remove(event.player.getUniqueID());if(event.player instanceof EntityPlayerMP){loggedOut.add((EntityPlayerMP)event.player);commands.removeIf(c->c.player==event.player);}}
     @SubscribeEvent public void unload(WorldEvent.Unload event){if(!event.world.isRemote){Iterator<Job> it=jobs.values().iterator();while(it.hasNext())if(it.next().world==event.world)it.remove();}}

@@ -1,0 +1,3 @@
+PASS: Fresh JVM retains copied shape, Chisel cover metadata and new per-block coordinates
+PASS: A saved stick template still resolves by namespaced item IDs after restart
+Failed: 0

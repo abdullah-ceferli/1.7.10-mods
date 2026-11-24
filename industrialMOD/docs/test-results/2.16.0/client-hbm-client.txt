@@ -1,0 +1,5 @@
+PASS: Native sneak/right-click packets select a covered Carpenter slope and synchronize its namespaced appearance to the client stick
+PASS: Real client endpoints build five slopes with identical Chisel covers and orientations through native S35 tile synchronization
+PASS: Selecting and building the line leave all original source tile data and cover rotation unchanged
+PASS: Carpenter/Chisel world rendering, Building Stick HUD and inventory preserve native GL state with NEI installed
+Failed: 0

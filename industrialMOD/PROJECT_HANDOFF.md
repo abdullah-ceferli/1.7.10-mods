@@ -1,4 +1,15 @@
-# Industrial Technology handoff - 2.15.0
+# Industrial Technology handoff - 2.16.0
+
+## Current update: Carpenter Building Stick copying (2.16.0)
+
+BuilderCarpenters is an optional reflection/NBT integration for Carpenter's Blocks 3.3.8.2 decorative TEBase blocks only: Block/slabs, Slope, Stairs, CollapsibleBlock and Barrier. Capture reads immutable appearance fields into a namespaced BuildCarpenter template; shape/face-cover metadata, patterns, dye/overlay/illumination are preserved. Never call Carpenter getDrops/getAttributeForDrop on an original: the upstream implementation normalizes and mutates rotated cover stacks. Inventory costs use a detached tile instead. No source coordinates, owner, arbitrary tile NBT or inventories are copied. New ownership uses native ProtectedObject semantics.
+
+Template placements validate full inventory payment, target permissions, entity collision, source-compatible neighbor side covers, Forge PlaceEvent and exact cloned state. Bypass Carpenter onBlockPlacedBy because it can transform adjacent wedges and overwrite facing. Post-placement notifications remain native; skip cases that would strip source/neighbor side covers. Rollback restores the previous snapshot with restoringBlockSnapshots and refunds all reserved ingredients. The builder guard allows only the exact expected Carpenter appearance at the current cell; all other tile entities remain denied. Existing global work budgets and chunk-margin rules apply.
+
+Carpenter EventHandler cancels sneak-use and sends PacketActivateBlock before onItemUseFirst can run. BuilderClient intercepts that specific read-only selection and sends native C08. BuilderService's highest-priority server hook picks the original then cancels Carpenter activation. Do not remove this hook or rely solely on ItemBuildingStick.onItemUseFirst. Native tests must exercise the actual Forge event path as well as server placement. No new BuildCommand opcode or payload is needed.
+
+Build testModJar build -PproductionTest -PtestRunDir=.toolchain/carpenter-builder-tests/build-run; tools/verify_carpenter_builder.py --hbm runs server/restart and --client --hbm exercises native interaction, block synchronization and rendering with actual Carpenter/Chisel/HBM/NEI. Proof is in docs/test-results/2.16.0. General test harness excludes industrialtech.carpenterBuilderTest. Keep installation manual and preserve local-only SRP/Cultural projects. Commit/push only per existing user authorization, without GitHub release creation.
+
 
 ## Current update: embedded animated hatches (2.15.0)
 

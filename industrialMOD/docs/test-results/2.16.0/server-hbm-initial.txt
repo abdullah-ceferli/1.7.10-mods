@@ -1,0 +1,11 @@
+PASS: Native sneak-right-click saves a covered rotated slope without changing any source NBT or orientation
+PASS: Survival line copies Chisel texture, shape, dye and illumination exactly while spending every material once
+PASS: Canceled placement restores targets and refunds base blocks, covers, dye and illumination without item drops
+PASS: Missing covers stop the build without spending otherwise available Carpenter blocks
+PASS: Rotated log covers pay normal log items but preserve the cover axis, including the original source
+PASS: All supported decorative Carpenter types retain their configured data despite a different player facing
+PASS: Occupied containers and existing Carpenter blocks remain untouched
+PASS: A placement that would strip an adjacent Carpenter side cover is skipped
+PASS: Containers, doors, generic tile entities and malformed templates remain excluded
+PASS: Selecting an ordinary block clears the Carpenter template and retains ordinary placement
+Failed: 0
